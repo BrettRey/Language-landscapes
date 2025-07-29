@@ -1,0 +1,71 @@
+\usepackage{langsci-optional}
+\usepackage{langsci-gb4e}
+\usepackage{langsci-lgr}
+
+\usepackage{xeCJK}
+\usepackage{fontspec}
+% Setting up Hindi font
+\newfontfamily\hindifont{Noto Serif Devanagari}  % Replace [HindiFont] with your Hindi font
+
+\usepackage{mdframed}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+\usepackage{tipa}
+\usepackage{contour}
+\usepackage{ulem}
+\usepackage{soul}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{forest}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usetikzlibrary{bending}
+\usepackage{subcaption}
+\usepackage{changepage}
+
+%\usepackage{fontspec}
+
+%\setmainfont{Times New Roman} % Your main document font
+%\newfontfamily\japanesefont{IPAMincho} % Japanese font
+%\newfontfamily\hindifont[Script=Devanagari]{Lohit Devanagari} % Hindi font
+
+
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily,tabsize=2,breaklines=true}
+
+\usepackage{tikz}
+\usetikzlibrary{tikzmark, positioning}
+
+\usepackage{longtable}
+
+\usepackage{dialogue}
+
+\usepackage{paracol}
+
+\usepackage{mdframed}
+
+\usepackage{pifont}
+
+\newfontfamily\ethiopic[Script=Ethiopic]{Abyssinica SIL}
+\newfontfamily\persian[Script=Arabic]{Amiri}
+
+% ==========================================================
+%                  INDEX SETUP (REVISED)
+% ==========================================================
+% This setup uses a simpler definition to avoid conflicts.
+% PLEASE REPLACE ALL OTHER INDEXING CODE WITH THIS BLOCK.
+
+% 1. Load the package for indexing
+\usepackage{imakeidx}
+
+% 2. Create the three separate indexes
+\makeindex[name=sbj, title=Subject Index, columns=2, intoc]
+\makeindex[name=lan, title=Language Index, columns=2, intoc]
+\makeindex[name=aut, title=Author Index, columns=2, intoc]
+
+% 3. Define simple, robust custom commands
+% Using \renewcommand avoids conflicts with the langscibook class.
+\renewcommand{\is}[1]{\index[sbj]{#1}}
+\renewcommand{\il}[1]{\index[lan]{#1}}
+\renewcommand{\ia}[1]{\index[aut]{#1}}
+% ==========================================================

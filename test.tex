@@ -1,0 +1,39 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THIS IS A TEMPORARY FILE FOR TESTING INDEXING ONLY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use the same document class as your book
+\documentclass{langscibook}
+
+% --- The setup we are testing ---
+% Put the entire setup here, directly in the preamble
+\usepackage{imakeidx}
+\makeindex[name=sbj, title=Subject Index, columns=2, intoc]
+\makeindex[name=lan, title=Language Index, columns=2, intoc]
+
+
+% --- End of test setup ---
+
+\begin{document}
+
+\frontmatter
+\title{Testing File}
+\author{Me}
+\maketitle
+\tableofcontents
+
+\mainmatter
+\chapter{A Test Chapter}
+
+Here is a test of a subject, like **phonology**\is{phonology}.
+
+Here is a test of a language, like **Swahili**\il{Swahili}.
+
+We can even have a sub-entry for **phonology** about **stress**\is{phonology!stress}.
+
+% --- Print the indexes at the end ---
+\backmatter
+\printindex[sbj]
+\printindex[lan]
+
+\end{document}
