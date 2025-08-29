@@ -6,6 +6,7 @@ some trees reach out\\
 all trees reach}{}
 
 \section{Introduction}
+\is{syntax tree|(}
 
 In previous chapters, we've explored the building blocks of English grammar: words, phrases, and their functions. Now, we'll introduce a useful tool for visualizing how these elements come together to form sentences: syntax trees.
 
@@ -46,6 +47,7 @@ By the end of this chapter, you'll have a new perspective on sentence structure~
 %\end{forest}
 
 \section{A first tree}
+\is{syntax tree!how to read|(}
 
 Figure \ref{fig:tree1} is a \textsc{syntax tree}. Starting at the bottom right, it tells you that there is a word \textit{tree}. Follow that branch up and you'll see Head:N, which means that this is a noun functioning as the head of something. If you follow that next branch up, you can see that it's the head of a noun phrase (NP). Back down at the bottom, the second last word is \textit{a}, which is labeled Head:D. D is short for determinative (the category). Following its branch upwards, we see it's the head of a determinative phrase (DP). This determinative phrase functions as the determiner (Det) for the NP with the head noun \textit{tree}.
 
@@ -54,8 +56,10 @@ Moving to the left, we encounter the verb \textit{is}, labeled as a verb with th
 Further to the left, we have the pronoun \textit{it}. This word is labeled as a noun with the subscript \textsc{pro}, indicating it's a pronoun. Following its branch up, we find it's labeled as the head of an NP, and this NP functions as the subject (Subj) of the clause.
 
 The entire structure is labeled as a clause, which is the highest level of this tree. This clause contains both a subject (the NP with the pronoun \textit{it}) and a predicate (the VP with the auxiliary verb \textit{is} and its complement).
+\is{syntax tree!how to read|)}
 
 \section{Syntax trees, a solar-system metaphor}\label{sec:trees}
+\is{head (function)|(}\is{dependent (Dep)|(}\is{complement, complementation|(}\is{modification, modifier|(}\is{object (Obj)|(}\is{subject (Subj)!|(}
 
 Consider the solar system as a metaphor to understand categories and functions in language, particularly the functions of \textit{head} and \textit{dependent}. In the solar system, the central entity is the Sun, which serves as the ``head'' of the system. Everything else, from planets to dust, depends on the Sun, making them ``dependents.'' We can draw this as the tree in Figure \ref{fig:solarsys}.
 
@@ -99,6 +103,7 @@ Breaking it down further:
 \end{itemize}
 
 This structure showcases how different phrases in language have heads and dependents, similar to the entities in our solar system.
+\is{head (function)|)}\is{dependent (Dep)|)}\is{complement, complementation|)}\is{modification, modifier|)}\is{object (Obj)|)}\is{subject (Subj)!|)}
 
 \section{Why syntax trees?} \label{sec:why-trees}
 
@@ -145,6 +150,7 @@ To ensure the accuracy of tree diagram, I'll apply the checks from Section \ref{
 Linguists have many different ways to draw syntax trees. You can find trees of the style I present here in \textit{CGEL} or in \textit{A student's introduction to English grammar} \citep{huddleston2022}. If you want to search online for more examples, be sure to include \textit{CGEL} in your search query. Otherwise, you could end up with something rather different.
 
 \subsection{A top-down example}
+\is{syntax tree!building|(}
 
 Let's try creating a syntax tree for the clause \textit{I had my breakfast}. We'll start at the top and work down and left to right. So, since this is a clause, we put that at the top:
 \par
@@ -211,6 +217,7 @@ Some people prefer to start with the sentence at the bottom of the page and work
 \subsection{Some trees}
 
 Let's start with a very simple tree (\ref{tree:happy}). We'll start with a single-branching AdjP composed only of a Head.
+\is{adjective, adjective phrase (AdjP)|(}
 \begin{itemize}[noitemsep]
     \item As always, the top node is a phrasal category, in this case AdjP. There's no function because functions are relational, and this AdjP is not in a relation.
     \item The very bottom of our tree is a word node, in this case \textit{happy}.
@@ -222,6 +229,7 @@ Let's start with a very simple tree (\ref{tree:happy}). We'll start with a singl
 
 
 Let's try another one (\ref{tree:very}). This time we have a single-branching AdvP.
+\is{adverb, adverb phrase (AdvP)|(}
 \begin{itemize}[noitemsep]
     \item As always, the top node is a phrasal category, in this case AdvP. There's no function because functions are relational, and this AdvP is not in a relation.
     \item The very bottom of our tree is a word node, in this case \textit{very}.
@@ -242,10 +250,12 @@ Let's put these together in (\ref{tree:veryhappy}). This time we have a double-b
 
 \ea \raisebox{-0.8\height}{\includegraphics{figures/veryhappy.pdf}}\label{tree:veryhappy}
 \z
+\is{adverb, adverb phrase (AdvP)|)}
 
 This is the basis of all trees. Below the picture, we'll repeat this with the PP \textit{about it}. Before scrolling down, try drawing trees like (\ref{tree:happy}--\ref{tree:veryhappy}) for \textit{about}, \textit{it}, and \textit{about it}.
 
 We'll try that again in (\ref{tree:about}). We start with a single-branching PP.
+\is{preposition, preposition phrase (PP)|(}
 \begin{itemize}[noitemsep]
     \item As always, the top node is a phrasal category, in this case PP. There's no function because functions are relational, and this PP is not in a relation.
     \item The very bottom of our tree is a word node, in this case \textit{about}.
@@ -256,6 +266,7 @@ We'll try that again in (\ref{tree:about}). We start with a single-branching PP.
 \z
 
 This time we have a single-branching NP (\ref{tree:it}). Remember that pronouns are a special kind of noun.
+\is{noun, noun phrase (NP)|(}
 \begin{itemize}[noitemsep]
     \item As always, the top node is a phrasal category, in this case NP. There's no function because functions are relational, and this NP is not in a relation.
     \item The very bottom of our tree is a word node, in this case \textit{it}.
@@ -274,19 +285,23 @@ This time we have a double-branching PP.
 
 \ea \raisebox{-0.8\height}{\includegraphics{figures/aboutit.pdf}}\label{tree:aboutit}
 \z
+\is{preposition, preposition phrase (PP)|)}\is{noun, noun phrase (NP)|)}
 
 Now we'll try putting (\ref{tree:veryhappy}) and (\ref{tree:aboutit}) together in the AdjP \textit{very happy about it} (\ref{tree:veryhappyaboutit}). Try drawing this before scrolling down to check. Here's our final tree, the AdjP \textit{very happy about it}.
 \begin{itemize}[noitemsep]
     \item As always, the top node is a phrasal category, in this case AdjP. There's no function because functions are relational, and this AdjP is not in a relation.
     \item If you start at the top and follow the middle branch, you see we have simply reproduced the AdjP from (\ref{tree:happy}), and the leftmost two branches are just the AdjP from (\ref{tree:veryhappy}).
     \item The right-hand branch is the PP from (\ref{tree:aboutit}). But this time it's in a relation in the AdjP, so it has a function. Its function in the AdjP is Complement.
-    \item Notice that there is a complement inside a complement. This property of being able to put one thing inside a thing of the same kind is called \textsc{recursion} (or ``nesting'').
+    \item Notice that there is a complement inside a complement. This property of being able to put one thing inside a thing of the same kind is called \textsc{recursion} (or ``nesting''). \is{recursion|(}
 \end{itemize}
 
 \ea \raisebox{-0.8\height}{\includegraphics{figures/veryhappyaboutit.pdf}}\label{tree:veryhappyaboutit}
 \z
+\is{recursion|)}\is{syntax tree!building|)}
+\is{adjective, adjective phrase (AdjP)|)}
 
 \subsection{Identifying constituents}\label{sec:identifying_constituents}
+\is{constituency tests|(}
 
 When drawing more complex syntax trees, it can be challenging to identify the \textbf{constituents} of your sentence. Constituents are groups of words that function as a single unit within the phrase structure. Determining what constitutes a constituent is crucial because it informs how you will structure your tree.
 
@@ -294,19 +309,22 @@ To identify constituents, you can use several \textbf{constituency tests}. Here 
 
 \begin{enumerate}[noitemsep]
     \item \textbf{Coordination Test}
+    \is{coordination!test|(}
     \begin{itemize}[noitemsep]
         \item \textbf{Explanation}: If a group of words can be coordinated (joined with a conjunction like \textit{and} or \textit{or}) with a similar group, it's likely a constituent.
         \item \textbf{Example}:
         \begin{itemize}[noitemsep]
-            \item Original: \textit{My well-meaning aunt gave all her loyalty cards \underline{to the kind man who helped you}.}
+            \item Original: \textit{My well-meaning aunt gave all her loyalty cards \underline{to the} \underline{kind man who helped you}.}
             \item Coordination: \textit{My well-meaning aunt gave all her loyalty cards \underline{to the kind man who helped you} and \underline{to the woman at the counter}.}
         \end{itemize}
         \item \textbf{Analysis}: The ability to coordinate \textit{to the kind man who helped you} with \textit{to the woman at the counter} suggests that it's a constituent.
     \end{itemize}
+    \is{coordination!test|)}
     
-    \item \textbf{Proform Replacement Test}
+    \item \textbf{Pro-form Replacement Test}
+    \is{pro-form!replacement test|(}
     \begin{itemize}[noitemsep]
-        \item \textbf{Explanation}: If a group of words can be replaced by a single proform (like \textit{he}, \textit{it}, \textit{there}), or \textit{do so}, it's likely a constituent.
+        \item \textbf{Explanation}: If a group of words can be replaced by a single pro-form (like \textit{he}, \textit{it}, \textit{there}), or \textit{do so}, it's likely a constituent.
         \item \textbf{Example}:
         \begin{itemize}[noitemsep]
             \item Original: \textit{My well-meaning aunt gave \underline{all her loyalty cards} to the kind man who helped you.}
@@ -314,8 +332,10 @@ To identify constituents, you can use several \textbf{constituency tests}. Here 
         \end{itemize}
         \item \textbf{Analysis}: Replacing \textit{all her loyalty cards} with \textit{them} indicates that it's a constituent.
     \end{itemize}
+    \is{pro-form!replacement test|)}
     
     \item \textbf{Ellipsis Test}
+    \is{ellipsis!test|(}
     \begin{itemize}[noitemsep]
         \item \textbf{Explanation}: If a group of words can be omitted without making the sentence ungrammatical (and the meaning remains clear), it's likely a constituent.
         \item \textbf{Example}:
@@ -325,8 +345,10 @@ To identify constituents, you can use several \textbf{constituency tests}. Here 
         \end{itemize}
         \item \textbf{Analysis}: The omission of the repeated phrase suggests that it functions as a constituent.
     \end{itemize}
+    \is{ellipsis!test|)}
     
     \item \textbf{Dislocation (Preposing) Test}
+    \is{preposing|(}
     \begin{itemize}[noitemsep]
         \item \textbf{Explanation}: If a group of words can be moved to the beginning of a sentence without rendering it ungrammatical, it's likely a constituent.
         \item \textbf{Example}:
@@ -336,12 +358,14 @@ To identify constituents, you can use several \textbf{constituency tests}. Here 
         \end{itemize}
         \item \textbf{Analysis}: Moving \textit{to the kind man who helped you} to the front of the sentence suggests it's a constituent.
     \end{itemize}
+    \is{preposing|)}
 \end{enumerate}
 
 By applying these tests, you can determine how to break down the sentence into its constituent parts before drawing your syntax tree.
-
+\is{constituency tests|)}
 
 \subsection{Checking your trees}\label{sec:checkTrees}
+\is{syntax tree!well-formedness checks|(}
 
 After you draw a tree, you should complete the following seven checks.
 
@@ -356,6 +380,7 @@ After you draw a tree, you should complete the following seven checks.
 \end{enumerate}
 
 Try these checks on Figures \ref{fig:tree1} and \ref{fig:tree2}. It's possible, though unlikely, that I introduced an error there.
+\is{syntax tree!well-formedness checks|)}
 
 \section{More trees}\label{sec:more trees}
 
@@ -384,6 +409,7 @@ Sometimes, linguists will use a triangle (or a ``coat hanger'') when they don't 
 \z
 
 \section{Disambiguating with trees}
+\is{ambiguity resolution with trees|(}\is{attachment ambiguity|(}
 
 A clause can be ambiguous, but a tree will usually disambiguate it by showing the structure. Consider \textit{Sherlock saw the man with the binoculars} in Figure \ref{fig:binoculars}. Out of context, this is ambiguous between a sighting via the binoculars or that of a man equipped with the binoculars.
 
@@ -401,8 +427,10 @@ We can show the two meanings with trees. In (\ref{tree:binoculars1}), the PP \te
     \ex \raisebox{-0.8\height}{\includegraphics{figures/binoculars2.pdf}} \label{tree:binoculars2}
     \z
 \z
+\is{attachment ambiguity|)}\is{ambiguity resolution with trees|)}
 
 \section{Do we need the function labels?}
+\is{function, syntactic!labels in trees|(}\is{adjunct|(}
 
 Many linguists label only the categories, not the functions. This certainly produces less cluttered trees, but for language teachers, it's useful to be able to state the function of each constituent. It's also less clear if we omit the functions. Consider the difference between \textit{Brett and Michael, try harder} and \textit{Brett and Michael try harder}. The first one is an instruction to Brett and Michael, who have, it seems, been slacking off. The second is a positive statement about Brett and Michael's work ethic. If you avoid the function labels, the two sentences would have the same tree (\ref{tree:b+mtryharder}).
 
@@ -416,8 +444,10 @@ But when we add function labels, we can identify whether Brett and Michael is a 
     \ex\raisebox{-0.8\height}{\includegraphics{figures/b+mtryharder2.pdf}} \label{tree:b+mtryharder2}
     \z
 \z
+\is{adjunct|)}\is{function, syntactic!labels in trees|)}
 
 \section{Some terminological issues} \label{sec:terminology}
+\is{category, linguistic!vs function|(}\is{adverbial (terminology)|(}
 
 You will often see expressions like ``adverbial'', ``adverb phrase'', or ``adverb clause'' used when there isn't a single adverb to be found. This is based on an entirely semantic idea of what it means to be ``adverbial''. Specifically, if something answers the questions ``when'', ``where'', ``why'', or ``how'', then many grammarians use the term \textsc{adverbial}.
 
@@ -432,6 +462,7 @@ BUT.
 While the label does not matter, the way we constitute the category does. And a category of things that ``answer the question `when', `where', `why', or `how''', based entirely on semantics, is not a useful syntactic category. By this definition, \textit{my birthday} is ``adverbial''. So is \textit{Toronto}, \textit{reasons}, and \textit{with binoculars}. But these things just don't go together. They don't make a coherent set, and you can't teach anybody anything useful about grammar by lumping them together.
 
 Terms are just labels, and any label will work in principle.\footnote{In practice, if you use a highly eccentric label, obviously you will not be understood by many people. Recall the discussion of standards in Section \ref{sec:standards}.} But categories matter. They tell us about the world. And trying to make sense of badly constructed categories just makes life harder for everyone.
+\is{adverbial (terminology)|)}\is{category, linguistic!vs function|)}
 
 \section{Summary}
 The main value of drawing syntax trees is to ensure you have a clear understanding of what each of the elements in sentence or phrase is and how they interrelate. You probably won't be showing syntax trees to students who are learning English, but they are useful tools for teachers who want to have a clear understanding of how English works.
@@ -439,3 +470,4 @@ The main value of drawing syntax trees is to ensure you have a clear understandi
 At this point, we've only touched on a subset of the lexical and phrasal categories in very simple constructions. There is more to learn. In later chapters, we will look at coordination, subordination, and interrogatives. In the meantime, you should practice drawing very simple trees until you feel comfortable with them.
 
 For now, we will shift focus to the English sound system.
+\is{syntax tree|)}
