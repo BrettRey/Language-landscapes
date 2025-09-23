@@ -5,6 +5,18 @@ some trees reach up\\
 some trees reach out\\
 all trees reach}{}
 
+\begin{tcolorbox}[title=Learning Objectives, colback=blue!5!white, colframe=blue!75!black]
+By the end of this chapter, you will be able to:
+\begin{itemize}[noitemsep]
+    \item Read and interpret syntax trees to understand sentence structure
+    \item Identify heads, dependents, and their functional relationships in tree diagrams
+    \item Construct syntax trees for simple and complex phrases using top-down and bottom-up approaches
+    \item Apply constituency tests (coordination, pro-form replacement, ellipsis, preposing) to identify phrase boundaries
+    \item Use syntax trees to disambiguate structurally ambiguous sentences
+    \item Recognize the pedagogical value of visual representation in grammar analysis
+\end{itemize}
+\end{tcolorbox}
+
 \section{Introduction}
 \is{syntax tree|(}
 
@@ -56,6 +68,10 @@ Moving to the left, we encounter the verb \textit{is}, labeled as a verb with th
 Further to the left, we have the pronoun \textit{it}. This word is labeled as a noun with the subscript \textsc{pro}, indicating it's a pronoun. Following its branch up, we find it's labeled as the head of an NP, and this NP functions as the subject (Subj) of the clause.
 
 The entire structure is labeled as a clause, which is the highest level of this tree. This clause contains both a subject (the NP with the pronoun \textit{it}) and a predicate (the VP with the auxiliary verb \textit{is} and its complement).
+
+\begin{tcolorbox}[title=Check Your Understanding, colback=yellow!10!white, colframe=yellow!75!black]
+Practice reading the tree: Starting from the word \textit{tree}, trace upward and identify: (1) its category, (2) its function, (3) the phrase it heads, and (4) that phrase's function in the larger structure. Then do the same for \textit{is} and \textit{it}.
+\end{tcolorbox}
 \is{syntax tree!how to read|)}
 
 \section{Syntax trees, a solar-system metaphor}\label{sec:trees}
@@ -103,6 +119,10 @@ Breaking it down further:
 \end{itemize}
 
 This structure showcases how different phrases in language have heads and dependents, similar to the entities in our solar system.
+
+\begin{tcolorbox}[title=Practice: Applying the Metaphor, colback=green!10!white, colframe=green!75!black]
+Using the solar system metaphor, analyze this sentence: \textit{The students read difficult books}. Identify: (1) What is the "sun" (head) of the whole sentence? (2) What are the "planets" (major dependents)? (3) Within \textit{difficult books}, what is the head and what is the dependent?
+\end{tcolorbox}
 \is{head (function)|)}\is{dependent (Dep)|)}\is{complement, complementation|)}\is{modification, modifier|)}\is{object (Obj)|)}\is{subject (Subj)!|)}
 
 \section{Why syntax trees?} \label{sec:why-trees}
@@ -119,6 +139,10 @@ So, why employ trees?
 \end{enumerate}
 
 \noindent In short, we are employing trees because they are an extremely effective tool for learning syntax and for demonstrating that learning.
+
+\begin{tcolorbox}[title=Reflection: Your Learning Strategy, colback=blue!10!white, colframe=blue!75!black]
+Consider your own learning preferences. Which of the four benefits of syntax trees (dual-encoding, brevity/clarity, explicitness, practice with feedback) resonates most with you? How might understanding these benefits help you explain grammatical concepts to your students, even if you don't use trees directly in class?
+\end{tcolorbox}
 
 \section{Composing your trees}
 
@@ -209,6 +233,10 @@ Finally, we'll add the object:NP, with its head:N\textsubscript{\textsc{pro}} an
 \end{figure}
 
 Some people prefer to start with the sentence at the bottom of the page and work up through the lexical category head, the phrasal category and its function, etc. Play with both ways and see what works for you.
+
+\begin{tcolorbox}[title=Try It Yourself, colback=green!10!white, colframe=green!75!black]
+Practice the top-down approach with this sentence: \textit{She likes chocolate}. Start with "Clause" at the top, then work left to right. Remember: (1) Subject NP on the left, (2) Head VP on the right, (3) Each phrase needs its own head, (4) Every word sits at the bottom of a branch.
+\end{tcolorbox}
 
 
 
@@ -362,6 +390,10 @@ To identify constituents, you can use several \textbf{constituency tests}. Here 
 \end{enumerate}
 
 By applying these tests, you can determine how to break down the sentence into its constituent parts before drawing your syntax tree.
+
+\begin{tcolorbox}[title=Practice: Constituency Testing, colback=green!10!white, colframe=green!75!black]
+Apply the constituency tests to this sentence: \textit{The teacher explained the difficult concept clearly}. Test whether \textit{the difficult concept} is a constituent by trying: (1) Coordination: "...explained \underline{the difficult concept} and \underline{the easy one}", (2) Pro-form replacement: "...explained \underline{it}", (3) Can it be moved to the front?, (4) Can it be omitted in ellipsis?
+\end{tcolorbox}
 \is{constituency tests|)}
 
 \subsection{Checking your trees}\label{sec:checkTrees}
@@ -380,6 +412,10 @@ After you draw a tree, you should complete the following seven checks.
 \end{enumerate}
 
 Try these checks on Figures \ref{fig:tree1} and \ref{fig:tree2}. It's possible, though unlikely, that I introduced an error there.
+
+\begin{tcolorbox}[title=Self-Assessment Checklist, colback=yellow!10!white, colframe=yellow!75!black]
+Before continuing, ensure you can confidently: Read a syntax tree from bottom to top; Identify heads and dependents in any phrase; Explain why we use function labels; Apply at least two constituency tests; Use the seven-point checklist to verify tree accuracy. If you cannot confidently do all of these, review the relevant sections.
+\end{tcolorbox}
 \is{syntax tree!well-formedness checks|)}
 
 \section{More trees}\label{sec:more trees}
@@ -427,6 +463,10 @@ We can show the two meanings with trees. In (\ref{tree:binoculars1}), the PP \te
     \ex \raisebox{-0.8\height}{\includegraphics{figures/binoculars2.pdf}} \label{tree:binoculars2}
     \z
 \z
+
+\begin{tcolorbox}[title=Practice: Disambiguating with Trees, colback=green!10!white, colframe=green!75!black]
+Try this ambiguous sentence: \textit{I saw the student with the telescope}. Draw two different trees to show: (1) I used a telescope to see the student, (2) The student had a telescope. Where does the PP \textit{with the telescope} attach in each interpretation?
+\end{tcolorbox}
 \is{attachment ambiguity|)}\is{ambiguity resolution with trees|)}
 
 \section{Do we need the function labels?}
@@ -465,9 +505,21 @@ Terms are just labels, and any label will work in principle.\footnote{In practic
 \is{adverbial (terminology)|)}\is{category, linguistic!vs function|)}
 
 \section{Summary}
-The main value of drawing syntax trees is to ensure you have a clear understanding of what each of the elements in sentence or phrase is and how they interrelate. You probably won't be showing syntax trees to students who are learning English, but they are useful tools for teachers who want to have a clear understanding of how English works.
 
-At this point, we've only touched on a subset of the lexical and phrasal categories in very simple constructions. There is more to learn. In later chapters, we will look at coordination, subordination, and interrogatives. In the meantime, you should practice drawing very simple trees until you feel comfortable with them.
+This chapter introduced syntax trees as essential tools for understanding and teaching English grammar structure:
 
-For now, we will shift focus to the English sound system.
+\begin{itemize}[noitemsep]
+    \item \textbf{Visual representation}: Trees provide clear, visual representations of grammatical relationships that make abstract syntactic concepts concrete and teachable
+    \item \textbf{Diagnostic tool}: Tree-drawing forces explicit analysis of categories and functions, revealing gaps in understanding and preventing oversimplified explanations
+    \item \textbf{Constituency tests}: Five systematic tests (substitution, movement, coordination, deletion, and fragment answers) provide reliable methods for determining phrase boundaries
+    \item \textbf{Category-function distinction}: Trees clearly separate what words are (categories like NP, VP) from what they do (functions like Subject, Object), crucial for accurate grammatical analysis
+    \item \textbf{Ambiguity resolution}: Multiple tree structures can represent different interpretations of ambiguous sentences, making meaning differences explicit
+    \item \textbf{Hierarchical structure}: Trees reveal that language is hierarchically organized, not just linear sequences of words, explaining why certain transformations are possible
+    \item \textbf{Function labeling importance}: Including function labels (Subject, Object, Modifier) distinguishes otherwise identical structures and clarifies grammatical relationships
+    \item \textbf{Teacher preparation tool}: While not shown directly to students, trees help teachers understand complex structures they need to explain and troubleshoot
+    \item \textbf{Systematic methodology}: Tree notation provides consistent, principled methods for analyzing any English construction, from simple to complex
+    \item \textbf{Foundation for advanced topics}: Tree structures prepare the groundwork for understanding coordination, subordination, questions, and other complex grammatical phenomena
+\end{itemize}
+
+The main value of drawing syntax trees is ensuring clear understanding of how sentence elements interrelate. Teachers equipped with tree-drawing skills can approach grammatical explanation with confidence, knowing they have reliable analytical tools for even the most challenging constructions students might produce.
 \is{syntax tree|)}
