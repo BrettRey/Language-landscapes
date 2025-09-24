@@ -2,7 +2,8 @@
 \usepackage{langsci-gb4e}
 \usepackage{langsci-lgr}
 
-\usepackage{xeCJK}
+% Only load xeCJK if actually needed for CJK text
+% \usepackage{xeCJK}
 \usepackage{fontspec}
 % Setting up Hindi font
 \newfontfamily\hindifont{Noto Serif Devanagari}  % Replace [HindiFont] with your Hindi font
@@ -22,6 +23,10 @@
 \usetikzlibrary{bending}
 \usepackage{subcaption}
 \usepackage{changepage}
+
+% Fix header height warnings
+\usepackage{geometry}
+\geometry{head=27.2pt}
 
 %\usepackage{fontspec}
 
@@ -55,13 +60,13 @@
 % This setup uses a simpler definition to avoid conflicts.
 % PLEASE REPLACE ALL OTHER INDEXING CODE WITH THIS BLOCK.
 
-% 1. Load the package for indexing
-\usepackage{imakeidx}
-
-% 2. Create the three separate indexes
-\makeindex[name=sbj, title=Subject Index, columns=2, intoc]
-\makeindex[name=lan, title=Language Index, columns=2, intoc]
-\makeindex[name=aut, title=Author Index, columns=2, intoc]
+% 1. Load indexing package
+       \usepackage{imakeidx}
+% 2. Create the three separate indexes + dummy output index
+       \makeindex[name=output, title=Output Index, columns=2]
+       \makeindex[name=sbj, title=Subject Index, columns=2, intoc]
+       \makeindex[name=lan, title=Language Index, columns=2, intoc]
+       \makeindex[name=aut, title=Author Index, columns=2, intoc]
 
 % 3. Define simple, robust custom commands
 % Using \renewcommand avoids conflicts with the langscibook class.
