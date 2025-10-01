@@ -2,8 +2,25 @@
 \usepackage{langsci-gb4e}
 \usepackage{langsci-lgr}
 
-% Only load xeCJK if actually needed for CJK text
-% \usepackage{xeCJK}
+% Load xeCJK for Japanese text (needed for マクドナルド etc)
+\usepackage{xeCJK}
+% Try common CJK serif fonts to match book's serif style
+\IfFontExistsTF{Noto Serif CJK JP}{
+  \setCJKmainfont{Noto Serif CJK JP}
+  \setCJKsansfont{Noto Sans CJK JP}
+  \setCJKmonofont{Noto Sans Mono CJK JP}
+}{
+  \IfFontExistsTF{Hiragino Mincho ProN}{
+    \setCJKmainfont{Hiragino Mincho ProN}
+    \setCJKsansfont{Hiragino Sans GB}
+    \setCJKmonofont{Hiragino Sans GB}
+  }{
+    % Fallback - still prefer serif-style for main
+    \setCJKmainfont{Arial Unicode MS}
+    \setCJKsansfont{Arial Unicode MS}
+    \setCJKmonofont{Arial Unicode MS}
+  }
+}
 \usepackage{fontspec}
 % Setting up Hindi font
 \newfontfamily\hindifont{Noto Serif Devanagari}  % Replace [HindiFont] with your Hindi font
@@ -60,13 +77,14 @@
 % This setup uses a simpler definition to avoid conflicts.
 % PLEASE REPLACE ALL OTHER INDEXING CODE WITH THIS BLOCK.
 
-% 1. Load indexing package
-       \usepackage{imakeidx}
+% 1. Load the package for indexing
+\usepackage{imakeidx}
+
 % 2. Create the three separate indexes + dummy output index
-       \makeindex[name=output, title=Output Index, columns=2]
-       \makeindex[name=sbj, title=Subject Index, columns=2, intoc]
-       \makeindex[name=lan, title=Language Index, columns=2, intoc]
-       \makeindex[name=aut, title=Author Index, columns=2, intoc]
+\makeindex[name=output, title=Output Index, columns=2]
+\makeindex[name=sbj, title=Subject Index, columns=2, intoc]
+\makeindex[name=lan, title=Language Index, columns=2, intoc]
+\makeindex[name=aut, title=Author Index, columns=2, intoc]
 
 % 3. Define simple, robust custom commands
 % Using \renewcommand avoids conflicts with the langscibook class.

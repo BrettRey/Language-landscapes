@@ -19,21 +19,9 @@ By the end of this chapter, you will be able to:
 \end{itemize}
 \end{tcolorbox}
 
-\begin{tcolorbox}[title=Discourse analysis tools in this chapter, colback=gray!10!white, colframe=gray!75!black]
-This chapter introduces several analytical tools for understanding information structure:
-\begin{itemize}[noitemsep]
-    \item \textbf{Given-New Analysis} -- Identifying what information is already known vs. newly introduced in discourse
-    \item \textbf{Topic-Focus Structure} -- Distinguishing what a sentence is about (topic) from what new information is provided (focus)
-    \item \textbf{Cleft Construction Analysis} -- Understanding how \emph{it}-clefts and \emph{wh}-clefts highlight specific elements
-    \item \textbf{Information Weight Principles} -- Examining how ``heavy'' constituents tend to appear later in sentences
-    \item \textbf{Active-Passive Alternation} -- Analyzing how voice choice affects information flow and participant prominence
-\end{itemize}
-These tools help teachers understand why certain sentence structures feel more natural than others in specific discourse contexts.
-\end{tcolorbox}
 
 \clearpage
 \is{information packaging|(}
-
 \section{What is information packaging?}
 
 When we communicate, it's not just about what we say, but also about how we structure and present that information. This is what linguists call \textsc{information packaging}.
@@ -62,7 +50,7 @@ In the second sentence, \textit{it} refers back to this car, which is not longer
 
 We could even try going so far as to reverse order of the sentences.
 
-\ea[?]{\textit{It's a hybrid. I bought a new car yesterday.}}\label{ex:hybrid-reversed}
+\ea[\textsuperscript{?}]{\textit{It's a hybrid. I bought a new car yesterday.}}\label{ex:hybrid-reversed}
 \z
 
 Again, the result is very odd in (\ref{ex:hybrid-reversed}), \textit{it} doesn't connect to any previously mentioned referent or anything obvious in the environment, so the pronoun feels abrupt and disconnected. The new information \textit{a new car} comes awkwardly late.
@@ -132,7 +120,7 @@ Clefts allow speakers to focus almost any element by making it a post-head compl
 
 As for topics, English speakers have a few common ways of setting them up. One is simply to place the topic in subject position, as in \textit{The weather is lovely}. Another is to use topic-announcing phrases like \textit{as for}, \textit{regarding}, \textit{speaking of}, etc. (as in \ref{ex:broken-laptop}; mentioned in Section \ref{sec:subject-denotation}).
 
-\ea[]{\textit{Regarding broken laptop, blame Steve.}}\label{ex:broken-laptop}
+\ea[]{\textit{Regarding the broken laptop, blame Steve.}}\label{ex:broken-laptop}
 \z
 
 This phrase explicitly marks the broken laptop as the topic around which the following sentence will revolve.
@@ -189,11 +177,11 @@ The passive voice can also help us restructure a sentence to keep the head of th
 \is{end-weight|(}
 
 \ea\label{ex:CNN}
-    \ea[]{\textit{A convoluted neural network \uline{architecture} \uline{is} formed by a stack of distinct layers that transform the input volume into an output volume (e.g. holding the class scores) through a differentiable function.}\\\hfill[\textsc{passive}]}
-    \ex[]{\textit{A \uline{stack} of distinct layers that transform the input volume into an output volume (e.g. holding the class scores) through a differentiable function \uline{forms} a convoluted neural network architecture.}\hfill[\textsc{active}]}\z
+    \ea[]{[\textit{A convoluted neural network \uline{architecture}]\cb~\ob \uline{is} formed by a stack of distinct layers that transform the input volume into an output volume (e.g. holding the class scores) through a differentiable function.}]\\\hfill[\textsc{passive}]}
+    \ex[]{[\textit{A \uline{stack} of distinct layers that transform the input volume into an output volume (e.g. holding the class scores) through a differentiable function\cb~\ob \uline{forms} a convoluted neural network architecture.}]\hfill[\textsc{active}]}\z
 \z
 
-You may have been told that you should avoid the passive, but no matter how many times you've heard such thing, I think you'll agree that the passive is better here.
+You may have been told that you should avoid the passive, but no matter how many times you've heard such thing, I think you'll agree that (a) is much better than (b).
 \is{end-weight|)}
 
 The passive can also be used to intentionally de-emphasize or omit the agent, either because it's unknown or irrelevant, or because the speaker wants to avoid assigning explicit blame or responsibility:
@@ -298,12 +286,14 @@ While it's possible to prepose an object or other complements in a VP, it's much
     \ea[]{\textit{I could open it with a hammer.}\hfill  [\textsc{default}]}
     \ex[]{\textit{\uline{With a hammer}, I could open it.}\hfill  [\textsc{preposed PP adjunct}]}
     \z
-\begin{samepage}
 \ex
     \ea[]{\textit{I'll go if you go.}\hfill  [\textsc{default}]}
     \ex[]{\textit{\uline{If you go}, I'll go too.}\hfill  [\textsc{preposed PP adjunct}]}
     \z
-\end{samepage}
+\ex \label{ex:preposing-end}
+    \ea[]{\textit{It worked because of all the practice.}\hfill  [\textsc{default}]}
+    \ex[]{\textit{\uline{Because of all the practice}, it worked.}\hfill  [\textsc{preposed PP adjunct}]}
+    \z
 \ex 
     \ea[]{\textit{I haven't looked at the report yet.}\hfill  [\textsc{default}]}
     \ex[]{\textit{\uline{The report}, I haven't looked at yet.}\hfill  [\textsc{preposed object in PP}]}
@@ -311,10 +301,6 @@ While it's possible to prepose an object or other complements in a VP, it's much
 \ex 
     \ea[]{\textit{We watched a movie last night.}\hfill  [\textsc{default}]}
     \ex[]{\textit{\uline{Last night}, we watched a movie.}\hfill  [\textsc{preposed NP adjunct}]}
-    \z
-\ex \label{ex:preposing-end}
-    \ea[]{\textit{It worked because of all the practice.}\hfill  [\textsc{default}]}
-    \ex[]{\textit{\uline{Because of all the practice}, it worked.}\hfill  [\textsc{preposed PP adjunct}]}
     \z
 \z
 
@@ -333,15 +319,15 @@ Just as a fronted interrogative phrase triggers subject--auxiliary inversion or 
     \ea[]{\textit{She not only got up, but she even left.}\hfill  [\textsc{default}]}
     \ex[]{\textit{\uline{Not only} did she get up, but she even left.}\hfill  [\textsc{preposed AdvP adjunct}]}
     \z
+\ex \label{ex:fronting-inversion-end}
+    \ea[]{\textit{It passed so quickly that we missed it.}\hfill  [\textsc{default}]}
+    \ex[]{\textit{\uline{So quickly} did it pass that we missed it.}\hfill  [\textsc{preposed AdvP adjunct}]}
+    \z
 \ex 
     \ea[]{\textit{You should not open it under any circumstances.}\hfill  [\textsc{default}]}
     \ex[]{\textit{\uline{Under no circumstances} should you open it.}\hfill  [\textsc{preposed PP adjunct}]}
     \z
 \is{negative!inversion|)}
-\ex \label{ex:fronting-inversion-end}
-    \ea[]{\textit{It passed so quickly that we missed it.}\hfill  [\textsc{default}]}
-    \ex[]{\textit{\uline{So quickly} did it pass that we missed it.}\hfill  [\textsc{preposed AdvP adjunct}]}
-    \z
 \z
 \is{subject--auxiliary inversion|)}\is{inversion!subject--auxiliary|)}
 \is{preposing|)}
@@ -351,30 +337,23 @@ Just as a fronted interrogative phrase triggers subject--auxiliary inversion or 
 As you would expect, \textsc{postposing} constructions place later a constituent that would normally come earlier. This is often done with longer or ``heavy'' constituent to improve clarity and processing. It's also another way of shifting the focus. See the examples in (\ref{ex:postposing-start}--\ref{ex:postposing-end}).
 
 \ea \label{ex:postposing-start}
-\ea[]{\textit{The fact that the project was behind schedule worried the manager.} \\\hfill [\textsc{default}]}
-\ex[]{\textit{It worried the manager \uline{that the project was behind schedule}.} \\\hfill [\textsc{postposed subject}]}
-\z
-
-\begin{samepage}
-\ex
 \ea[]{\textit{The book that he'd been working on for years was finally published.} \\\hfill [\textsc{default}]}
 \ex[]{\textit{It was finally published, \uline{the book that he'd been working on for years}.} \\\hfill [\textsc{postposed subject}]}
-\z
-\end{samepage}
-
-\ex
-\ea[]{\textit{He gave all the leftovers from the dinner to the dog.} \hfill [\textsc{default}]}
-\ex[]{\textit{He gave to the dog \uline{all the leftovers from the dinner}.} \\\hfill [\textsc{postposed direct object}]}
-\z
-
-\ex
-\ea[]{\textit{What we do with the rest is a bigger problem.} \hfill [\textsc{default}]}
-\ex[]{\textit{A bigger problem is \uline{what we do with the rest}.} \hfill [\textsc{postposed subject}]}
 \z
 
 \ex
 \ea[]{\textit{The decision had been so difficult that I'd delayed it for months.} \\\hfill [\textsc{default}]}
 \ex[]{\textit{So difficult had been \uline{the decision} that I'd delayed it for months.} \\\hfill [\textsc{postposed subject}]}
+\z
+
+\ex \label{ex:postposing-end}
+\ea[]{\textit{You asked me to tell them, and I told them. }\hfill [\textsc{default}]}
+\ex[]{\textit{You asked me to tell them, and tell them \uline{I did}.} \hfill [\textsc{postposed subject}]}
+\z
+
+\ex
+\ea[]{\textit{He gave all the leftovers from the dinner to the dog.} \hfill [\textsc{default}]}
+\ex[]{\textit{He gave to the dog \uline{all the leftovers from the dinner}.} \\\hfill [\textsc{postposed direct object}]}
 \z
 
 \ex 
@@ -386,16 +365,11 @@ As you would expect, \textsc{postposing} constructions place later a constituent
 \ea[]{\textit{Somebody who seemed to be in a hurry arrived with a package for you.} \\\hfill [\textsc{default}]}
 \ex[]{\textit{Somebody arrived with a package for you \uline{who seemed to be in a hurry}.} \\\hfill [\textsc{postposed modifier}]}
 \z
-
-\ex \label{ex:postposing-end}
-\ea[]{\textit{You asked me to tell them, and I told them. }\hfill [\textsc{default}]}
-\ex[]{\textit{You asked me to tell them, and tell them \uline{I did}.} \hfill [\textsc{postposed subject}]}
-\z
 \z
 \is{end-weight|)}
 \is{postposing|)}
 
-It's important to note that while preposing and postposing are possible in English, for the most part, they're marked structures and shouldn't be overused. Most sentences will follow the default word order, and deviations from this should be motivated by specific discourse needs.
+It's important to note that while preposing and postposing are possible in English, for the most part, they're marked structures and shouldn't be overused. Most sentences will follow the default word order, and deviations should be motivated by specific discourse needs.
 
 \subsection{Extraposed subject} \label{sec:extraposition}
 \is{extraposition|(}
@@ -489,14 +463,13 @@ This chapter examined information packaging as a crucial aspect of effective com
 
 \begin{itemize}[noitemsep]
     \item \textbf{Information packaging principle}: How we structure and present information is as important as what we say, affecting comprehension and emphasis through strategic arrangement
-    \item \textbf{Given-new ordering}: Information typically flows from familiar/known elements to new/important elements, creating natural discourse progression and processing ease
-    \item \textbf{Topic-focus structure}: Topics (what sentences are about) usually appear early and represent given information, while focus (newsworthy elements) appears later as new information
+    \item \textbf{Given--new ordering}: Information typically flows from familiar/known elements to new/important elements, creating natural discourse progression and processing ease
+    \item \textbf{Topic--focus structure}: Topics (what sentences are about) usually appear early and represent given information, while focus (newsworthy elements) appears later as new information
     \item \textbf{Cleft constructions}: \emph{It}-clefts and \emph{wh}-clefts allow speakers to highlight specific elements by restructuring sentences around focus elements
     \item \textbf{Passive voice functions}: Passives serve information packaging by topicalizing patients/recipients while backgrounding or omitting agents, not just stylistic variation
     \item \textbf{Fronting strategies}: Moving elements to sentence-initial position can establish topics or create special emphasis effects
     \item \textbf{Extraposition patterns}: Moving ``heavy" clausal subjects to sentence-final position improves processing by following end-weight principles
     \item \textbf{Discourse context dependence}: Effective information packaging requires understanding what listeners already know and what needs emphasis in specific communicative situations
-    \item \textbf{Teaching implications}: Helping students understand information packaging improves both comprehension and production by making discourse structure explicit
 \end{itemize}
 
 Understanding information packaging helps teachers explain why certain sentence structures feel more natural than others and guides students in making strategic choices that enhance clarity and effectiveness in their own communication.
