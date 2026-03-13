@@ -1,12 +1,11 @@
 \newcommand*{\orcid}{}
 \newcommand{\refp}[1]{(\ref{#1})}
 
-\renewcommand{\ULdepth}{1.8pt}
-\contourlength{0.8pt}
-
-\newcommand{\myuline}[1]{%
-  \uline{\phantom{#1}}%
-  \llap{\contour{white}{#1}}}%
+% Stage 1 revision: underline removal
+% \uline → \emph, \uuline → \textbf, gaps → \gap
+\newcommand{\gap}{\rule{1.5em}{0.4pt}}   % syntactic gap/trace
+\newcommand{\markfocus}[1]{\emph{#1}}    % primary highlight (was \uline)
+\newcommand{\marksecond}[1]{\textbf{#1}} % secondary highlight (was \uuline)
 
 %----------------------------------------------------------------------
 % Node labels in CGEL trees are defined with \Node, 
@@ -36,5 +35,5 @@
 \newcommand{\am}[1]{{\ethiopic #1}}
 \newcommand{\fa}[1]{{\persian #1}}
 
-\newcommand{\annotate}[2]{
-\uline{#1}\marginpar{\footnotesize\raggedright #2}}
+\newcommand{\annotate}[2]{%
+\emph{#1}\marginpar{\footnotesize\raggedright #2}}
