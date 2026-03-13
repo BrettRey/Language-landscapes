@@ -85,6 +85,12 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
 - [x] Import Overleaf source to local folder
 - [ ] Read annotated manuscript PDF for inline comments
 - [ ] Download TBLS-Packages from HU Box link
-- [ ] Stage 1: bold/underline cleanup
-- [ ] Stage 2: LangSci formatting
+- [x] Stage 1: bold/underline cleanup (March 12--13)
+  - [x] \uline → \emph, \uuline → \textbf, gaps → \gap (793→0)
+  - [x] Strip outer \textit{} from numbered examples
+  - [x] Bold cleanup (6 emphasis→\emph, 390 structural kept)
+  - [x] \href → footnote URLs (32→0)
+  - [x] Package cleanup (contour/soul removed)
+  - [ ] Color palette: PENDING -- raise Tol vs LangSci palette with Stefan
+- [ ] Stage 2: LangSci formatting (blocked on TBLS package)
 - [ ] Substantive revisions (TLA framing, learning goals, bridging paragraphs)
