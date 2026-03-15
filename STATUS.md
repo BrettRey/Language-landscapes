@@ -80,17 +80,76 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
 
 ---
 
+### 2026-03-13 Session Notes (afternoon)
+- Footnote markers: found 10 actual inverted markers (via balanced-brace parser; initial agent analysis overcounted at 28). Fixed across Chs 01, 02, 07, 08, 09. Most were artifacts of `\href` → `\footnote{\url{}}` conversion.
+- Wrapfigure: 3 instances in Ch 6 verified compatible. No action needed.
+- Color palette resolved: Tol palette stays. Color-coded text is content, not formatting.
+- Stefan email re figure permissions: Brett signs copyright declaration, keeps confirmations on file.
+- Revision letter fully rewritten with Rapoport framing. All TODOs cleared.
+- Remaining: annotated manuscript PDF (inline comments), xkcd permission.
+
+### 2026-03-13 Session Notes (evening)
+- Humour audit: multi-model audit complete (Claude Opus 4.6 + Codex gpt-5.4, ~200 suggestions total).
+- Codex batches 5-6 (Chs 1-10) successfully dispatched; earlier batches 1-2 had failed on regex escaping.
+- Claude retry agents generated fresh suggestions for Chs 6, 7, 18 (original suggestions rejected or insufficient).
+- 14 humour insertions implemented across 8 chapter files (Chs 3, 4, 5, 6, 7, 8, 9, 18).
+- Brett's "consider" list (~60 items from Claude + Codex) remains for future consideration; only 14 were confirmed and implemented.
+- Remaining: xkcd #2942 permission.
+
+### 2026-03-14 Session Notes (morning)
+- "Two categories, one label" insight implemented: new tblsframed box in Ch 3 ("When one label names two things") + enhanced definiteness opening + cross-references in Chs 1 and 5.
+- Cross-references revised after Brett flagged initial versions as too mechanistic. Principle: grow from the surrounding argument, don't announce abstract frameworks.
+- Added item 7 to revision letter for Stefan.
+
+### 2026-03-14 Session Notes (earlier)
+- Annotated manuscript PDF fully reviewed: 71 annotations extracted via pymupdf.
+- All 17 typo corrections already present in current .tex source (PDF was October 2025 draft).
+- 48 substantive comments cross-referenced against DECISIONS.md: all duplicate the general review points already addressed.
+- New items addressed in revision letter: CGEL footnotes defended (gateway function), "non-affirmative" vs "NPI" terminology defended, tone concerns in Chs 2/10/16 defended.
+- Annotated manuscript item is now complete. Only remaining item: xkcd #2942 permission.
+
+### 2026-03-14 Session Notes (morning, continued)
+- Revision letter refined: pulled back superlatives ("single most productive" → "extremely productive"), replaced evaluative framing ("correctly identified" → "helpfully identified," "rightly notes" → "notes"), cut "Fair point." as teacher-grading, passive to active ("An internal rhetoric audit was conducted" → "I conducted"), added "I believe the content was fair, but the ordering was not."
+- Added "where" as preposition (Ch 19, p.440 annotation) to CGEL footnotes paragraph in revision letter.
+- Three-wave editorial review dispatched via Codex (66 agents total):
+  - Wave 1: Wendy Lesser (prose quality, micro)
+  - Wave 2: Edward Mendelson (intellectual architecture, meso)
+  - Wave 3: John McPhee (structural economy, macro)
+  - All 66 reviews written to `editorial-reviews/wave-{1,2,3}-{lesser,mendelson,mcphee}/`
+  - Synthesis produced: `editorial-reviews/synthesis.md`
+- Key finding: book systematically over-scaffolds (announces, does, re-announces, summarizes). Brett's decision: keep structural scaffolding (audience needs handrails), cut only nervous verbal tics ("as I've pointed out," "to reiterate," "recall that").
+- Six broken sentences / copy-paste errors fixed:
+  - Ch 6, line 217+225: "helped"/"you" → "had"/"my breakfast" (copy-paste from different tree)
+  - Ch 11, line 297: dangling "and" deleted
+  - Ch 4, line 528: "we drive our cars run" → "we drive, our cars run"
+  - Ch 5, line 683: "has come to," → "has come to express time,"
+  - Ch 16, line 346: "should instructor" → "should an instructor"
+  - Ch 4, line 430: "is possible speak" → "is possible: speak"
+
 ## Next Actions
 
 - [x] Import Overleaf source to local folder
 - [ ] Read annotated manuscript PDF for inline comments
-- [ ] Download TBLS-Packages from HU Box link
+- [x] Download TBLS-Packages from HU Box link
 - [x] Stage 1: bold/underline cleanup (March 12--13)
   - [x] \uline → \emph, \uuline → \textbf, gaps → \gap (793→0)
   - [x] Strip outer \textit{} from numbered examples
   - [x] Bold cleanup (6 emphasis→\emph, 390 structural kept)
   - [x] \href → footnote URLs (32→0)
   - [x] Package cleanup (contour/soul removed)
-  - [ ] Color palette: PENDING -- raise Tol vs LangSci palette with Stefan
-- [ ] Stage 2: LangSci formatting (blocked on TBLS package)
-- [ ] Substantive revisions (TLA framing, learning goals, bridging paragraphs)
+  - [x] Color palette: Keep Tol palette -- content, not house-style formatting
+- [x] Stage 2: LangSci formatting
+  - [x] 2a: tcolorbox → langsci-tbls (146 boxes converted, March 12--13)
+  - [x] 2b: Tables → booktabs (~16 formal tables)
+  - [x] 2d: Figure verification (rights resolved; 4 replaced with originals, 1 permission secured, xkcd pending)
+  - [x] 2e: Footnote markers (10 inverted markers fixed)
+  - [x] 2f: Bibliography langid -- all works English, no additions needed
+  - [x] Wrapfigure: 3 in Ch 6, compatible with langscibook.cls
+- [x] Substantive revisions (all 7 reviewer items addressed)
+- [x] Revision letter drafted (Rapoport-compliant)
+- [x] Read annotated manuscript PDF for inline comments
+  - 71 annotations total (48 substantive, 17 typos, 6 highlight-only)
+  - Substantive comments largely duplicate the general review: pedagogy gap, syntax trees, learning goals, audience -- all already addressed via the 7 reviewer items
+  - CGEL footnote complaints (4 instances): respond in revision letter; footnotes orient readers who consult CGEL
+  - 17 typo corrections (strikeouts/carets): to be applied
+- [ ] xkcd #2942 permission (awaiting response)
