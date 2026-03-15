@@ -153,7 +153,7 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
 - [x] Stage 2: LangSci formatting
   - [x] 2a: tcolorbox → langsci-tbls (146 boxes converted, March 12--13)
   - [x] 2b: Tables → booktabs (~16 formal tables)
-  - [x] 2d: Figure verification (rights resolved; 4 replaced with originals, 1 permission secured, xkcd pending)
+  - [x] 2d: Figure verification (rights resolved; 4 replaced with originals, 1 permission secured, xkcd obtained)
   - [x] 2e: Footnote markers (10 inverted markers fixed)
   - [x] 2f: Bibliography langid -- all works English, no additions needed
   - [x] Wrapfigure: 3 in Ch 6, compatible with langscibook.cls
@@ -164,5 +164,5 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
   - Substantive comments largely duplicate the general review: pedagogy gap, syntax trees, learning goals, audience -- all already addressed via the 7 reviewer items
   - CGEL footnote complaints (4 instances): respond in revision letter; footnotes orient readers who consult CGEL
   - 17 typo corrections (strikeouts/carets): to be applied
-- [ ] xkcd #2942 permission (awaiting response)
+- [x] xkcd #2942 permission (obtained)
 - [x] Epigraphs: all 20 AI-generated chapter epigraphs replaced with real Canadian poetry (19 BCP 2020/2023 + Ondaatje). Fair use; no permissions needed.
