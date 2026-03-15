@@ -126,6 +126,18 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
   - Ch 16, line 346: "should instructor" → "should an instructor"
   - Ch 4, line 430: "is possible speak" → "is possible: speak"
 
+### 2026-03-14 Session Notes (evening)
+- Full editorial pass from synthesis: verbal tics (11 cut), chapter endings (20 rewritten), structural trimming
+- Ch 1: countability section trimmed ~58%, mid-chapter glossary relocated, glossary definitions improved from HPC book
+- Ch 5: complementation bridging paragraph added
+- Ch 13: "Fluency across skills" deleted, Tokyo anecdote relocated
+- Ch 20: detector framing imported from HPC book, contingency point sharpened, Judgment Severity Range compressed
+- All 8 chapter glossaries consolidated into single back-of-book glossary (chapters/glossary.tex)
+- Ch 14 closing resolved via multi-model dispatch (Codex won)
+- Epigraph research: 6 files generated (international + Canadian poets, oblique poetry). 47 Best Canadian Poetry PDFs downloaded for next-session reading
+- Remaining synthesis items: Ch 5 aspect/tense resequencing, Ch 7 pronunciation goals + suprasegmentals, Ch 9 digital-age resequencing, Ch 12 subjects overbuilt, Ch 15 Renaissance passage, Ch 17 repair consolidation, Ch 19 taxonomy order, Ch 20 intro pre-announces
+- Draft mode turned off; snapshot saved
+
 ## Next Actions
 
 - [x] Import Overleaf source to local folder
@@ -153,3 +165,4 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
   - CGEL footnote complaints (4 instances): respond in revision letter; footnotes orient readers who consult CGEL
   - 17 typo corrections (strikeouts/carets): to be applied
 - [ ] xkcd #2942 permission (awaiting response)
+- [x] Epigraphs: all 20 AI-generated chapter epigraphs replaced with real Canadian poetry (19 BCP 2020/2023 + Ondaatje). Fair use; no permissions needed.
