@@ -92,3 +92,11 @@
 \renewcommand{\il}[1]{\index[lan]{#1}}
 \renewcommand{\ia}[1]{\index[aut]{#1}}
 % ==========================================================
+
+% csquotes for \enquote{} (smart quotation marks)
+\usepackage{csquotes}
+
+% Semantic typography macros
+\newcommand{\mention}[1]{\textit{#1}}        % metalinguistic mention (word as object)
+\newcommand{\mentionhead}[1]{⟨#1⟩}           % mention in headings (angle brackets)
+\providecommand{\term}[1]{\textsc{#1}}       % technical term (small caps)
