@@ -32,6 +32,26 @@
 % contour and soul removed (no longer needed after underline cleanup)
 \usepackage{ulem}  % retained for \xout{} in Ch 15 (ellipsis strikethrough)
 \usepackage{langsci-tbls}
+% Override tblsfilled: upstream uses frame-based fill that doesn't render
+% reliably; use colback instead, and add breakable for page-spanning boxes
+\RenewTColorBox{tblsfilled}{m O{black!12}}
+  {
+    enhanced,
+    breakable,
+    title = {#1},
+    colback = #2,
+    colframe = #2,
+    boxrule = 0pt,
+    boxsep = 0pt,
+    toptitle = 5mm,
+    top = 5mm,
+    bottom = 5mm,
+    left = 5mm,
+    right = 5mm,
+    sharp corners = all,
+    coltitle = black,
+    fonttitle = \normalfont\sffamily\bfseries\large,
+  }
 \usepackage{enumitem}
 \usepackage{multicol}
 \usepackage{forest}
