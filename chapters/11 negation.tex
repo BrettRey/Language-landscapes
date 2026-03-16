@@ -7,7 +7,6 @@ then wanting to want then\\
 refusing to want}{Jason Purcell, \enquote{Kris Knight, The Flying Monkey, 2014}}
 
 \begin{tblsframedsymbol}{Learning Objectives}{bulb}
-By the end of this chapter, you will be able to:
 \begin{itemize}[noitemsep, leftmargin=*]
     \item Explain how negation in English has evolved through Jespersen's cycle and predict future changes
     \item Distinguish between different types of negation: clausal (verbal and non-verbal), sub-clausal, affixal, and pragmatic
@@ -313,7 +312,7 @@ The seeming relationship is due to the intuition that, if a negative marker lack
 
 How can this be? Once again, it's because of the difference between \is{syntax vs semantics}syntax and semantics. Scope is a semantic concept, while the different types of negation are syntactic types. Semantically, \mention{can't} and \mention{mustn't} are different. Syntactically, they're the same.
 
-To the types of negation listed above (clausal, including verbal \& non-verbal, sub-clausal, and affixal), we can add various constructions that result in pragmatic negation. See Figure~\ref{fig:neg-types}.
+Figure~\ref{fig:neg-types} shows these syntactic types. (Pragmatic negation, discussed in Section~\ref{sec:pragmatic-neg}, is a semantic phenomenon and doesn't belong in this taxonomy~-- another case of one label naming two things; see the box on p.~\pageref{box:one-label-two-things}.)
 
 \begin{figure}
     \centering
@@ -330,15 +329,12 @@ To the types of negation listed above (clausal, including verbal \& non-verbal, 
     ]
 
     % Nodes
-    \node[mynode] (neg) {Negation};
+    \node[mynode] (neg) {Negation\\(syntactic types)};
     \node[mynode, below left=of neg] (clausal) {Clausal};
     \node[mynode, below=of neg] (subclausal) {Sub-Clausal};
     \node[mynode, right=of subclausal] (affixal) {Affixal};
     \node[mynode, below=of clausal] (verbal) {Verbal};
     \node[mynode] (nonverbal) at ($(subclausal.south)!0.5!(verbal.east) + (1cm, -1cm)$) {Non-Verbal};
-
-    % Adjusted implicit node positioning and dimension with rotated text
-    \node[mynode, minimum height=3cm, minimum width=0.8cm, text width=0.8cm, right=of clausal, yshift=-2cm, xshift=1cm] (implicit) {\rotatebox{270}{Pragmatic}};
 
     % Lines
     \draw[myarrow] (neg) -- (clausal);
@@ -348,7 +344,7 @@ To the types of negation listed above (clausal, including verbal \& non-verbal, 
     \draw[myarrow] (clausal) -- (nonverbal);
 
     \end{tikzpicture}
-    \caption{Types of negation}
+    \caption{Syntactic types of negation}
     \label{fig:neg-types}
 \end{figure}
 
@@ -357,7 +353,7 @@ To the types of negation listed above (clausal, including verbal \& non-verbal, 
 
 \subsection{Clausal negation} \label{sec:clausal-negation}
 \nopagebreak[4]
-\is{negation!clausal|(}\textsc{Clausal Negation} applies, as its name suggests, to the whole clause and is realized as \textsc{verbal negation}, as in the examples in (\ref{ex:verbal-negation}),
+\is{negation!clausal|(}\textsc{Clausal negation} makes a clause syntactically negative. It can be realized as \textsc{verbal negation}, as in the examples in (\ref{ex:verbal-negation}),
 
 \ea \label{ex:verbal-negation}
     \ea[]{It isn't good.\hfill[negative form of auxiliary]}
@@ -406,7 +402,7 @@ In case you were wondering, clausal and sub-clausal negation can be combined, as
 \is{affix, affixation|)}
 \is{negation!affixal|)}
 
-\subsection{Pragmatic negation}
+\subsection{Pragmatic negation}\label{sec:pragmatic-neg}
 
 \is{negation!pragmatic}Lastly, pragmatic negation conveys its meaning indirectly, as seen in \mention{She finished the race, \emph{albeit slowly},} where the slowness implies she was \strong{not} fast. Other constructions like this are given in (\ref{ex:ironic-neg}). These are not typically the stuff of English-language classes. Perhaps, they should be, but I would want to look at the frequencies of each form and consider the opportunity costs (Section~\ref{sec:opportunity-cost}) before I invested my students' precious time in them.\footnote{For more on how expressions convey meaning beyond their literal content, see Chapter~\ref{ch:pragmatics} on pragmatics.}
 
