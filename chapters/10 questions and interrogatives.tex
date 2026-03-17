@@ -41,8 +41,8 @@ anything else and as you know he has found a house. And this
 house... who can tell me something about this house?
 What does does this house consist of? Tell me about this house.
 Yes, Mohanned.}\\
-\textbf{S:} \textit{It's a villa with a large garden.}\\
-\textbf{T:} \textit{Yes. It's a villa with a large garden. That's right.}\\
+\textbf{S:} \mention{It's a villa with a large garden.}\\
+\textbf{T:} \mention{Yes. It's a villa with a large garden. That's right.}\\
 \z
 I don't know about you, but I find this hard to read. The teacher was probably thinking something perfectly reasonable: \enquote{I've been talking a lot. Maybe I should give the students a chance,} at which point, the question just popped out. Good on Mohanned for helping everyone get on with things. But what was actually achieved? If the goal was to offer the students an opportunity to practice speaking, this seems wholly insufficient. In a class of who knows how many students, one said an eight-word (eight-token, see Section~\ref{sec:family-lemma-shape-token}) sentence that took all of, perhaps, three seconds, before the speaking turn reverted to the teacher. Nor was it likely to clarify the meaning of the text; the teacher even says, \enquote{as you know,} so, was anyone even confused about the nature of the house?  And, really, did it matter if they were? It could have been a bungalow or an apartment for all the difference it made to the educational value of the interaction.
 
@@ -438,45 +438,45 @@ As exemplified in (\ref{ex:how-can-I}), when using singular \mention{you} or \me
 
         \phantom{x}
 
-        Example: \textit{Brett wrote it.}\\
+        Example: \mention{Brett wrote it.}\\
         \phantom{xxx}Interrogative phrase: \emph{\textsf{\mention{who}}}, function: \emph{\textsf{\mention{Subject}}}\\
         \phantom{xxx}Explanation: One likely question is \textit{\emph{Who} wrote this book?} (See Section~\ref{sec:focussed-subj})
 
         \begin{enumerate}[noitemsep, leftmargin=*]
-            \item Answer: \textit{I'm from Toronto.}\\
+            \item Answer: \mention{I'm from Toronto.}\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{I usually go to bed around 11 PM.}\\
+            \item Answer: \mention{I usually go to bed around 11 PM.}\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{Taylor did.}\\
+            \item Answer: \mention{Taylor did.}\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{I bought it last week.}\\
+            \item Answer: \mention{I bought it last week.}\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{She went to the library.}\\
+            \item Answer: \mention{She went to the library.}\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{He's feeling much better now.}\\
+            \item Answer: \mention{He's feeling much better now.}\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{I gave it to Jean.}\\
+            \item Answer: \mention{I gave it to Jean.}\\
             Interrogative phrase: \gap, function: \gap
 
             \item Answer: \textit{The tickets were \$20.}\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{Don't worry, it's my phone}.\\
+            \item Answer: \mention{Don't worry, it's my phone}.\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{She's an architect.}\\
+            \item Answer: \mention{She's an architect.}\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{They visited Paris last summer.}\\
+            \item Answer: \mention{They visited Paris last summer.}\\
             Interrogative phrase: \gap, function: \gap
 
-            \item Answer: \textit{I read about it in the newspaper.}\\
+            \item Answer: \mention{I read about it in the newspaper.}\\
             Interrogative phrase: \gap, function: \gap
 
 
@@ -496,7 +496,7 @@ This pattern extends beyond simple cases. Consider:
 \ex Which solution works best? (not *Which solution does work best?)
 \z
 
-Students who overgeneralize the inversion rule produce errors like *\mention{Who did come to the party?} (when asking for new information, not emphasis). The revised rule? \enquote{English questions require subject--auxiliary inversion \textit{except when the interrogative phrase is the subject}.} This exception isn't rare~-- subject-position questions are common in classroom discourse (\mention{Who knows the answer?}, \mention{What comes next?}, \mention{Which group wants to present first?}).
+Students who overgeneralize the inversion rule produce errors like *\mention{Who did come to the party?} (when asking for new information, not emphasis). The revised rule? \enquote{English questions require subject--auxiliary inversion \mention{except when the interrogative phrase is the subject}.} This exception isn't rare~-- subject-position questions are common in classroom discourse (\mention{Who knows the answer?}, \mention{What comes next?}, \mention{Which group wants to present first?}).
 
 Now search for more patterns: Can you find other systematic exceptions to inversion? What about echo questions (\mention{You said WHAT?!}) or declarative questions with rising intonation (\mention{You're coming?})? Each exception refines our understanding of how English actually forms questions.
 
@@ -578,7 +578,7 @@ So in sum, there are three different types of interrogatives. A decision tree is
             [Yes \\\mention{Focused}\\ Is the interrogative phrase the subject?
                 [Yes \\ \mention{Non-inverting}]
                 [No \\ \mention{Inverting} \\ Does the declarative have an auxiliary verb?, name=does
-                    [Yes \\ \textit{Use subject--auxiliary inversion}]
+                    [Yes \\ \mention{Use subject--auxiliary inversion}]
                     [No \\ \textit{Use \textsc{\mention{do}} support}]
                 ]
             ]
@@ -587,7 +587,7 @@ So in sum, there are three different types of interrogatives. A decision tree is
         ]
         % Drawing an arrow from "No basic" to a new node
         % Adding options below the new node
-        %\node [below left=of auxverb, align=center] (yesaux) {Yes \\ \textit{Use subject--auxiliary inversion}};
+        %\node [below left=of auxverb, align=center] (yesaux) {Yes \\ \mention{Use subject--auxiliary inversion}};
         %\node [below right=of auxverb, align=center] (noaux) {No \\ \textit{Use \mention{do} support}};
         %\draw[->, thick] (auxverb.south) -- (yesaux.north);
         %\draw[->, thick] (auxverb.south) -- (noaux.north);
@@ -598,7 +598,7 @@ So in sum, there are three different types of interrogatives. A decision tree is
 
 \subsection{Semantics}
 
-It will be familiar by now that interrogatives can do more than ask questions, but, in general, the focused interrogatives are used to ask \textsc{open questions}\is{question!closed vs open|)}.\footnote{\textit{CGEL} uses the term \textit{open interrogatives} for focused interrogatives, which typically ask open questions.} These are open in that, when you ask, \mention{who did you see?} for example, the answer is limited only by the requirement that it be a person or persons. Otherwise, the possibilities are open. The main exception to this is \mention{which}, which expects answers from a closed set, sometimes explicit (e.g., \mention{Which would you like, small, medium, or large?}) and sometimes inferrable from the context (e.g., \mention{Which one looks best?}).
+It will be familiar by now that interrogatives can do more than ask questions, but, in general, the focused interrogatives are used to ask \textsc{open questions}\is{question!closed vs open|)}.\footnote{\textit{CGEL} uses the term \mention{open interrogatives} for focused interrogatives, which typically ask open questions.} These are open in that, when you ask, \mention{who did you see?} for example, the answer is limited only by the requirement that it be a person or persons. Otherwise, the possibilities are open. The main exception to this is \mention{which}, which expects answers from a closed set, sometimes explicit (e.g., \mention{Which would you like, small, medium, or large?}) and sometimes inferrable from the context (e.g., \mention{Which one looks best?}).
 
 \subsection{Intonation}\is{intonation}
 
@@ -611,10 +611,10 @@ Even before students start learning the ins and outs of interrogative clauses, t
 The first is perfectly natural and accurate, and should not be met with an injunction to \enquote{use complete sentences.} Usually, if the student has chosen an interrogative-phrase question, a complete sentence would contain awkward redundancy, making the asker appear stiff and foreign. In the second case though, the student's high-terminal declarative is inappropriate, unless the teacher has already said something about a test. That's because the speech act evoked from such a clause is not a straight-forward closed question. Rather, it's a request for confirmation, clarification, or restatement. The distinction is subtle, but consider Person A's second turn in (\ref{ex:confirmation-questions}).
 
 \ea \label{ex:confirmation-questions}
-    \textbf{Person A}: \textit{I saw a poster about that concert you mentioned last week.} \\
-    \textbf{Person B}: \textit{Oh, the one at the park? Yeah, the whole team's going.} \\
-    \textbf{Person A}: \textit{You're going?} \\
-    \textbf{Person B}: \textit{Yeah, do you want to come?} \\
+    \textbf{Person A}: \mention{I saw a poster about that concert you mentioned last week.} \\
+    \textbf{Person B}: \mention{Oh, the one at the park? Yeah, the whole team's going.} \\
+    \textbf{Person A}: \mention{You're going?} \\
+    \textbf{Person B}: \mention{Yeah, do you want to come?} \\
 \z
  \mention{You're going?} is a request to clarify whether `the team' includes Person B. The question \mention{Are you going?} might suggest A wasn't paying attention because, from Person B's viewpoint, they've just told A they're going. By framing the question as a declarative, A acknowledges this possibility while asking for clarification. In other words, high-terminal declaratives have their place, but it's not a general question-asking form, and students should understand the difference.
 
@@ -625,26 +625,26 @@ The first is perfectly natural and accurate, and should not be met with an injun
     \noindent A good way to start learning how to ask questions is to memorize some, and a good set to memorize is the set of questions that come up in the language classroom regularly. Here are some ideas, but I'm sure you can think of others.
 
  \begin{enumerate}[noitemsep, leftmargin=*]
-    \item \textit{What does \gap mean?}
-    \item \textit{How do you spell \gap?}
-    \item \textit{How do you say this/that word?} (pointing)
-    \item \textit{How do you say }[first-language word]\textit{ in English?}
-    \item \textit{Can you give me an example?}
-    \item \textit{Is this OK?}
-    \item \textit{Can I say \gap?}
-    \item \textit{Do you have a \gap?}
-    \item \textit{Can I borrow a \gap?}
-    \item \textit{Do we have any homework?}
-    \item \textit{When is it due?}
-    \item \textit{Did I spell this right?}
-    \item \textit{Why do we use this tense here?}
-    \item \textit{What's the past tense of \gap?}
-    \item \textit{What's your email address?}
-    \item \textit{When do we use \gap?}
-    \item \textit{Could you repeat that, please?}
-    \item \textit{What's the difference between \gap and \gap?}
-    \item \textit{Where can I find out more about \gap?}
-    \item \textit{What should we do next?}
+    \item \mention{What does \gap mean?}
+    \item \mention{How do you spell \gap?}
+    \item \mention{How do you say this/that word?} (pointing)
+    \item \mention{How do you say }[first-language word]\textit{ in English?}
+    \item \mention{Can you give me an example?}
+    \item \mention{Is this OK?}
+    \item \mention{Can I say \gap?}
+    \item \mention{Do you have a \gap?}
+    \item \mention{Can I borrow a \gap?}
+    \item \mention{Do we have any homework?}
+    \item \mention{When is it due?}
+    \item \mention{Did I spell this right?}
+    \item \mention{Why do we use this tense here?}
+    \item \mention{What's the past tense of \gap?}
+    \item \mention{What's your email address?}
+    \item \mention{When do we use \gap?}
+    \item \mention{Could you repeat that, please?}
+    \item \mention{What's the difference between \gap and \gap?}
+    \item \mention{Where can I find out more about \gap?}
+    \item \mention{What should we do next?}
 \end{enumerate}
 \end{tblsframedsymbol}
 \is{interrogative clause|focused|)}
@@ -652,21 +652,21 @@ The first is perfectly natural and accurate, and should not be met with an injun
 \section{Phrase structure}\label{sec:phrase-structure}
 
 \subsection{Basic interrogatives with subject--auxiliary inversion}
-Trees may help you think about the structure of basic interrogatives. The tree for the basic interrogative clause \textit{Could they be right?} is shown in Figure~\ref{fig:tree-theycouldberight}.
+Trees may help you think about the structure of basic interrogatives. The tree for the basic interrogative clause \mention{Could they be right?} is shown in Figure~\ref{fig:tree-theycouldberight}.
 
 \begin{figure}[htb]
   \centering
   \begin{subfigure}[b]{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{figures/couldtheyberight.pdf}
-    \caption{\textit{Could they be right}: \textsf{Subj}--aux inversion.}
+    \caption{\mention{Could they be right}: \textsf{Subj}--aux inversion.}
     \label{fig:tree-theycouldberight}
   \end{subfigure}
   \hfill
   \begin{subfigure}[b]{0.48\textwidth}
     \centering
     \includegraphics[width=.91\textwidth]{figures/do-you-like-tree.pdf}
-    \caption{\textit{Do you like pizza}, with \mention{do} support.}
+    \caption{\mention{Do you like pizza}, with \mention{do} support.}
     \label{fig:do-you-like}
   \end{subfigure}
   \caption{Syntax trees for basic interrogatives.}
@@ -718,14 +718,14 @@ Next is the focused interrogative. Again, we'll start with the easiest case, the
   \begin{subfigure}[b]{0.48\textwidth}
     \centering
     \includegraphics[width=.75\textwidth]{figures/who-plays-tree.pdf}
-    \caption{Tree for \textit{who plays the piano}.}
+    \caption{Tree for \mention{who plays the piano}.}
     \label{fig:who-plays}
   \end{subfigure}
   \hfill
   \begin{subfigure}[b]{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{figures/what-can-you-tree.pdf}
-    \caption{Tree for \textit{what can you play}.}
+    \caption{Tree for \mention{what can you play}.}
     \label{fig:what-can-you}
   \end{subfigure}
   \caption{Syntax trees for focused interrogatives.}
