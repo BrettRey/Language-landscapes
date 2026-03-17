@@ -138,6 +138,18 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
 - Remaining synthesis items: Ch 5 aspect/tense resequencing, Ch 7 pronunciation goals + suprasegmentals, Ch 9 digital-age resequencing, Ch 12 subjects overbuilt, Ch 15 Renaissance passage, Ch 17 repair consolidation, Ch 19 taxonomy order, Ch 20 intro pre-announces
 - Draft mode turned off; snapshot saved
 
+### 2026-03-17 Session Notes (morning)
+- Proofread pipeline tuned (5 iterations on Ch 1) and deployed across all 20 chapters + preface, acknowledgments, glossary, appendix
+- Grammar fixes applied per chapter: comma splices, missing articles, agreement, typos, punctuation
+- Semantic macros: \textit → \mention (3493), \textsc → \term (344), `` '' → \enquote{} (Chs 1-2)
+- Bibliography audit: 25+ corrections (wrong authors/years/pages/URLs, missing metadata, brace protection)
+- Ch 19: 44 stranded braces fixed, 5 \\\hfill line breaks added, example labels → \textsc
+- Ch 4 answer key: "arrive selects to" → "at" (factual error)
+- Dash audit (Bringhurst standard): 337→106 en-dashes. ~228 converted to commas/parentheses/colons/semicolons. Kept ~110 (dialogue, surprise pivots, self-corrections, structural disambiguation).
+- GitHub repo created: https://github.com/BrettRey/Language-landscapes
+- Revision letter sent to Stefan (with repo URL added).
+- Remaining: AI-phrase revision pass, model names in acknowledgments
+
 ## Next Actions
 
 - [x] Import Overleaf source to local folder

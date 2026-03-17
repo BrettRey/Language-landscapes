@@ -1,5 +1,7 @@
 # Language Landscapes -- Decisions Log
 
+2026-03-17 -- Revision letter sent to Stefan. GitHub repo created: https://github.com/BrettRey/Language-landscapes
+
 2026-03-17 -- Dash audit (Bringhurst standard): converted ~228 of 337 parenthetical en-dashes to commas, parentheses, colons, or semicolons. Kept ~110 for genuine rhetorical work (surprise pivots, self-corrections, dialogue/examples, structural disambiguation where aside contains commas, attribution dashes, table markers). Dashes now reserved for the surprising/emphatic/interruptive cases.
 
 2026-03-12 -- Underline replacement: \uline{} → \emph{}, \uuline{} → \textbf{}, gaps → \gap macro. Rationale: with examples in roman, italics become available for highlighting; bold for second-layer annotation per LangSci Generic Style Rules.
