@@ -147,3 +147,7 @@ I conducted a rhetoric audit across all 20 chapters and the preface, using three
 - Bibliography langid: All cited works are English; no langid additions needed.
 - Footnote markers: 10 inverted markers (footnote before punctuation) fixed across 6 chapters. All footnote markers now follow punctuation per LangSci style.
 - Wrapfigure: 3 instances in Ch 6, all right-aligned at `0.5\textwidth`. `wrapfig` package loaded in `localpackages.tex`; no conflict with `langscibook.cls`.
+
+### Repository
+
+The manuscript source is available at: https://github.com/BrettRey/Language-landscapes
