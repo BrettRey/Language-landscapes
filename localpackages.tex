@@ -144,6 +144,15 @@
 % csquotes for \enquote{} (smart quotation marks)
 \usepackage{csquotes}
 
+% Auto-generate author index from all citations
+\ExecuteBibliographyOptions{indexing=cite}
+\DeclareIndexNameFormat{default}{%
+  \nameparts{#1}%
+  \ifdefvoid{\namepartgiven}
+    {\index[aut]{\namepartfamily}}
+    {\index[aut]{\namepartfamily, \namepartgiven}}%
+}
+
 % Avoid a second self-citation on the impressum page: it generates duplicate
 % langsci-current-book aux entries and triggers a spurious end-of-run warning.
 \makeatletter
