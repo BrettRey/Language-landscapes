@@ -150,6 +150,13 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
 - Revision letter sent to Stefan (with repo URL added).
 - Remaining: AI-phrase revision pass, model names in acknowledgments
 
+### 2026-04-13 Session Notes (evening)
+- Shipped `6301ed9` (`Refresh metadata and bibliography cleanup`) to `origin/master`.
+- Added project-level `.latexmkrc` so local XeLaTeX builds also refresh the author index via `makeindex aut.idx`.
+- Updated `localmetadata.tex` and normalized several bibliography author-name fields in `localbibliography.bib`.
+- Verified that a full `latexmk` cycle completes and produces `main.pdf`; the known warning `(\end occurred when \ifx on line 19 was incomplete)` still remains in `main.log`.
+- Working tree still contains many untracked generated review/build/debug artifacts that were intentionally left out of the ship commit.
+
 ## Next Actions
 
 - [x] Import Overleaf source to local folder
