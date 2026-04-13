@@ -22,8 +22,20 @@
   }
 }
 \usepackage{fontspec}
-% Setting up Hindi font
-\newfontfamily\hindifont{Noto Serif Devanagari}  % Replace [HindiFont] with your Hindi font
+% Set up a Devanagari-capable font without hard-failing on one local family.
+\IfFontExistsTF{Noto Serif Devanagari}{
+  \newfontfamily\hindifont[Script=Devanagari]{Noto Serif Devanagari}
+}{
+  \IfFontExistsTF{Devanagari Sangam MN}{
+    \newfontfamily\hindifont[Script=Devanagari]{Devanagari Sangam MN}
+  }{
+    \IfFontExistsTF{Kohinoor Devanagari}{
+      \newfontfamily\hindifont[Script=Devanagari]{Kohinoor Devanagari}
+    }{
+      \newfontfamily\hindifont[Script=Devanagari]{Devanagari MT}
+    }
+  }
+}
 
 \usepackage{mdframed}
 \usepackage{tcolorbox}
@@ -88,8 +100,24 @@
 
 \usepackage{pifont}
 
-\newfontfamily\ethiopic[Script=Ethiopic]{Abyssinica SIL}
-\newfontfamily\persian[Script=Arabic]{Amiri}
+\IfFontExistsTF{Abyssinica SIL}{
+  \newfontfamily\ethiopic[Script=Ethiopic]{Abyssinica SIL}
+}{
+  \IfFontExistsTF{Arial Unicode MS}{
+    \newfontfamily\ethiopic{Arial Unicode MS}
+  }{
+    \newfontfamily\ethiopic{Times New Roman}
+  }
+}
+\IfFontExistsTF{Amiri}{
+  \newfontfamily\persian[Script=Arabic]{Amiri}
+}{
+  \IfFontExistsTF{Geeza Pro}{
+    \newfontfamily\persian[Script=Arabic]{Geeza Pro}
+  }{
+    \newfontfamily\persian{Arial Unicode MS}
+  }
+}
 
 % ==========================================================
 %                  INDEX SETUP (REVISED)
@@ -115,6 +143,16 @@
 
 % csquotes for \enquote{} (smart quotation marks)
 \usepackage{csquotes}
+
+% Avoid a second self-citation on the impressum page: it generates duplicate
+% langsci-current-book aux entries and triggers a spurious end-of-run warning.
+\makeatletter
+\patchcmd{\lsImpressum}{\CiteFullAuthorList{langsci-current-book}}{\@author}{}{}
+\AtEndDocument{%
+  \let\savepicturepage\@gobbletwo
+  \let\pgfsyspdfmark\@gobblethree
+}
+\makeatother
 
 % Semantic typography macros
 \newcommand{\mention}[1]{\textit{#1}}        % metalinguistic mention (word as object)

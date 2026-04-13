@@ -4,7 +4,7 @@
 \epigraph{you wonder how your immune system works at all, how it could ever stay clear on what to fight and when\\[0.5em]
 and you know of course it sometimes loses track and gets it backward}{River Halen, \enquote{The Enemy}}
 
-\begin{tblsframedsymbol}{Learning Objectives}{bulb}
+\begin{tblsframedsymbol}{Learning objectives}{bulb}
 \begin{itemize}[noitemsep, leftmargin=*]
     \item Understand the anaphoric relationship between relative clauses and their antecedents
     \item Identify and analyze gap positions in different types of relative constructions
@@ -58,7 +58,7 @@ This illustrates a key property of the relative clause: \mention{It} does not ac
 
 If you've heard anything at all about relative clauses, it's probably that \enquote{restrictive relatives} start with \mention{that} and \enquote{non-restrictive relatives} start with \mention{which}. Unfortunately, this factoid is rather unhelpful.
 
-A clearer way to think about it is set out in Figure~\ref{fig:relative-construction-types}. English relative clauses come in two broad syntactic types: basic and focused. The basic ones can be subdivided into \mention{that}-marked and bare relatives, while the focused types can be subdivided into articulated, infinitival, and fused relatives.\is{articulated relative}\is{infinitival!relative}\is{fused relative} Examples follow in (\ref{ex:basic-rel-clause-types} \&~\ref{ex:focused-rel-clause-types}).
+A clearer way to think about it is set out in Figure~\ref{fig:relative-construction-types}. English relative clauses come in two broad syntactic types: basic and focused. The basic ones can be subdivided into \mention{that}-marked and bare relatives, while the focused types can be subdivided into articulated, infinitival, and fused relatives.\is{articulated relative}\is{infinitival!relative}\is{fused relative} Examples follow in (\ref{ex:basic-rel-clause-types} and~\ref{ex:focused-rel-clause-types}).
 
 \begin{figure}[ht]
     \centering
@@ -68,7 +68,7 @@ A clearer way to think about it is set out in Figure~\ref{fig:relative-construct
 \end{figure}
 
 \ea \term{basic}\label{ex:basic-rel-clause-types}
-    \ea[]{The places \ob that we like\cb~are nearby.\hfill[\textsc{\mention{that}-marked}]}
+    \ea[]{The places \ob that we like\cb~are nearby.\hfill[\emph{that}\textsc{-marked}]}
     \ex[]{The places \ob we like\cb~are nearby.\hfill[\textsc{bare}]}
     \z
 \z
@@ -110,7 +110,7 @@ The \mention{that} in \mention{that}-marked relatives is the same subordinator y
 The basic relatives have a more limited distribution than the focused types. Bare relatives can't appear if the gap is in the subject position:
 
 \ea
-    \ea[]{The places \ob that \gap suit us \cb~are nearby.\hfill[\textsc{\mention{that}-marked}]}
+    \ea[]{The places \ob that \gap suit us \cb~are nearby.\hfill[\emph{that}\textsc{-marked}]}
     \ex[*]{The places \ob~\gap suit us \cb~are nearby.\hfill[\textsc{bare}]}
     \z
 \z
@@ -161,8 +161,8 @@ Articulated relatives are very common, especially in news and academic prose \ci
 \caption{Comparison of Interrogative and Relative Words}
 \label{tab:interrogative-relative}
 \begin{tabular}{lll}
-\toprule
-\textbf{Interrogative} & \textbf{Relative} & \textbf{Lexical Category} \\
+\lsptoprule
+Interrogative & Relative & Lexical Category \\
 \midrule
 \textit{who}  & \textit{who}  & Pronoun \\
 \textit{whom} & \textit{whom} & Pronoun \\
@@ -175,7 +175,7 @@ Articulated relatives are very common, especially in news and academic prose \ci
 \textit{how}  &    & Adverb  \\
 \textit{how}  &    &  Adjective \\
 \textit{what} &  \textit{what}\textsuperscript{\dagger}   & Determinative \\
-\bottomrule
+\lspbottomrule
 \end{tabular}\\
 \textsuperscript{\dagger}\mention{What} is limited to fused relatives.
 \end{table}
@@ -227,15 +227,16 @@ The gaps may be in subject, object, complement, or adjunct positions, as in (\re
 \begin{tikzpicture}[overlay, remember picture]
 \draw[-] (A.south) to [bend right=20] (B.south);
 \draw[-] (a.north) to [bend left=20] (A.north);
-\draw[-] (C.south) to [bend right=20] (D.south);
-\draw[-] (b.north) to [bend left=20] ([xshift=-25pt] e.north);
+\draw[-] ([xshift=-24pt] C.south) to [bend right=20] (D.south);
+% Anchor this arc against the phrase node directly; nested tikzmark nodes are brittle.
+\draw[-] (b.north) to [bend left=20] ([xshift=-15pt] C.north);
 \draw[-] (E.south) to [bend right=20] (F.south);
 \draw[-] (c.north) to [bend left=20] ([xshift=5pt] E.north);
-\draw[-] (G.south) to [bend right=20] (H.south);
-\draw[-] (d.north) to [bend left=20] ([yshift=3pt] f.north);
+\draw[-] ([xshift=36pt] G.south) to [bend right=20] (H.south);
+\draw[-] (d.north) to [bend left=20] ([xshift=36pt,yshift=3pt] G.north);
 \end{tikzpicture}
 
-\begin{tblsframedsymbol}{Check Your Understanding: Gap Analysis}{test}
+\begin{tblsframedsymbol}{Check your understanding: gap analysis}{test}
 Practice identifying gaps and their functions:
 \begin{itemize}[noitemsep, leftmargin=*]
     \item In \mention{the student who failed the test}, where is the gap and what function does it serve?
@@ -265,7 +266,7 @@ As these examples illustrate, the focused infinitival relative is an integrated 
 
 In fact, focused infinitival relatives are subject to two strict structural conditions:
 \ea \label{ex:focused-infinitival-restrictions}
-    \ea  The relative phrase must consist of a preposition followed by a \mention{wh}-NP.
+    \ea  The relative phrase must consist of a preposition followed by a \emph{wh}-NP.
     \ex  There can be no overt subject in the relative clause.
     \z
 \z
@@ -300,13 +301,13 @@ The final type of relative clause construction we have to dig in to is the fused
     \ex[]{\ob\emph{Whichever colour} you pick \gap \cb~will work.}
     \z
 \z
-The bracketed portions in these examples are not simply relative clauses, but rather full NPs containing fused relatives. In each case, the underlined relative phrase (\mention{whoever}, \mention{what}, \mention{whichever colour}) simultaneously functions as the antecedent and the relative phrase.
+The bracketed portions in these examples are not simply relative clauses, but rather full NPs containing fused relatives. In each case, the italicized relative phrase (\mention{whoever}, \mention{what}, \mention{whichever colour}) simultaneously functions as the antecedent and the relative phrase.
 
 In (\ref{ex:14.11}a), \mention{whoever} is both the head of the NP (comparable to \mention{the person}) and the relative phrase in the relative clause. Similarly, in (\ref{ex:14.11}b), \mention{what} serves as the head of the object NP and the relative phrase in the relative clause. And, in (\ref{ex:14.11}c), the NP \mention{whichever colour} is both the antecedent and the relative phrase.
 
 The relative words used in fused relatives differ somewhat from those used in regular relative clauses. (\ref{ex:14.12}) shows those that appear in fused relatives in present-day Standard English. The productive fused-relative heads are:
 \ea \label{ex:14.12}
-\mention{what}, \mention{whatever}, \mention{whoever}/\mention{whomever}, \mention{whichever}, \mention{where}, \mention{wherever}, \mention{when}, \mention{whenever}, \mention{how}
+what, whatever, whoever/whomever, whichever, where, wherever, when, whenever, how
 \z
 The compound \mention{-ever} words aren't just possible but common in fused relatives. \mention{What} is also possible, but \mention{while} is not.
 
@@ -341,12 +342,12 @@ In terms of which NP the relative clause appears in, it seems that a relative cl
 \begin{table}[ht]
 \centering
 \begin{tabular}{lcc}
-\toprule
- & \textbf{Subject gap} & \textbf{Object gap} \\
+\lsptoprule
+ & Subject gap & Object gap \\
 \midrule
-\textbf{Relative in subject NP} & 2   & 3 \\
-\textbf{Relative in object NP}   & 1   & 2     \\
-\bottomrule
+Relative in subject NP & 2   & 3 \\
+Relative in object NP   & 1   & 2     \\
+\lspbottomrule
 \end{tabular}
 \caption{Difficulty matrix for relative clauses with one agent}
 \label{tab:difficulty-matrix}
@@ -355,12 +356,12 @@ In terms of which NP the relative clause appears in, it seems that a relative cl
 \begin{table}[ht]
 \centering
 \begin{tabular}{lcc}
-\toprule
- & \textbf{Subject gap} & \textbf{Object gap} \\
+\lsptoprule
+ & Subject gap & Object gap \\
 \midrule
-\textbf{Relative in subject NP} & 3   & 4 \\
-\textbf{Relative in object NP}   & 2   & 3     \\
-\bottomrule
+Relative in subject NP & 3   & 4 \\
+Relative in object NP   & 2   & 3     \\
+\lspbottomrule
 \end{tabular}
 \caption{Difficulty matrix for relative clauses with multiple agents}
 \label{tab:difficulty-matrix2}
@@ -391,7 +392,7 @@ Unfortunately, the common idea that restrictive relatives use \mention{that} and
 \z
 Perhaps the most important point is that \term{restrictive} and \term{non-restrictive} are not clause types but rather descriptions of the semantic force clauses have in different functions: modifier, in the restrictive cases, and supplement, in the non-restrictive cases. The correct generalization is that integrated modifiers tend to be restrictive and supplementary modifiers are not, and only articulated focused relatives may be supplementary modifiers.
 
-And this applies not just to relative clauses. Consider the difference between the (a) and (b) examples in  (\ref{ex:trust-with-integrity} \&~\ref{ex:sleepy-guests}).
+And this applies not just to relative clauses. Consider the difference between the (a) and (b) examples in  (\ref{ex:trust-with-integrity} and~\ref{ex:sleepy-guests}).
 
 \ea \label{ex:trust-with-integrity}
     \ea[]{The kids {\ob}abroad{\cb} were successful.\hfill[\textsc{restrictive}]}
@@ -407,7 +408,7 @@ And this applies not just to relative clauses. Consider the difference between t
 
 In (\ref{ex:trust-with-integrity}a), the PP \mention{abroad} is a modifier in the NP, and it has restrictive semantics, picking out the subset of kids who are abroad. The PP in (b), though, is a supplement; (b) means all the kids are abroad, and all were successful. Similarly, the \mention{sleepy and full} modifier in (\ref{ex:sleepy-guests}a) restricts the set of guests who went home to the sleepy and full subset, while the supplement in (b) declares all guests sleepy and full, making mention of `other guests'' confusing.
 
-\begin{tblsframedsymbol}{Pattern Recognition: Restrictive vs Non-restrictive}{test}
+\begin{tblsframedsymbol}{Pattern recognition: restrictive vs non-restrictive}{test}
 Practice distinguishing integration patterns:
 \begin{itemize}[noitemsep, leftmargin=*]
     \item \mention{Students who work hard succeed} vs \mention{Students, who work hard, succeed} -- Which restricts the student population?
@@ -622,7 +623,7 @@ As Figures~\ref{fig:a-guy-who-likes} and~\ref{fig:he-ran-which} show, supplement
     \label{fig:he-ran-which}
 \end{figure}
 
-\begin{tblsframedsymbol}{Quick Self-Check: Relative Construction Types}{test}
+\begin{tblsframedsymbol}{Quick self-check: relative construction types}{test}
 Test your understanding of relative clause classification:
 \begin{itemize}[noitemsep, leftmargin=*]
     \item Classify: \mention{the book that I read} vs \mention{the book I read} vs \mention{the book which I enjoyed}
