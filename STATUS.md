@@ -151,11 +151,19 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
 - Remaining: AI-phrase revision pass, model names in acknowledgments
 
 ### 2026-04-13 Session Notes (evening)
-- Shipped `6301ed9` (`Refresh metadata and bibliography cleanup`) to `origin/master`.
-- Added project-level `.latexmkrc` so local XeLaTeX builds also refresh the author index via `makeindex aut.idx`.
-- Updated `localmetadata.tex` and normalized several bibliography author-name fields in `localbibliography.bib`.
-- Verified that a full `latexmk` cycle completes and produces `main.pdf`; the known warning `(\end occurred when \ifx on line 19 was incomplete)` still remains in `main.log`.
-- Working tree still contains many untracked generated review/build/debug artifacts that were intentionally left out of the ship commit.
+- Full Stefan formatting pass against his complete comment letter (~55 items). All addressed.
+- Bold removal: run-in labels folded into prose with \term{} (Chs 7, 8, 15, 18, 20), pseudo-headings → \subsubsection{} (Ch 20), table headers de-bolded (all chapters), list labels de-bolded (Chs 8, 13, 15, 16, 20), learning objectives de-bolded (Ch 13).
+- Trees in Ch 6: 15 \ea...\z examples → \begin{figure} environments, all cross-references updated, Ch 11 labels renamed.
+- Wrapfigure → figure (Ch 6, 3 instances).
+- \& → "and" in cross-references (Chs 1, 5, 10, 11, 12, 19). Citation formatting normalized.
+- Ch 1: itemize → \ea, tabulars → \ea, "Learning Objectives" → sentence case.
+- Ch 3: uncaptioned table given float + caption.
+- Ch 20: Turkish examples glossed with \gll (sourced from Wikipedia + Wiktionary, cross-checked against Göksel & Kerslake 2005). "Meaning Without Grammar" → \subsection*{}.
+- Bibliography: ~40 entries corrected. DOIs added for all De Gruyter/Mouton/Foris/Benjamins books (5 new, all resolved against publisher pages). Addresses added to all books/incollections. 24 subtitle capitals brace-protected. 17 proper nouns/acronyms brace-protected. urldate added to 16 entries. Author names standardized (Nation, Gibson, Searle, Boothby, Culicover, Carver, Gough, Tunmer). Duplicate Huddleston entry merged. Malformed Robb DOI fixed.
+- Author index: auto-generated from citations via biblatex indexing=cite (was empty, now 223 entries). .latexmkrc added for build workflow.
+- Back cover blurb rewritten (naturalist metaphor, no bullet list).
+- Li Xiang spacing fixed.
+- Build: 536 pages, clean.
 
 ## Next Actions
 
