@@ -21,11 +21,11 @@ they rise, like bulbs, naked through the dirt}{K.R.\ Segriff, \enquote{The Grann
 \section{Introduction}
 If you've ever tried to explain to someone why we say \mention{I'm going to the store} instead of \mention{I go to the store}, or why \mention{I've lived here for five years} means something different from \mention{I lived here for five years}, you've grappled with the complexities of verbs, tense, and aspect.
 
-In this chapter, we'll turn to the world of English verbs, exploring their syntax and semantics, along with the systems of tense and aspect that are so associated with them. We'll start by looking at the two basic verb types: lexical and auxiliary verbs\is{auxiliary verb|(}. We'll set out the special characteristics of the auxiliary verbs (the NICER properties) and then consider the morphology, the different forms verbs take.
+In this chapter, we'll turn to the world of English verbs, exploring their syntax and semantics, along with the systems of tense and aspect associated with them. We'll start by looking at the two basic verb types: lexical and auxiliary verbs\is{auxiliary verb|(}. We'll set out the special characteristics of the auxiliary verbs (the NICER properties) and then consider their morphology, that is, the different forms verbs take.
 
 We'll also tackle the issue of tense (distinguishing between grammatical tense and semantic time\is{time!semantic concept vs grammatical tense}), aspect, and modality.
 
-Finally, we'll deal with the issue of verb-phrase complementation, the various ways verbs combine with other elements to form complete VPs.
+Finally, we'll deal with the issue of verb phrase complementation, the various ways verbs combine with other elements to form complete VPs.
 
 
 \section{Basic verb types}\label{sec:basic-verb-types}\is{modal auxiliary verb|(}\is{lexical verb!vs auxiliary|(}
@@ -37,7 +37,7 @@ Finally, we'll deal with the issue of verb-phrase complementation, the various w
                         every node/.style={align=center}]
 
         % Root node
-        \node {Verb}
+        \node {Verbs}
             % First level of branching
             child {node {Lexical}}
             child {node {Auxiliary}
@@ -47,17 +47,17 @@ Finally, we'll deal with the issue of verb-phrase complementation, the various w
             };
 
     \end{tikzpicture}
-    \caption{Syntactic subclasses of verb}
+    \caption{Syntactic subclasses of verbs}
     \label{fig:verb-structure}
 \end{figure}
 
 \noindent When we talk about verbs in English, we're dealing with two main types: lexical verbs and auxiliary verbs. Understanding the difference between them is helpful for grasping how English constructs clauses\is{clause} and conveys certain types of meaning, especially since this distinction is far more significant in English than in many other languages\is{cross-linguistic comparison}, such as Spanish\il{Spanish} or Japanese\il{Japanese}, and because auxiliary verbs are involved in a large number of grammatical constructions (e.g., question formation\is{inversion!subject--auxiliary}\is{subject--auxiliary inversion} \& negation\is{negation!and auxiliaries|(}).
 
-\term{Lexical verbs} make up the vast majority of different English verbs. With a conservative estimate of around 10,000 verbs in English, over 99\% are lexical. These words express actions (\mention{run}, \mention{eat}, \mention{write}), states\is{stative (verb, etc.)} (\mention{exist}, \mention{seem}, \mention{like}), changes (\mention{become}, \mention{grow}, \mention{turn}), and many other situations. In the sentence \mention{The cat sleeps on the couch}, \mention{sleeps} is the lexical verb, even though not much action is going on.
+\term{Lexical verbs} make up the vast majority of English verbs. With a conservative estimate of around 10,000 verbs in English, over 99\% are lexical. These words express actions (\mention{run}, \mention{eat}, \mention{write}), states\is{stative (verb, etc.)} (\mention{exist}, \mention{seem}, \mention{like}), changes (\mention{become}, \mention{grow}, \mention{turn}), and many other situations. In the sentence \mention{The cat sleeps on the couch}, \mention{sleeps} is the lexical verb, even though not much action is going on.
 
 While lexical verbs carry the weight of meaning, \term{auxiliary verbs} often bear the burden of grammar. They help form negatives. They help express aspect\is{aspect|(}. They help construct questions and passive voice\is{passive!be-passive@\mention{be}-passive}. No wonder they are often called \enquote{helping verbs}. There are very few, but they are in heavy rotation, making up about 36\% of all verbs in a typical English text.
 
-The auxiliary verbs can be further subdivided into modal and non-modal auxiliaries. \term{Modal auxiliaries} express modality (notions like possibility, probability, necessity, or obligation)\is{modality}. The primary modal auxiliaries in English are \mention{will}, \mention{would}, \mention{can}, \mention{could}, \mention{may}, \mention{might}, \mention{shall}, \mention{should}, and \mention{must}. (See Table~\ref{tab:modal-auxiliary-forms} for their tensed forms.) For example, in \mention{I should study more}, \mention{should} is the modal auxiliary expressing obligation, while \mention{study} is the lexical verb.
+The auxiliary verbs can be further subdivided into modal and non-modal auxiliaries. \term{Modal auxiliaries} express modality (notions like possibility, probability, necessity, advice, or obligation)\is{modality}. The primary modal auxiliaries in English are \mention{will}, \mention{would}, \mention{can}, \mention{could}, \mention{may}, \mention{might}, \mention{shall}, \mention{should}, and \mention{must}. (See Table~\ref{tab:modal-auxiliary-forms} for their tensed forms.) For example, in \mention{I should study more}, \mention{should} is the modal auxiliary expressing advice, while \mention{study} is the lexical verb.
 
 Each individual modal auxiliary verb typically has a variety of modal meanings: \mention{can}, for instance, is often associated with ability\is{ability (modality)}, but it also expresses other meanings, as shown in (\ref{ex:can-meanings}).
 
@@ -67,14 +67,15 @@ Each individual modal auxiliary verb typically has a variety of modal meanings: 
 \ex It \emph{can} be quite cold here in winter. \hfill(possibility)
 \ex That \emph{can't} be true! \hfill(logical conclusion)
 \z\z
-\noindent And though \mention{should} usually expresses obligation, it occasionally substitutes for conditional \mention{if} as in \mention{Should I be late, please go on without me.}\is{preposition, preposition phrase (PP)!if (conditional)@\mention{if} (conditional)}
 
-The primary non-modal auxiliaries are \mention{be}, \mention{have}, and \mention{do}.
+Though \mention{should} usually expresses obligation, it occasionally substitutes for conditional \mention{if} as in \mention{Should I be late, please go on without me.}\is{preposition, preposition phrase (PP)!if (conditional)@\mention{if} (conditional)}
+
+The primary \term{non-modal auxiliaries} are \mention{be}, \mention{have}, and \mention{do}.
 
 \begin{itemize}[nosep]
     \item \mention{Be} is used to form the progressive aspect\is{progressive aspect} (\textit{I \emph{am} studying}) and passive voice (\textit{The book \emph{was} written}).
     \item \mention{Have} forms the perfect aspect\is{aspect!perfect} (\textit{I \emph{have} studied}).
-    \item \mention{Do}\is{do-support@\mention{do}-support|(}\is{auxiliary do@auxiliary \mention{do}|(} is used for emphasis (\textit{I \emph{do} like it}) and in questions (\textit{\emph{Do} you like it?}) and negatives (\textit{No, I \emph{don't} like it}).
+    \item \mention{Do}\is{do-support@\mention{do}-support|(}\is{auxiliary do@auxiliary \mention{do}|(} is used for emphasis (\textit{I \emph{do} like it}), in questions (\textit{\emph{Do} you like it?}), and negatives (\textit{No, I \emph{don't} like it}).
 \end{itemize}
 
 Few languages rely on auxiliary verbs to the extent that English does. This means that learners from many backgrounds may need extra support to grasp the importance of auxiliaries in forming questions, negatives, and expressing modal meaning in English.
@@ -116,12 +117,12 @@ As mentioned in Section~\ref{sec:aux}, auxiliary verbs in English have some spec
         } \\
         \lspbottomrule
     \end{tabular}
-    \caption{The NICER properties of auxiliary verbs.}
+    \caption{The NICER properties of auxiliary verbs}
     \label{tab:nicer-properties}
 \end{table}
 \is{lexical verb!vs auxiliary|)}
 
-Negation in English is typically formed by adding \mention{not} after an auxiliary verb. Lexical verbs, on the other hand, require the auxiliary \mention{do} to form negatives\is{negation!with \mention{do}}. This is called \term{\mention{do}-support}\is{do-support@\mention{do}-support}:
+In English, lexical verbs require the auxiliary \mention{do} to form negatives\is{negation!with \mention{do}}. This is called \term{\mention{do}-support}\is{do-support@\mention{do}-support}. If an auxiliary verb is already present in the sentence, negation is formed by adding \mention{not} after that auxiliary:
 
 \ea
 \ea Lee will not eat apples.
@@ -138,7 +139,7 @@ Inversion describes constructions where the auxiliary verb comes before the subj
 \z\z}
 Inversion for question formation is not a feature shared by a wide range of languages. English learners commonly omit \mention{do} in negation and inversion, likely because it contributes only syntactically, not semantically. For example, they might say \mention{I not like apples} or \mention{He eat apples?} without \mention{do}-support.
 
-``Contraction'' allows \mention{not} to be shortened to \mention{-n't}\is{modal auxiliary verb!negative form} and suffixed to most auxiliary verbs.\footnote{The scare quotes are because there's a difference between a true contraction, like \mention{'s} for \mention{is}, which can go basically anywhere \mention{is} can go and \mention{-n't}, which is a true suffix (see Chapter~\ref{ch:vocabulary})}. This isn't possible with lexical verbs:
+``Contraction'' allows \mention{not} to be shortened to \mention{-n't}\is{modal auxiliary verb!negative form} and suffixed to most auxiliary verbs\footnote{The scare quotes are because there's a difference between a true contraction, like \mention{'s} for \mention{is}, which can go basically anywhere \mention{is} can go, and \mention{-n't}, which is a true suffix (see Chapter~\ref{ch:vocabulary}).}. This isn't possible with lexical verbs:
 
 \ea \emph{didn't}, \emph{shouldn't}, \emph{isn't}
 \ex *\emph{eatn't}, *\emph{gon't}, *\emph{maken't}
@@ -165,16 +166,16 @@ In the next section, we'll look at the various forms that verbs can take in Engl
 Identify whether the italicized verbs in the following sentences are lexical or auxiliary. If auxiliary, specify whether they are modal or non-modal. Remember that some auxiliary verbs have a matching lexical verb.
 
 \begin{enumerate}[nosep, leftmargin=*]
-    \item \textit{The cat \emph{sleeps} on the couch.}
-    \item \textit{I \emph{will} attend the meeting tomorrow.}
-    \item \textit{She \emph{has} a test tomorrow.}
-    \item \textit{She \emph{has} finished her homework.}
-    \item \textit{\emph{Did} she \emph{do} her homework?}
-    \item \textit{They \emph{are} planning a surprise party.}
-    \item \textit{It'\emph{s} at my house.}
-    \item \textit{It \emph{is} not.}
-    \item \textit{You \emph{must} complete the assignment by Friday.}
-    \item \textit{I don't think I \emph{can}.}
+    \item The cat \emph{sleeps} on the couch.
+    \item I \emph{will} attend the meeting tomorrow.
+    \item She \emph{has} a test tomorrow.
+    \item She \emph{has} finished her homework.
+    \item \emph{Did} she \emph{do} her homework?
+    \item They \emph{are} planning a surprise party.
+    \item It\emph{'s} at my house.
+    \item It \emph{is} not.
+    \item You \emph{must} complete the assignment by Friday.
+    \item I don't think I \emph{can}.
 \end{enumerate}
 For each of the following sentences, apply one of the NICER properties (Negation, Inversion, Contraction, Ellipsis, or Rebuttal) to create a new, grammatically correct sentence. Identify which property you used.
 
@@ -235,7 +236,7 @@ The \mention{-ing} form\is{ing form@-\mention{ing} verb form}, also known as the
 
 \begin{tblsframed}{What about gerunds?}\is{gerund@``gerund''}
 
-You may have heard about \term{gerunds} (verbs in the \mention{-ing} form that \enquote{function as nouns}) as in the italicized phrases in (\ref{ex:merely-looking} and~\ref{ex:making-dinner}).
+You may have heard about \term{gerunds} (verbs in the \mention{-ing} form that \enquote{function as nouns}) as in the italicized phrases in (\ref{ex:merely-looking}) and~(\ref{ex:making-dinner}).
 
 \ea\emph{Merely looking} can make a difference.\label{ex:merely-looking}
 \ex I actually enjoy \emph{making dinner} after a long day, \label{ex:making-dinner}
@@ -244,7 +245,7 @@ You may have heard about \term{gerunds} (verbs in the \mention{-ing} form that \
 
 \indent In considering this question, you should return to the characteristics of nouns and verbs you encountered in Sections~\ref{sec:nouns} and~\ref{sec:verbs}. If the italicized phrases in (\ref{ex:merely-looking} and~\ref{ex:making-dinner}) were NPs, then we might expect them to allow plural forms and AdjP modifiers. They don't. Instead, they allow AdvP\is{adverb, adverb phrase (AdvP)} modifiers\is{modification, modifier} as in \mention{merely looking} and license objects\is{object (Obj)!direct} as in \mention{making dinner}. These are the characteristics of VPs.
 
-\indent That's not to say that there aren't \mention{-ing} nouns, but they're not so common. They show up in examples like  (\ref{ex:the-opening} and~\ref{ex:building-of}).
+\indent That's not to say that there aren't \mention{-ing} nouns, but they're not so common. They show up in examples like  (\ref{ex:the-opening}) and~(\ref{ex:building-of}).
 
 \ea    The \emph{opening} of the new store attracted a large crowd. \label{ex:the-opening}
 \ex   The city funded the \emph{building} of the bridge.\label{ex:building-of}
@@ -252,8 +253,8 @@ You may have heard about \term{gerunds} (verbs in the \mention{-ing} form that \
 \indent In such cases, the \mention{-ing} words are true nouns:
 
 \begin{itemize}[nosep, leftmargin=*]
-    \item They can be pluralized: \\\textit{The \emph{openings} of the new stores were scheduled for next month.}
-    \item They can be modified by adjectives: \\\textit{The \emph{grand opening} of the new store was a success.}
+    \item They can be pluralized: \\The \emph{openings} of the new stores were scheduled for next month.
+    \item They can be modified by adjectives: \\The \emph{grand opening} of the new store was a success.
     \item They require a preposition phrase with \mention{of} to introduce their complement: \textit{The building \mention{of} the bridge}, not *\mention{The building the bridge}.
 \end{itemize}
 
@@ -263,11 +264,11 @@ You may have heard about \term{gerunds} (verbs in the \mention{-ing} form that \
 
 \end{tblsframed}
 
-The \term{past participle}\is{participle!past} has various grammatical roles, including forming the perfect aspect and passive constructions. For regular verbs, it's identical to the past form (sometimes called the preterite), but many irregular verbs have distinct past participles:
+The \term{past participle}\is{participle!past} has various grammatical roles, including forming the perfect aspect and passive constructions. For regular verbs, it's identical to the past form (sometimes called the \term{preterite}), but many irregular verbs have distinct past participles:
 
 \ea \emph{arrived}, \emph{been}, \emph{come}, \emph{done}, \emph{eaten}, \emph{fallen}, \emph{gone}, \emph{had}, \emph{interrupted}\label{ex:past-participles}
 \z
-Most lexical verbs\is{lexical verb!vs auxiliary} have all six of these forms, but modal auxiliaries are \term{defective}\is{defective verb}\is{modal auxiliary verb!defectiveness}: they lack the plain form and participles.\label{sec:defective-modals}
+Most lexical verbs\is{lexical verb!vs auxiliary} have all six of these forms, but modal auxiliaries are \term{defective}\is{defective verb}\is{modal auxiliary verb!defectiveness}: they lack a non-tensed plain form and participles.\label{sec:defective-modals}
 
 \ea \emph{can}/\emph{could}, \emph{will}/\emph{would}, \emph{shall}/\emph{should}, \emph{may}/\emph{might}, \emph{must}/--
 \z
@@ -294,14 +295,14 @@ Most lexical verbs\is{lexical verb!vs auxiliary} have all six of these forms, bu
 \end{table}
 \is{modal auxiliary verb|)}
 
-\noindent The non-modal auxiliaries (\mention{do}, \mention{have}, and \mention{be}) also have plain, present-participle, and past participle forms. It's also worth noting that these three verbs also have lexical-verb counterparts. In each case, we know they're not modal because the NICER properties don't apply.
+\noindent The non-modal auxiliaries (\mention{do}, \mention{have}, and \mention{be}) also have plain, present participle, and past participle forms. It's also worth noting that these three verbs also have lexical-verb counterparts. In each case, we know they're not modal because the NICER properties don't apply.
 
 \ea
 \ea Don't \emph{be} late.\label{ex:lexical-be}
 \ex I \emph{have} a cat.\label{ex:lexical-have}
 \ex I \emph{do} my homework every day.\label{ex:lexical-do}
 \z\z
-In (\ref{ex:lexical-be}), we can't have *\mention{Be not late} or even *\mention{ben't}. In (\ref{ex:lexical-have}), we have the verb of belonging, not the one that forms the perfect aspect. We don't ask \mention{Have you a cat?} or say \mention{I haven't a cat} (at least not in most present-day North American dialects). And if we want to ask about doing your homework, we need an auxiliary \mention{do} (italicized) to go with the lexical \mention{do}: \textit{\emph{Do} you do your homework?}
+In (\ref{ex:lexical-be}), we can't have *\mention{Be not late} or even *\mention{ben't}. In (\ref{ex:lexical-have}), we have the verb of belonging, not the one that forms the perfect aspect. We don't ask \mention{Have you a cat?} or say \mention{I haven't a cat} (at least not in most present-day North American dialects). And if we want to ask about doing your homework, we need an auxiliary \mention{do} (italicized) to go with the lexical \mention{do}: \emph{Do} you do your homework?
 
 The verb \mention{be} is highly irregular, with more forms than any other English verb:
 
@@ -310,7 +311,7 @@ The verb \mention{be} is highly irregular, with more forms than any other Englis
 \ex \emph{isn't}, \emph{aren't}, \emph{wasn't}, \emph{weren't}
 \ex \emph{'m}, \emph{'s}, \emph{'re}
 \z\z
-The various verb forms combine with auxiliaries to create the tense and aspect system. For instance, the present perfect\is{present perfect} uses \mention{have} + the past-participle form:\footnote{In \cite{Huddleston2002}, the perfect is a secondary past tense, but I don't find that analysis helpful here, and so I don't follow it.}
+The various verb forms combine with auxiliaries to create the tense and aspect system. For instance, the present perfect\is{present perfect} uses \mention{have} + the past participle form:\footnote{In \textcite{Huddleston2002}, the perfect is a secondary past tense, but I don't find that analysis helpful here, and so I don't follow it.}
 
 \ea I have eaten.
 \ex She has gone.
@@ -325,12 +326,12 @@ The past progressive combines the past of \mention{be} with the \mention{-ing} f
 Identify the verb form (1. plain, 2. plain present, 3. third-person singular present, 4. past, 5. present participle, or 6. past participle) for each italicized verb.
 
 \begin{enumerate}[nosep, leftmargin=*]
-    \item \textit{She \emph{sings} beautifully.} \hfill\gap
-    \item \textit{They \emph{may} \emph{have} \emph{gone} to the store.} \hfill\gap,  \gap,  \gap
-    \item \textit{We \emph{were} \emph{watching} a movie.} \hfill\gap,  \gap
-    \item \textit{The dog \emph{barked} all night.} \hfill\gap
-    \item \textit{I \emph{write} in my journal every day.} \hfill\gap
-    \item \textit{I'\emph{ll} \emph{try} again.} \hfill\gap,  \gap
+    \item She \emph{sings} beautifully. \hfill\gap
+    \item They \emph{may} \emph{have} \emph{gone} to the store. \hfill\gap,  \gap,  \gap
+    \item We \emph{were} \emph{watching} a movie. \hfill\gap,  \gap
+    \item The dog \emph{barked} all night. \hfill\gap
+    \item I \emph{write} in my journal every day. \hfill\gap
+    \item I\emph{'ll} \emph{try} again. \hfill\gap,  \gap
 \end{enumerate}
 \end{tblsframedsymbol}
 \is{auxiliary verb|)}\is{complement, complementation|)}\is{tense|)}\is{aspect|)}
@@ -376,7 +377,7 @@ Reflect on the following:
 
 \section{Tense and time}\is{cross-linguistic comparison|)}\label{sec:tense-vs-time}\is{time!semantic concept vs grammatical tense|(}
 
-But, first, we need to make a crucial distinction: tense\is{tense!vs time} is not the same as time. Tense is a grammatical category, typically marked on the verb.\footnote{``Typically'' because Japanese\il{Japanese}, for example, has a class of adjectives that conjugate for tense.} Time, on the other hand, is a semantic concept: it's about when things happen. It refers to something that physicists are concerned with, something that can be measured. We made this same move with definiteness in Chapter~3 (see the box on p.~\pageref{box:one-label-two-things}): separating the grammatical category from the semantic concept it usually, but not always, tracks.
+But, first, we need to make a crucial distinction: tense\is{tense!vs time} is not the same as time. Tense is a grammatical category, typically marked on the verb.\footnote{``Typically'' because Japanese\il{Japanese}, for example, has a class of adjectives that conjugate for tense.} Time, on the other hand, is a semantic concept: it's about when things happen. It refers to something that physicists are concerned with, something that can be measured. We made this same move with definiteness in Chapter~3 (see the box on p.~\pageref{box:one-label-two-things}), separating the grammatical category from the semantic concept it usually, but not always, tracks.
 
 \begin{tblsframedsymbol}{Quick self-check}{test}
 Tense vs. time: Before continuing, make sure you understand this crucial distinction:
@@ -400,27 +401,27 @@ Only two: past\is{past tense|(}\is{tense!past|(} and non-past\is{present tense|(
 \ex I'\emph{m} going to walk to school tomorrow. \hfill(present tense)
 \ex I'\emph{ll} walk to school tomorrow. \hfill(present tense)
 \z\z}
-Notice anything strange? In (\ref{ex:walked-walk to school}c--f) the verbs are all present tense \mention{walk}, \mention{am}, and \mention{will}, even though they're talking about different times. The only past-tense forms are in (a \& b), where we use \mention{walked} and \mention{would}.
+Notice anything strange? In (\ref{ex:walked-walk to school}c--f) the verbs are all present tense \mention{walk}, \mention{am}, and \mention{will}, even though they're talking about different times. The only past-tense forms are in (a--b), where we use \mention{walked} and \mention{would}.
 
-``But wait,'' I hear you say, ``Isn't \mention{I'll walk'' in (f) the future tense?} Not quite. \mention{Will} is actually a modal auxiliary verb\is{modal auxiliary verb!tense vs time} in the present tense. It expresses a high degree of certainty about an event, but it's not a tense in itself. It's not even necessarily about future time.
+``But wait,'' I hear you say, \enquote{Isn't \mention{I'll walk} in (f) the future tense?} Not quite. \mention{Will} is actually a modal auxiliary verb\is{modal auxiliary verb!tense vs time} in the present tense. It expresses a high degree of certainty about an event, but it's not a tense in itself. It's not even necessarily about future time.
 
 Consider the situation where your friend is coming to visit you. You're busy right now and haven't checked your phone, but the plane was supposed to arrive an hour ago. You have no reason to believe anything different, so, with a high degree of certainty you can say \mention{she'll have landed an hour ago}. Notice that you use \mention{will}, but an hour ago is not the future.
 
 This might seem like a technicality, but it has real implications for how we teach and learn English. For one thing, it explains why English has so many ways of talking about the future\is{futurate|(}:
 
-\ea\label{ex:futurate1} I\emph{'ll see} you tomorrow. \hfill(\emph{will} + infinitival)\is{infinitival!clause, VP}
+\ea\label{ex:futurate1} I\emph{'ll see} you tomorrow. \hfill(\emph{will} + plain-form VP)
 \ex I\emph{'m seeing} the doctor next week. \hfill(present progressive)
-\ex My flight \emph{leaves} at 6 p.m. \hfill(simple present)
-\ex\label{ex:futurate4} I\emph{'m going to visit} my parents this weekend. \hfill(\emph{be going to} + infinitival)
+\ex My flight \emph{leaves} at 6 p.m. \hfill(third-person singular present)
+\ex\label{ex:futurate4} I\emph{'m going to visit} my parents this weekend. \hfill(\emph{be going to} + plain-form VP)
 \z
 Each of (\ref{ex:futurate1}--\ref{ex:futurate4}) is grammatically present tense, but, semantically, they're all talking about future time. There's no single English ``future tense'' to learn; instead, there's a whole array of present-tense constructions that can refer to future time.\is{futurate|)}
 
-But it's actually not limited to the present tense. Remember how we said tense is about grammar, not meaning? Well, sometimes English uses past tense forms to talk about present or future time:
+But it's actually not limited to the present tense. Remember how we said tense is about grammar, not meaning? Well, sometimes English uses past-tense forms to talk about present or future time:
 
-\ea\label{ex:wish-I-knew} I wish I \emph{knew} the answer.\hfill(present time, past tense form)
-\ex\label{ex:I-won} If I \emph{won} the lottery, I'd buy a house. \hfill(future possibility, past tense form)
+\ea\label{ex:wish-I-knew} I wish I \emph{knew} the answer.\hfill(present time, past-tense form)
+\ex\label{ex:I-won} If I \emph{won} the lottery, I'd buy a house. \hfill(future possibility, past-tense form)
 \z
-In (\ref{ex:wish-I-knew} and~\ref{ex:I-won}), the past tense isn't about time at all; it's expressing something about the speaker's perception of likelihood or reality.
+In (\ref{ex:wish-I-knew}) and~(\ref{ex:I-won}), the past tense isn't about time at all; it's expressing something about the speaker's perception of likelihood or reality.
 
 As teachers, we often find ourselves grappling with how to explain these subtleties to our students. Do we stick with the familiar but inaccurate \enquote{past, present, future tense} model because it seems logical? Or do we present the simpler yet somewhat less intuitive facts of tense in English?
 
@@ -434,14 +435,14 @@ A general difficulty that this brings up is that we want, even expect, there to 
 For each italicized string, identify the grammatical tense (past or present) and the semantic time (past, present, or future) being expressed. Explain any discrepancies between grammatical tense and semantic time.
 
 \begin{enumerate}[nosep, leftmargin=*]
-    \item \textit{I \emph{wish} I \emph{knew} the answer.}
-    \item \textit{The train \emph{leaves} at 5 PM tomorrow.}
-    \item \textit{If I \emph{won} the lottery, I \emph{would} buy a house.}
-    \item \textit{She \emph{has lived} here for ten years.}
-    \item \textit{We \emph{are meeting} the client next week.}
+    \item I \emph{wish} I \emph{knew} the answer.
+    \item The train \emph{leaves} at 5 PM tomorrow.
+    \item If I \emph{won} the lottery, I \emph{would} buy a house.
+    \item She \emph{has lived} here for ten years.
+    \item We \emph{are meeting} the client next week.
 \end{enumerate}
 
-E.g., \textit{I'\emph{m going to visit} my dad this weekend.}  present tense, future time\\
+E.g., I\emph{'m going to visit} my dad this weekend: present tense, future time\\
 (\mention{Am} is present tense, but the sentence refers to a future visit. It's also about a present plan, though.)
 \end{tblsframedsymbol}
 
@@ -484,7 +485,7 @@ At first glance, these sentences might appear identical: both state my city of r
     \label{fig:enter-label}
 \end{figure}
 
-Anyone might say (\ref{ex:I-live}) in the simple aspect, but only someone like an international student attending University of Toronto would choose the progressive aspect of (\ref{ex:Im-living}). While all situations are ultimately ephemeral, the progressive aspect, formed with $be+-ing$ expresses relevance not just to what continues but to its conclusion. The simple aspect, in contrast, draws no special attention to endings.
+Anyone might say (\ref{ex:I-live}) in the simple aspect, but only someone like an international student attending University of Toronto would choose the progressive aspect of (\ref{ex:Im-living}). While all situations are ultimately ephemeral, the progressive aspect, formed with \mention{be} + \mention{-ing}, expresses relevance not just to what continues but to its conclusion. The simple aspect, in contrast, draws no special attention to endings.
 
 To illustrate this shift in viewpoint, consider the difference between paddling a river that flows into the sea vs paddling one that comes to a dam. It's the same body of water either way, but in the first, you're aware only of the water, while in the second, the dam requires your attention.
 
@@ -587,7 +588,7 @@ This doesn't imply an ongoing, extended feast. Rather, it encapsulates the plann
 \is{progressive aspect|)}
 
 \subsection{The perfect aspect}\is{aspect!perfect|(}\label{sec:perfect-aspect}
-While the progressive aspect focuses on the ongoing nature of a situation, English has another aspect that expresses a different temporal perspective: the perfect. The perfect aspect, formed with a form of have + past participle\is{participle!past|(}, asserts the relevance of a previous situation (or action, etc) to a later time.
+While the progressive aspect focuses on the ongoing nature of a situation, English has another aspect that expresses a different temporal perspective: the perfect. The perfect aspect, formed with a form of \mention{have} + past participle\is{participle!past|(}, asserts the relevance of a previous situation (or action, etc.) to a later time.
 
 The reference time can be in the present, past, or even in the future, but let's start with the present perfect\is{present perfect|(}. This uses the present tense and has ``now'' as a reference time. Consider (\ref{ex:have-lived}).
 
@@ -597,7 +598,7 @@ In its most salient sense, this sentence conveys a situation that began in the p
 
 \ea I lived in Mississauga for five years.\label{ex:lived}
 \z
-In (\ref{ex:lived}), I'm talking about a situation fully in the past. I no longer live there. The cases of the present-perfect (\ref{ex:have-lived}) and the simple past (\ref{ex:lived}) are contrasted in Figure~\ref{fig:past-vs-present-perfect}. Non \enquote{now} reference times are shown in Figures~\ref{fig:past-perfect}--\ref{fig:timeless-perfect}. In each case, the perfect aspect connects two time points: the time of the situation itself and the subsequent reference time to which it's relevant. This allows speakers to express complex temporal relationships and emphasize the significance of past (or completed future) situations to other points in time.
+In (\ref{ex:lived}), I'm talking about a situation fully in the past. I no longer live there. The cases of the present perfect (\ref{ex:have-lived}) and the simple past (\ref{ex:lived}) are contrasted in Figure~\ref{fig:past-vs-present-perfect}. Reference times other than \enquote{now} are shown in Figures~\ref{fig:past-perfect}--\ref{fig:timeless-perfect}. In each case, the perfect aspect connects two time points: the time of the situation itself and the subsequent reference time to which it's relevant. This allows speakers to express complex temporal relationships and emphasize the significance of past (or completed future) situations to other points in time.
 
 \begin{figure}
     \begin{tikzpicture}[scale=1]
@@ -738,7 +739,7 @@ Identify the aspect (simple, progressive, or perfect) in each sentence and expla
 
 If you've ever tried to create a chart of all the possible English verb forms, you might have ended up with something that looks more like a complex subway map than a neat grammatical table. But it can actually be made quite simple if you are willing to let go of the traditional analysis of \enquote{tenses}.
 
-First, let's recap: we have the past and non-past (present) tenses, along with the simple, perfect, and progressive aspects. If we include the non-tensed infinitival forms\is{infinitival!clause, VP}, the result is Table~\ref{tab:tense-aspect}.
+First, let's recap: we have the past and non-past (present) tenses, along with the simple, perfect, and progressive aspects. These aspects can also combine: the perfect-progressive construction, as in \mention{I have been trying}, presents a situation as starting before the reference point while also making its time-limitedness relevant at that point. If we include the non-tensed infinitival forms\is{infinitival!clause, VP}, the result is Table~\ref{tab:tense-aspect}.
 
 \begin{table}
     \begin{tabular}{ccccc}
