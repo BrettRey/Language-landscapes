@@ -1,5 +1,7 @@
 # Language Landscapes -- Decisions Log
 
+2026-04-17 -- Trinh, Thio & Klein (2026, JPSP) "Conversations about boring topics are more interesting than we think" ingested to `literature/trinh_thio_klein_2026_boring_topics.md`. Directly relevant to Ch 17 (Conversations) — nine preregistered experiments (N = 1,800) showing people systematically underestimate enjoyment of boring-topic conversations because they overweight the static topic and can't anticipate the dynamic engagement. Book is in LangSci production, so flagged for 2nd-edition revision / teaching use rather than insertion into the current ms. Full notes at `literature/trinh_thio_klein_2026_boring_topics.notes.md`.
+
 2026-03-17 -- Revision letter sent to Stefan. GitHub repo created: https://github.com/BrettRey/Language-landscapes
 
 2026-03-17 -- Dash audit (Bringhurst standard): converted ~228 of 337 parenthetical en-dashes to commas, parentheses, colons, or semicolons. Kept ~110 for genuine rhetorical work (surprise pivots, self-corrections, dialogue/examples, structural disambiguation where aside contains commas, attribution dashes, table markers). Dashes now reserved for the surprising/emphatic/interruptive cases.
@@ -128,3 +130,19 @@
 2026-04-13 -- Back cover blurb rewritten. Old version: syllabus-style bullet list, combative tone ("handed down from on high"), technical parentheticals ("including disconfirmatory evidence"). New version: leads with naturalist metaphor, three paragraphs (hook, content arc, payoff), no bullet list. Brett approved with one change: generic "she" → pronoun-free construction.
 
 2026-04-13 -- Li Xiang acknowledgements spacing: added ~ (non-breaking space) before Chinese characters to prevent XeLaTeX inter-script gap.
+
+2026-04-16 -- Overleaf sync workflow: treat Overleaf as the current master surface, but always compare a downloaded source ZIP against a prepared local sync bundle before overwriting anything. Reason: the live Overleaf project may contain unseen editorial changes. For the current export, Overleaf matched repo HEAD for 23/25 touched text files; the only Overleaf-side differences were four missing lexical items in appendix.tex and a commented \orcid line in localcommands.tex.
+
+2026-04-16 -- Asset-pruning rule: determine unused graphics from the actual build graph (`main.fls`), not from filename greps alone. Reason: extension resolution and indirect inclusion make grep-based deletion unreliable.
+
+2026-04-16 -- `tipa` removal path: if Sebastian requires `tipa` to be removed, switch to `langsci-textipa` only after replacing the remaining `tipa`-specific macros (`\textupsilon`, `\textepsilon`, `\textschwa`, and `\textipa{"}`) with Unicode IPA or `\textprimstress`. Reason: `langsci-textipa` provides Unicode symbol commands but is not a drop-in replacement for all `tipa` syntax.
+
+2026-04-28 -- AI companion IA: make the book companion explicitly `Read | Ask`, with `Contents`, `Glossary`, `Index`, and source inspection as supporting surfaces. Reason: the strongest design direction was book-first navigation and grounded source checking, not a map metaphor or generic chat-first UI.
+
+2026-04-28 -- AI companion implementation path: build and ship the companion locally in-repo rather than waiting on Claude Design / Artifacts. Reason: Claude Design's separate usage cap blocked iteration, while the exported manuscript data already supported a real local prototype.
+
+2026-04-28 -- Local server UX: if the default companion port is occupied, auto-fall through to the next open port rather than crash. Reason: Brett already runs a shared-memory MCP server on 8765, so a traceback on the default command is the wrong behavior.
+
+2026-04-28 -- Anthropic Artifact path: treat Artifact as a later packaging target, not the current build surface. Reason: official Anthropic docs support creating and publishing artifacts from Claude, but do not expose an equivalent external creation/publishing path that would let this repo produce the final Artifact directly.
+
+2026-05-27 -- PM provenance classification: current tracked manuscript/production edits match the prepared April 16 Overleaf sync bundle exactly. Treat the repo as a production-sync branch, not as miscellaneous dirty drift. Before committing or overwriting Overleaf, download a fresh Overleaf source export and run `scripts/compare_overleaf_export.sh` against the intended sync profile. Added `.gitignore` for generated TeX/index scratch files only; do not ignore PDFs globally because LangSci figure assets include PDFs.

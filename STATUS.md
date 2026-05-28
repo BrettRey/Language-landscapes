@@ -1,6 +1,6 @@
 # Language Landscapes -- STATUS
 
-**Status:** Accepted with revisions (review received March 5, 2026)
+**Status:** **Forthcoming.** [Catalogue page live Apr 16, 2026](https://langsci-press.org/catalog/book/555). CC BY 4.0. Not yet published (PDF not available).
 **Source:** Overleaf + local copy (extracted March 12, 2026)
 **Series:** TBLS (Textbooks in Language Sciences), LangSci Press
 **Editor:** Stefan Muller (St.Mueller@hu-berlin.de)
@@ -165,6 +165,44 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
 - Li Xiang spacing fixed.
 - Build: 536 pages, clean.
 
+### 2026-04-16 Session Notes (morning)
+- Ran a multi-pass LangSci sanity cleanup and prose-polish pass across the manuscript, bibliography, figure references, and localcommands; the local XeLaTeX build remained successful throughout.
+- Prepared clean Overleaf sync bundles under `snapshots/overleaf-sync-2026-04-16/` (`text-only` and `full`) and added `scripts/compare_overleaf_export.sh` so Overleaf source ZIPs can be compared against the intended sync set instead of the noisy local workspace.
+- Compared `/Users/brettreynolds/Downloads/Language_Landscapes(1).zip` against the prepared text-sync bundle. Overleaf matched repo HEAD for 23/25 touched text files. The only Overleaf-side differences were four missing lexical items in `chapters/appendix.tex` and a commented `\orcid` line in `localcommands.tex`. Overleaf was also missing the three new PDF figure files now referenced by the manuscript (`Track_gauge.pdf`, `Places_of_articulation.pdf`, `Great_Vowel_Shift2c.pdf`).
+- Pruned 27 unused graphics from `figures/` using the actual build graph in `main.fls` and confirmed the project still builds afterward.
+- Sebastian follow-up identified: `tipa` is banned. The manuscript can migrate to `langsci-textipa`, but Chapter 7, Chapter 19, and the glossary still contain residual `tipa` macros that need Unicode/`\textprimstress` replacements before the package switch is clean.
+- Current practical next step on Overleaf: replace the `chapters/` folder, `localbibliography.bib`, and `localcommands.tex`, and upload the three required PDF figures. Then resolve the `tipa` conversion if Sebastian insists on immediate removal.
+
+### 2026-04-28 Session Notes (afternoon)
+- **Japanese translation review boards run on Ch 1 and Ch 2.** Five-reviewer panel each (academic Japanese translator, Japanese EFL teacher educator, Japanese linguistics scholar, bilingual copy editor, hostile reviewer). All on Opus.
+- **Project-scope question is unresolved and recurs across both chapters**: faithful carry-over translation (current state) vs. localised Japanese edition. Hostile reviewer pushes hardest for the latter; copy editor and translator see polish-needed work; EFL educator and linguistics scholar split. Brett to decide before further chapter translations.
+- **Cross-chapter recurring issues** (same problems in both chapters):
+  - `\enquote{}` systematically replaced with 「」 (Ch 1: 38→0; Ch 2: 47→3). Need book-wide policy decision.
+  - "Answer key" → "解答のヒント" (softens to "hints"). Both chapters.
+  - Block-quote policy from translation plan §3 (English verbatim + Japanese gloss) is followed inconsistently. Ch 1: Allen 2008 quote replaced. Ch 2: Judges, Cook, Pullum quotes replaced; only Middlemarch compliant.
+  - Inconsistent `\term{}` argument language (English vs Japanese vs bilingual).
+  - Learning-objective typos at the very top of both chapters (Ch 1 line 86 `含外` → `除外`; Ch 2 line 7 `直言` → `方言`).
+- **Ch 1 specific issues**: typo line 303 (`〜かどうかな`); determinative/determiner category-function distinction collapsed into 限定詞; 呼応/一致 doublet inconsistent; Allen 2008 quote not preserved per plan; epigraph (Kazim Ali) feels imported.
+- **Ch 2 specific issues**: Samantha Nock epigraph silently deleted (entire `\epigraph{}` block missing); Judges 12:4 citation fabricated (`12:4-6 (新改訳聖書をもとに調整)` claims a Japanese Bible source while admitting modification — source-grounding violation); section title "Standard English(es)" loses the `(es)` plural that signals the chapter's central thesis; mommy-sock gloss meaning shift; `\textit{Middlemarch}` styling lost; `\term{}` over-applied (EN 8 → JA 18); 威信 (prestige) absent where Japanese sociolinguistic convention expects it; 方言 vs 変種 used inconsistently without gloss.
+- **Localisation gaps** flagged by R2/R5 across both chapters: no engagement with 学校英文法 / 5文型 / 国語審議会 / 関西弁 stigmatisation / 沖縄語 displacement; no answer to the Japanese EFL teacher's actual classroom question ("which English do I teach?"); soup analogy doesn't transfer (スープ is a narrow loan-category in Japanese, not a fuzzy basic-level one); action/violation wordplay missing the obvious する-verbalisation parallel.
+- **What works (consensus)**: です・ます register held cleanly; Nishimura code-switching passage in Ch 2 (added Japanese paraphrase) genuinely strengthens the original; VHS/Betamax analogy lands perfectly for Japanese readers; LaTeX integrity excellent (all 91 `\is{}` index tags exact in Ch 2; same for Ch 1); CGEL-aligned terminology spine (主要部/従属部, 語彙範疇, 法助動詞, 等位接続) defensible.
+- **Pending decisions for Brett**: (1) project scope (carry-over vs localised); (2) `\enquote{}` book-wide policy; (3) block-quote treatment policy; (4) determinative/determiner Japanese coinage; (5) epigraph policy across all 20 chapters (translate? facing English+gloss? commission Japanese poems? drop?); (6) 呼応 vs 一致 single term.
+
+### 2026-04-28 Session Notes (afternoon)
+- Exported the manuscript into AI-companion assets under `ai-companion/export/`: `book_chunks.jsonl`, `book_manifest.json`, `chapter_stats.json`, and `table_of_contents.json`. The current corpus is 648 retrieval chunks, about 121k clean words, with an estimated 13.02 audiobook hours at 155 wpm.
+- Built a first local AI companion server in `scripts/run_ai_companion_chat.py`, then replaced the single chat view with a fuller browser companion: landing page, `Read`, `Ask`, `Contents`, `Glossary`, `Index`, and a source-inspector modal. Web assets now live in `ai-companion/web/`.
+- The current local companion is grounded in the exported book data and the manuscript sources. It uses local retrieval over `book_chunks.jsonl`, parses the glossary from `chapters/glossary.tex`, parses the subject index from `index-outline.tex` plus `localseealso.tex`, and supports optional OpenAI synthesis when `OPENAI_API_KEY` is set.
+- Core product direction locked: `Read | Ask` is the main split; AI is subordinate to the book; chapter/section/source navigation beats any topographic-map metaphor.
+- Added a defensive port fallback: if `8765` is already occupied, `python3 scripts/run_ai_companion_chat.py serve` now falls through to the next open port and reports the bound URL instead of crashing. This is specifically to coexist with Brett's shared-memory MCP server on 8765.
+- Prepared both Claude Design and Artifact handoff packages under `ai-companion/design-handoff/` and `ai-companion/artifact-handoff/`, but the practical path forward is now to iterate on the local companion first and only then translate it into an Artifact-ready bundle.
+- Verified the current Anthropic constraint from official docs: this repo can prepare an Artifact-ready bundle, but the actual Artifact creation/publish step still has to happen inside Claude rather than via a separate external API workflow.
+
+### 2026-05-27 PM Provenance Audit
+- Current tracked manuscript/production edits exactly match `snapshots/overleaf-sync-2026-04-16/text-only/` for all 28 files in that sync set: 23 chapter/front/back files, `localbibliography.bib`, `localcommands.tex`, and the three required PDF figures.
+- The previous Overleaf comparison report (`snapshots/overleaf-compare/20260416-095846-text-only/`) shows the April 16 live Overleaf export lagging behind that intended sync set: three required PDF figures missing from Overleaf, 25 changed text/support files, and many extra local-only project files in the export.
+- The dirty state is therefore a production-sync state, not casual source drift: commit/sync decisions should happen in a dedicated book-production session after a fresh Overleaf export comparison.
+- Added `.gitignore` for generated LaTeX/index scratch files and OS/editor noise. It intentionally does not ignore PDFs, because figure PDFs can be source assets for LangSci.
+
 ## Next Actions
 
 - [x] Import Overleaf source to local folder
@@ -193,3 +231,6 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
   - 17 typo corrections (strikeouts/carets): to be applied
 - [x] xkcd #2942 permission (obtained)
 - [x] Epigraphs: all 20 AI-generated chapter epigraphs replaced with real Canadian poetry (19 BCP 2020/2023 + Ondaatje). Fair use; no permissions needed.
+- [x] Build first local AI companion over the manuscript export
+- [ ] Browser-test the richer local companion and tighten interaction flow based on live use
+- [ ] Decide whether to convert the current local companion into a single-file Artifact-ready bundle for Claude

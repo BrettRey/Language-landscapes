@@ -1,0 +1,54 @@
+# OS/editor noise
+.DS_Store
+.vscode/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.run.xml
+*.toc
+*.xdv
+*.synctex.gz
+missfont.log
+
+# LangSci/index scratch files
+*.adx
+*.and
+*.ldx
+*.lnd
+*.sdx
+*.snd
+_autidx_.*
+aut.*
+lan.*
+sbj.*
+output.*
+langscitmp.bib
+
+# Root-level generated PDFs and debug renders
+/main.pdf
+/main_*.pdf
+/debugifs.pdf
+/traceend.pdf
+
+# Generated review/sync artifacts
+/review/
+/snapshots/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local assistant memory
+/.claude/
+
+# Packaged companion handoff bundles
+/ai-companion/*-package.zip

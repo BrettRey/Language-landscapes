@@ -2,18 +2,18 @@
 \newcommand{\refp}[1]{(\ref{#1})}
 
 % Stage 1 revision: underline removal
-% \uline → \emph, \uuline → \textbf, gaps → \gap
+% \uline -> \emph, \uuline -> \textbf, gaps -> \gap
 \newcommand{\gap}{\rule{1.5em}{0.4pt}}   % syntactic gap/trace
 \newcommand{\markfocus}[1]{\emph{#1}}    % primary highlight (was \uline)
 \newcommand{\marksecond}[1]{\textsc{#1}} % secondary highlight
 
-%----------------------------------------------------------------------
+%==================================================================
 % Node labels in CGEL trees are defined with \Node, 
 % which is defined so that \Node{Abcd}{Xyz} yields 
 % a label with the function Abcd on the top, in small
 % sanserif font, followed by a colon, and the category 
 % Xyz on the bottom.
-\newcommand{\Node}[2]{\small\textsf{#1:}\\{#2}}
+\newcommand{\Node}[2]{\textsf{#1:}\\{#2}}
 % For commonly used functions this is defined with \(function)
 \newcommand{\Head}[1]{\Node{Head}{#1}}
 \newcommand{\Subj}[1]{\Node{Subj}{#1}}
@@ -36,4 +36,4 @@
 \newcommand{\fa}[1]{{\persian #1}}
 
 \newcommand{\annotate}[2]{%
-\emph{#1}\marginpar{\footnotesize\raggedright #2}}
+\emph{#1}\marginpar{\raggedright #2}}

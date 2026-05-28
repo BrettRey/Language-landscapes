@@ -20,14 +20,13 @@ land}{Bertrand Bickersteth, \enquote{Soil}}
 \end{itemize}
 \end{tblsframedsymbol}
 
-\clearpage\noindent
+\noindent
 \section{Introduction}
 \is{syntax tree|(}
 
 In previous chapters, we've explored the building blocks of English grammar: words, phrases, and their functions. Now, we'll introduce a useful tool for visualizing how these elements come together to form sentences: syntax trees.
 
-\begin{figure}[ht]
-  \centering
+\begin{figure}
   \includegraphics[width=0.4\textwidth]{figures/itisatree.pdf}
   \caption{A \term{syntax tree}}
   \label{fig:tree1}
@@ -84,7 +83,6 @@ Practice reading the tree: Starting from the word \mention{tree}, trace upward a
 Consider the solar system as a metaphor to understand categories and functions in language, particularly the functions of \mention{head} and \mention{dependent}. In the solar system, the central entity is the Sun, which serves as the \enquote{head} of the system. Everything else, from planets to dust, depends on the Sun, making them \enquote{dependents.} We can draw this as the tree in Figure~\ref{fig:solarsys}.
 
 \begin{figure}
-  \centering
   \includegraphics{figures/solarsys.pdf}
   \caption{A partial tree of the solar system}
   \label{fig:solarsys}
@@ -102,8 +100,7 @@ Consider the categories and functions in the solar system:
 \end{itemize}
 
 
-\begin{figure}[ht]
-  \centering
+\begin{figure}
   \includegraphics[width=0.4\textwidth]{figures/dogdinner.pdf}
   \caption{Another syntax tree}
   \label{fig:tree2}
@@ -147,10 +144,10 @@ So, why employ trees?
 
 \section{Composing your trees}
 
-\subsection{Marking specific dependents}\label{sec:MardDeps}
+\subsection{Marking particular dependents}
+\label{sec:MardDeps}
 
-\begin{figure}[ht]
-  \centering
+\begin{figure}
   \includegraphics[width=0.4\textwidth]{figures/whohelpedyou.pdf}
   \caption{Tree for \mention{Who helped you?}}
   \label{fig:tree3}
@@ -180,55 +177,48 @@ Linguists have many different ways to draw syntax trees. You can find trees of t
 Let's try creating a syntax tree for the clause \mention{I had my breakfast}. We'll start at the top and work down and left to right. So, since this is a clause, we put that at the top:
 \par
 {
-\centering
 Clause
 \par
 }
 
 Now, let's work left to right. \mention{I} is a subject NP, so we add a branch sloping down and to the left from the Clause label. The function goes above the category, so Subj: goes on the first line and NP below it.
 
-\begin{figure}[H]
-    \centering
+\begin{figure}
     \includegraphics{figures/ihadmybreakfast.pdf}
     \label{fig:breakfast1}
 \end{figure}
 
 This NP needs a head, so we add a branch going straight down and label it Head:N\textsubscript{\term{pro}}.
 
-\begin{figure}[H]
-    \centering
+\begin{figure}
     \includegraphics{figures/ihadmybreakfast2.pdf}
     \label{fig:breakfast2}
 \end{figure}
 
 And finally, we add \mention{I}.
 
-\begin{figure}[H]
-    \centering
+\begin{figure}
     \includegraphics{figures/ihadmybreakfast3.pdf}
     \label{fig:breakfast3}
 \end{figure}
 
 Next, we'll add the Head:VP on a rightwards sloping branch from the Clause.
 
-\begin{figure}[H]
-    \centering
+\begin{figure}
     \includegraphics{figures/ihadmybreakfast4.pdf}
     \label{fig:breakfast4}
 \end{figure}
 
 This VP has a head:V, which terminates in \mention{had}. There's also the object NP \mention{my breakfast}, so the branch from the VP should slope leftwards.
 
-\begin{figure}[H]
-    \centering
+\begin{figure}
     \includegraphics{figures/ihadmybreakfast5.pdf}
     \label{fig:breakfast5}
 \end{figure}
 
 Finally, we'll add the object:NP \mention{my breakfast}, with its Det:DP \mention{my} and Head:N \mention{breakfast}.
 
-\begin{figure}[H]
-    \centering
+\begin{figure}
     \includegraphics{figures/ihadmybreakfast6.pdf}
     \label{fig:breakfast6}
 \end{figure}
@@ -253,8 +243,7 @@ Let's start with a very simple tree (Figure~\ref{fig:happy}). We'll start with a
     \item Immediately above \mention{happy} is a node with a function labeled Head. This is the function of \mention{happy} in the AdjP. It also has the category label Adj, which tells us that \mention{happy} is an adjective.
 \end{itemize}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/happy.pdf}
     \caption{Tree for \mention{happy}}
     \label{fig:happy}
@@ -267,8 +256,7 @@ Let's try another one (Figure~\ref{fig:very}). This time we have a single-branch
     \item Immediately above \mention{very} is a node with a function labeled Head. This is the function of \mention{very} in the AdvP. It also has the category label Adv, which tells us that \mention{very} is an adverb.
 \end{itemize}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/very.pdf}
     \caption{Tree for \mention{very}}
     \label{fig:very}
@@ -280,8 +268,7 @@ Let's put these together in Figure~\ref{fig:veryhappy}. This time we have a doub
     \item On the left, though, we have the AdvP from Figure~\ref{fig:very}, but this time it's in a relation in the AdjP, so it has a function. Its function in the AdjP is Modifier.
 \end{itemize}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/veryhappy.pdf}
     \caption{Tree for \mention{very happy}}
     \label{fig:veryhappy}
@@ -298,8 +285,7 @@ We'll try that again in Figure~\ref{fig:about}. We start with a single-branching
     \item Immediately above \mention{about} is a node with a function labeled Head. This is the function of \mention{about} in the PP. It also has the category label P, which tells us that \mention{about} is a preposition.
 \end{itemize}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/about.pdf}
     \caption{Tree for \mention{about}}
     \label{fig:about}
@@ -307,13 +293,12 @@ We'll try that again in Figure~\ref{fig:about}. We start with a single-branching
 This time we have a single-branching NP (Figure~\ref{fig:it}). Remember that pronouns are a special kind of noun.
 \is{noun, noun phrase (NP)|(}
 \begin{itemize}[noitemsep]
-    \item As always~-- and by now you can probably finish this sentence for me~-- the top node is a phrasal category, in this case NP. There's no function because functions are relational, and this NP is not in a relation.
+    \item As always, and by now you can probably finish this sentence for me, the top node is a phrasal category, in this case NP. There's no function because functions are relational, and this NP is not in a relation.
     \item The very bottom of our tree is a word node, in this case \mention{it}.
     \item Immediately above \mention{it} is a node with a function labeled Head. This is the function of \mention{it} in the NP. It also has the category label N, which tells us that \mention{it} is a noun (specifically a pronoun).
 \end{itemize}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/it.pdf}
     \caption{Tree for \mention{it}}
     \label{fig:it}
@@ -325,8 +310,7 @@ This time we have a double-branching PP.
     \item On the right, though, we have the NP from Figure~\ref{fig:it}, but this time it's in a relation in the PP, so it has a function. Its function in the PP is Complement. (More specifically, it is an object.)
 \end{itemize}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/aboutit.pdf}
     \caption{Tree for \mention{about it}}
     \label{fig:aboutit}
@@ -341,8 +325,7 @@ Now we'll try putting Figures~\ref{fig:veryhappy} and~\ref{fig:aboutit} together
     \item Notice that there is a complement inside a complement. This property of being able to put one thing inside a thing of the same kind is called \term{recursion} (or ``nesting''). \is{recursion|(} It is the reason you can say \mention{the dog that chased the cat that ate the rat that lived in the house that Jack built}, and also the reason you probably shouldn't.
 \end{itemize}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/veryhappyaboutit.pdf}
     \caption{Tree for \mention{very happy about it}}
     \label{fig:veryhappyaboutit}
@@ -418,7 +401,8 @@ Apply the constituency tests to this sentence: \mention{The teacher explained th
 \end{tblsframedsymbol}
 \is{constituency tests|)}
 
-\subsection{Checking your trees}\label{sec:checkTrees}
+\subsection{Checking tree structure}
+\label{sec:checkTrees}
 \is{syntax tree!well-formedness checks|(}
 
 After you draw a tree, you should complete the following seven checks.
@@ -449,8 +433,7 @@ We'll now try some slightly more complex trees, using \mention{very happy about 
     \item The dependent in the Clause is the Subject, on the left. It's an NP headed by the (pro)noun \mention{we}.
 \end{itemize}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/wewon.pdf}
     \caption{Tree for \mention{We won}}
     \label{fig:wewon}
@@ -461,16 +444,14 @@ Next, we will change \mention{won} to the auxiliary verb \mention{are}, and add 
     \item The complement is simply the AdjP from the previous section \mention{very happy about it}. The only difference is that there it wasn't in a relation, so it had no function label. Now it is the Complement of the VP, and its label reflects that.
 \end{itemize}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/weareveryhappyaboutit.pdf}
     \caption{Tree for \mention{We are very happy about it}}
     \label{fig:weareveryhappyaboutit}
 \end{figure}
 Sometimes, linguists will use a triangle (or a \enquote{coat hanger}) when they don't want to show the internal detail, usually because they don't have room on the page or because they want to focus on something else in the tree. We could, for example, replace the AdjP tree from Figure~\ref{fig:weareveryhappyaboutit} with a triangle, as in Figure~\ref{fig:weareveryhappyaboutit2}.
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/weareveryhappyaboutit2.pdf}
     \caption{Tree for \mention{We are very happy about it} with triangle}
     \label{fig:weareveryhappyaboutit2}
@@ -481,8 +462,7 @@ Sometimes, linguists will use a triangle (or a \enquote{coat hanger}) when they 
 
 A clause can be ambiguous, but a tree will usually disambiguate it by showing the structure. Consider \mention{Sherlock saw the man with the binoculars} in Figure~\ref{fig:binoculars}. Out of context, this is ambiguous between a sighting via the binoculars and a sighting of a man equipped with the binoculars.
 
-\begin{figure}[h]
-    \centering
+\begin{figure}
     \includegraphics[width=0.8\textwidth]{figures/binoculars.png}
     \caption{Sherlock using binoculars to look at a man and Sherlock looking at a man who has binoculars}
     \label{fig:binoculars}
@@ -490,17 +470,14 @@ A clause can be ambiguous, but a tree will usually disambiguate it by showing th
 
 We can show the two meanings with trees. In Figure~\ref{fig:binoculars1}, the PP \mention{with the binoculars} is a modifier in the VP; it explains how the seeing was accomplished. In Figure~\ref{fig:binoculars2}, the PP \mention{with the binoculars} is a modifier in the NP; it tells us about the man.
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \begin{subfigure}[t]{0.48\textwidth}
-        \centering
         \includegraphics[width=\textwidth]{figures/binoculars1.pdf}
         \caption{VP modifier reading}
         \label{fig:binoculars1}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.48\textwidth}
-        \centering
         \includegraphics[width=\textwidth]{figures/binoculars2.pdf}
         \caption{NP modifier reading}
         \label{fig:binoculars2}
@@ -519,25 +496,21 @@ Try this ambiguous sentence: \mention{I saw the student with the telescope}. Dra
 
 Many linguists label only the categories, not the functions. This certainly produces less cluttered trees, but for language teachers, it's useful to be able to state the function of each constituent. It's also less clear if we omit the functions. Consider the difference between \mention{Brett and Michael, try harder} and \mention{Brett and Michael try harder}. The first one is an instruction to Brett and Michael, who have, it seems, been slacking off. The second is a positive statement about Brett and Michael's work ethic. If you avoid the function labels, the two sentences would have the same tree (Figure~\ref{fig:b+mtryharder}).
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \includegraphics{figures/b+mtryharder.pdf}
     \caption{Tree for \mention{Brett and Michael try harder} without function labels}
     \label{fig:b+mtryharder}
 \end{figure}
 But when we add function labels, we can identify whether Brett and Michael is a subject (\mention{Brett and Michael try harder.} Figure~\ref{fig:b+mtryharder1}) or an adjunct (\mention{Brett and Michael, try harder!} Figure~\ref{fig:b+mtryharder2}).\footnote{Adjunct is a function we haven't talked about yet, but it means roughly something that is stuck on. In this case it's calling out to Brett and Michael, like saying ``hey''.}
 
-\begin{figure}[ht]
-    \centering
+\begin{figure}
     \begin{subfigure}[t]{0.48\textwidth}
-        \centering
         \includegraphics[width=\textwidth]{figures/b+mtryharder1.pdf}
         \caption{Subject reading}
         \label{fig:b+mtryharder1}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.48\textwidth}
-        \centering
         \includegraphics[width=\textwidth]{figures/b+mtryharder2.pdf}
         \caption{Adjunct reading}
         \label{fig:b+mtryharder2}
@@ -567,5 +540,5 @@ Terms are just labels, and any label will work in principle.\footnote{In practic
 
 \section{Summary}
 
-If you can draw a tree, you can't hide from your own analysis. Every node forces a commitment~-- this word belongs to this category, this phrase serves this function~-- and the result is either right or visibly wrong. The next time a student's sentence puzzles you, sketch the tree. The structure will show you where the difficulty is, often before you've finished drawing.
+If you can draw a tree, you can't hide from your own analysis. Every node forces a commitment: this word belongs to this category, this phrase serves this function, and the result is either right or visibly wrong. The next time a student's sentence puzzles you, sketch the tree. The structure will show you where the difficulty is, often before you've finished drawing.
 \is{syntax tree|)}

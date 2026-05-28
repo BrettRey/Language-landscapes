@@ -1,0 +1,170 @@
+[
+  {
+    "chapter_title": "Preface",
+    "source_path": "chapters/preface.tex",
+    "clean_word_count": 870,
+    "clean_char_count": 5818,
+    "minutes_at_155_wpm": 5.6
+  },
+  {
+    "chapter_title": "Acknowledgments",
+    "source_path": "chapters/acknowledgments.tex",
+    "clean_word_count": 199,
+    "clean_char_count": 1219,
+    "minutes_at_155_wpm": 1.3
+  },
+  {
+    "chapter_title": "Some key concepts, terms, and ways of thinking about English grammar",
+    "source_path": "chapters/01 key concepts.tex",
+    "clean_word_count": 6947,
+    "clean_char_count": 41225,
+    "minutes_at_155_wpm": 44.8
+  },
+  {
+    "chapter_title": "Standards, Standard Englishes, and what to teach",
+    "source_path": "chapters/02 standards.tex",
+    "clean_word_count": 6596,
+    "clean_char_count": 39890,
+    "minutes_at_155_wpm": 42.6
+  },
+  {
+    "chapter_title": "Categories and functions: An overview",
+    "source_path": "chapters/03 categories and functions.tex",
+    "clean_word_count": 6897,
+    "clean_char_count": 41327,
+    "minutes_at_155_wpm": 44.5
+  },
+  {
+    "chapter_title": "Adverbs and prepositions",
+    "source_path": "chapters/04 advPs and PPs.tex",
+    "clean_word_count": 6360,
+    "clean_char_count": 39855,
+    "minutes_at_155_wpm": 41.0
+  },
+  {
+    "chapter_title": "Verbs, Tense, and Aspect",
+    "source_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "clean_word_count": 7494,
+    "clean_char_count": 45944,
+    "minutes_at_155_wpm": 48.3
+  },
+  {
+    "chapter_title": "Syntax trees",
+    "source_path": "chapters/06 trees.tex",
+    "clean_word_count": 4424,
+    "clean_char_count": 25453,
+    "minutes_at_155_wpm": 28.5
+  },
+  {
+    "chapter_title": "Speech and the sound system",
+    "source_path": "chapters/07 the sound system.tex",
+    "clean_word_count": 6993,
+    "clean_char_count": 44308,
+    "minutes_at_155_wpm": 45.1
+  },
+  {
+    "chapter_title": "Analyzing vocabulary",
+    "source_path": "chapters/08 vocabulary.tex",
+    "clean_word_count": 4594,
+    "clean_char_count": 30153,
+    "minutes_at_155_wpm": 29.6
+  },
+  {
+    "chapter_title": "The writing system",
+    "source_path": "chapters/09 writing system.tex",
+    "clean_word_count": 6684,
+    "clean_char_count": 42580,
+    "minutes_at_155_wpm": 43.1
+  },
+  {
+    "chapter_title": "Questions and interrogatives",
+    "source_path": "chapters/10 questions and interrogatives.tex",
+    "clean_word_count": 5730,
+    "clean_char_count": 34740,
+    "minutes_at_155_wpm": 37.0
+  },
+  {
+    "chapter_title": "Negation",
+    "source_path": "chapters/11 negation.tex",
+    "clean_word_count": 6233,
+    "clean_char_count": 37854,
+    "minutes_at_155_wpm": 40.2
+  },
+  {
+    "chapter_title": "Categories, functions, and constructions",
+    "source_path": "chapters/12 more categories and functions.tex",
+    "clean_word_count": 5570,
+    "clean_char_count": 35353,
+    "minutes_at_155_wpm": 35.9
+  },
+  {
+    "chapter_title": "Fluency and flow",
+    "source_path": "chapters/13 fluency.tex",
+    "clean_word_count": 4186,
+    "clean_char_count": 26767,
+    "minutes_at_155_wpm": 27.0
+  },
+  {
+    "chapter_title": "Information packaging",
+    "source_path": "chapters/14 information packaging.tex",
+    "clean_word_count": 4775,
+    "clean_char_count": 29645,
+    "minutes_at_155_wpm": 30.8
+  },
+  {
+    "chapter_title": "Coherence and cohesion",
+    "source_path": "chapters/15 coherence and cohesion.tex",
+    "clean_word_count": 7575,
+    "clean_char_count": 50850,
+    "minutes_at_155_wpm": 48.9
+  },
+  {
+    "chapter_title": "Pragmatics",
+    "source_path": "chapters/16 pragmatics.tex",
+    "clean_word_count": 4942,
+    "clean_char_count": 33035,
+    "minutes_at_155_wpm": 31.9
+  },
+  {
+    "chapter_title": "Conversations",
+    "source_path": "chapters/17 conversation.tex",
+    "clean_word_count": 6978,
+    "clean_char_count": 47228,
+    "minutes_at_155_wpm": 45.0
+  },
+  {
+    "chapter_title": "Subordination and Coordination",
+    "source_path": "chapters/18 subordination and coordination.tex",
+    "clean_word_count": 3045,
+    "clean_char_count": 19910,
+    "minutes_at_155_wpm": 19.6
+  },
+  {
+    "chapter_title": "Relative constructions",
+    "source_path": "chapters/19 relatives.tex",
+    "clean_word_count": 4719,
+    "clean_char_count": 29475,
+    "minutes_at_155_wpm": 30.4
+  },
+  {
+    "chapter_title": "The Nature of Grammaticality",
+    "source_path": "chapters/20 grammaticality.tex",
+    "clean_word_count": 4743,
+    "clean_char_count": 32054,
+    "minutes_at_155_wpm": 30.6
+  },
+  {
+    "chapter_title": "Understanding language proficiency",
+    "source_path": "chapters/appendix.tex",
+    "clean_word_count": 2158,
+    "clean_char_count": 15442,
+    "minutes_at_155_wpm": 13.9
+  },
+  {
+    "chapter_title": "Glossary",
+    "source_path": "chapters/glossary.tex",
+    "clean_word_count": 2405,
+    "clean_char_count": 16358,
+    "minutes_at_155_wpm": 15.5
+  }
+]

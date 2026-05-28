@@ -1,0 +1,4992 @@
+[
+  {
+    "include_path": "chapters/preface.tex",
+    "block_type": "chapter",
+    "title": "Preface",
+    "anchor": "Preface",
+    "labels": [
+      "ch:preface"
+    ]
+  },
+  {
+    "include_path": "chapters/preface.tex",
+    "block_type": "subsection",
+    "title": "A note about the grammatical framework",
+    "anchor": "Preface > A note about the grammatical framework",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/preface.tex",
+    "block_type": "subsection",
+    "title": "A note about Canadian English",
+    "anchor": "Preface > A note about Canadian English",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/acknowledgments.tex",
+    "block_type": "chapter",
+    "title": "Acknowledgments",
+    "anchor": "Acknowledgments",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "chapter",
+    "title": "Some key concepts, terms, and ways of thinking about English grammar",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar",
+    "labels": [
+      "ch:1"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Introduction",
+    "labels": [
+      "sec:intro1"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsection",
+    "title": "Necessary and sufficient conditions",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Introduction > Necessary and sufficient conditions",
+    "labels": [
+      "sec:conditions"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsection",
+    "title": "The trouble with (linguistic) definitions",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Introduction > The trouble with (linguistic) definitions",
+    "labels": [
+      "sec:definitions"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "box",
+    "title": "Questions",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Introduction > The trouble with (linguistic) definitions > Box: Questions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsection",
+    "title": "The trouble with (linguistic) definitions",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Introduction > The trouble with (linguistic) definitions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsection",
+    "title": "What do we mean by phrase?",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Introduction > What do we mean by phrase?",
+    "labels": [
+      "sec:phrases",
+      "ex:missing_dependents",
+      "ex:missing_dep_context",
+      "ex:missing_head",
+      "ex:one-word-phrases"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "section",
+    "title": "Nouns and noun phrases",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases",
+    "labels": [
+      "sec:nouns"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsection",
+    "title": "Some examples",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples",
+    "labels": [
+      "sec:examples"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "What nouns denote",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > What nouns denote",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Countability",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Countability",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Plural nouns",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Plural nouns",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Nouns following the or a",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Nouns following the or a",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Noun phrases with adjective-phrase modifiers and head nouns",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Noun phrases with adjective-phrase modifiers and head nouns",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Noun phrases functioning as subjects",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Noun phrases functioning as subjects",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Possessive noun phrases",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Possessive noun phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Good examples of nouns",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Good examples of nouns",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Less good examples of nouns",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Less good examples of nouns",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "box",
+    "title": "Questions",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Less good examples of nouns > Box: Questions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "box",
+    "title": "Find the nouns",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Some examples > Less good examples of nouns > Box: Find the nouns",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsection",
+    "title": "Countability",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Countability",
+    "labels": [
+      "sec:count",
+      "ex:tea",
+      "ex:cookiea",
+      "ex:cookie",
+      "ex:blank",
+      "ex:cheveaux"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "box",
+    "title": "Practice",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Nouns and noun phrases > Countability > Box: Practice",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "section",
+    "title": "Verbs and verb phrases",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Verbs and verb phrases",
+    "labels": [
+      "sec:verbs",
+      "ex:verblist",
+      "ex:verb-list-as-nouns",
+      "ex:verb-list-as-verbs"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "What verbs denote",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Verbs and verb phrases > What verbs denote",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Past-tense forms",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Verbs and verb phrases > Past-tense forms",
+    "labels": [
+      "sec:past-forms",
+      "ex:past-tense-forms-verbs-vs-nouns"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Other verb forms",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Verbs and verb phrases > Other verb forms",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Modifiers in verb phrases",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Verbs and verb phrases > Modifiers in verb phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Verbs head verb phrases",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Verbs and verb phrases > Verbs head verb phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Verb phrases as heads of clauses",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Verbs and verb phrases > Verb phrases as heads of clauses",
+    "labels": [
+      "sec:VPs_head_clauses"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsubsection",
+    "title": "Agreement with subject",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Verbs and verb phrases > Agreement with subject",
+    "labels": [
+      "sec:agreement"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "subsection",
+    "title": "Auxiliary verbs",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Verbs and verb phrases > Auxiliary verbs",
+    "labels": [
+      "sec:aux",
+      "tab:NICER",
+      "ex:modal-auxiliaries-list"
+    ]
+  },
+  {
+    "include_path": "chapters/01 key concepts.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Some key concepts, terms, and ways of thinking about English grammar > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "chapter",
+    "title": "Standards, Standard Englishes, and what to teach",
+    "anchor": "Standards, Standard Englishes, and what to teach",
+    "labels": [
+      "sec:standards",
+      "ch:standards"
+    ]
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Standards, Standard Englishes, and what to teach > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Standards, Standard Englishes, and what to teach > Introduction",
+    "labels": [
+      "fig:rail"
+    ]
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "section",
+    "title": "Standard English(es)",
+    "anchor": "Standards, Standard Englishes, and what to teach > Standard English(es)",
+    "labels": [
+      "sec:standard",
+      "sec:shibboleth"
+    ]
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "section",
+    "title": "Questioning grammaticality",
+    "anchor": "Standards, Standard Englishes, and what to teach > Questioning grammaticality",
+    "labels": [
+      "sec:questioning-grammaticality",
+      "sec:fallacy-of-monosemy",
+      "sec:monosemy",
+      "fig:comic",
+      "ex:key",
+      "ex:greenIdeas1",
+      "ex:greenIdeas2",
+      "ex:greenIdeas",
+      "fig:greenIdeas",
+      "ex:JeanPaul",
+      "ex:beautifulboy",
+      "ex:beautifulboy2",
+      "ex:whmovement",
+      "ex:suitcase",
+      "fig:suitcases",
+      "ex:horse",
+      "ex:30years",
+      "ex:weekend",
+      "ex:quitter",
+      "ex:bus",
+      "ex:bad-and"
+    ]
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "subsection",
+    "title": "Summary",
+    "anchor": "Standards, Standard Englishes, and what to teach > Questioning grammaticality > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "section",
+    "title": "A model of grammaticality",
+    "anchor": "Standards, Standard Englishes, and what to teach > A model of grammaticality",
+    "labels": [
+      "sec:gramm-model",
+      "fig:speaker-groups",
+      "fig:speaker_groups"
+    ]
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "section",
+    "title": "Normativity",
+    "anchor": "Standards, Standard Englishes, and what to teach > Normativity",
+    "labels": [
+      "sec:normativity"
+    ]
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "subsection",
+    "title": "Audience",
+    "anchor": "Standards, Standard Englishes, and what to teach > Normativity > Audience",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "section",
+    "title": "Conclusion",
+    "anchor": "Standards, Standard Englishes, and what to teach > Conclusion",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "box",
+    "title": "Exercises",
+    "anchor": "Standards, Standard Englishes, and what to teach > Conclusion > Box: Exercises",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/02 standards.tex",
+    "block_type": "section",
+    "title": "Conclusion",
+    "anchor": "Standards, Standard Englishes, and what to teach > Conclusion",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "chapter",
+    "title": "Categories and functions: An overview",
+    "anchor": "Categories and functions: An overview",
+    "labels": [
+      "ch:categories"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Categories and functions: An overview > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Categories and functions: An overview > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "section",
+    "title": "Categories and functions: an overview",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview",
+    "labels": [
+      "sec:cat-funct"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "box",
+    "title": "Check your understanding",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Box: Check your understanding",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Many-to-many relationships",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Many-to-many relationships",
+    "labels": [
+      "sec:many-to-many",
+      "ex:blue-book-definitions"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Categories",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Categories",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "box",
+    "title": "Quick self-check",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Categories > Box: Quick self-check",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Lexical categories",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Categories > Lexical categories",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Phrasal categories",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Categories > Phrasal categories",
+    "labels": [
+      "fig:categories",
+      "fig:projections"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Syntactic functions",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Head",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions > Head",
+    "labels": [
+      "sec:head"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "What counts as a dependent",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions > What counts as a dependent",
+    "labels": [
+      "sec:Dep"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Subject",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions > Subject",
+    "labels": [
+      "sec:subjects"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Determiner",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions > Determiner",
+    "labels": [
+      "sec:determine"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Modifier",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions > Modifier",
+    "labels": [
+      "sec:modifier"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Complement",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions > Complement",
+    "labels": [
+      "sec:complement"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Object",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions > Object",
+    "labels": [
+      "sec:object"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "box",
+    "title": "Exercises",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions > Object > Box: Exercises",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Object",
+    "anchor": "Categories and functions: An overview > Categories and functions: an overview > Syntactic functions > Object",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "section",
+    "title": "Adjectives and their phrases",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases",
+    "labels": [
+      "sec:adjs+adjPs"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Denotation",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Denotation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Heading adjective phrases",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Heading adjective phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Adjective phrases as modifiers in noun phrases",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Adjective phrases as modifiers in noun phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Adjective phrases as complements to be, become, and seem",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Adjective phrases as complements to be, become, and seem",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Adjective phrases with very, too, and so as modifiers",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Adjective phrases with very, too, and so as modifiers",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Taking -er and -est suffixes",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Taking -er and -est suffixes",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Graded with more and less, and most and least",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Graded with more and less, and most and least",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Take -ly to form adverbs",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Take -ly to form adverbs",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Exercise",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Exercise",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Following",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Exercise > Following",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Those",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Exercise > Those",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "box",
+    "title": "Pause and reflect",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Exercise > Those > Box: Pause and reflect",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Wire",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Exercise > Wire",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Magnanimous",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Exercise > Magnanimous",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Fresh",
+    "anchor": "Categories and functions: An overview > Adjectives and their phrases > Exercise > Fresh",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Pronouns",
+    "anchor": "Categories and functions: An overview > Pronouns, determinatives, and determinative phrases > Pronouns",
+    "labels": [
+      "sec:pronouns",
+      "tab:pronouns",
+      "sec:dummy",
+      "ex:his-grandmother",
+      "ex:her-grandmother"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Determinatives and determinative phrases",
+    "anchor": "Categories and functions: An overview > Pronouns, determinatives, and determinative phrases > Determinatives and determinative phrases",
+    "labels": [
+      "sec:DPs"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Determinatives vs. adjectives",
+    "anchor": "Categories and functions: An overview > Pronouns, determinatives, and determinative phrases > Determinatives and determinative phrases > Determinatives vs. adjectives",
+    "labels": [
+      "tab:determinatives"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Determinatives vs. pronouns",
+    "anchor": "Categories and functions: An overview > Pronouns, determinatives, and determinative phrases > Determinatives and determinative phrases > Determinatives vs. pronouns",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Definite vs. indefinite",
+    "anchor": "Categories and functions: An overview > Pronouns, determinatives, and determinative phrases > Definite vs. indefinite",
+    "labels": [
+      "sec:definite-v-indef",
+      "fig:determinative-semantics",
+      "box:one-label-two-things",
+      "tab:syntax-semantics-mismatch"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "section",
+    "title": "Noun phrases as determiners",
+    "anchor": "Categories and functions: An overview > Noun phrases as determiners",
+    "labels": [
+      "sec:NP-as-det"
+    ]
+  },
+  {
+    "include_path": "chapters/03 categories and functions.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Categories and functions: An overview > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "chapter",
+    "title": "Adverbs and prepositions",
+    "anchor": "Adverbs and prepositions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Adverbs and prepositions > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Adverbs and prepositions > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "section",
+    "title": "Adverbs and their phrases",
+    "anchor": "Adverbs and prepositions > Adverbs and their phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "What they denote",
+    "anchor": "Adverbs and prepositions > Adverbs and their phrases > The characteristics of adverbs and adverb phrases > What they denote",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Morphological characteristics",
+    "anchor": "Adverbs and prepositions > Adverbs and their phrases > The characteristics of adverbs and adverb phrases > Morphological characteristics",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Adverb phrases",
+    "anchor": "Adverbs and prepositions > Adverbs and their phrases > The characteristics of adverbs and adverb phrases > Adverb phrases",
+    "labels": [
+      "sec:advps"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "box",
+    "title": "Check your understanding",
+    "anchor": "Adverbs and prepositions > Adverbs and their phrases > The characteristics of adverbs and adverb phrases > Adverb phrases > Box: Check your understanding",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Adverb phrases as modifiers",
+    "anchor": "Adverbs and prepositions > Adverbs and their phrases > The characteristics of adverbs and adverb phrases > Adverb phrases as modifiers",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Adverb phrases and complements",
+    "anchor": "Adverbs and prepositions > Adverbs and their phrases > The characteristics of adverbs and adverb phrases > Adverb phrases and complements",
+    "labels": [
+      "sec:AdvPs+Comps"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsection",
+    "title": "Words that are not actually adverbs",
+    "anchor": "Adverbs and prepositions > Adverbs and their phrases > Words that are not actually adverbs",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "box",
+    "title": "Try this: progressive practice",
+    "anchor": "Adverbs and prepositions > Adverbs and their phrases > Words that are not actually adverbs > Box: Try this: progressive practice",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "section",
+    "title": "Prepositions and preposition phrases",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases",
+    "labels": [
+      "sec:prepositions"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsection",
+    "title": "The characteristics of prepositions",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > The characteristics of prepositions",
+    "labels": [
+      "sec:preps"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Denotation of prepositions",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > The characteristics of prepositions > Denotation of prepositions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Functioning as the head of a preposition phrase",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > The characteristics of prepositions > Functioning as the head of a preposition phrase",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Preposition phrases as modifiers and complements",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > The characteristics of prepositions > Preposition phrases as modifiers and complements",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Form and structure of prepositions",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > The characteristics of prepositions > Form and structure of prepositions",
+    "labels": [
+      "ex:bareprep",
+      "ex:compoundprep",
+      "ex:complexprep",
+      "ex:compareprep"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Modifiers in preposition phrases",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > The characteristics of prepositions > Modifiers in preposition phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Complements of prepositions",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > The characteristics of prepositions > Complements of prepositions",
+    "labels": [
+      "sec:PP-complementation"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsection",
+    "title": "Distinguishing preposition phrases from adverb phrases: key syntactic differences",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Distinguishing preposition phrases from adverb phrases: key syntactic differences",
+    "labels": [
+      "sec:distinguishing-pps-advps"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Test 1: modification patterns",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Distinguishing preposition phrases from adverb phrases: key syntactic differences > Test 1: modification patterns",
+    "labels": [
+      "sec:test-modification",
+      "ex:pp-mods",
+      "ex:advp-mods",
+      "ex:advp-mods2",
+      "ex:pp-mods2"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Test 2: function as predicative complement",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Distinguishing preposition phrases from adverb phrases: key syntactic differences > Test 2: function as predicative complement",
+    "labels": [
+      "sec:test-predcomp",
+      "ex:pp-predcomp",
+      "ex:advp-predcomp"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Test 3: coordination patterns",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Distinguishing preposition phrases from adverb phrases: key syntactic differences > Test 3: coordination patterns",
+    "labels": [
+      "sec:test-coordination",
+      "ex:pp-coord",
+      "ex:advp-coord",
+      "ex:mixed-coord"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Test 4: modification within noun phrases",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Distinguishing preposition phrases from adverb phrases: key syntactic differences > Test 4: modification within noun phrases",
+    "labels": [
+      "sec:test-np-mod",
+      "ex:pp-np-mod",
+      "ex:advp-np-mod"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsection",
+    "title": "Preposition phrases and their complements",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Preposition phrases and their complements",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "box",
+    "title": "Apply your knowledge",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Preposition phrases and their complements > Box: Apply your knowledge",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "The problem of words like before",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Preposition phrases and their complements > The problem of words like before",
+    "labels": [
+      "sec:likebefore"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "box",
+    "title": "Pause and reflect",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Preposition phrases and their complements > The problem of words like before > Box: Pause and reflect",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsection",
+    "title": "Why prepositions challenge learners",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Why prepositions challenge learners",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Selecting the right preposition in a complement",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Why prepositions challenge learners > Selecting the right preposition in a complement",
+    "labels": [
+      "ex:listen",
+      "ex:listento"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Meanings",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Why prepositions challenge learners > Meanings",
+    "labels": [
+      "sec:preposition-meanings",
+      "ex:to-meanings"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Uses",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Why prepositions challenge learners > Uses",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "In in English and Italian",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Why prepositions challenge learners > In in English and Italian",
+    "labels": [
+      "ex:in-containment",
+      "ex:in-vs-to"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Salience",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Why prepositions challenge learners > Salience",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsection",
+    "title": "Phrasal verbs",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Phrasal verbs",
+    "labels": [
+      "ssec:phrasal-verbs"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Characteristics of phrasal verbs",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Phrasal verbs > Characteristics of phrasal verbs",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Idiomatic meanings",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Phrasal verbs > Idiomatic meanings",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsubsection",
+    "title": "Movable particles",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Phrasal verbs > Movable particles",
+    "labels": [
+      "ex:quicklycookiesa",
+      "ex:quicklycookiesb",
+      "ex:quicklycookiesc",
+      "ex:quicklycookiesd",
+      "ex:quicklycookies",
+      "ex:morningcookiesa",
+      "ex:morningcookiesb",
+      "ex:morningcookiesd",
+      "ex:morningcookies",
+      "ex:pickup",
+      "ex:pickupa",
+      "ex:pickupb",
+      "ex:pickit",
+      "ex:takeoff",
+      "ex:chairoff",
+      "ex:chairoffb"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "box",
+    "title": "Practice consolidation",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Phrasal verbs > Movable particles > Box: Practice consolidation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "subsection",
+    "title": "Fronting and stranding",
+    "anchor": "Adverbs and prepositions > Prepositions and preposition phrases > Fronting and stranding",
+    "labels": [
+      "sec:preposition-stranding",
+      "ex:fronting",
+      "ex:frontinga",
+      "ex:frontingb",
+      "ex:frontingc"
+    ]
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Adverbs and prepositions > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "box",
+    "title": "Adverbs prepositions",
+    "anchor": "Adverbs and prepositions > Exercises > Box: Adverbs prepositions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/04 advPs and PPs.tex",
+    "block_type": "section",
+    "title": "Exercises",
+    "anchor": "Adverbs and prepositions > Exercises",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "chapter",
+    "title": "Verbs, Tense, and Aspect",
+    "anchor": "Verbs, Tense, and Aspect",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Verbs, Tense, and Aspect > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Verbs, Tense, and Aspect > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Basic verb types",
+    "anchor": "Verbs, Tense, and Aspect > Basic verb types",
+    "labels": [
+      "sec:basic-verb-types",
+      "fig:verb-structure",
+      "ex:can-meanings"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Check your understanding",
+    "anchor": "Verbs, Tense, and Aspect > Basic verb types > Box: Check your understanding",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Basic verb types",
+    "anchor": "Verbs, Tense, and Aspect > Basic verb types",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "The NICER properties of auxiliary verbs",
+    "anchor": "Verbs, Tense, and Aspect > The NICER properties of auxiliary verbs",
+    "labels": [
+      "sec:NICER",
+      "tab:nicer-properties"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Exercise: basic verb types",
+    "anchor": "Verbs, Tense, and Aspect > The NICER properties of auxiliary verbs > Box: Exercise: basic verb types",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Verb forms",
+    "anchor": "Verbs, Tense, and Aspect > Verb forms",
+    "labels": [
+      "sec:verb-forms",
+      "tab:verb-forms",
+      "ex:3sing-pres",
+      "ex:past-tense-forms",
+      "sec:participles",
+      "ex:-ing",
+      "ex:merely-looking",
+      "ex:making-dinner",
+      "ex:the-opening",
+      "ex:building-of",
+      "ex:past-participles",
+      "sec:defective-modals",
+      "tab:modal-auxiliary-forms",
+      "ex:lexical-be",
+      "ex:lexical-have",
+      "ex:lexical-do"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Exercise: verb forms",
+    "anchor": "Verbs, Tense, and Aspect > Verb forms > Box: Exercise: verb forms",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Tense across languages",
+    "anchor": "Verbs, Tense, and Aspect > Tense across languages",
+    "labels": [
+      "ex:chī"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Exercise: comparing tense and aspect across languages",
+    "anchor": "Verbs, Tense, and Aspect > Tense across languages > Box: Exercise: comparing tense and aspect across languages",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Tense and time",
+    "anchor": "Verbs, Tense, and Aspect > Tense and time",
+    "labels": [
+      "sec:tense-vs-time"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Quick self-check",
+    "anchor": "Verbs, Tense, and Aspect > Tense and time > Box: Quick self-check",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Tense and time",
+    "anchor": "Verbs, Tense, and Aspect > Tense and time",
+    "labels": [
+      "ex:walked-walk to school",
+      "ex:futurate1",
+      "ex:futurate4",
+      "ex:wish-I-knew",
+      "ex:I-won"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Exercise: tense and time",
+    "anchor": "Verbs, Tense, and Aspect > Tense and time > Box: Exercise: tense and time",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Aspect",
+    "anchor": "Verbs, Tense, and Aspect > Aspect",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "subsection",
+    "title": "The progressive aspect",
+    "anchor": "Verbs, Tense, and Aspect > Aspect > The progressive aspect",
+    "labels": [
+      "sec:progressive-aspect",
+      "ex:I-live",
+      "ex:Im-living",
+      "fig:enter-label"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "subsubsection",
+    "title": "States often resist the progressive aspect",
+    "anchor": "Verbs, Tense, and Aspect > Aspect > The progressive aspect > States often resist the progressive aspect",
+    "labels": [
+      "sec:statives-resist",
+      "ex:know-knowing",
+      "ex:stative-verbs",
+      "ex:prog-statives"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "subsubsection",
+    "title": "Progressive aspect for limited repetition",
+    "anchor": "Verbs, Tense, and Aspect > Aspect > The progressive aspect > Progressive aspect for limited repetition",
+    "labels": [
+      "fig:regular-gym-visits"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "subsubsection",
+    "title": "The progressive for plans",
+    "anchor": "Verbs, Tense, and Aspect > Aspect > The progressive aspect > The progressive for plans",
+    "labels": [
+      "ex:dinner-next-week",
+      "fig:futurate-progressive"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "subsection",
+    "title": "The perfect aspect",
+    "anchor": "Verbs, Tense, and Aspect > Aspect > The perfect aspect",
+    "labels": [
+      "sec:perfect-aspect",
+      "ex:have-lived",
+      "ex:lived",
+      "fig:past-vs-present-perfect",
+      "fig:past-perfect",
+      "fig:futurate-perfect",
+      "fig:timeless-perfect",
+      "fig:present-perfect-simple-past"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Exercise: aspect",
+    "anchor": "Verbs, Tense, and Aspect > Aspect > The perfect aspect > Box: Exercise: aspect",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "The English tense/aspect system",
+    "anchor": "Verbs, Tense, and Aspect > The English tense/aspect system",
+    "labels": [
+      "sec:tense-aspect",
+      "tab:tense-aspect"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Practice consolidation",
+    "anchor": "Verbs, Tense, and Aspect > The English tense/aspect system > Box: Practice consolidation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "The English tense/aspect system",
+    "anchor": "Verbs, Tense, and Aspect > The English tense/aspect system",
+    "labels": [
+      "tab:modal-auxiliary-forms-tense",
+      "ex:should-work",
+      "ex:conditional-would",
+      "ex:intimate",
+      "tab:tense-modal"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "subsection",
+    "title": "No tense",
+    "anchor": "Verbs, Tense, and Aspect > The English tense/aspect system > No tense",
+    "labels": [
+      "sec:infinitives",
+      "ex:participials-in-aspects",
+      "ex:participials-as-modifiers"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Exercise: the English tense/aspect system",
+    "anchor": "Verbs, Tense, and Aspect > The English tense/aspect system > No tense > Box: Exercise: the English tense/aspect system",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Verb complementation",
+    "anchor": "Verbs, Tense, and Aspect > Verb complementation",
+    "labels": [
+      "sec:verb-complementation",
+      "ex:ti-verbs",
+      "ex:know-comps",
+      "ex:make-comp",
+      "ex:bet-comp",
+      "ex:be-comps",
+      "ex:graduate-comps",
+      "ex:ditransitive",
+      "ex:that-comps",
+      "ex:AdjP-comps",
+      "ex:obj+AdjP-comps",
+      "ex:PP-comps"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "subsection",
+    "title": "Auxiliary verbs as heads",
+    "anchor": "Verbs, Tense, and Aspect > Verb complementation > Auxiliary verbs as heads",
+    "labels": [
+      "sec:Aux-as-head",
+      "ex:sing-singing"
+    ]
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "box",
+    "title": "Exercise: verb complementation patterns",
+    "anchor": "Verbs, Tense, and Aspect > Verb complementation > Auxiliary verbs as heads > Box: Exercise: verb complementation patterns",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/05 Verbs, tense, and aspect.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Verbs, Tense, and Aspect > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "chapter",
+    "title": "Syntax trees",
+    "anchor": "Syntax trees",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Syntax trees > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Syntax trees > Introduction",
+    "labels": [
+      "fig:tree1"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "section",
+    "title": "A first tree",
+    "anchor": "Syntax trees > A first tree",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "box",
+    "title": "Check your understanding",
+    "anchor": "Syntax trees > A first tree > Box: Check your understanding",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "section",
+    "title": "Syntax trees, a solar-system metaphor",
+    "anchor": "Syntax trees > Syntax trees, a solar-system metaphor",
+    "labels": [
+      "sec:trees",
+      "fig:solarsys",
+      "fig:tree2"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "box",
+    "title": "Practice: applying the metaphor",
+    "anchor": "Syntax trees > Syntax trees, a solar-system metaphor > Box: Practice: applying the metaphor",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "section",
+    "title": "Why syntax trees?",
+    "anchor": "Syntax trees > Why syntax trees?",
+    "labels": [
+      "sec:why-trees"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "subsection",
+    "title": "Marking particular dependents",
+    "anchor": "Syntax trees > Composing your trees > Marking particular dependents",
+    "labels": [
+      "sec:MardDeps",
+      "fig:tree3"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "subsubsection",
+    "title": "A note on tree styles",
+    "anchor": "Syntax trees > Composing your trees > Marking particular dependents > A note on tree styles",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "subsection",
+    "title": "A top-down example",
+    "anchor": "Syntax trees > Composing your trees > A top-down example",
+    "labels": [
+      "fig:breakfast1",
+      "fig:breakfast2",
+      "fig:breakfast3",
+      "fig:breakfast4",
+      "fig:breakfast5",
+      "fig:breakfast6"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "box",
+    "title": "Try it yourself",
+    "anchor": "Syntax trees > Composing your trees > A top-down example > Box: Try it yourself",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "subsection",
+    "title": "Some trees",
+    "anchor": "Syntax trees > Composing your trees > Some trees",
+    "labels": [
+      "fig:happy",
+      "fig:very",
+      "fig:veryhappy",
+      "fig:about",
+      "fig:it",
+      "fig:aboutit",
+      "fig:veryhappyaboutit"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "subsection",
+    "title": "Identifying constituents",
+    "anchor": "Syntax trees > Composing your trees > Identifying constituents",
+    "labels": [
+      "sec:identifying_constituents"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "box",
+    "title": "Practice: constituency testing",
+    "anchor": "Syntax trees > Composing your trees > Identifying constituents > Box: Practice: constituency testing",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "subsection",
+    "title": "Checking tree structure",
+    "anchor": "Syntax trees > Composing your trees > Checking tree structure",
+    "labels": [
+      "sec:checkTrees"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "box",
+    "title": "Self-assessment checklist",
+    "anchor": "Syntax trees > Composing your trees > Checking tree structure > Box: Self-assessment checklist",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "section",
+    "title": "More trees",
+    "anchor": "Syntax trees > More trees",
+    "labels": [
+      "sec:more trees",
+      "fig:wewon",
+      "fig:weareveryhappyaboutit",
+      "fig:weareveryhappyaboutit2"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "section",
+    "title": "Disambiguating with trees",
+    "anchor": "Syntax trees > Disambiguating with trees",
+    "labels": [
+      "fig:binoculars",
+      "fig:binoculars1",
+      "fig:binoculars2",
+      "fig:binoculars-trees"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "box",
+    "title": "Practice: disambiguating with trees",
+    "anchor": "Syntax trees > Disambiguating with trees > Box: Practice: disambiguating with trees",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "section",
+    "title": "Do we need the function labels?",
+    "anchor": "Syntax trees > Do we need the function labels?",
+    "labels": [
+      "fig:b+mtryharder",
+      "fig:b+mtryharder1",
+      "fig:b+mtryharder2",
+      "fig:b+mtryharder-pair"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "section",
+    "title": "Some terminological issues",
+    "anchor": "Syntax trees > Some terminological issues",
+    "labels": [
+      "sec:terminology"
+    ]
+  },
+  {
+    "include_path": "chapters/06 trees.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Syntax trees > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "chapter",
+    "title": "Speech and the sound system",
+    "anchor": "Speech and the sound system",
+    "labels": [
+      "ch:sound"
+    ]
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Speech and the sound system > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Speech and the sound system > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "Setting pronunciation goals",
+    "anchor": "Speech and the sound system > Setting pronunciation goals",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "Speech production",
+    "anchor": "Speech and the sound system > Speech production",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsection",
+    "title": "Articulatory organs and their roles",
+    "anchor": "Speech and the sound system > Speech production > Articulatory organs and their roles",
+    "labels": [
+      "fig:articulation"
+    ]
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "The sound system",
+    "anchor": "Speech and the sound system > The sound system",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsection",
+    "title": "Consonants",
+    "anchor": "Speech and the sound system > The sound system > Consonants",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsubsection",
+    "title": "Place of articulation",
+    "anchor": "Speech and the sound system > The sound system > Consonants > Place of articulation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsubsection",
+    "title": "Manner of articulation",
+    "anchor": "Speech and the sound system > The sound system > Consonants > Manner of articulation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsubsection",
+    "title": "Voicing",
+    "anchor": "Speech and the sound system > The sound system > Consonants > Voicing",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "box",
+    "title": "Check your understanding",
+    "anchor": "Speech and the sound system > The sound system > Consonants > Voicing > Box: Check your understanding",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsection",
+    "title": "Vowels",
+    "anchor": "Speech and the sound system > The sound system > Vowels",
+    "labels": [
+      "fig:Toronto-vowels"
+    ]
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsubsection",
+    "title": "Tongue position",
+    "anchor": "Speech and the sound system > The sound system > Vowels > Tongue position",
+    "labels": [
+      "fig:cardinal-vowels"
+    ]
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsubsection",
+    "title": "Lip rounding",
+    "anchor": "Speech and the sound system > The sound system > Vowels > Lip rounding",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsubsection",
+    "title": "Diphthongs",
+    "anchor": "Speech and the sound system > The sound system > Vowels > Diphthongs",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "Phonemes and allophones",
+    "anchor": "Speech and the sound system > Phonemes and allophones",
+    "labels": [
+      "sec:allophones",
+      "fig:strawberries",
+      "fig:top-stop-flame",
+      "sec:vowels-and-consonants"
+    ]
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "Vowel length and quality",
+    "anchor": "Speech and the sound system > Vowel length and quality",
+    "labels": [
+      "sec:long-vowels"
+    ]
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsection",
+    "title": "The pronunciations of -es and -ed",
+    "anchor": "Speech and the sound system > Vowel length and quality > The pronunciations of -es and -ed",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "Syllable structure and phonotactics",
+    "anchor": "Speech and the sound system > Syllable structure and phonotactics",
+    "labels": [
+      "sec:phonotactics"
+    ]
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "Suprasegmentals",
+    "anchor": "Speech and the sound system > Suprasegmentals",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsubsection",
+    "title": "Word stress",
+    "anchor": "Speech and the sound system > Suprasegmentals > Stress > Word stress",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsubsection",
+    "title": "Sentence stress",
+    "anchor": "Speech and the sound system > Suprasegmentals > Stress > Sentence stress",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsection",
+    "title": "Intonation",
+    "anchor": "Speech and the sound system > Suprasegmentals > Intonation",
+    "labels": [
+      "sec:intonation"
+    ]
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "subsubsection",
+    "title": "Stress-timed vs syllable-timed languages",
+    "anchor": "Speech and the sound system > Suprasegmentals > Rhythm > Stress-timed vs syllable-timed languages",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "Connected speech",
+    "anchor": "Speech and the sound system > Connected speech",
+    "labels": [
+      "fig:phonetic_reduction"
+    ]
+  },
+  {
+    "include_path": "chapters/07 the sound system.tex",
+    "block_type": "section",
+    "title": "Conclusion",
+    "anchor": "Speech and the sound system > Conclusion",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "chapter",
+    "title": "Analyzing vocabulary",
+    "anchor": "Analyzing vocabulary",
+    "labels": [
+      "ch:vocabulary"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Analyzing vocabulary > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Analyzing vocabulary > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "section",
+    "title": "What's a word",
+    "anchor": "Analyzing vocabulary > What's a word",
+    "labels": [
+      "sec:what-is-a-word"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Semantic and syntactic notions of words",
+    "anchor": "Analyzing vocabulary > What's a word > Semantic and syntactic notions of words",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Check your understanding",
+    "anchor": "Analyzing vocabulary > What's a word > Semantic and syntactic notions of words > Box: Check your understanding",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Semantic and syntactic notions of words",
+    "anchor": "Analyzing vocabulary > What's a word > Semantic and syntactic notions of words",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Morphology",
+    "anchor": "Analyzing vocabulary > What's a word > Morphology",
+    "labels": [
+      "sec:morphology"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Derivation and inflection",
+    "anchor": "Analyzing vocabulary > What's a word > Derivation and inflection",
+    "labels": [
+      "sec:derivation"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsubsection",
+    "title": "Derivational affixes",
+    "anchor": "Analyzing vocabulary > What's a word > Derivation and inflection > Derivational affixes",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Practice: morphological analysis",
+    "anchor": "Analyzing vocabulary > What's a word > Derivation and inflection > Derivational affixes > Box: Practice: morphological analysis",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsubsection",
+    "title": "Inflectional suffixes",
+    "anchor": "Analyzing vocabulary > What's a word > Derivation and inflection > Inflectional suffixes",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Exercise: understanding word structure",
+    "anchor": "Analyzing vocabulary > What's a word > Derivation and inflection > Inflectional suffixes > Box: Exercise: understanding word structure",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Word families, lemmas, shapes, and tokens",
+    "anchor": "Analyzing vocabulary > What's a word > Word families, lemmas, shapes, and tokens",
+    "labels": [
+      "sec:family-lemma-shape-token",
+      "fig:wide-family-tree"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Exercise: word families and lemmas",
+    "anchor": "Analyzing vocabulary > What's a word > Word families, lemmas, shapes, and tokens > Box: Exercise: word families and lemmas",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "section",
+    "title": "Word frequency and distribution",
+    "anchor": "Analyzing vocabulary > Word frequency and distribution",
+    "labels": [
+      "sec:word-frequency"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "The frequency distribution",
+    "anchor": "Analyzing vocabulary > Word frequency and distribution > The frequency distribution",
+    "labels": [
+      "tab:word-frequency"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Vocabulary size and text coverage",
+    "anchor": "Analyzing vocabulary > Word frequency and distribution > Vocabulary size and text coverage",
+    "labels": [
+      "sec:vocab-size-coverage",
+      "fig:voc-size-est",
+      "fig:coverage-curve"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Specialized vocabulary",
+    "anchor": "Analyzing vocabulary > Word frequency and distribution > Specialized vocabulary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Exercise: frequency and comprehension",
+    "anchor": "Analyzing vocabulary > Word frequency and distribution > Specialized vocabulary > Box: Exercise: frequency and comprehension",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "section",
+    "title": "Form, meaning, and use",
+    "anchor": "Analyzing vocabulary > Form, meaning, and use",
+    "labels": [
+      "sec:form-meaning-use"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Polysemy and monosemy",
+    "anchor": "Analyzing vocabulary > Form, meaning, and use > Polysemy and monosemy",
+    "labels": [
+      "sec:polysemy"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Collocations",
+    "anchor": "Analyzing vocabulary > Form, meaning, and use > Collocations",
+    "labels": [
+      "sec:collocations"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Idioms and formulaic language",
+    "anchor": "Analyzing vocabulary > Form, meaning, and use > Idioms and formulaic language",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Exercise: meaning and use",
+    "anchor": "Analyzing vocabulary > Form, meaning, and use > Idioms and formulaic language > Box: Exercise: meaning and use",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "section",
+    "title": "Vocabulary and syntax",
+    "anchor": "Analyzing vocabulary > Vocabulary and syntax",
+    "labels": [
+      "sec:vocab-syntax"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Complementation",
+    "anchor": "Analyzing vocabulary > Vocabulary and syntax > Complementation",
+    "labels": [
+      "ssec:complementation"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "Selectional restrictions",
+    "anchor": "Analyzing vocabulary > Vocabulary and syntax > Selectional restrictions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "section",
+    "title": "Pedagogical implications and common pitfalls",
+    "anchor": "Analyzing vocabulary > Pedagogical implications and common pitfalls",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "The semantic set trap",
+    "anchor": "Analyzing vocabulary > Pedagogical implications and common pitfalls > The semantic set trap",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "The frequency blindness problem",
+    "anchor": "Analyzing vocabulary > Pedagogical implications and common pitfalls > The frequency blindness problem",
+    "labels": [
+      "sec:opportunity-cost"
+    ]
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "The idiom fixation",
+    "anchor": "Analyzing vocabulary > Pedagogical implications and common pitfalls > The idiom fixation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "subsection",
+    "title": "What helps instead",
+    "anchor": "Analyzing vocabulary > Pedagogical implications and common pitfalls > What helps instead",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Exercise: avoiding common pitfalls",
+    "anchor": "Analyzing vocabulary > Pedagogical implications and common pitfalls > What helps instead > Box: Exercise: avoiding common pitfalls",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Self-assessment: vocabulary analysis",
+    "anchor": "Analyzing vocabulary > Pedagogical implications and common pitfalls > What helps instead > Box: Self-assessment: vocabulary analysis",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Analyzing vocabulary > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/08 vocabulary.tex",
+    "block_type": "box",
+    "title": "Advanced exercises",
+    "anchor": "Analyzing vocabulary > Summary > Box: Advanced exercises",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "chapter",
+    "title": "The writing system",
+    "anchor": "The writing system",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "The writing system > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "The writing system > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "section",
+    "title": "Writing systems",
+    "anchor": "The writing system > Writing systems",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "section",
+    "title": "Phonics",
+    "anchor": "The writing system > Phonics",
+    "labels": [
+      "sec:phonics"
+    ]
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "section",
+    "title": "Why English spelling looks this way",
+    "anchor": "The writing system > Why English spelling looks this way",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsection",
+    "title": "Why knight?",
+    "anchor": "The writing system > Why English spelling looks this way > Why knight?",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsection",
+    "title": "How English orthography evolved",
+    "anchor": "The writing system > Why English spelling looks this way > How English orthography evolved",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsubsection",
+    "title": "From runes to the Roman alphabet",
+    "anchor": "The writing system > Why English spelling looks this way > How English orthography evolved > From runes to the Roman alphabet",
+    "labels": [
+      "fig:futhorc"
+    ]
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsubsection",
+    "title": "How the Norman Conquest and the Great Vowel Shift reshaped spelling",
+    "anchor": "The writing system > Why English spelling looks this way > How English orthography evolved > How the Norman Conquest and the Great Vowel Shift reshaped spelling",
+    "labels": [
+      "sec:great-vowel-shift",
+      "fig:great-vowel-shift"
+    ]
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "box",
+    "title": "Linguistic insight: historical patterns",
+    "anchor": "The writing system > Why English spelling looks this way > How English orthography evolved > How the Norman Conquest and the Great Vowel Shift reshaped spelling > Box: Linguistic insight: historical patterns",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsubsection",
+    "title": "The impact of printing and classical learning",
+    "anchor": "The writing system > Why English spelling looks this way > How English orthography evolved > The impact of printing and classical learning",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsubsection",
+    "title": "Dictionaries and standardization",
+    "anchor": "The writing system > Why English spelling looks this way > How English orthography evolved > Dictionaries and standardization",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "section",
+    "title": "Spelling in the digital age",
+    "anchor": "The writing system > Spelling in the digital age",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "section",
+    "title": "From reading words to really reading",
+    "anchor": "The writing system > From reading words to really reading",
+    "labels": [
+      "sec:simple-view-of-reading"
+    ]
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsection",
+    "title": "Dyslexia and other reading disabilities",
+    "anchor": "The writing system > From reading words to really reading > Dyslexia and other reading disabilities",
+    "labels": [
+      "fig:simple-view-quadrants"
+    ]
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "box",
+    "title": "Diagnostic awareness",
+    "anchor": "The writing system > From reading words to really reading > Dyslexia and other reading disabilities > Box: Diagnostic awareness",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsection",
+    "title": "Dyslexia and other reading disabilities",
+    "anchor": "The writing system > From reading words to really reading > Dyslexia and other reading disabilities",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsection",
+    "title": "Teaching decoding",
+    "anchor": "The writing system > From reading words to really reading > Teaching decoding",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "subsection",
+    "title": "Beyond decoding",
+    "anchor": "The writing system > From reading words to really reading > Beyond decoding",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/09 writing system.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "The writing system > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "chapter",
+    "title": "Questions and interrogatives",
+    "anchor": "Questions and interrogatives",
+    "labels": [
+      "ch:questions"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Questions and interrogatives > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "chapter",
+    "title": "Questions and interrogatives",
+    "anchor": "Questions and interrogatives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Questions and interrogatives > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "section",
+    "title": "Questions vs interrogatives",
+    "anchor": "Questions and interrogatives > Questions vs interrogatives",
+    "labels": [
+      "box:terminology-hygiene"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "section",
+    "title": "Main-clause interrogatives",
+    "anchor": "Questions and interrogatives > Main-clause interrogatives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "section",
+    "title": "Basic interrogatives",
+    "anchor": "Questions and interrogatives > Basic interrogatives",
+    "labels": [
+      "sec:basic-int",
+      "fig:subj-aux-inversion",
+      "tab:NICER2",
+      "box:finding-subject",
+      "ex:finding-subjects1",
+      "ex:finding-subjects2",
+      "ex:befirstinterrogatives",
+      "ex:modalfirstinterrogatives",
+      "ex:havefirstinterrogatives"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Do support",
+    "anchor": "Questions and interrogatives > Basic interrogatives > Do support",
+    "labels": [
+      "sec:basic-do-support",
+      "ex:basic-do-support",
+      "fig:do-support-s",
+      "fig:do-support-d",
+      "box:puzzle-1"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Semantics",
+    "anchor": "Questions and interrogatives > Basic interrogatives > Semantics",
+    "labels": [
+      "sec:question-semantics",
+      "fig:closed-int-meme"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Intonation",
+    "anchor": "Questions and interrogatives > Basic interrogatives > Intonation",
+    "labels": [
+      "fig:question-intonation"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "section",
+    "title": "Focused interrogative clauses",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses",
+    "labels": [
+      "sec:focused interrogatives",
+      "tab:q-words"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Interrogative phrases",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses > Interrogative phrases",
+    "labels": [
+      "sec:interrogative-phrases",
+      "ex:who-s-the-kid",
+      "ex:precisely-who",
+      "ex:what-time",
+      "ex:at-what-time",
+      "ex:int-phrases"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Interrogative phrase subjects",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses > Interrogative phrase subjects",
+    "labels": [
+      "sec:focussed-subj",
+      "ex:he->who",
+      "ex:person-people",
+      "ex:int-phr-subj"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Subject-auxiliary inversion and fronting",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses > Subject-auxiliary inversion and fronting",
+    "labels": [
+      "sec:subj-aux-inversion-and-fronting",
+      "ex:when-was-it-there",
+      "ex:when-was-it-there-a",
+      "ex:when-was-it-there-b",
+      "ex:when-was-it-there-c",
+      "ex:how-can-I",
+      "ex:about-what",
+      "ex:int-phr-inversion"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "box",
+    "title": "Practice",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses > Subject-auxiliary inversion and fronting > Box: Practice",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsubsection",
+    "title": "Testing the inversion rule",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses > Subject-auxiliary inversion and fronting > Testing the inversion rule",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Do support inversion",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses > Do support inversion",
+    "labels": [
+      "sec:focused-do-support",
+      "ex:int-phr-do-a",
+      "ex:int-phr-do-b",
+      "ex:int-phr-do",
+      "box:puzzle-2",
+      "ex:WDYbe",
+      "ex:activity-question",
+      "ex:what-did",
+      "ex:what-modal",
+      "ex:what-are",
+      "ex:what-have"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Summary",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses > Summary",
+    "labels": [
+      "fig:decision-tree"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Semantics",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses > Semantics",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Intonation",
+    "anchor": "Questions and interrogatives > Focused interrogative clauses > Intonation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "section",
+    "title": "Questions in the classroom and classroom questions",
+    "anchor": "Questions and interrogatives > Questions in the classroom and classroom questions",
+    "labels": [
+      "ex:confirmation-questions"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "box",
+    "title": "Classroom questions",
+    "anchor": "Questions and interrogatives > Questions in the classroom and classroom questions > Box: Classroom questions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Basic interrogatives with subject-auxiliary inversion",
+    "anchor": "Questions and interrogatives > Phrase structure > Basic interrogatives with subject-auxiliary inversion",
+    "labels": [
+      "fig:tree-theycouldberight",
+      "fig:do-you-like",
+      "fig:combined-trees"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Basic interrogatives with do support",
+    "anchor": "Questions and interrogatives > Phrase structure > Basic interrogatives with do support",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Focused interrogatives with subject focus",
+    "anchor": "Questions and interrogatives > Phrase structure > Focused interrogatives with subject focus",
+    "labels": [
+      "fig:who-plays",
+      "fig:what-can-you",
+      "fig:combined-trees2"
+    ]
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "subsection",
+    "title": "Focused interrogatives with non-subject focus",
+    "anchor": "Questions and interrogatives > Phrase structure > Focused interrogatives with non-subject focus",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/10 questions and interrogatives.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Questions and interrogatives > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "chapter",
+    "title": "Negation",
+    "anchor": "Negation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Negation > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "chapter",
+    "title": "Negation",
+    "anchor": "Negation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Negation > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "section",
+    "title": "Language change, grammaticalization, and exaptation",
+    "anchor": "Negation > Language change, grammaticalization, and exaptation",
+    "labels": [
+      "ex:ne-habbe"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsubsection",
+    "title": "Stage one",
+    "anchor": "Negation > Language change, grammaticalization, and exaptation > Jespersen's cycle > Stage one",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsubsection",
+    "title": "Stage two",
+    "anchor": "Negation > Language change, grammaticalization, and exaptation > Jespersen's cycle > Stage two",
+    "labels": [
+      "ex:ne-sceal"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsubsection",
+    "title": "Stage three",
+    "anchor": "Negation > Language change, grammaticalization, and exaptation > Jespersen's cycle > Stage three",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsubsection",
+    "title": "Stage four",
+    "anchor": "Negation > Language change, grammaticalization, and exaptation > Jespersen's cycle > Stage four",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsubsection",
+    "title": "Stage five",
+    "anchor": "Negation > Language change, grammaticalization, and exaptation > Jespersen's cycle > Stage five",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsubsection",
+    "title": "Stages six and seven",
+    "anchor": "Negation > Language change, grammaticalization, and exaptation > Jespersen's cycle > Stages six and seven",
+    "labels": [
+      "fig:Jesp-cycle"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "box",
+    "title": "Check your understanding: Jespersen's cycle",
+    "anchor": "Negation > Language change, grammaticalization, and exaptation > Jespersen's cycle > Stages six and seven > Box: Check your understanding: Jespersen's cycle",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsubsection",
+    "title": "Summary",
+    "anchor": "Negation > Language change, grammaticalization, and exaptation > Jespersen's cycle > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "section",
+    "title": "Scope",
+    "anchor": "Negation > Scope",
+    "labels": [
+      "ex:not-many"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Scope and modal auxiliary verbs",
+    "anchor": "Negation > Scope > Scope and modal auxiliary verbs",
+    "labels": [
+      "ex:can-vs-must",
+      "ex:can",
+      "ex:must"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "box",
+    "title": "Quick self-check: scope",
+    "anchor": "Negation > Scope > Scope and modal auxiliary verbs > Box: Quick self-check: scope",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "section",
+    "title": "Types of negation",
+    "anchor": "Negation > Types of negation",
+    "labels": [
+      "sec:types-of-negation",
+      "fig:neg-types"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Clausal negation",
+    "anchor": "Negation > Types of negation > Clausal negation",
+    "labels": [
+      "sec:clausal-negation",
+      "ex:verbal-negation",
+      "ex:non-verbal-negation",
+      "ex:non-verbal-negation-i",
+      "ex:non-verbal-negation-ii"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Sub-clausal negation",
+    "anchor": "Negation > Types of negation > Sub-clausal negation",
+    "labels": [
+      "ex:sub-clausal-negation",
+      "ex:sub+clausal-negation"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Affixal negation",
+    "anchor": "Negation > Types of negation > Affixal negation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Pragmatic negation",
+    "anchor": "Negation > Types of negation > Pragmatic negation",
+    "labels": [
+      "sec:pragmatic-neg",
+      "ex:ironic-neg"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Non-affirmative items",
+    "anchor": "Negation > Polarity items > Non-affirmative items",
+    "labels": [
+      "ex:NPI-environments",
+      "ex:at-all-interrogative",
+      "ex:at-all-neg",
+      "ex:at-all-pos",
+      "ex:ever-interrogative",
+      "ex:ever-neg",
+      "ex:ever-pos",
+      "ex:yet-interrogative",
+      "ex:yet-neg",
+      "ex:yet-pos",
+      "ex:clausal-reprise1",
+      "ex:verbal-reprise",
+      "ex:non-verbal-reprise",
+      "ex:approximate-negators",
+      "ex:other-NPIs",
+      "ex:pos-a-drop",
+      "ex:pos-a-finger",
+      "ex:positive-much"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Positive polarity items",
+    "anchor": "Negation > Polarity items > Positive polarity items",
+    "labels": [
+      "ex:PPI-environments"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "box",
+    "title": "Pattern recognition: polarity items",
+    "anchor": "Negation > Polarity items > Positive polarity items > Box: Pattern recognition: polarity items",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Asymmetries",
+    "anchor": "Negation > The meaning of negatives > Asymmetries",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Polarity interpretation",
+    "anchor": "Negation > The meaning of negatives > Polarity interpretation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Beyond simple polarity",
+    "anchor": "Negation > The meaning of negatives > Beyond simple polarity",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Verbal negation",
+    "anchor": "Negation > Phrase structure > Verbal negation",
+    "labels": [
+      "fig:icantwait",
+      "fig:dontbe"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Non-verbal negation",
+    "anchor": "Negation > Phrase structure > Non-verbal negation",
+    "labels": [
+      "fig:noinjuries",
+      "fig:neverdidhe"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Sub-clausal and affixal negation",
+    "anchor": "Negation > Phrase structure > Sub-clausal and affixal negation",
+    "labels": [
+      "fig:notforthefirsttime"
+    ]
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "subsection",
+    "title": "Phrase structure summary",
+    "anchor": "Negation > Phrase structure > Phrase structure summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/11 negation.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Negation > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "chapter",
+    "title": "Categories, functions, and constructions",
+    "anchor": "Categories, functions, and constructions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Categories, functions, and constructions > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "chapter",
+    "title": "Categories, functions, and constructions",
+    "anchor": "Categories, functions, and constructions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "section",
+    "title": "Subjects",
+    "anchor": "Categories, functions, and constructions > Subjects",
+    "labels": [
+      "sec:subjects2"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Position of subjects relative to verbs",
+    "anchor": "Categories, functions, and constructions > Subjects > Some examples > Position of subjects relative to verbs",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Categories of subjects",
+    "anchor": "Categories, functions, and constructions > Subjects > Some examples > Categories of subjects",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Denotation",
+    "anchor": "Categories, functions, and constructions > Subjects > Some examples > Denotation",
+    "labels": [
+      "sec:subject-denotation"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Active vs passive",
+    "anchor": "Categories, functions, and constructions > Subjects > Some examples > Active vs passive",
+    "labels": [
+      "ex:passive-no-by"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Pronoun case",
+    "anchor": "Categories, functions, and constructions > Subjects > Some examples > Pronoun case",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "How subjects are licensed",
+    "anchor": "Categories, functions, and constructions > Subjects > Some examples > How subjects are licensed",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "subject-verb agreement for number and person",
+    "anchor": "Categories, functions, and constructions > Subjects > Some examples > subject-verb agreement for number and person",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Dropping subjects",
+    "anchor": "Categories, functions, and constructions > Subjects > Dropping subjects",
+    "labels": [
+      "sec:subject-dropping",
+      "ex:abbiamo",
+      "ex:tabeta",
+      "ex:ikitai",
+      "ex:first-person-drop",
+      "ex:second-person-drop",
+      "ex:third-person-drop",
+      "sec:coord-drop"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "box",
+    "title": "Check your understanding: subject properties",
+    "anchor": "Categories, functions, and constructions > Subjects > Dropping subjects > Box: Check your understanding: subject properties",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Conclusion",
+    "anchor": "Categories, functions, and constructions > Subjects > Conclusion",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "section",
+    "title": "Determiners as a syntactic function",
+    "anchor": "Categories, functions, and constructions > Determiners as a syntactic function",
+    "labels": [
+      "ex:determiners"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Position and ordering within NP",
+    "anchor": "Categories, functions, and constructions > Determiners as a syntactic function > Position and ordering within NP",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Categories that function as determiners",
+    "anchor": "Categories, functions, and constructions > Determiners as a syntactic function > Categories that function as determiners",
+    "labels": [
+      "fig:det-det"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Agreement and concord",
+    "anchor": "Categories, functions, and constructions > Determiners as a syntactic function > Agreement and concord",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Number agreement",
+    "anchor": "Categories, functions, and constructions > Determiners as a syntactic function > Agreement and concord > Number agreement",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Gender agreement",
+    "anchor": "Categories, functions, and constructions > Determiners as a syntactic function > Agreement and concord > Gender agreement",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "section",
+    "title": "Objects as complements",
+    "anchor": "Categories, functions, and constructions > Objects as complements",
+    "labels": [
+      "ex:cant-passive-obj"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "section",
+    "title": "Other complements",
+    "anchor": "Categories, functions, and constructions > Other complements",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Complementation in noun phrases",
+    "anchor": "Categories, functions, and constructions > Other complements > Complementation in noun phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Preposition phrase complements",
+    "anchor": "Categories, functions, and constructions > Other complements > Complementation in noun phrases > Preposition phrase complements",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Clausal and verb phrase complements",
+    "anchor": "Categories, functions, and constructions > Other complements > Complementation in noun phrases > Clausal and verb phrase complements",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Complementation in adjective phrases",
+    "anchor": "Categories, functions, and constructions > Other complements > Complementation in adjective phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Preposition phrase complements",
+    "anchor": "Categories, functions, and constructions > Other complements > Complementation in adjective phrases > Preposition phrase complements",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Clausal and verb phrase complements",
+    "anchor": "Categories, functions, and constructions > Other complements > Complementation in adjective phrases > Clausal and verb phrase complements",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Conclusion",
+    "anchor": "Categories, functions, and constructions > Other complements > Conclusion",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "section",
+    "title": "Modifiers",
+    "anchor": "Categories, functions, and constructions > Modifiers",
+    "labels": [
+      "sec:modifiers",
+      "ex:modifier-types"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Position of modifiers",
+    "anchor": "Categories, functions, and constructions > Modifiers > Position of modifiers",
+    "labels": [
+      "ex:np-modifiers",
+      "ex:vp-modifiers",
+      "ex:modifier-position"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Categories functioning as modifiers",
+    "anchor": "Categories, functions, and constructions > Modifiers > Categories functioning as modifiers",
+    "labels": [
+      "tab:modifiers"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsubsection",
+    "title": "Measure phrases",
+    "anchor": "Categories, functions, and constructions > Modifiers > Categories functioning as modifiers > Measure phrases",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Stacking and ordering",
+    "anchor": "Categories, functions, and constructions > Modifiers > Stacking and ordering",
+    "labels": [
+      "ex:adj-order",
+      "ex:adv-order"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Integrated vs supplementary modifiers",
+    "anchor": "Categories, functions, and constructions > Modifiers > Integrated vs supplementary modifiers",
+    "labels": [
+      "ex:restrictive",
+      "ex:supplement",
+      "ex:supplement-position",
+      "ex:supplement-stack",
+      "ex:relative-contrast"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "box",
+    "title": "Pattern recognition: modifiers vs complements",
+    "anchor": "Categories, functions, and constructions > Modifiers > Integrated vs supplementary modifiers > Box: Pattern recognition: modifiers vs complements",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "section",
+    "title": "Constructions",
+    "anchor": "Categories, functions, and constructions > Constructions",
+    "labels": [
+      "sec:constructions"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Conditional coordination",
+    "anchor": "Categories, functions, and constructions > Constructions > Conditional coordination",
+    "labels": [
+      "sec:conditional-coordination",
+      "ex:conditional-coord",
+      "ex:conditional-coord-constraints"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Resultative constructions",
+    "anchor": "Categories, functions, and constructions > Constructions > Resultative constructions",
+    "labels": [
+      "ex:resultative",
+      "ex:resultative-pp"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Light verb constructions",
+    "anchor": "Categories, functions, and constructions > Constructions > Light verb constructions",
+    "labels": [
+      "ex:light-verb",
+      "ex:light-verb-use"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Serial verb constructions",
+    "anchor": "Categories, functions, and constructions > Constructions > Serial verb constructions",
+    "labels": [
+      "ex:serial",
+      "ex:serial-forms"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Predicative complement constructions",
+    "anchor": "Categories, functions, and constructions > Constructions > Predicative complement constructions",
+    "labels": [
+      "ex:pred-comp",
+      "ex:pred-comp-vs-mod"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "subsection",
+    "title": "Spray/load alternations",
+    "anchor": "Categories, functions, and constructions > Constructions > Spray/load alternations",
+    "labels": [
+      "ex:spray-load",
+      "ex:spray-load-gaps"
+    ]
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "box",
+    "title": "Quick self-check: constructions",
+    "anchor": "Categories, functions, and constructions > Constructions > Spray/load alternations > Box: Quick self-check: constructions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/12 more categories and functions.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Categories, functions, and constructions > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "chapter",
+    "title": "Fluency and flow",
+    "anchor": "Fluency and flow",
+    "labels": [
+      "ch:fluency"
+    ]
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Fluency and flow > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "chapter",
+    "title": "Fluency and flow",
+    "anchor": "Fluency and flow",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Fluency and flow > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "section",
+    "title": "What is fluency?",
+    "anchor": "Fluency and flow > What is fluency?",
+    "labels": [
+      "sec:what-is-fluency",
+      "fig:CAFtriangle",
+      "fig:CAFtriangle2"
+    ]
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "box",
+    "title": "Check your understanding: the CAF triangle",
+    "anchor": "Fluency and flow > What is fluency? > Box: Check your understanding: the CAF triangle",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Fluency vs proficiency",
+    "anchor": "Fluency and flow > What is fluency? > Fluency vs proficiency",
+    "labels": [
+      "tab:fluency_proficiency"
+    ]
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "section",
+    "title": "Dimensions of fluency",
+    "anchor": "Fluency and flow > Dimensions of fluency",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Speaking fluency",
+    "anchor": "Fluency and flow > Dimensions of fluency > Speaking fluency",
+    "labels": [
+      "ex:fluent",
+      "ex:disfluent"
+    ]
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "box",
+    "title": "Fluency reflection: automaticity in action",
+    "anchor": "Fluency and flow > Dimensions of fluency > Speaking fluency > Box: Fluency reflection: automaticity in action",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Listening fluency",
+    "anchor": "Fluency and flow > Dimensions of fluency > Listening fluency",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Reading fluency",
+    "anchor": "Fluency and flow > Dimensions of fluency > Reading fluency",
+    "labels": [
+      "sec:reading-fluency"
+    ]
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Writing fluency",
+    "anchor": "Fluency and flow > Dimensions of fluency > Writing fluency",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Putting it all together",
+    "anchor": "Fluency and flow > Dimensions of fluency > Putting it all together",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Speaking and listening",
+    "anchor": "Fluency and flow > Measures of fluency > Speaking and listening",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Reading",
+    "anchor": "Fluency and flow > Measures of fluency > Reading",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Writing",
+    "anchor": "Fluency and flow > Measures of fluency > Writing",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "section",
+    "title": "Factors affecting fluency",
+    "anchor": "Fluency and flow > Factors affecting fluency",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "subsection",
+    "title": "Cognitive processing and affective factors",
+    "anchor": "Fluency and flow > Factors affecting fluency > Cognitive processing and affective factors",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/13 fluency.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Fluency and flow > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "chapter",
+    "title": "Information packaging",
+    "anchor": "Information packaging",
+    "labels": [
+      "ch:info-package"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Information packaging > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "section",
+    "title": "What is information packaging?",
+    "anchor": "Information packaging > What is information packaging?",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsection",
+    "title": "Given vs new information",
+    "anchor": "Information packaging > What is information packaging? > Given vs new information",
+    "labels": [
+      "ex:hybrid",
+      "ex:hybrid-reversed"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "box",
+    "title": "Check your understanding: given-new flow",
+    "anchor": "Information packaging > What is information packaging? > Given vs new information > Box: Check your understanding: given-new flow",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsection",
+    "title": "Topic and focus",
+    "anchor": "Information packaging > What is information packaging? > Topic and focus",
+    "labels": [
+      "sec:topic+focus",
+      "ex:Yokos-laptop",
+      "ex:whose-laptop",
+      "ex:steves-laptop",
+      "ex:laptop-cleft",
+      "ex:broken-laptop"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "box",
+    "title": "Practice: topic-focus analysis",
+    "anchor": "Information packaging > What is information packaging? > Topic and focus > Box: Practice: topic-focus analysis",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsection",
+    "title": "The passive voice",
+    "anchor": "Information packaging > Information packaging constructions > The passive voice",
+    "labels": [
+      "sec:passive",
+      "ex:new-manager",
+      "ex:new-manager-by-phrase",
+      "ex:XYZ-co",
+      "ex:CNN",
+      "ex:broken-window",
+      "ex:mishandled-crisis"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsection",
+    "title": "Cleft constructions",
+    "anchor": "Information packaging > Information packaging constructions > Cleft constructions",
+    "labels": [
+      "sec:clefts"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsubsection",
+    "title": "It-clefts",
+    "anchor": "Information packaging > Information packaging constructions > Cleft constructions > It-clefts",
+    "labels": [
+      "ex:Laptop-it-cleft"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsubsection",
+    "title": "Pseudo-clefts",
+    "anchor": "Information packaging > Information packaging constructions > Cleft constructions > Pseudo-clefts",
+    "labels": [
+      "ex:Jun-cleft",
+      "ex:cleft-contrast",
+      "ex:adjuct-focus",
+      "ex:adjunct-focus2"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsubsection",
+    "title": "Preposing",
+    "anchor": "Information packaging > Information packaging constructions > Preposing and postposing > Preposing",
+    "labels": [
+      "sec:preposing",
+      "ex:preposing",
+      "ex:preposing-end",
+      "ex:fronting-inversion",
+      "ex:fronting-inversion-end"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsubsection",
+    "title": "Postposing",
+    "anchor": "Information packaging > Information packaging constructions > Preposing and postposing > Postposing",
+    "labels": [
+      "ex:postposing-start",
+      "ex:postposing-end"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsection",
+    "title": "Extraposed subject",
+    "anchor": "Information packaging > Information packaging constructions > Extraposed subject",
+    "labels": [
+      "sec:extraposition",
+      "ex:extrapose-worry",
+      "ex:extrapose-seem",
+      "ex:extrapose-clear",
+      "ex:extrapose-revise",
+      "ex:extrapose-infinitive"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsection",
+    "title": "Right dislocation",
+    "anchor": "Information packaging > Information packaging constructions > Right dislocation",
+    "labels": [
+      "sec:right-dislocation",
+      "ex:right-dis-basic",
+      "ex:right-dis-comment",
+      "ex:right-dis-discourse"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "box",
+    "title": "Exercise: one proposition, seven packages",
+    "anchor": "Information packaging > Information packaging constructions > Right dislocation > Box: Exercise: one proposition, seven packages",
+    "labels": [
+      "ex:seven-packages"
+    ]
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "subsection",
+    "title": "Right dislocation",
+    "anchor": "Information packaging > Information packaging constructions > Right dislocation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/14 information packaging.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Information packaging > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "chapter",
+    "title": "Coherence and cohesion",
+    "anchor": "Coherence and cohesion",
+    "labels": [
+      "ch:coherence"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Coherence and cohesion > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Coherence and cohesion > Introduction",
+    "labels": [
+      "ex:parents",
+      "ex:parents-were-teachers-revised"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "What is discourse?",
+    "anchor": "Coherence and cohesion > Introduction > What is discourse?",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "What is coherence?",
+    "anchor": "Coherence and cohesion > Coherence in discourse > What is coherence?",
+    "labels": [
+      "ex:history"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "box",
+    "title": "Quick analysis: lexical chains",
+    "anchor": "Coherence and cohesion > Coherence in discourse > What is coherence? > Box: Quick analysis: lexical chains",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "What is coherence?",
+    "anchor": "Coherence and cohesion > Coherence in discourse > What is coherence?",
+    "labels": [
+      "ex:cohere-wout-cohesives",
+      "ex:incoherent"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "section",
+    "title": "Cohesive devices",
+    "anchor": "Coherence and cohesion > Cohesive devices",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Reference, pronouns, and pro-forms",
+    "anchor": "Coherence and cohesion > Cohesive devices > Reference, pronouns, and pro-forms",
+    "labels": [
+      "ex:Ethan",
+      "ex:who-is",
+      "ex:did-so",
+      "ex:Brett-himself",
+      "ex:social-myself"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Definiteness",
+    "anchor": "Coherence and cohesion > Cohesive devices > Definiteness",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Pronouns vs deictic determinatives",
+    "anchor": "Coherence and cohesion > Cohesive devices > Pronouns vs deictic determinatives",
+    "labels": [
+      "ex:this-to-it",
+      "ex:Canada-it-that"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "Lexical cohesion",
+    "anchor": "Coherence and cohesion > Cohesive devices > Lexical cohesion",
+    "labels": [
+      "ex:history2"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "Ellipsis",
+    "anchor": "Coherence and cohesion > Cohesive devices > Ellipsis",
+    "labels": [
+      "sec:ellipsis"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Types and patterns",
+    "anchor": "Coherence and cohesion > Cohesive devices > Ellipsis > Types and patterns",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Discourse functions",
+    "anchor": "Coherence and cohesion > Cohesive devices > Ellipsis > Discourse functions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Constraints and challenges",
+    "anchor": "Coherence and cohesion > Cohesive devices > Ellipsis > Constraints and challenges",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Cross-linguistic variation",
+    "anchor": "Coherence and cohesion > Cohesive devices > Ellipsis > Cross-linguistic variation",
+    "labels": [
+      "sec:complete-sentences"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "Connectives",
+    "anchor": "Coherence and cohesion > Cohesive devices > Connectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "Discourse markers and pragmatic particles",
+    "anchor": "Coherence and cohesion > Cohesive devices > Discourse markers and pragmatic particles",
+    "labels": [
+      "sec:discourse-markers"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Positional patterns and functions",
+    "anchor": "Coherence and cohesion > Cohesive devices > Discourse markers and pragmatic particles > Positional patterns and functions",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Prosodic sensitivity",
+    "anchor": "Coherence and cohesion > Cohesive devices > Discourse markers and pragmatic particles > Prosodic sensitivity",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Register and social meaning",
+    "anchor": "Coherence and cohesion > Cohesive devices > Discourse markers and pragmatic particles > Register and social meaning",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsubsection",
+    "title": "Cross-linguistic challenges",
+    "anchor": "Coherence and cohesion > Cohesive devices > Discourse markers and pragmatic particles > Cross-linguistic challenges",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "section",
+    "title": "Abductive bridging and coherence",
+    "anchor": "Coherence and cohesion > Abductive bridging and coherence",
+    "labels": [
+      "sec:bridging"
+    ]
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "The abductive engine",
+    "anchor": "Coherence and cohesion > Abductive bridging and coherence > The abductive engine",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "box",
+    "title": "Understanding bridging: try this",
+    "anchor": "Coherence and cohesion > Abductive bridging and coherence > The abductive engine > Box: Understanding bridging: try this",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "Coherence without cohesion",
+    "anchor": "Coherence and cohesion > Abductive bridging and coherence > Coherence without cohesion",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "subsection",
+    "title": "Cross-linguistic variation in bridging",
+    "anchor": "Coherence and cohesion > Abductive bridging and coherence > Cross-linguistic variation in bridging",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "section",
+    "title": "Weaving it all together",
+    "anchor": "Coherence and cohesion > Weaving it all together",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/15 coherence and cohesion.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Coherence and cohesion > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "chapter",
+    "title": "Pragmatics",
+    "anchor": "Pragmatics",
+    "labels": [
+      "ch:pragmatics"
+    ]
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Pragmatics > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Pragmatics > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "subsection",
+    "title": "Why pragmatics matters for language teaching",
+    "anchor": "Pragmatics > Introduction > Why pragmatics matters for language teaching",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "section",
+    "title": "Cooperation and implicature",
+    "anchor": "Pragmatics > Cooperation and implicature",
+    "labels": [
+      "sec:implicature"
+    ]
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "box",
+    "title": "Practice: analyzing conversational implicatures",
+    "anchor": "Pragmatics > Cooperation and implicature > Box: Practice: analyzing conversational implicatures",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "section",
+    "title": "Cooperation and implicature",
+    "anchor": "Pragmatics > Cooperation and implicature",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "subsubsection",
+    "title": "Abduction as the engine of implicature",
+    "anchor": "Pragmatics > Cooperation and implicature > Abduction as the engine of implicature",
+    "labels": [
+      "sec:abduction-implicature"
+    ]
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "section",
+    "title": "Speech acts and performatives",
+    "anchor": "Pragmatics > Speech acts and performatives",
+    "labels": [
+      "sec:speech-acts"
+    ]
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "box",
+    "title": "Recognizing speech acts in context",
+    "anchor": "Pragmatics > Speech acts and performatives > Box: Recognizing speech acts in context",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "section",
+    "title": "Speech acts and performatives",
+    "anchor": "Pragmatics > Speech acts and performatives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "box",
+    "title": "Practice: analyzing speech acts",
+    "anchor": "Pragmatics > Speech acts and performatives > Box: Practice: analyzing speech acts",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "section",
+    "title": "Politeness and face",
+    "anchor": "Pragmatics > Politeness and face",
+    "labels": [
+      "sec:politeness"
+    ]
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "subsection",
+    "title": "Face and face-threatening acts",
+    "anchor": "Pragmatics > Politeness and face > Face and face-threatening acts",
+    "labels": [
+      "ex:refusals"
+    ]
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "subsection",
+    "title": "Politeness strategies",
+    "anchor": "Pragmatics > Politeness and face > Politeness strategies",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "subsection",
+    "title": "Power, distance, and imposition",
+    "anchor": "Pragmatics > Politeness and face > Power, distance, and imposition",
+    "labels": [
+      "sec:power",
+      "ex:modal-patterns"
+    ]
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "subsubsection",
+    "title": "Addressing the teacher",
+    "anchor": "Pragmatics > Politeness and face > Power, distance, and imposition > Addressing the teacher",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "section",
+    "title": "Context and meaning",
+    "anchor": "Pragmatics > Context and meaning",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "section",
+    "title": "Teaching pragmatic competence",
+    "anchor": "Pragmatics > Teaching pragmatic competence",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "subsection",
+    "title": "Using AI to make pragmatics visible",
+    "anchor": "Pragmatics > Teaching pragmatic competence > Using AI to make pragmatics visible",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/16 pragmatics.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Pragmatics > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "chapter",
+    "title": "Conversations",
+    "anchor": "Conversations",
+    "labels": [
+      "ch:conversations"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Conversations > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "chapter",
+    "title": "Conversations",
+    "anchor": "Conversations",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Conversations > Introduction",
+    "labels": [
+      "sec:intro-hidden"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Beyond turn-taking",
+    "anchor": "Conversations > Beyond turn-taking",
+    "labels": [
+      "sec:beyond-turns"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Timescales and structure",
+    "anchor": "Conversations > Beyond turn-taking > Timescales and structure",
+    "labels": [
+      "subsec:timescales"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsubsection",
+    "title": "Topic management",
+    "anchor": "Conversations > Beyond turn-taking > Timescales and structure > Topic management",
+    "labels": [
+      "sssec:topic-man"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Exercise: mapping temporal layers",
+    "anchor": "Conversations > Beyond turn-taking > Timescales and structure > Topic management > Box: Exercise: mapping temporal layers",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Cultural organization of talk",
+    "anchor": "Conversations > Beyond turn-taking > Cultural organization of talk",
+    "labels": [
+      "subsec:cultural-org"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Exercise: cultural patterns in action",
+    "anchor": "Conversations > Beyond turn-taking > Cultural organization of talk > Box: Exercise: cultural patterns in action",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Grammar in interaction",
+    "anchor": "Conversations > Beyond turn-taking > Grammar in interaction",
+    "labels": [
+      "subsec:grammar-interaction"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "How do we know when to speak (and when to stop)",
+    "anchor": "Conversations > How do we know when to speak (and when to stop)",
+    "labels": [
+      "sec:turn-arch"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Building common ground",
+    "anchor": "Conversations > Building common ground",
+    "labels": [
+      "sec:common-ground"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Observation exercise: grounding in action",
+    "anchor": "Conversations > Building common ground > Box: Observation exercise: grounding in action",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Building common ground",
+    "anchor": "Conversations > Building common ground",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Exercise: tracking common ground",
+    "anchor": "Conversations > Building common ground > Box: Exercise: tracking common ground",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Bodies in conversation",
+    "anchor": "Conversations > Bodies in conversation",
+    "labels": [
+      "sec:bodies"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Exercise: grammar as real-time resource",
+    "anchor": "Conversations > Bodies in conversation > Box: Exercise: grammar as real-time resource",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Bodies in conversation",
+    "anchor": "Conversations > Bodies in conversation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Exercise: bodies and space",
+    "anchor": "Conversations > Bodies in conversation > Box: Exercise: bodies and space",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Bodies in conversation",
+    "anchor": "Conversations > Bodies in conversation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Information and action",
+    "anchor": "Conversations > Information and action",
+    "labels": [
+      "sec:info-action"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Action sequences",
+    "anchor": "Conversations > Information and action > Action sequences",
+    "labels": [
+      "subsec:action-seq"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Knowledge construction",
+    "anchor": "Conversations > Information and action > Knowledge construction",
+    "labels": [
+      "subsec:knowledge"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Side sequences",
+    "anchor": "Conversations > Information and action > Side sequences",
+    "labels": [
+      "subsec:side-seq"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Social dimensions",
+    "anchor": "Conversations > Social dimensions",
+    "labels": [
+      "sec:social"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Face and politeness",
+    "anchor": "Conversations > Social dimensions > Face and politeness",
+    "labels": [
+      "subsec:face"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Power and identity",
+    "anchor": "Conversations > Social dimensions > Power and identity",
+    "labels": [
+      "subsec:power"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Institutional talk",
+    "anchor": "Conversations > Social dimensions > Institutional talk",
+    "labels": [
+      "subsec:institutional"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Digital reshaping",
+    "anchor": "Conversations > Digital reshaping",
+    "labels": [
+      "sec:digital"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "New turn patterns",
+    "anchor": "Conversations > Digital reshaping > New turn patterns",
+    "labels": [
+      "subsec:new-turns"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "subsection",
+    "title": "Multiple conversations",
+    "anchor": "Conversations > Digital reshaping > Multiple conversations",
+    "labels": [
+      "subsec:multiple"
+    ]
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Exercise: digital transformations",
+    "anchor": "Conversations > Digital reshaping > Multiple conversations > Box: Exercise: digital transformations",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Quick self-check: conversation analysis skills",
+    "anchor": "Conversations > Digital reshaping > Multiple conversations > Box: Quick self-check: conversation analysis skills",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Conversations > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/17 conversation.tex",
+    "block_type": "box",
+    "title": "Exercise: synthesis - conversation as system",
+    "anchor": "Conversations > Summary > Box: Exercise: synthesis - conversation as system",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "chapter",
+    "title": "Subordination and Coordination",
+    "anchor": "Subordination and Coordination",
+    "labels": [
+      "ch:subord-coord"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Subordination and Coordination > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Subordination and Coordination > Introduction",
+    "labels": [
+      "ex:intro"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "section",
+    "title": "Subordination",
+    "anchor": "Subordination and Coordination > Subordination",
+    "labels": [
+      "sec:subordination",
+      "ex:sub-basic",
+      "ex:sub-basic2"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "Types of subordinate clauses",
+    "anchor": "Subordination and Coordination > Subordination > Types of subordinate clauses",
+    "labels": [
+      "ex:sub-types"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsubsection",
+    "title": "Content clauses",
+    "anchor": "Subordination and Coordination > Subordination > Types of subordinate clauses > Content clauses",
+    "labels": [
+      "ex:content-types",
+      "fig:sub-tree-sub",
+      "ex:content-funcs",
+      "ex:marker-need",
+      "sec:sub-interrog",
+      "ex:int-sub",
+      "ex:non-inverted-interrogative"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsubsection",
+    "title": "The mandative",
+    "anchor": "Subordination and Coordination > Subordination > Types of subordinate clauses > The mandative",
+    "labels": [
+      "ex:mandative"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "box",
+    "title": "Check your understanding: matrix vs subordinate",
+    "anchor": "Subordination and Coordination > Subordination > Types of subordinate clauses > The mandative > Box: Check your understanding: matrix vs subordinate",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "Comparative clauses",
+    "anchor": "Subordination and Coordination > Subordination > Comparative clauses",
+    "labels": [
+      "ex:comparative-intro",
+      "ex:comparative-ellipsis",
+      "fig:comp-tree",
+      "ex:comp-markers"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "section",
+    "title": "Coordination",
+    "anchor": "Subordination and Coordination > Coordination",
+    "labels": [
+      "sec:coordination",
+      "ex:coord-basic",
+      "ex:coord-replace",
+      "fig:coord-basic"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "Properties of coordination",
+    "anchor": "Subordination and Coordination > Coordination > Properties of coordination",
+    "labels": [
+      "ex:coord-multiple",
+      "ex:coordinate-function",
+      "ex:coord-front"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "A note on sentence-initial coordinators",
+    "anchor": "Subordination and Coordination > Coordination > A note on sentence-initial coordinators",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "Types of coordination",
+    "anchor": "Subordination and Coordination > Coordination > Types of coordination",
+    "labels": [
+      "ex:coord-sym",
+      "ex:coord-dist"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "Marking coordination",
+    "anchor": "Subordination and Coordination > Coordination > Marking coordination",
+    "labels": [
+      "ex:coord-meaning"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "box",
+    "title": "Pattern recognition: coordination vs subordination",
+    "anchor": "Subordination and Coordination > Coordination > Marking coordination > Box: Pattern recognition: coordination vs subordination",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "Marking coordination",
+    "anchor": "Subordination and Coordination > Coordination > Marking coordination",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "The structure of coordination",
+    "anchor": "Subordination and Coordination > Coordination > The structure of coordination",
+    "labels": [
+      "ex:coord-function"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "Coordination with and without markers",
+    "anchor": "Subordination and Coordination > Coordination > Coordination with and without markers",
+    "labels": [
+      "ex:coord-marking",
+      "ex:coord-correlative"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "Layered coordination",
+    "anchor": "Subordination and Coordination > Coordination > Layered coordination",
+    "labels": [
+      "ex:coord-layered",
+      "fig:coord-layered"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "subsection",
+    "title": "Special types of coordination",
+    "anchor": "Subordination and Coordination > Coordination > Special types of coordination",
+    "labels": [
+      "ex:coord-comp"
+    ]
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "box",
+    "title": "Quick self-check: complex structures",
+    "anchor": "Subordination and Coordination > Coordination > Special types of coordination > Box: Quick self-check: complex structures",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/18 subordination and coordination.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Subordination and Coordination > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "chapter",
+    "title": "Relative constructions",
+    "anchor": "Relative constructions",
+    "labels": [
+      "ch:relatives"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "Relative constructions > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "Relative constructions > Introduction",
+    "labels": [
+      "ex:two-sentence-version",
+      "ex:no-it",
+      "ex:articulated-gap-positions"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Syntactic types",
+    "anchor": "Relative constructions > Syntactic types",
+    "labels": [
+      "fig:relative-construction-types",
+      "ex:basic-rel-clause-types",
+      "ex:focused-rel-clause-types"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "subsection",
+    "title": "Basic types",
+    "anchor": "Relative constructions > Syntactic types > Basic types",
+    "labels": [
+      "ex:basic-relatives",
+      "ex:subordinator-that"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "subsubsection",
+    "title": "Restrictions on the basic types",
+    "anchor": "Relative constructions > Syntactic types > Basic types > Restrictions on the basic types",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "subsection",
+    "title": "Focused types: articulated",
+    "anchor": "Relative constructions > Syntactic types > Focused types: articulated",
+    "labels": [
+      "sec:focused-articulated",
+      "tab:interrogative-relative",
+      "ex:articulated-relative-words",
+      "ex:whose-non-personal",
+      "ex:relatives-visualized"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "box",
+    "title": "Check your understanding: gap analysis",
+    "anchor": "Relative constructions > Syntactic types > Focused types: articulated > Box: Check your understanding: gap analysis",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "subsubsection",
+    "title": "Infinitival",
+    "anchor": "Relative constructions > Syntactic types > Other focused types: infinitival and fused > Infinitival",
+    "labels": [
+      "ex:focused-infinitival-relatives",
+      "ex:focused-infinitival-restrictions"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "subsubsection",
+    "title": "Fused",
+    "anchor": "Relative constructions > Syntactic types > Other focused types: infinitival and fused > Fused",
+    "labels": [
+      "ex:14.11",
+      "ex:14.12",
+      "ex:14.14"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Difficulty and syntactic functions",
+    "anchor": "Relative constructions > Difficulty and syntactic functions",
+    "labels": [
+      "sec:difficulty-relatives",
+      "ex:teacher-student-liking",
+      "tab:difficulty-matrix",
+      "tab:difficulty-matrix2"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Semantic restriction",
+    "anchor": "Relative constructions > Semantic restriction",
+    "labels": [
+      "ex:restrictive-books",
+      "ex:non-restrictive-books",
+      "ex:trust-with-integrity",
+      "ex:sleepy-guests"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "box",
+    "title": "Pattern recognition: restrictive vs non-restrictive",
+    "anchor": "Relative constructions > Semantic restriction > Box: Pattern recognition: restrictive vs non-restrictive",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Relative clauses as supplements",
+    "anchor": "Relative constructions > Relative clauses as supplements",
+    "labels": [
+      "sec:rel-clause-supps"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Relative clauses in it-clefts",
+    "anchor": "Relative constructions > Relative clauses in it-clefts",
+    "labels": [
+      "ex:it-cleft",
+      "ex:non-cleft",
+      "ex:non-cleft2"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Pronoun retention, aka \"resumptive pronouns\"",
+    "anchor": "Relative constructions > Pronoun retention, aka \"resumptive pronouns\"",
+    "labels": [
+      "ex:resumptive-pronouns",
+      "ex:resumptive-oblique"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Recursive embedding",
+    "anchor": "Relative constructions > Recursive embedding",
+    "labels": [
+      "ex:recursive-relatives"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Phrase structure",
+    "anchor": "Relative constructions > Phrase structure",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "subsubsection",
+    "title": "Basic relatives",
+    "anchor": "Relative constructions > Phrase structure > Structural types > Basic relatives",
+    "labels": [
+      "fig:we-met",
+      "fig:that-met-us"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "subsubsection",
+    "title": "Focused relatives",
+    "anchor": "Relative constructions > Phrase structure > Structural types > Focused relatives",
+    "labels": [
+      "fig:who-met-us",
+      "fig:whose-title-I",
+      "fig:in-whom-to-trust",
+      "fig:whoever-you-suggest"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "subsection",
+    "title": "Relative clauses as modifiers in noun phrase structure",
+    "anchor": "Relative constructions > Phrase structure > Relative clauses as modifiers in noun phrase structure",
+    "labels": [
+      "fig:the-places-we-saw"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "subsection",
+    "title": "Supplementary relative clauses",
+    "anchor": "Relative constructions > Phrase structure > Supplementary relative clauses",
+    "labels": [
+      "fig:a-guy-who-likes",
+      "fig:he-ran-which"
+    ]
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "box",
+    "title": "Quick self-check: relative construction types",
+    "anchor": "Relative constructions > Phrase structure > Supplementary relative clauses > Box: Quick self-check: relative construction types",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/19 relatives.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "Relative constructions > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "chapter",
+    "title": "The Nature of Grammaticality",
+    "anchor": "The Nature of Grammaticality",
+    "labels": [
+      "ch:grammaticality"
+    ]
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "box",
+    "title": "Learning objectives",
+    "anchor": "The Nature of Grammaticality > Box: Learning objectives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "section",
+    "title": "Introduction",
+    "anchor": "The Nature of Grammaticality > Introduction",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "section",
+    "title": "Form-meaning pairings: the foundation",
+    "anchor": "The Nature of Grammaticality > Form-meaning pairings: the foundation",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsection",
+    "title": "Meaning without grammar",
+    "anchor": "The Nature of Grammaticality > Form-meaning pairings: the foundation > Meaning without grammar",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsection",
+    "title": "Context and community",
+    "anchor": "The Nature of Grammaticality > Form-meaning pairings: the foundation > Context and community",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "section",
+    "title": "When things go wrong: types of ungrammaticality",
+    "anchor": "The Nature of Grammaticality > When things go wrong: types of ungrammaticality",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsection",
+    "title": "Form-meaning mismatches",
+    "anchor": "The Nature of Grammaticality > When things go wrong: types of ungrammaticality > Form-meaning mismatches",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "box",
+    "title": "Check your understanding: form-meaning analysis",
+    "anchor": "The Nature of Grammaticality > When things go wrong: types of ungrammaticality > Form-meaning mismatches > Box: Check your understanding: form-meaning analysis",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsection",
+    "title": "Processing issues",
+    "anchor": "The Nature of Grammaticality > When things go wrong: types of ungrammaticality > Processing issues",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "False negatives",
+    "anchor": "The Nature of Grammaticality > When things go wrong: types of ungrammaticality > Processing issues > False negatives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "False positives",
+    "anchor": "The Nature of Grammaticality > When things go wrong: types of ungrammaticality > Processing issues > False positives",
+    "labels": [
+      "ex:agreement-error"
+    ]
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "section",
+    "title": "Evolution and change",
+    "anchor": "The Nature of Grammaticality > Evolution and change",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "Semantic opportunities",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Motivations for change > Semantic opportunities",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "Structural pressures",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Motivations for change > Structural pressures",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "Social factors",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Motivations for change > Social factors",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsection",
+    "title": "Domain-general biases in language change",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Domain-general biases in language change",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsection",
+    "title": "Processing and dependency distances",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Processing and dependency distances",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "Dependency distance and grammatical change",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Processing and dependency distances > Dependency distance and grammatical change",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "Structural adjustments from processing pressures",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Processing and dependency distances > Structural adjustments from processing pressures",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "Impact on language evolution",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Processing and dependency distances > Impact on language evolution",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsection",
+    "title": "Usage-based theories of change",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Usage-based theories of change",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "Frequency and entrenchment",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Usage-based theories of change > Frequency and entrenchment",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "Analogy and extension",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Usage-based theories of change > Analogy and extension",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "subsubsection",
+    "title": "Grammaticalization from repeated usage",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Usage-based theories of change > Grammaticalization from repeated usage",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "box",
+    "title": "Pattern recognition: processing and change",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Usage-based theories of change > Grammaticalization from repeated usage > Box: Pattern recognition: processing and change",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "box",
+    "title": "Quick self-check: grammaticality factors",
+    "anchor": "The Nature of Grammaticality > Evolution and change > Usage-based theories of change > Grammaticalization from repeated usage > Box: Quick self-check: grammaticality factors",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/20 grammaticality.tex",
+    "block_type": "section",
+    "title": "Summary",
+    "anchor": "The Nature of Grammaticality > Summary",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "chapter",
+    "title": "Understanding language proficiency",
+    "anchor": "Understanding language proficiency",
+    "labels": [
+      "ch:proficiency"
+    ]
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "section",
+    "title": "What is proficiency?",
+    "anchor": "Understanding language proficiency > What is proficiency?",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "section",
+    "title": "How frameworks see proficiency",
+    "anchor": "Understanding language proficiency > How frameworks see proficiency",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "subsection",
+    "title": "Canadian Language Benchmarks (CLB)",
+    "anchor": "Understanding language proficiency > How frameworks see proficiency > Canadian Language Benchmarks (CLB)",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "subsection",
+    "title": "Common European Framework of Reference (CEFR)",
+    "anchor": "Understanding language proficiency > How frameworks see proficiency > Common European Framework of Reference (CEFR)",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "section",
+    "title": "What gets lost",
+    "anchor": "Understanding language proficiency > What gets lost",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "section",
+    "title": "Using frameworks wisely",
+    "anchor": "Understanding language proficiency > Using frameworks wisely",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "section",
+    "title": "Conclusion",
+    "anchor": "Understanding language proficiency > Conclusion",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "chapter",
+    "title": "List of Prepositions",
+    "anchor": "List of Prepositions",
+    "labels": [
+      "sec:preps-list"
+    ]
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "chapter",
+    "title": "List of determinatives",
+    "anchor": "List of determinatives",
+    "labels": []
+  },
+  {
+    "include_path": "chapters/appendix.tex",
+    "block_type": "chapter",
+    "title": "Ordered list of teachable graphemes",
+    "anchor": "Ordered list of teachable graphemes",
+    "labels": [
+      "sec:gpcs-list",
+      "tab:gpcs"
+    ]
+  },
+  {
+    "include_path": "chapters/glossary.tex",
+    "block_type": "chapter",
+    "title": "Glossary",
+    "anchor": "Glossary",
+    "labels": [
+      "ch:glossary"
+    ]
+  }
+]

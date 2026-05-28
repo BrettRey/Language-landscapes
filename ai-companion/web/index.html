@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Language Landscapes Companion</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="masthead">
+      <button class="brand" data-action="go-home" type="button">
+        <span class="brand-mark">LL</span>
+        <span class="brand-copy">
+          <span class="brand-title">Language Landscapes</span>
+          <span class="brand-subtitle">Read the book. Ask the book. Inspect the sources.</span>
+        </span>
+      </button>
+      <nav class="global-nav" id="global-nav"></nav>
+      <div class="runtime-slot">
+        <span class="runtime-pill" id="runtime-pill">Loading…</span>
+      </div>
+    </header>
+
+    <main id="view-root" class="view-root">
+      <section class="panel loading-panel">
+        <p>Loading the local companion…</p>
+      </section>
+    </main>
+  </div>
+
+  <div id="modal-root"></div>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>
