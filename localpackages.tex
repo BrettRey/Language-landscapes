@@ -164,6 +164,9 @@
 \makeatother
 
 % Semantic typography macros
+% Make nested emphasis inside italicized examples bold italic rather than
+% reverting to upright text.
+\DeclareEmphSequence{\itshape,\bfseries\itshape}
 \newcommand{\mention}[1]{\textit{#1}}        % metalinguistic mention (word as object)
 \newcommand{\mentionhead}[1]{⟨#1⟩}           % mention in headings (angle brackets)
 \providecommand{\term}[1]{\textsc{#1}}       % technical term (small caps)
