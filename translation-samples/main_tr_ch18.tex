@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Standalone Turkish sample: Chapter 18
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[output=book,
+  colorlinks,citecolor=brown
+]{langscibook}
+
+\input{../localmetadata.tex}
+\input{../localpackages.tex}
+\input{../localhyphenation.tex}
+\addbibresource{../localbibliography.bib}
+
+\graphicspath{{../}}
+
+\begin{document}
+\input{../localcommands.tex}
+% Small caps can corrupt Turkish dotted/dotless letters; use sans for terms.
+\renewcommand{\term}[1]{\textsf{#1}}
+\mainmatter
+\setcounter{chapter}{17}
+\include{ch18_tr}
+\end{document}

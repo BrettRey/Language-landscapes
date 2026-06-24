@@ -1,0 +1,25 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Standalone Vietnamese sample: Chapter 18
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[output=book,
+  colorlinks,citecolor=brown
+]{langscibook}
+
+\input{../localmetadata_vi.tex}
+\input{../localpackages.tex}
+\input{../localhyphenation.tex}
+\emergencystretch=2em
+\addbibresource{../localbibliography.bib}
+
+\graphicspath{{../}}
+
+\begin{document}
+\input{../localcommands.tex}
+% Vietnamese tone marks are clearer in sans than in synthetic small caps.
+\renewcommand{\term}[1]{\textsf{#1}}
+\renewcommand{\trans}[1]{`#1'}
+\mainmatter
+\setcounter{chapter}{17}
+\include{ch18_vi}
+\end{document}

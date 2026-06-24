@@ -203,6 +203,20 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
 - The dirty state is therefore a production-sync state, not casual source drift: commit/sync decisions should happen in a dedicated book-production session after a fresh Overleaf export comparison.
 - Added `.gitignore` for generated LaTeX/index scratch files and OS/editor noise. It intentionally does not ignore PDFs, because figure PDFs can be source assets for LangSci.
 
+### 2026-06-01 Session Notes (morning)
+- Triaged the remaining PaperHive/GitHub issue tranche with Brett's judgments: ignored the editor's mistaken conjunction analyses (#244, #227, #161, #159), used Oxford spelling for #232, accepted #147 only for asking about `'ll`, and kept #111's capitalization principle while leaving the three flagged instances unchanged.
+- Completed the example-typography cleanup: converted remaining `\strong{}` emphasis to `\emph{}`, handled split `\mention{A} B \mention{C}` body-text cases as continuous mentions with internal `\emph{}`, and revised the `sheeps` numbered example so examples are roman with explanations at the end in parentheses.
+- Preserved italic `\mention{}` in appendix lexical catalogues of prepositions and determinatives; those are catalogues of forms, not numbered linguistic examples.
+- Built successfully with `xelatex && biber && xelatex && xelatex` and standing warnings only; `git diff --check` passed.
+- Shipped `be80906 Refine example typography and dialect markers` to `origin/master`.
+- Prepared Overleaf upload bundle: `/Users/brettreynolds/Documents/LLM-CLI-projects/papers/Language_Landscapes-overleaf-be80906.zip` (20 MB, 132 files, curated source inputs only).
+
+### 2026-06-06 Session Notes (morning)
+- Brett uploaded the post-proofread source set to Overleaf: `chapters/`, `localbibliography.bib`, `localseealso.tex`, `backmatter.tex`, and `localpackages.tex`.
+- Confirmed from git history that those files cover the Overleaf-relevant changes from the May 28--June 1 proofreading and typography pass.
+- No Overleaf upload is needed for `.gitignore`, `DECISIONS.md`, or `STATUS.md`; those are local repository/tracking files.
+- Next practical state: await Sebastian/Overleaf feedback, or download a fresh Overleaf source export and run `scripts/compare_overleaf_export.sh` if a verification pass is needed.
+
 ## Next Actions
 
 - [x] Import Overleaf source to local folder
@@ -234,3 +248,11 @@ Project link: https://www.overleaf.com/5333979836npdxspvphgdd#275821
 - [x] Build first local AI companion over the manuscript export
 - [ ] Browser-test the richer local companion and tighten interaction flow based on live use
 - [ ] Decide whether to convert the current local companion into a single-file Artifact-ready bundle for Claude
+
+### 2026-06-21 Session Notes (PM)
+
+- **Localization effort has a roster.** People pages created for all five new edition recruits: Niel Sord (Tagalog), Murat Sabuncu (Turkish), Sounak Das (Bengali/Hindi), Afandi Setiawan (Indonesian), Pairoj Kunanupatham (Thai). Koike (Japanese) page already existed. All in `Project-Management/people/`. Languages floated to Pullum but not yet pursued: Chinese ("Larry"), Korean.
+- **`/cross-pollinate` run** → `notes/cross-pollinate-20260621.md`. Anchored on the localization frontier. Top hits: Fricker (localization as metalinguistic enfranchisement), Agha (enregisterment; metapragmatic scaffolding per term), truth pluralism (one-concept/many-realizers frame for the translator guide), Powell convergence, Wolters Zipfian (Ch 8 bridge).
+- **Five terminology-framing notes drafted** in `correspondence/` (one per new recruit), tailored to each open thread, pending Brett's send. Shared message: preserve the distinction/test, not the word; bilingual glossary defining by test.
+- **Open:** Murat's three questions are answered in his draft but he's waiting on a reply; his note half-promises the master term list, attach it. Koike still needs a separately tailored note. Localizer-guidance materials (translator guide / metapragmatic-scaffolding brief) don't exist yet and are where the Fricker/Agha angles would land.
+- Decisions logged in `DECISIONS.md` (terminology policy; correspondence scope).

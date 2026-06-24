@@ -1,0 +1,41 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Standalone Japanese sample: Chapter 18
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[output=book,
+  colorlinks,citecolor=brown
+]{langscibook}
+
+\input{../localmetadata_ja.tex}
+\input{../localpackages.tex}
+
+\usepackage{indentfirst}
+\setlength{\parindent}{1em}
+
+\DeclareQuoteStyle{japanese}{「}{」}{『}{』}
+\setquotestyle{japanese}
+
+\renewcommand{\contentsname}{目次}
+\renewcommand{\figurename}{図}
+\renewcommand{\tablename}{表}
+\renewcommand{\bibname}{参考文献}
+\renewcommand{\appendixname}{付録}
+\renewcommand{\chapterformat}{第\thechapter 章\autodot\enskip}
+\renewcommand{\figureformat}{\figurename~\thefigure\autodot}
+\renewcommand{\tableformat}{\tablename~\thetable\autodot}
+
+\input{../localhyphenation.tex}
+\addbibresource{../localbibliography.bib}
+
+\graphicspath{{../}}
+
+\begin{document}
+\input{../localcommands.tex}
+% Japanese has no small-caps contrast; use Gothic/sans for technical terms.
+\renewcommand{\term}[1]{\textsf{#1}}
+\renewcommand{\mention}[1]{#1}
+\renewcommand{\trans}[1]{「#1」}
+\mainmatter
+\setcounter{chapter}{17}
+\include{ch18_ja}
+\end{document}

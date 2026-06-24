@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Standalone Bangla sample: Chapter 18
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[output=book,
+  colorlinks,citecolor=brown
+]{langscibook}
+
+\input{../localmetadata_bn.tex}
+\input{../localpackages.tex}
+
+\usepackage{indentfirst}
+\setlength{\parindent}{1em}
+\emergencystretch=2em
+
+\IfFontExistsTF{Noto Serif Bengali}{
+  \setmainfont{Noto Serif Bengali}[Script=Bengali]
+  \setsansfont{Noto Sans Bengali}[Script=Bengali]
+  \setmonofont{Noto Sans Mono}[Scale=MatchLowercase]
+}{
+  \IfFontExistsTF{Bangla MN}{
+    \setmainfont{Bangla MN}[Script=Bengali]
+    \setsansfont{Kohinoor Bangla}[Script=Bengali]
+  }{
+    \IfFontExistsTF{Kohinoor Bangla}{
+      \setmainfont{Kohinoor Bangla}[Script=Bengali]
+      \setsansfont{Kohinoor Bangla}[Script=Bengali]
+    }{}
+  }
+}
+
+\DeclareQuoteStyle{bangla}{“}{”}{‘}{’}
+\setquotestyle{bangla}
+
+\renewcommand{\contentsname}{সূচিপত্র}
+\renewcommand{\figurename}{চিত্র}
+\renewcommand{\tablename}{সারণি}
+\renewcommand{\bibname}{তথ্যসূত্র}
+\renewcommand{\appendixname}{পরিশিষ্ট}
+\renewcommand{\chapterformat}{অধ্যায়~\thechapter\autodot\enskip}
+\renewcommand{\figureformat}{\figurename~\thefigure\autodot}
+\renewcommand{\tableformat}{\tablename~\thetable\autodot}
+
+\input{../localhyphenation.tex}
+\addbibresource{../localbibliography.bib}
+
+\graphicspath{{../}}
+
+\begin{document}
+\input{../localcommands.tex}
+% Bangla has no small-caps contrast; use bold sans for technical terms.
+\renewcommand{\term}[1]{{\sffamily\bfseries #1}}
+\renewcommand{\mention}[1]{#1}
+\renewcommand{\trans}[1]{`#1'}
+\mainmatter
+\setcounter{chapter}{17}
+\include{ch18_bn}
+\end{document}

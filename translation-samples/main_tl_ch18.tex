@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Standalone Tagalog sample: Chapter 18
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[output=book,
+  colorlinks,citecolor=brown
+]{langscibook}
+
+\input{../localmetadata_tl.tex}
+\input{../localpackages.tex}
+\input{../localhyphenation.tex}
+\emergencystretch=2em
+\addbibresource{../localbibliography.bib}
+
+\graphicspath{{../}}
+
+\begin{document}
+\input{../localcommands.tex}
+\renewcommand{\trans}[1]{`#1'}
+\mainmatter
+\setcounter{chapter}{17}
+\include{ch18_tl}
+\end{document}
