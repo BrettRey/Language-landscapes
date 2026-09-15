@@ -1,0 +1,764 @@
+{
+ "chapter": 2,
+ "status": "unfinished",
+ "total_seconds": 2392.378775510204,
+ "total_hhmmss": "00:39:52",
+ "track_count": 41,
+ "recorded_segments": 40,
+ "planned_segments": 51,
+ "not_recorded": [
+  "X01",
+  "N01",
+  "N02",
+  "N03",
+  "N04",
+  "N05",
+  "N06",
+  "C01",
+  "Q01",
+  "Q02",
+  "Q03"
+ ],
+ "built_at": "2026-09-15T10:48:54+00:00",
+ "spoken_note_included": true,
+ "tracks": [
+  {
+   "number": 1,
+   "id": "H01",
+   "title": "Chapter title and learning objectives",
+   "start_seconds": 0.0,
+   "duration_seconds": 62.11918367346939,
+   "following_silence_seconds": 0.6,
+   "text": "Chapter two. Standards, Standard Englishes, and what to teach.\n\nBy the end of this chapter, you should be able to do the following.\n\nDistinguish the word \u201cstandard\u201d meaning quality from the word \u201cstandard\u201d meaning convention.\n\nRecognize Standard English as a cluster of related varieties rather than a single monolith.\n\nUnderstand that Standard English is not inherently superior to other dialects.\n\nAnalyse the difference between grammaticality and meaningfulness.\n\nUnderstand why intuitions about grammaticality can be unreliable.\n\nRecognize how processing limitations affect grammatical judgments.\n\nApply form-and-meaning pairing analysis to understand grammatical acceptability.\n\nUnderstand the role of speech communities in defining grammatical norms.\n\nAnd distinguish descriptive from prescriptive approaches to grammar.",
+   "is_note": false,
+   "mp3": "tracks/01-H01.mp3",
+   "loudness": {
+    "input_i": -24.51,
+    "input_tp": -3.85
+   },
+   "gain_db": 7.3,
+   "source": "supplements/audio/chapter-02-2026-09/raw/H01-take-01.mp3",
+   "mp3_sha256": "6249f621a5b973fa5d3207b85897890f820a38577e1946c635a6b7d33399b8d3"
+  },
+  {
+   "number": 2,
+   "id": "I01",
+   "title": "Introduction",
+   "start_seconds": 62.71918367346939,
+   "duration_seconds": 95.52979591836734,
+   "following_silence_seconds": 0.6,
+   "text": "In the next chapter, I'll return to describing the lexical categories, but here we should spend some time considering a few issues that are all connected to perceptions of what is right and wrong when it comes to English. This chapter should help you think about the concepts of standards, Standard English or Englishes, grammaticality, and normativity, all of which are crucial for English language teachers to understand.\n\nWhy are these concepts important? Well, as teachers, we're often asked to be the arbiters of what's correct in English. But as you'll see, it's not always as straightforward as it might seem. What's standard? What's grammatical? And perhaps most importantly, what should we actually teach?\n\nWe'll start by unpacking the concept of \u201cstandard\u201d and how it applies to language. Then we'll explore the notion of Standard English, or rather Standard Englishes, and why this distinction matters. We'll dive deep into grammaticality, examining what makes something grammatical or ungrammatical, and why our intuitions about this can sometimes be misleading. Finally, we'll consider the normative aspects of language and how they affect our decisions as teachers.\n\nBy the end of this chapter, you should have a more nuanced understanding of these concepts and be better equipped to navigate the complex landscape of English language teaching. So let's begin by considering what we mean when we say something is standard.",
+   "is_note": false,
+   "mp3": "tracks/02-I01.mp3",
+   "loudness": {
+    "input_i": -24.89,
+    "input_tp": -1.6
+   },
+   "gain_db": 7.65,
+   "source": "supplements/audio/chapter-02-2026-09/raw/I01-take-01.mp3",
+   "mp3_sha256": "3db10457a4320c558ffc58f0556d491d1161c6ede75ec5d68d5fa7e95523f7aa"
+  },
+  {
+   "number": 3,
+   "id": "T01",
+   "title": "The positive connotations of standard",
+   "start_seconds": 158.84897959183672,
+   "duration_seconds": 50.416326530612245,
+   "following_silence_seconds": 0.6,
+   "text": "For most people, the word \u201cstandard\u201d has positive connotations. Consider the words that we use together with it: pairs like \u201cgold standard\u201d and \u201cquality standard,\u201d or \u201cstandard of living\u201d and \u201cstandard of care.\u201d If you have high standards, or exceed them, that's a good thing. We set educational standards, environmental standards, and technology standards, all of which are supposed to make our education, our environment, and our technology better.\n\nStandards, in short, are things we aspire to. And Standard English, with a capital S, may sound like something to aim for. You might think it's equivalent to good English, or grammatical English, or literary English. But it's not that simple, not that clear, and not that straightforward to define or to aim for.",
+   "is_note": false,
+   "mp3": "tracks/03-T01.mp3",
+   "loudness": {
+    "input_i": -24.5,
+    "input_tp": -2.27
+   },
+   "gain_db": 5.92,
+   "source": "supplements/audio/chapter-02-2026-09/raw/T01-take-01.mp3",
+   "mp3_sha256": "4234fb8b363302bbc67847f99c0dbef7a4ad2ba67196d76346687de48fd22362"
+  },
+  {
+   "number": 4,
+   "id": "T02",
+   "title": "VHS and Betamax",
+   "start_seconds": 209.86530612244897,
+   "duration_seconds": 35.5265306122449,
+   "following_silence_seconds": 0.6,
+   "text": "You're likely old enough to know what VHS is. What you may be too young to know, though, is what Betamax is. For a time, they were competing video tape standards. By most criteria, Betamax was a higher quality product. It had a better picture and better sound. But it died so long ago that you may never have heard of it, and VHS became the standard for video cassette tapes and players, at least while people still used video cassette recorders.\n\nStandard doesn't mean good, and good doesn't mean standard.",
+   "is_note": false,
+   "mp3": "tracks/04-T02.mp3",
+   "loudness": {
+    "input_i": -25.12,
+    "input_tp": -1.6
+   },
+   "gain_db": 5.18,
+   "source": "supplements/audio/chapter-02-2026-09/raw/T02-take-01.mp3",
+   "mp3_sha256": "b7726f753d88ad74d685026600e73917ed2d99604afb6be542d5c023c1619312"
+  },
+  {
+   "number": 5,
+   "id": "T03",
+   "title": "Rail gauge",
+   "start_seconds": 245.9918367346939,
+   "duration_seconds": 70.4,
+   "following_silence_seconds": 0.6,
+   "text": "There are a lot of different rail gauges. The chapter shows a figure comparing several of them; the point it makes is the one I'm about to describe, so you can follow this without it.\n\nThe standard rail gauge is one point four three five metres wide. That's what they're using for a new light rail line in Mississauga, where I live. Toronto gauge, the one traditionally used by the Toronto Transit Commission, one city to the east, is one point four nine five metres wide. To be sure, each size has benefits and drawbacks, but the main benefit of standard rail gauge is that it is standard. It is the most commonly used, and so if you want new rail cars, or even used rail cars, it's much cheaper and faster to get them if you use standard gauge.\n\nThat's why Mississauga chose it, despite the fact that its rolling stock will not be able to interchange directly with Toronto's system. The choice was not about quality or superiority. It was about cost and availability.",
+   "is_note": false,
+   "mp3": "tracks/05-T03.mp3",
+   "loudness": {
+    "input_i": -25.14,
+    "input_tp": -1.6
+   },
+   "gain_db": 6.86,
+   "source": "supplements/audio/chapter-02-2026-09/raw/T03-take-01.mp3",
+   "mp3_sha256": "dd7ba161c2ee80541de32aa00438433917f04d5809f441e5f68cc328ad1563c7"
+  },
+  {
+   "number": 6,
+   "id": "T04",
+   "title": "A sociopolitical marker",
+   "start_seconds": 316.9918367346939,
+   "duration_seconds": 78.7591836734694,
+   "following_silence_seconds": 0.6,
+   "text": "Standard English is not the best form of English. Standard English is not inherently superior to other dialects. Standard English is simply the most widely accepted, the most institutionalized, the most common ground for diverse communication.\n\nIn linguistics, the word \u201cstandard\u201d often serves more as a sociopolitical marker than a qualitative one. It is a product of historical, cultural, and often colonial forces that have elevated one dialect, usually that of a socially or economically dominant group, over others.\n\nSo when we talk about Standard English, what we're really discussing is a set of codified conventions taught in schools, used in official documents, and expected in formal settings. It is not a measure of intelligence, morality, or worth. It is simply what is most commonly and broadly expected and accepted. And it's what most folks have in mind when they say they want to learn to speak English. The word \u201cstandard\u201d in Standard English is less about quality and more about ubiquity and institutional backing. It's the VHS, not necessarily the Betamax, of the English language.",
+   "is_note": false,
+   "mp3": "tracks/06-T04.mp3",
+   "loudness": {
+    "input_i": -24.74,
+    "input_tp": -1.6
+   },
+   "gain_db": 6.61,
+   "source": "supplements/audio/chapter-02-2026-09/raw/T04-take-02.mp3",
+   "mp3_sha256": "fc9c95cda39f7e986dcd3c922abeb0ab3858b2e1929d21a9ff4d30071a883d19"
+  },
+  {
+   "number": 7,
+   "id": "T05",
+   "title": "A4 and US Letter",
+   "start_seconds": 396.35102040816327,
+   "duration_seconds": 34.089795918367344,
+   "following_silence_seconds": 0.6,
+   "text": "Standards underpin our modern world, but standards are often arbitrary. A4 paper is the standard in most of the world, so A4 is better there. US Letter is the standard in North America, so US Letter is better there. Neither is inherently superior. Their superiority comes from being standard.\n\nStandard English follows this pattern. It's not inherently better. It's better because it's standard. Many Englishes could be standard, if only they were.",
+   "is_note": false,
+   "mp3": "tracks/07-T05.mp3",
+   "loudness": {
+    "input_i": -24.57,
+    "input_tp": -2.82
+   },
+   "gain_db": 6.48,
+   "source": "supplements/audio/chapter-02-2026-09/raw/T05-take-01.mp3",
+   "mp3_sha256": "7a06f54d047a78c92e00804ec1cccf7e8bf59b818571e55a011684d1cf469427"
+  },
+  {
+   "number": 8,
+   "id": "T06",
+   "title": "Two differences between technology and language standards",
+   "start_seconds": 431.0408163265306,
+   "duration_seconds": 65.64571428571429,
+   "following_silence_seconds": 0.6,
+   "text": "But there are two important differences between technology standards and language standards.\n\nFirst, a technology standard is stipulated. Somebody planned it out and promulgated it. Language isn't like that.\n\nSecond, if you don't follow a technology standard, your technology often won't work. A Toronto streetcar, for instance, simply will not run on standard gauge rails. It's useless as a means of transportation. Similarly, a VHS cassette simply will not play on a Betamax player. In contrast, much of the time, perhaps most of the time, non-standard English is a perfectly workable means of communication, even with speakers of Standard English. There are dialects and varieties that you or I can't understand, or can't understand easily, but there are so many more that we can.\n\nIf communication is the main function of language, then, why do we have Standard English?",
+   "is_note": false,
+   "mp3": "tracks/08-T06.mp3",
+   "loudness": {
+    "input_i": -24.53,
+    "input_tp": -2.28
+   },
+   "gain_db": 7.03,
+   "source": "supplements/audio/chapter-02-2026-09/raw/T06-take-01.mp3",
+   "mp3_sha256": "7b87ff719517aa10338950c43cd3fae6a3b023dde386665ad7f05c9c3810d8be"
+  },
+  {
+   "number": 9,
+   "id": "T07",
+   "title": "Regulating group membership",
+   "start_seconds": 497.2865306122449,
+   "duration_seconds": 50.10285714285714,
+   "following_silence_seconds": 0.6,
+   "text": "One answer is that another function of language is to regulate group membership. In other words, language helps us to identify people who are like us, who belong to our group.\n\nYoung people often create a sense of identity and belonging within their peer groups by developing, innovating, and using slang. For example, the word \u201cfire,\u201d used as an adjective meaning \u201cexcellent,\u201d gained traction among some younger speakers for a period. Those who used it that way were also saying, I'm part of this group that knows this newer meaning of the word \u201cfire,\u201d and because I use it with you, it means I think you are too. Of course, adults were rarely, if ever, part of the group, and they rarely, if ever, used the word that way.",
+   "is_note": false,
+   "mp3": "tracks/09-T07.mp3",
+   "loudness": {
+    "input_i": -24.58,
+    "input_tp": -1.6
+   },
+   "gain_db": 8.46,
+   "source": "supplements/audio/chapter-02-2026-09/raw/T07-take-01.mp3",
+   "mp3_sha256": "fab5020837247a9e541505dfc98863088615e0b046d3dd9b3fe707c3cb56d85c"
+  },
+  {
+   "number": 10,
+   "id": "T08",
+   "title": "The clothing analogy",
+   "start_seconds": 547.989387755102,
+   "duration_seconds": 78.60244897959184,
+   "following_silence_seconds": 0.6,
+   "text": "Or consider clothing. Jeans are standard at most colleges and universities in Canada. Some people wear suits or dresses, which are more formal but still standard ways of dressing. Arriving topless to class might be perfectly functional if the classroom is warm, but it's not standard, and people will react to such a choice of outfit with surprise and discomfort. A snowsuit is also non-standard, as is a sari, a chef's uniform, or a man's kilt. Some people on campus will react positively and some negatively. Many will suppress any outward reaction, but everyone will recognize that these ways of dressing are non-standard.\n\nThat's kind of the way it is with non-Standard Englishes. If you use one of them, people will notice. Standard English is a social standard, and it has social implications. Usually those are negative for those who don't speak Standard English, and as language teachers, we should recognize that our students' goals are often as social as they are instrumental. They want to learn English so that they can function in society, but they want to learn Standard English so that they will be a part of it.",
+   "is_note": false,
+   "mp3": "tracks/10-T08.mp3",
+   "loudness": {
+    "input_i": -24.51,
+    "input_tp": -2.28
+   },
+   "gain_db": 6.76,
+   "source": "supplements/audio/chapter-02-2026-09/raw/T08-take-02.mp3",
+   "mp3_sha256": "b39ed75f46fedcff83741954a4b4d6ff682e29e54f6212e6926f067cdc5767e7"
+  },
+  {
+   "number": 11,
+   "id": "E01",
+   "title": "Middlemarch, and the lack of a brief definition",
+   "start_seconds": 627.1918367346939,
+   "duration_seconds": 54.987755102040815,
+   "following_silence_seconds": 0.6,
+   "text": "George Eliot presents the following conversation in her novel Middlemarch.\n\n\u201cAll choice of words is slang. It marks a class.\u201d\n\n\u201cThere is correct English: that is not slang.\u201d\n\n\u201cI beg your pardon: correct English is the slang of prigs who write history and essays. And the strongest slang of all is the slang of poets.\u201d\n\nEliot knew the difference between correct English and Standard English. But many people don't. Unfortunately, there is no brief definition of Standard English that I can use to clarify it. More difficulties with definitions. In fact, one goal of this book is to outline a partial definition of the syntax, vocabulary, and phonology of Standard English. But I can at least make a few remarks about its dominant status.",
+   "is_note": false,
+   "mp3": "tracks/11-E01.mp3",
+   "loudness": {
+    "input_i": -24.53,
+    "input_tp": -1.72
+   },
+   "gain_db": 6.89,
+   "source": "supplements/audio/chapter-02-2026-09/raw/E01-take-01.mp3",
+   "mp3_sha256": "8ae1a8fee8da4a96f1db27f120868d2679828ecc6abd9c5511a711236d506042"
+  },
+  {
+   "number": 12,
+   "id": "E02",
+   "title": "Every dialect is a standard somewhere",
+   "start_seconds": 682.7795918367347,
+   "duration_seconds": 36.179591836734694,
+   "following_silence_seconds": 0.6,
+   "text": "To some degree, any dialect of English is a standard among some group, but most are not called Standard English. If you try to sell a standard gauge train to the Toronto Transit Commission for its subway, you will not make a sale. Standard gauge is not the standard used in Toronto.\n\nIf you grew up speaking First-Nations English, then First-Nations English is likely the standard in your home community. Anyone who goes to your community and speaks Standard English will mark themselves as outsiders and will be treated as such, for good or ill.",
+   "is_note": false,
+   "mp3": "tracks/12-E02.mp3",
+   "loudness": {
+    "input_i": -24.51,
+    "input_tp": -3.29
+   },
+   "gain_db": 6.8,
+   "source": "supplements/audio/chapter-02-2026-09/raw/E02-take-01.mp3",
+   "mp3_sha256": "b4ac7baf411ad54d08808163eef930079b70b6da93dc7f2fd80be35f62af3ae9"
+  },
+  {
+   "number": 13,
+   "id": "E03",
+   "title": "Englishes in the plural",
+   "start_seconds": 719.5591836734694,
+   "duration_seconds": 29.257142857142856,
+   "following_silence_seconds": 0.6,
+   "text": "And to be clear, there isn't a single Standard English. There's Standard Canadian English, Standard British English, Standard Singapore English, and so on. For the most part, these are almost indistinguishable, at least when written down, but there are small differences. The unique aspects of any of the varieties will often jump out at speakers of another. Still, they are all recognized as Standard English, or more recently as Standard Englishes.",
+   "is_note": false,
+   "mp3": "tracks/13-E03.mp3",
+   "loudness": {
+    "input_i": -24.52,
+    "input_tp": -1.87
+   },
+   "gain_db": 6.38,
+   "source": "supplements/audio/chapter-02-2026-09/raw/E03-take-01.mp3",
+   "mp3_sha256": "332dc5f088fa957fb29eb2d38dccfffe92c13d8ab9b961f3185218bf70d5a62e"
+  },
+  {
+   "number": 14,
+   "id": "E04",
+   "title": "What Standard English is not",
+   "start_seconds": 749.4163265306122,
+   "duration_seconds": 58.226938775510206,
+   "following_silence_seconds": 0.6,
+   "text": "But let me reiterate that this is not because Standard English is better, more formal, or even the most common, though it is the most common in particular communities. Trudgill has written more about what it isn't, and the reference is in the notes.\n\nThe word \u201cstandard\u201d is not synonymous with \u201cgrammatical\u201d or \u201ccorrect.\u201d Nor does it imply truth, logic, beauty, purity, or clarity. It is not how English ought to be spoken. It is just a cluster of dialects, albeit a powerful one, and a norm that is enforced by the dominant social group of English speakers. In much of the world, that means educated speakers of English from Britain and the former British colonies where the Indigenous peoples were largely displaced, Canada for example, but not those where the Indigenous peoples were not, such as Bangladesh.",
+   "is_note": false,
+   "mp3": "tracks/14-E04.mp3",
+   "loudness": {
+    "input_i": -27.11,
+    "input_tp": -1.6
+   },
+   "gain_db": 4.1,
+   "source": "supplements/audio/chapter-02-2026-09/raw/E04-take-02.mp3",
+   "mp3_sha256": "2af978ce1a34572269ff2e1fd18ad324ec198922bc4976773ebbd10c922bbfc0"
+  },
+  {
+   "number": 15,
+   "id": "SH01",
+   "title": "What's a shibboleth?",
+   "start_seconds": 808.2432653061225,
+   "duration_seconds": 92.36897959183673,
+   "following_silence_seconds": 0.6,
+   "text": "What's a shibboleth?\n\nThere is a story about the gatekeeping function of dialects in Judges, the seventh book of the Hebrew bible, which goes like this.\n\nJephthah then called together the men of Gilead and fought against Ephraim. The Gileadites struck them down because the Ephraimites had said, \u201cYou Gileadites are renegades from Ephraim and Manasseh.\u201d The Gileadites captured the fords of the Jordan leading to Ephraim, and whenever a survivor of Ephraim said, \u201cLet me cross over,\u201d the men of Gilead asked him, \u201cAre you an Ephraimite?\u201d If he replied, \u201cNo,\u201d they said, \u201cAll right, say Shibboleth.\u201d If he said, \u201cSibboleth,\u201d because he could not pronounce the word correctly, they seized him and killed him at the fords of the Jordan. Forty-two thousand Ephraimites were killed at that time.\n\nFrom this story, we get the English word \u201cshibboleth,\u201d a manner of speech distinguishing a particular group of people, often used as a means of identification or a test of belonging. The term now signifies any type of linguistic or cultural indicator that separates insiders from outsiders. In modern usage, a shibboleth might not be a matter of life and death, but it can still significantly influence how we perceive and interact with others.",
+   "is_note": false,
+   "mp3": "tracks/15-SH01.mp3",
+   "loudness": {
+    "input_i": -26.28,
+    "input_tp": -1.6
+   },
+   "gain_db": 5.0,
+   "source": "supplements/audio/chapter-02-2026-09/raw/SH01-take-01.mp3",
+   "mp3_sha256": "4e70ce04f411e038e057384a5b1c7cbf5a979ecc4fe3a22cceb1c867be52738c"
+  },
+  {
+   "number": 16,
+   "id": "G01",
+   "title": "Hired in Japan",
+   "start_seconds": 901.2122448979592,
+   "duration_seconds": 60.13387755102041,
+   "following_silence_seconds": 0.6,
+   "text": "When I was first hired as an English teacher, it wasn't because of my qualifications. I had none. Nor was it because of my experience. As I said, it was my first teaching job. Even so, when I arrived in Japan, I was hired within two weeks. I assume this was because I am a \u201cnative speaker\u201d of Standard English. Being white probably helped, too.\n\nAs someone who grew up speaking Standard English, I was obviously a competent user of the language, but I had little explicit grammatical knowledge. Most schools in Canada teach essentially nothing at all about English grammar. That was true when I was in school, and it remains true today. I was lucky in that I was among an early wave of French immersion students, and so I knew something about French grammar at least. But this was only the tiniest help to me when I tried to address my students' questions.",
+   "is_note": false,
+   "mp3": "tracks/16-G01.mp3",
+   "loudness": {
+    "input_i": -26.52,
+    "input_tp": -1.6
+   },
+   "gain_db": 4.09,
+   "source": "supplements/audio/chapter-02-2026-09/raw/G01-take-02.mp3",
+   "mp3_sha256": "4ef4b3b5c883f489da45b285f7966435549be3d1be0dcb682ade45cf455c93ef"
+  },
+  {
+   "number": 17,
+   "id": "G02",
+   "title": "It sounds right",
+   "start_seconds": 961.9461224489796,
+   "duration_seconds": 35.78775510204082,
+   "following_silence_seconds": 0.6,
+   "text": "Why do you use the present continuous here, but the present simple there? When do we need the word \u201cthe\u201d? Why do we ask \u201cwho does she know\u201d but not usually \u201cwho does know her\u201d?\n\nTo all of these questions, I could say little more than, it sounds right. I had strong intuitions about what was grammatical and what was not, but I had no way of conveying those intuitions to my students in any systematic and generalizable way. I'd never even thought about what it means for something to be grammatical.",
+   "is_note": false,
+   "mp3": "tracks/17-G02.mp3",
+   "loudness": {
+    "input_i": -24.52,
+    "input_tp": -2.76
+   },
+   "gain_db": 6.44,
+   "source": "supplements/audio/chapter-02-2026-09/raw/G02-take-01.mp3",
+   "mp3_sha256": "0ee6afa18094d764815bde5b67b3adbf98fd3c3b7b78b1cd77da588c2d8ccc08"
+  },
+  {
+   "number": 18,
+   "id": "G03",
+   "title": "What you already know",
+   "start_seconds": 998.3338775510205,
+   "duration_seconds": 49.16244897959184,
+   "following_silence_seconds": 0.6,
+   "text": "At this point, you, yes, you, already have much more explicit knowledge of English grammar than I did. In fact, you probably have more explicit knowledge about English grammar than the average college professor.\n\nIf a student asked you about the determiners in \u201cI had coffee and a piece of toast for breakfast,\u201d you could tell them that \u201ccoffee\u201d is a non-count noun, so it doesn't require a determiner, but that \u201cpiece,\u201d as a singular count noun, can't go without one. You know something about English grammar. So you're way ahead of where I was when I started out.\n\nBut you still probably haven't thought about what it means for something to be grammatical. This is what I'd like to explore here. A fuller treatment is given in the chapter on grammaticality.",
+   "is_note": false,
+   "mp3": "tracks/18-G03.mp3",
+   "loudness": {
+    "input_i": -25.79,
+    "input_tp": -1.6
+   },
+   "gain_db": 6.98,
+   "source": "supplements/audio/chapter-02-2026-09/raw/G03-take-02.mp3",
+   "mp3_sha256": "f455578653b6c360997cf802066664c3e810673e0439ff226067f6adaf94bf73"
+  },
+  {
+   "number": 19,
+   "id": "M01",
+   "title": "The fallacy of monosemy",
+   "start_seconds": 1048.0963265306123,
+   "duration_seconds": 53.81224489795918,
+   "following_silence_seconds": 0.6,
+   "text": "The fallacy of monosemy.\n\nBefore we dive in, just a few words about the fallacy of monosemy. If a word is monosemic, it has a single meaning. Mono, meaning one, and the \u201csem\u201d of semantics, meaning meaning.\n\nThis is the idea at play when a child asks, \u201ccan I go to the toilet?\u201d and the teacher responds cruelly, \u201cI don't know, can you?\u201d The teacher acts as though the word \u201ccan\u201d really has only one meaning, ability, when in fact \u201ccan\u201d has multiple meanings.\n\nIn Chapter 1, I mentioned technical meanings and everyday meanings. When somebody says, technically the word means such-and-such, they could simply be saying that there is a technical sense of the word, but more often they're falling into the fallacy of monosemy.",
+   "is_note": false,
+   "mp3": "tracks/19-M01.mp3",
+   "loudness": {
+    "input_i": -24.76,
+    "input_tp": -1.6
+   },
+   "gain_db": 7.36,
+   "source": "supplements/audio/chapter-02-2026-09/raw/M01-take-01.mp3",
+   "mp3_sha256": "68315cee1ebdcd04430a556bd8d2eaa3a8c050632ff44195160850688f60d561"
+  },
+  {
+   "number": 20,
+   "id": "G04",
+   "title": "What does grammatical mean to you?",
+   "start_seconds": 1102.5085714285715,
+   "duration_seconds": 53.08081632653061,
+   "following_silence_seconds": 1.5,
+   "text": "We don't need to pretend that the word \u201cgrammatical\u201d has only one true meaning, but nor does it mean just anything. How do we establish the meaning of \u201cgrammatical\u201d? As a comic in the chapter explains, what a word means depends on what we mean when we use it. That comic asks whether a hotdog is a sandwich, and it's reproduced in the written material.\n\nSo spend some time thinking about what \u201cgrammatical\u201d and \u201cungrammatical\u201d mean to you. Recall cases in which you've used them. What were you referring to? If none come to mind, consider creating some examples for each. Either way, try to think of commonalities that might generalize to other examples, especially if some borderline cases occur to you.\n\nPause here.",
+   "is_note": false,
+   "mp3": "tracks/20-G04.mp3",
+   "loudness": {
+    "input_i": -26.07,
+    "input_tp": -1.6
+   },
+   "gain_db": 5.28,
+   "source": "supplements/audio/chapter-02-2026-09/raw/G04-take-01.mp3",
+   "mp3_sha256": "66f385fd3126fbaa44f52f1d65069f0b363d5e434306472d6e45c5bee3e637d8"
+  },
+  {
+   "number": 21,
+   "id": "G05",
+   "title": "A dictionary definition",
+   "start_seconds": 1157.089387755102,
+   "duration_seconds": 58.27918367346939,
+   "following_silence_seconds": 0.6,
+   "text": "The Concise Oxford Dictionary of Linguistics, by Matthews, defines \u201cgrammatical\u201d like this. There are two senses.\n\nOne. Having to do with grammar.\n\nTwo. Specifically of sentences and the like, which conform to the rules of a given language. For example, \u201cI like tea\u201d is grammatical in English, while \u201cI tea like\u201d is ungrammatical. Hence grammaticality, or grammaticalness, is variously a property either assigned to sentences by a specific grammar, or of sentences judged to be acceptable to speakers who hypothetically know its grammar.\n\nAre we reduced to Wittgenstein's notion that language is mere use? That whatever we say is grammatical? That our speech defines our grammar? Well, yes, but that's of no help to you or your students, so I would like to consider some examples.",
+   "is_note": false,
+   "mp3": "tracks/21-G05.mp3",
+   "loudness": {
+    "input_i": -24.52,
+    "input_tp": -2.14
+   },
+   "gain_db": 7.72,
+   "source": "supplements/audio/chapter-02-2026-09/raw/G05-take-01.mp3",
+   "mp3_sha256": "2f6e013fe928e1be3e17fd36366ce030d68d49b639b23e949c22ceba27cdd93c"
+  },
+  {
+   "number": 22,
+   "id": "GAP01",
+   "title": "A note on what is missing",
+   "start_seconds": 1215.9685714285715,
+   "duration_seconds": 15.90857142857143,
+   "following_silence_seconds": 0.6,
+   "text": "A note on this recording. The chapter's first worked example, and the discussion of why it is ungrammatical, have not been recorded yet. You will find them in the written transcript. The recording picks up just after them.",
+   "is_note": true,
+   "mp3": "tracks/22-GAP01.mp3",
+   "loudness": {
+    "input_i": -24.5,
+    "input_tp": -2.06
+   },
+   "gain_db": 6.79,
+   "source": "supplements/audio/chapter-02-2026-09/raw/GAP01-take-01.mp3",
+   "mp3_sha256": "59b660eb7eca286c933bf00540086008f75bc153acb71808eaf35c8400301b15"
+  },
+  {
+   "number": 23,
+   "id": "X02",
+   "title": "Colorless green ideas",
+   "start_seconds": 1232.4771428571428,
+   "duration_seconds": 78.65469387755103,
+   "following_silence_seconds": 0.6,
+   "text": "I could go on, but perhaps it's simpler than that. Maybe example one is ungrammatical because it doesn't make sense. Could it be that grammatical language always makes sense? Could it be that something that makes sense is grammatical? These are not the same claims.\n\nAs critical thinkers, we need to try to disprove our ideas. We could do this by creating a grammatical utterance that makes no sense and comparing it to an ungrammatical utterance. Fortunately, the hugely influential linguist Noam Chomsky has done that for us already, with the famous examples, at least famous in linguistics, in example two.\n\nExample two has two parts. Two a carries no judgment mark. Two b is starred, which is to say it is marked ungrammatical.\n\nTwo a. \u201cColorless green ideas sleep furiously.\u201d\n\nTwo b, starred as ungrammatical. \u201cFuriously ideas sleep green colorless.\u201d\n\nChomsky claims that two a is grammatical and that two b is ungrammatical, which matches my intuition, and yours too, I expect. It seems you don't have to make sense to be grammatical.",
+   "is_note": false,
+   "mp3": "tracks/23-X02.mp3",
+   "loudness": {
+    "input_i": -24.53,
+    "input_tp": -3.07
+   },
+   "gain_db": 7.42,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X02-take-01.mp3",
+   "mp3_sha256": "94c3e832dd6fd5c14e6be2538806f1fc2655aeb9f9d02e008357eb4157ae9a80"
+  },
+  {
+   "number": 24,
+   "id": "X03",
+   "title": "Frequency and statistics",
+   "start_seconds": 1311.7318367346938,
+   "duration_seconds": 35.76163265306123,
+   "following_silence_seconds": 0.6,
+   "text": "But Chomsky also claims that neither the sentences nor their subparts would occur in a corpus of English, and that they would be, in his words, equally remote from English in any statistical model of English. He wants to say that frequency has nothing to do with it.\n\nHere, I think he errs. Fernando Pereira has shown that two a is actually much more statistically likely than two b. And the success of large language models shows that language truly is built on statistical regularities.",
+   "is_note": false,
+   "mp3": "tracks/24-X03.mp3",
+   "loudness": {
+    "input_i": -24.5,
+    "input_tp": -2.44
+   },
+   "gain_db": 8.14,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X03-take-01.mp3",
+   "mp3_sha256": "a9e5d063ff3064124e0be4731bf627364391eece7728196e2e9a642d46fa9149"
+  },
+  {
+   "number": 25,
+   "id": "X04",
+   "title": "Jean Paul, very very good",
+   "start_seconds": 1348.093469387755,
+   "duration_seconds": 71.07918367346939,
+   "following_silence_seconds": 1.5,
+   "text": "Next, we'll consider the converse, that all meaningful language is grammatical. Before we do, try to think of something that is ungrammatical but has a clear meaning.\n\nPause here.\n\nNow consider example three, which carries no judgment mark.\n\nExample three. \u201cJean Paul, very very good.\u201d\n\nThis example was heard by my friend, Geoff Pullum, in an interview on National Public Radio. The speaker was Turkish. Her meaning, in its context, is clearly that Pope John Paul was a very, very good pope or person. But for this to be grammatical in English, we need a clause, with a subject and a head. That head should be a verb phrase, which means we need a verb, presumably \u201cbe,\u201d though another verb that licenses predicative complements, such as \u201cseem\u201d or \u201cbecome,\u201d would also be possible.\n\nIt seems, then, that something can be grammatical but not meaningful, and meaningful but not grammatical. So meaning is neither a necessary nor a sufficient condition for grammaticality.",
+   "is_note": false,
+   "mp3": "tracks/25-X04.mp3",
+   "loudness": {
+    "input_i": -25.42,
+    "input_tp": -1.6
+   },
+   "gain_db": 6.79,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X04-take-01.mp3",
+   "mp3_sha256": "84be501ad09e494b7d77fac77986fcea62027002191ddda633e7f3ea59dcf8bd"
+  },
+  {
+   "number": 26,
+   "id": "X05",
+   "title": "The rules in grammar books",
+   "start_seconds": 1420.6726530612245,
+   "duration_seconds": 86.23020408163265,
+   "following_silence_seconds": 0.6,
+   "text": "So here's another thought: perhaps we just go by the rules in grammar books.\n\nExample four has two parts. Four a carries no judgment mark. Four b is starred as ungrammatical.\n\nFour a. \u201cHe was a beautiful young man, a beautiful beautiful boy.\u201d\n\nFour b, starred as ungrammatical. \u201cThe boy was beautiful beautiful.\u201d\n\nAs you can tell by the star, I think four a is grammatical, but not four b. I assume you agree. The rule that explains this appears in the Cambridge Grammar of the English Language and was first noted, I believe, by Watt. But it is not widely known, and I assume that you've never encountered it before.\n\nI also assume that the grammaticality of four a and four b didn't change between the time Watt wrote his article and the publication of the Cambridge Grammar. Given that, I guess we can set aside the idea that rules in grammar books dictate what is grammatical. Many rules are not mentioned in grammar books. In fact, many languages exist without any linguist having written a grammar for them at all. We wouldn't want to say that anything goes in those languages, just because no books have been written about them.",
+   "is_note": false,
+   "mp3": "tracks/26-X05.mp3",
+   "loudness": {
+    "input_i": -24.52,
+    "input_tp": -3.66
+   },
+   "gain_db": 7.81,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X05-take-02.mp3",
+   "mp3_sha256": "a0cb10e49aab2684ab94536c5b9bf8b58873491070075ca3332eb6a98985864f"
+  },
+  {
+   "number": 27,
+   "id": "X06",
+   "title": "An island constraint",
+   "start_seconds": 1507.5028571428572,
+   "duration_seconds": 53.91673469387755,
+   "following_silence_seconds": 0.6,
+   "text": "Now consider example five, which is starred as ungrammatical.\n\nExample five, starred. \u201cWhat movies do you have friends who acted in?\u201d\n\nYou'll probably agree that this is a very strange sentence, almost like an optical illusion, feeling grammatical and ungrammatical at the same time. The reason is thought to be the result of something called island constraints, a kind of rule or limitation that many linguists think might apply to all languages, though there is some debate about this. This could be the result of some processing constraint in our brains, or it could be something about how information can be structured. Fortunately, if this is true, then you'll never have to explain it to your students, because nobody would naturally try to use a sentence like this.",
+   "is_note": false,
+   "mp3": "tracks/27-X06.mp3",
+   "loudness": {
+    "input_i": -24.5,
+    "input_tp": -2.97
+   },
+   "gain_db": 7.35,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X06-take-01.mp3",
+   "mp3_sha256": "5f4d084a8086ecc3b24ba1212c0f8c6289de3d12d55e7ba9819e988a76d13ffb"
+  },
+  {
+   "number": 28,
+   "id": "X07",
+   "title": "The unpacked suitcase",
+   "start_seconds": 1562.0195918367347,
+   "duration_seconds": 81.68489795918367,
+   "following_silence_seconds": 0.6,
+   "text": "So it seems that our processing ability may help us decide what is grammatical and what is not.\n\nWith this in mind, here is example six, which carries no judgment mark.\n\nExample six. \u201cAfter the trip, my suitcase sat unpacked on the floor for days.\u201d\n\nThe chapter shows two photographs side by side and asks which one the sentence describes. On the left is a suitcase with clothes in it. On the right is a suitcase that is empty.\n\nMany people say the sentence describes the first suitcase, the one on the left with the clothes in it, but that is incorrect. The first suitcase is packed. You put clothes in when you pack a suitcase. The second one has been unpacked. All the clothes have been removed.\n\nWhy would anybody get this wrong? The people who have thought about this question often feel that there's something tricky in the negation, the \u201cun\u201d at the beginning of \u201cunpacked.\u201d After all, if you replaced it with \u201cpacked,\u201d the meaning would be perfectly clear. So is there some kind of glitch in the way we process language that messes with our comprehension sometimes? Maybe we can't rely on instinct to judge what is grammatical at all.",
+   "is_note": false,
+   "mp3": "tracks/28-X07.mp3",
+   "loudness": {
+    "input_i": -25.24,
+    "input_tp": -1.6
+   },
+   "gain_db": 6.78,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X07-take-02.mp3",
+   "mp3_sha256": "4fe94a6edfebafdef1ec318dac0c34f164865b2d5819398814020693099f5404"
+  },
+  {
+   "number": 29,
+   "id": "X08",
+   "title": "The horse raced past the barn",
+   "start_seconds": 1644.3044897959185,
+   "duration_seconds": 60.31673469387755,
+   "following_silence_seconds": 0.6,
+   "text": "In fact, this is exactly what Bever's famous sentence suggests. Here is example seven. Listen for the judgment mark, because there isn't one, and that matters.\n\nExample seven, with no judgment mark. \u201cThe horse raced past the barn fell.\u201d\n\nI expect that example seven seems ungrammatical to you, but you may have noticed that there is no star. What if we change \u201craced\u201d to \u201cridden\u201d? Now it is clearly grammatical. If it's not yet clear, it means the horse that was raced past the barn fell.\n\nThe problem you had with example seven was that you interpreted \u201craced\u201d as the past-tense form, like \u201crode,\u201d rather than the past-participle form, like \u201cridden.\u201d Again, maybe our instinct isn't a hundred per cent reliable. Sometimes we need to think things through carefully, step by step.",
+   "is_note": false,
+   "mp3": "tracks/29-X08.mp3",
+   "loudness": {
+    "input_i": -25.08,
+    "input_tp": -1.6
+   },
+   "gain_db": 6.69,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X08-take-01.mp3",
+   "mp3_sha256": "815943a082b2d3cca01a5d062f93e4ee8567a53b3ae8c68708123e902a3039b9"
+  },
+  {
+   "number": 30,
+   "id": "X09",
+   "title": "Thirty years, and the weekend",
+   "start_seconds": 1705.221224489796,
+   "duration_seconds": 93.33551020408163,
+   "following_silence_seconds": 0.6,
+   "text": "Example eight is marked with a raised question mark, which flags it as questionable rather than clearly ungrammatical.\n\nExample eight, questionable. \u201cI have 30 years.\u201d\n\nIt seems to me that this is perfectly grammatical. Compare it with \u201cI have 30 dollars.\u201d In fact, this is how ages are discussed in many languages. But even though it's grammatical, it's still the wrong way to say \u201cI'm 30 years old,\u201d at least in English. So even being grammatical isn't the same as being acceptable.\n\nExample nine is marked with a raised exclamation mark, which flags a form that differs between varieties of Standard English.\n\nExample nine, differing between standard varieties. \u201cI'll see you at the weekend.\u201d\n\nNorth American speakers of English generally judge this to be ungrammatical, but it is the normal way to express \u201cI'll see you on the weekend\u201d in British English. This is one of the small differences among Standard Englishes I mentioned earlier.\n\nThe reason for this difference is not a grammatical one. Rather, we are operating under different cultural assumptions about the relevant metaphor for weekends. It has been claimed that North Americans see a weekend as a platform or stage on which events play out, while the British see it as a point at the end of the week. There's more about metaphors and prepositions later in the book.",
+   "is_note": false,
+   "mp3": "tracks/30-X09.mp3",
+   "loudness": {
+    "input_i": -24.54,
+    "input_tp": -2.66
+   },
+   "gain_db": 7.11,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X09-take-02.mp3",
+   "mp3_sha256": "569ee3cfa077e1b9c7812f839ef50fbe952da1b40039fabb1f25acbb9896a708"
+  },
+  {
+   "number": 31,
+   "id": "X10",
+   "title": "Dialect and register",
+   "start_seconds": 1799.1567346938775,
+   "duration_seconds": 52.688979591836734,
+   "following_silence_seconds": 0.6,
+   "text": "Example ten is marked with a raised percent sign, which flags a form that may not be grammatical in Standard English but is grammatical in other varieties.\n\nExample ten, grammatical in other varieties. \u201cI ain't no quitter.\u201d\n\nUnlike the weekend example, this is not a difference among Standard Englishes. The percent mark flags a form that may not be grammatical in Standard English but is grammatical in other varieties.\n\nExample eleven carries no judgment mark.\n\nExample eleven. \u201cMe and Mia are taking the bus.\u201d\n\nIn contrast, example eleven is fully grammatical in all dialects, but it belongs to an informal register. The more formal version would use \u201cMia and I.\u201d This is a shibboleth for some people.",
+   "is_note": false,
+   "mp3": "tracks/31-X10.mp3",
+   "loudness": {
+    "input_i": -24.54,
+    "input_tp": -3.56
+   },
+   "gain_db": 6.87,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X10-take-01.mp3",
+   "mp3_sha256": "8e21d7b87754d9dccdeb5fad45405e3ebe5659ca793be5c770ff19dc333bcdd9"
+  },
+  {
+   "number": 32,
+   "id": "X11",
+   "title": "Jim and me's teacher",
+   "start_seconds": 1852.4457142857143,
+   "duration_seconds": 41.795918367346935,
+   "following_silence_seconds": 1.5,
+   "text": "Finally, try to fix example twelve, which I find ungrammatical. It is starred.\n\nExample twelve, starred. \u201cJim and me's teacher was Geoff.\u201d\n\nPause here.\n\nThere's no good solution. If we change it to \u201cJim and my,\u201d then it's like \u201cmy teacher and Jim,\u201d which is not what I mean, and a similar problem applies to \u201cme and Jim's.\u201d But \u201cJim and my's,\u201d which is also ungrammatical, sounds just as bad as \u201cJim and me's.\u201d Could it be that we need to be ungrammatical sometimes in order to express certain simple concepts? I think that might be the case.",
+   "is_note": false,
+   "mp3": "tracks/32-X11.mp3",
+   "loudness": {
+    "input_i": -24.52,
+    "input_tp": -2.06
+   },
+   "gain_db": 7.52,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X11-take-01.mp3",
+   "mp3_sha256": "2a34c09eb68b7a890200689e57e5c0a6d7847e01d384cafa34387e634b97d3da"
+  },
+  {
+   "number": 33,
+   "id": "X12",
+   "title": "Summary of the grammaticality section",
+   "start_seconds": 1895.7416326530613,
+   "duration_seconds": 42.52734693877551,
+   "following_silence_seconds": 0.6,
+   "text": "Summary.\n\nGenerally, things that are grammatical are meaningful and vice versa, but being meaningful is neither necessary nor sufficient for grammaticality. Many of the rules are described in grammar books, but many aren't, and often the descriptions in grammars are just wrong. Expert users of English can generally rely on our intuition to know what is grammatical, but our intuition can be fooled. Sometimes an explanation helps us to see something we didn't before. Some grammatical things are just not what we'd say, and some things just can't be said grammatically.\n\nSo what makes grammatical grammatical?",
+   "is_note": false,
+   "mp3": "tracks/33-X12.mp3",
+   "loudness": {
+    "input_i": -24.51,
+    "input_tp": -1.74
+   },
+   "gain_db": 6.0,
+   "source": "supplements/audio/chapter-02-2026-09/raw/X12-take-01.mp3",
+   "mp3_sha256": "f630012e4607980f9c76e3ede4a167371bc78a1c6f9dfe6c66ca894b6d3f15bb"
+  },
+  {
+   "number": 34,
+   "id": "MO1",
+   "title": "Form and meaning pairings",
+   "start_seconds": 1938.8689795918367,
+   "duration_seconds": 48.61387755102041,
+   "following_silence_seconds": 0.6,
+   "text": "A model of grammaticality.\n\nOkay, so we've seen that grammaticality isn't as straightforward as we might have thought. But that doesn't mean we can't come up with a useful way of thinking about it. Here's a model that might help.\n\nAt its core, grammaticality is about form-and-meaning pairings that work for a particular group of speakers in a particular situation. It's not universal.\n\nTo see what I mean, consider that a teen saying \u201cmommy sock\u201d to mean \u201cthat's your sock, mom\u201d feels very ungrammatical, and very odd. The same utterance by an infant doesn't evoke either of those feelings, though, because it's a good form-and-meaning pairing that works for a particular group of speakers in a particular situation.",
+   "is_note": false,
+   "mp3": "tracks/34-MO1.mp3",
+   "loudness": {
+    "input_i": -24.5,
+    "input_tp": -2.27
+   },
+   "gain_db": 6.03,
+   "source": "supplements/audio/chapter-02-2026-09/raw/MO1-take-01.mp3",
+   "mp3_sha256": "b2c780d001a79c087d75e37edf6bc687081631b8aa060bdf897f174bec2f89ea"
+  },
+  {
+   "number": 35,
+   "id": "MO2",
+   "title": "Code-switching",
+   "start_seconds": 1988.0828571428572,
+   "duration_seconds": 57.44326530612245,
+   "following_silence_seconds": 0.6,
+   "text": "Or consider the following conversation, recorded by Nishimura. Some of the speaker's words are Japanese, and I'll give the translation after each one.\n\nB.C. ni iku toki, meaning \u201cwhen I went to B.C.\u201d, hikooki de yomoo to omotte kara, meaning \u201cthinking I would read it on the plane\u201d, I bought it, eh? So, it's not finished yet. She laughs. And it's hard, 'cause me-nanka, meaning \u201ca person like me\u201d, moo, meaning \u201creally\u201d, hon-nanka yomu to, meaning \u201cwhen I read a book\u201d, cover-to-cover yomanakattara, meaning \u201cunless I read it cover-to-cover\u201d, if I stop dokka de, meaning \u201cat some point\u201d, I forget the story.\n\nThis kind of code-switching is perfectly grammatical for any English-Japanese bilingual, but much of it seems ungrammatical for other English speakers.",
+   "is_note": false,
+   "mp3": "tracks/35-MO2.mp3",
+   "loudness": {
+    "input_i": -24.5,
+    "input_tp": -1.9
+   },
+   "gain_db": 8.6,
+   "source": "supplements/audio/chapter-02-2026-09/raw/MO2-take-01.mp3",
+   "mp3_sha256": "a74fea7b9173b0d0f0c00b2ee183a68c9436faa12d72868bdeedeb6d4811c4ac"
+  },
+  {
+   "number": 36,
+   "id": "MO3",
+   "title": "Groups of speakers",
+   "start_seconds": 2046.1261224489797,
+   "duration_seconds": 58.226938775510206,
+   "following_silence_seconds": 0.6,
+   "text": "The chapter has a diagram of speaker groups at this point, and it's worth describing, because the model depends on it.\n\nPicture one large oval containing everyone: all English speakers. Inside it, a second, smaller oval: Standard English speakers. That second oval sits off to one side, so parts of the big oval fall outside it.\n\nNow picture smaller circles scattered across those two ovals. Three of them sit inside the Standard English oval: teachers, teens, and lawyers. One straddles the edge: Singaporeans. And two sit in the outer oval, outside Standard English altogether: infants, and people in 1300.\n\nThe figure is not to scale, and the point isn't the sizes. The point is that grammaticality is settled inside these groups, and the groups overlap, nest, and sit outside one another.",
+   "is_note": false,
+   "mp3": "tracks/36-MO3.mp3",
+   "loudness": {
+    "input_i": -25.09,
+    "input_tp": -1.6
+   },
+   "gain_db": 6.69,
+   "source": "supplements/audio/chapter-02-2026-09/raw/MO3-take-02.mp3",
+   "mp3_sha256": "5d128c024b08ad7a61219587ddd01f6b565cb59095df0c52835cc8f213a1bf33"
+  },
+  {
+   "number": 37,
+   "id": "MO4",
+   "title": "Layers of meaning",
+   "start_seconds": 2104.95306122449,
+   "duration_seconds": 87.37959183673469,
+   "following_silence_seconds": 0.6,
+   "text": "When it comes to the meaning, there can often be layers and layers, any of which need to match the construction used to convey them.\n\n\u201cTry it and you'll regret it\u201d has a literal meaning: an instruction to try something, followed by a prediction that the experience will lead to regret. In everyday speech, though, it has a conditional meaning: if you try it, you'll regret it. On top of those, it also may carry an implied threat: if you do that, I will punish you. Here, the literal meaning of the imperative \u201ctry it\u201d is turned on its head and comes to mean \u201cdon't try it.\u201d\n\nSometimes old constructions pair with new meanings. That's how we ended up with the \u201cgoing to\u201d future-time idiom. It began literally meaning going somewhere to do something. Why am I going there? I'm going to shop. But the fact that the activity could only happen after some period of travel time provided the opportunity for it to take on a future meaning.\n\nOther times grammatical constructions become less grammatical or fall out of use. Take the way we make questions and negatives in English. Shakespeare would have asked \u201cknow you not?\u201d instead of \u201cdon't you know?\u201d, and obviously, that's not how you and I say it.",
+   "is_note": false,
+   "mp3": "tracks/37-MO4.mp3",
+   "loudness": {
+    "input_i": -24.51,
+    "input_tp": -3.24
+   },
+   "gain_db": 6.55,
+   "source": "supplements/audio/chapter-02-2026-09/raw/MO4-take-01.mp3",
+   "mp3_sha256": "83ff262712e269c2911a7e926e82490381f8f751d0099f26405f135fefce30fc"
+  },
+  {
+   "number": 38,
+   "id": "MO5",
+   "title": "Four situations",
+   "start_seconds": 2192.9326530612243,
+   "duration_seconds": 54.15183673469388,
+   "following_silence_seconds": 0.6,
+   "text": "So when do we say something's ungrammatical? A few situations come to mind.\n\nFirst, when the form doesn't pair with, or even suggest, any meaning at all. Something like \u201cCan the have running?\u201d\n\nSecond, when there's a mismatch between what you mean and what people expect you to mean. \u201cI have 12 years\u201d is a perfectly good way of replying to the question \u201cHow long do you have until retirement?\u201d But it's ungrammatical in response to the question \u201cHow old are you?\u201d\n\nThird, when you've got contradictory form-and-meaning pairs in the same utterance. \u201cI have two job\u201d tells us both that the number of jobs is plural and that it's singular.\n\nAnd finally, when there's a strongly preferred alternative form, and there's no good reason not to use it.",
+   "is_note": false,
+   "mp3": "tracks/38-MO5.mp3",
+   "loudness": {
+    "input_i": -25.07,
+    "input_tp": -1.6
+   },
+   "gain_db": 7.54,
+   "source": "supplements/audio/chapter-02-2026-09/raw/MO5-take-02.mp3",
+   "mp3_sha256": "aa17c051e1933424e83ddfcf30d994644701bdcbd2a62fa99e3262432bf2c3e9"
+  },
+  {
+   "number": 39,
+   "id": "MO6",
+   "title": "It very good",
+   "start_seconds": 2247.6844897959186,
+   "duration_seconds": 54.59591836734694,
+   "following_silence_seconds": 0.6,
+   "text": "Take a common phrase like \u201cIt's very good.\u201d Most English speakers would call this grammatical. Say \u201cIt very good\u201d instead, and you'll still get your meaning across. After all, ungrammatical doesn't mean meaningless. But listeners might pause, wondering why you skipped the verb. Maybe you're quoting something? Referencing a meme? Without a clear reason for the unusual form, they're likely to judge it ungrammatical.\n\nThese judgments aren't always reliable guides. Our brains sometimes flag perfectly grammatical sentences as wrong just because they're tricky to process. Other times, we breeze right past actually ungrammatical phrases without noticing, especially in casual conversation when we're focused on meaning rather than form.",
+   "is_note": false,
+   "mp3": "tracks/39-MO6.mp3",
+   "loudness": {
+    "input_i": -24.51,
+    "input_tp": -2.51
+   },
+   "gain_db": 7.2,
+   "source": "supplements/audio/chapter-02-2026-09/raw/MO6-take-01.mp3",
+   "mp3_sha256": "62d7e52b9806c67464c1e8dd8ceda5d9eab0ffe42ae72056a1ffcc9871a0c183"
+  },
+  {
+   "number": 40,
+   "id": "MO7",
+   "title": "What the model says",
+   "start_seconds": 2302.880408163265,
+   "duration_seconds": 35.65714285714286,
+   "following_silence_seconds": 0.6,
+   "text": "This model frames grammaticality not as following rules from grammar books, but as being about using form-and-meaning pairs that work for your linguistic community in a given context. Grammar isn't hardwired into our brains, despite what many linguists since the 1950s have claimed. We don't, for example, have the innate principles and parameters that Chomsky claimed.\n\nLanguage is fluid, shaped by its speakers. What counts as grammatical shifts across time, space, and social groups.",
+   "is_note": false,
+   "mp3": "tracks/40-MO7.mp3",
+   "loudness": {
+    "input_i": -24.69,
+    "input_tp": -1.6
+   },
+   "gain_db": 7.26,
+   "source": "supplements/audio/chapter-02-2026-09/raw/MO7-take-01.mp3",
+   "mp3_sha256": "ae0d24d0e3a45bba7a62703e9de851e832654ae61e120b270781e98e83a84644"
+  },
+  {
+   "number": 41,
+   "id": "MO8",
+   "title": "What learners are aiming at",
+   "start_seconds": 2339.137551020408,
+   "duration_seconds": 52.74122448979592,
+   "following_silence_seconds": 0.5,
+   "text": "Most learners aim their speech at the Standard English-speaking world. Not everyone needs or wants to match these standards exactly. Many just want to communicate effectively, maybe to do business in a country like Vietnam. When students pursue Standard English, we guide them toward that goal.\n\nFortunately, unlike rigid technical standards, language standards bend without breaking. You can diverge quite a bit while still making perfect sense.\n\nGrammar alone doesn't determine how language works. Social expectations and values cast long shadows, quietly shaping what people consider correct. And this brings us to normativity: how social rules ripple through language, shaping both our words and our place in the world.",
+   "is_note": false,
+   "mp3": "tracks/41-MO8.mp3",
+   "loudness": {
+    "input_i": -24.51,
+    "input_tp": -3.03
+   },
+   "gain_db": 6.81,
+   "source": "supplements/audio/chapter-02-2026-09/raw/MO8-take-01.mp3",
+   "mp3_sha256": "9a1e26217f8a0db8b040b2049c11b140c1f79b56fb37d75edadac9f280de98ba"
+  }
+ ]
+}

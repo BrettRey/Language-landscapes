@@ -146,6 +146,13 @@
         "reason": "largest of the 11; deferred to the 1 October renewal"
       },
       "method_change": "Each render is now polled to completion via the player's displayed duration and checked against chars/13.94 before the page is reloaded. The first run reloaded about 10 seconds after clicking Generate, which truncated 11 takes."
+    },
+    "gap_note": {
+      "credits": 222,
+      "balance_before": 489,
+      "balance_after": 267,
+      "verified_in_account": true,
+      "reason": "Brett asked to publish what exists with a note that it is not done; the audio needed a spoken notice at the X01 gap, which is mid-argument."
     }
   },
   "spoken_words": 7235,
@@ -626,6 +633,14 @@
       "words": 145,
       "sha256": "35387082dfed235d5d3729915cf875b38057c0b06762634f7c4b6d3989063fe2",
       "input_file": "supplements/audio/chapter-02-2026-09/inputs/Q03.txt"
+    },
+    {
+      "id": "GAP01",
+      "subject": "A note on what is missing",
+      "characters": 222,
+      "words": 38,
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/GAP01.txt",
+      "purpose": "spoken notice standing where X01 belongs in the partial release"
     }
   ],
   "line_dispositions": [
@@ -4789,9 +4804,20 @@
       "match_margin": 0.543,
       "complete": true,
       "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "GAP01",
+      "take": 1,
+      "characters": 222,
+      "credits": 222,
+      "seconds_player_reported": 16,
+      "complete": true,
+      "status": "downloaded and verified by transcript",
+      "seconds": 15.91,
+      "file": "supplements/audio/chapter-02-2026-09/raw/GAP01-take-01.mp3"
     }
   ],
-  "production_status": "run_1: 40 of 41 takes complete; outstanding ['X01']",
+  "production_status": "partial release published; X01 and run 2 outstanding",
   "open_questions": [
     "TESL: confirm whether it is spoken as a word or spelled out. Falls in run 2; not blocking run 1."
   ],
@@ -4962,7 +4988,7 @@
     }
   ],
   "delivery": {
-    "status": "delivered except X01",
+    "status": "published (partial)",
     "raw_directory": "supplements/audio/chapter-02-2026-09/raw",
     "format": "MP3 44.1 kHz 192 kbps mono, matching Chapter 1",
     "source_zip": "~/Downloads/ElevenLabs_Export_2026-09-15T00_13_33.zip",
@@ -4975,7 +5001,7 @@
       "X01 truncated at 50.9s of ~96s; 1,339 credits; deferred to 2026-10-01"
     ]
   },
-  "updated_at": "2026-09-15T01:56:52+00:00",
+  "updated_at": "2026-09-15T10:52:31+00:00",
   "qa": {
     "completeness": {
       "method": "characters per second of audio; the 30 sound takes cluster at 12.9-15.4, truncated ones run 16.2-26.3",
@@ -5033,5 +5059,55 @@
       ],
       "identification_score_min": 0.932
     }
+  },
+  "partial_release": {
+    "decided_by": "Brett",
+    "statement": "publish what's available with a note that it's not done",
+    "recorded_segments": 40,
+    "planned_segments": 51,
+    "tracks": 41,
+    "duration_hhmmss": "00:39:38",
+    "not_recorded": [
+      "X01",
+      "N01",
+      "N02",
+      "N03",
+      "N04",
+      "N05",
+      "N06",
+      "C01",
+      "Q01",
+      "Q02",
+      "Q03"
+    ],
+    "handling": "Audio runs from the chapter opening to the end of the model of grammaticality. A spoken note stands where X01 belongs. The page and text transcript carry every unrecorded passage in full, marked where it belongs, so the written side is complete.",
+    "loudness": "normalised to -24.5 LUFS with a -1.5 dBTP ceiling, matching the Chapter 1 master",
+    "build": [
+      "production/assemble-chapter02.py",
+      "production/build-page.py"
+    ],
+    "blocked_on": null
+  },
+  "publication": {
+    "website_url": "https://brettreynolds.ca/language-landscapes/audio/chapter-02/",
+    "index_url": "https://brettreynolds.ca/language-landscapes/",
+    "release_url": "https://github.com/BrettRey/brettreynolds.github.io/releases/tag/language-landscapes-chapter-02-audio-2026-09",
+    "website_commit": "12c2323",
+    "published_at": "2026-09-15T10:52:31+00:00",
+    "status_label_on_index": "partial",
+    "release_assets": 43,
+    "live_checks": {
+      "companion_page": 200,
+      "index_page": 200,
+      "reference_page": 200,
+      "transcript_txt": 200,
+      "playlist": 200,
+      "mp3_byte_range": 206,
+      "m4b_byte_range": 206,
+      "sections_rendered": 41,
+      "unfinished_banner_present": true,
+      "pages_build": "built"
+    },
+    "duration_hhmmss": "00:39:52"
   }
 }
