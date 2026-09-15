@@ -1,0 +1,9 @@
+So when do we say something's ungrammatical? A few situations come to mind.
+
+First, when the form doesn't pair with, or even suggest, any meaning at all. Something like “Can the have running?”
+
+Second, when there's a mismatch between what you mean and what people expect you to mean. “I have 12 years” is a perfectly good way of replying to the question “How long do you have until retirement?” But it's ungrammatical in response to the question “How old are you?”
+
+Third, when you've got contradictory form-and-meaning pairs in the same utterance. “I have two job” tells us both that the number of jobs is plural and that it's singular.
+
+And finally, when there's a strongly preferred alternative form, and there's no good reason not to use it.

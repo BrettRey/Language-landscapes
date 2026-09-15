@@ -1,0 +1,7 @@
+A model of grammaticality.
+
+Okay, so we've seen that grammaticality isn't as straightforward as we might have thought. But that doesn't mean we can't come up with a useful way of thinking about it. Here's a model that might help.
+
+At its core, grammaticality is about form-and-meaning pairings that work for a particular group of speakers in a particular situation. It's not universal.
+
+To see what I mean, consider that a teen saying “mommy sock” to mean “that's your sock, mom” feels very ungrammatical, and very odd. The same utterance by an infant doesn't evoke either of those feelings, though, because it's a good form-and-meaning pairing that works for a particular group of speakers in a particular situation.

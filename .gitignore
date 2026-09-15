@@ -56,3 +56,11 @@ correspondence/
 
 # Packaged companion handoff bundles
 /ai-companion/*-package.zip
+
+# Audio/video renders: large binaries, regenerable from the scripts + manifest
+supplements/audio/**/*.mp3
+supplements/audio/**/*.wav
+supplements/audio/**/*.m4b
+supplements/audio/**/*.zip
+supplements/video/**/*.mp4
+supplements/video/**/*.zip

@@ -1,0 +1,9 @@
+Let's start with an easy one. Example one is presented without any judgment mark.
+
+Example one. “Me key there happy mine the.”
+
+I hope you agree that example one seems unequivocally ungrammatical. But why? No, really, why? If you feel that it is ungrammatical, what can you point to to support that intuition? If somebody claimed that this is actually grammatical, what counter-arguments could we make?
+
+Well, we could start with the word “key” and say that, as a singular countable noun, it needs a determiner and it doesn't seem to have one. A noun phrase like “my” could function as a determiner, but “me” doesn't function that way, at least not in Standard English, though perhaps this is the “me” of a different dialect wherein “me” can mean “my.”
+
+You could look at “key” and ask yourself whether it's a noun or a verb. If it's a noun, then there is no verb, and if this is supposed to be a clause, it needs a verb phrase as its head. So let's assume “key” is a verb. That makes “me” the subject, but we would expect “I” here, not “me.” And if “key” is a verb, then you expect to key something. Unfortunately, “there” and “happy” aren't things that can be keyed. You could say, “please key mine,” but “mine” seems too detached from “key” for that to work. And “the” is just left at the end there, in a position where it never occurs.

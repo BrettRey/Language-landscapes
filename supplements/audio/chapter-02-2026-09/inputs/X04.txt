@@ -1,0 +1,11 @@
+Next, we'll consider the converse, that all meaningful language is grammatical. Before we do, try to think of something that is ungrammatical but has a clear meaning.
+
+Pause here.
+
+Now consider example three, which carries no judgment mark.
+
+Example three. “Jean Paul, very very good.”
+
+This example was heard by my friend, Geoff Pullum, in an interview on National Public Radio. The speaker was Turkish. Her meaning, in its context, is clearly that Pope John Paul was a very, very good pope or person. But for this to be grammatical in English, we need a clause, with a subject and a head. That head should be a verb phrase, which means we need a verb, presumably “be,” though another verb that licenses predicative complements, such as “seem” or “become,” would also be possible.
+
+It seems, then, that something can be grammatical but not meaningful, and meaningful but not grammatical. So meaning is neither a necessary nor a sufficient condition for grammaticality.

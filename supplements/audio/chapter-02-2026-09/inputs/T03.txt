@@ -1,0 +1,5 @@
+There are a lot of different rail gauges. The chapter shows a figure comparing several of them; the point it makes is the one I'm about to describe, so you can follow this without it.
+
+The standard rail gauge is one point four three five metres wide. That's what they're using for a new light rail line in Mississauga, where I live. Toronto gauge, the one traditionally used by the Toronto Transit Commission, one city to the east, is one point four nine five metres wide. To be sure, each size has benefits and drawbacks, but the main benefit of standard rail gauge is that it is standard. It is the most commonly used, and so if you want new rail cars, or even used rail cars, it's much cheaper and faster to get them if you use standard gauge.
+
+That's why Mississauga chose it, despite the fact that its rolling stock will not be able to interchange directly with Toronto's system. The choice was not about quality or superiority. It was about cost and availability.

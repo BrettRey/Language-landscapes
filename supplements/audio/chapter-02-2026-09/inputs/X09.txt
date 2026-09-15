@@ -1,0 +1,13 @@
+Example eight is marked with a raised question mark, which flags it as questionable rather than clearly ungrammatical.
+
+Example eight, questionable. “I have 30 years.”
+
+It seems to me that this is perfectly grammatical. Compare it with “I have 30 dollars.” In fact, this is how ages are discussed in many languages. But even though it's grammatical, it's still the wrong way to say “I'm 30 years old,” at least in English. So even being grammatical isn't the same as being acceptable.
+
+Example nine is marked with a raised exclamation mark, which flags a form that differs between varieties of Standard English.
+
+Example nine, differing between standard varieties. “I'll see you at the weekend.”
+
+North American speakers of English generally judge this to be ungrammatical, but it is the normal way to express “I'll see you on the weekend” in British English. This is one of the small differences among Standard Englishes I mentioned earlier.
+
+The reason for this difference is not a grammatical one. Rather, we are operating under different cultural assumptions about the relevant metaphor for weekends. It has been claimed that North Americans see a weekend as a platform or stage on which events play out, while the British see it as a point at the end of the week. There's more about metaphors and prepositions later in the book.

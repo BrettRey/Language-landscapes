@@ -1,0 +1,11 @@
+Geoff Pullum gives examples like the following to illustrate normative observations.
+
+“It is not polite to lick your knife” offers a reason for not licking your knife.
+
+“Torturing children is wrong” implies a reason for not torturing children.
+
+“Bach's music is beautiful” suggests a reason for planning to attend a Bach concert.
+
+“Inflation is too low” signals to central bankers that they should lower interest rates.
+
+And from the fact that torturing a child is immoral, it follows that we ought not to torture a child.

@@ -1,0 +1,5 @@
+Now consider example five, which is starred as ungrammatical.
+
+Example five, starred. “What movies do you have friends who acted in?”
+
+You'll probably agree that this is a very strange sentence, almost like an optical illusion, feeling grammatical and ungrammatical at the same time. The reason is thought to be the result of something called island constraints, a kind of rule or limitation that many linguists think might apply to all languages, though there is some debate about this. This could be the result of some processing constraint in our brains, or it could be something about how information can be structured. Fortunately, if this is true, then you'll never have to explain it to your students, because nobody would naturally try to use a sentence like this.

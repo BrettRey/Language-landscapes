@@ -1,0 +1,9 @@
+The chapter sets out a table with two columns, normative on the left and positive on the right, and four pairs of entries. Each pair contrasts a domain concerned with how things ought to be against one concerned with how things are.
+
+First pair. Normative: the rules of table manners. Positive: the claims of physics.
+
+Second pair. Normative: ethics. Positive: number theory.
+
+Third pair, and this one splits a single field. Normative: economics, in the sense of how we should distribute scarce resources. Positive: economics, in the sense of how we actually distribute scarce resources.
+
+Fourth pair, and this is the one that matters for us. Normative: language teaching. Positive: linguistics.

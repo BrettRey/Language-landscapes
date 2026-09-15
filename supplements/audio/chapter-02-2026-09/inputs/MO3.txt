@@ -1,0 +1,7 @@
+The chapter has a diagram of speaker groups at this point, and it's worth describing, because the model depends on it.
+
+Picture one large oval containing everyone: all English speakers. Inside it, a second, smaller oval: Standard English speakers. That second oval sits off to one side, so parts of the big oval fall outside it.
+
+Now picture smaller circles scattered across those two ovals. Three of them sit inside the Standard English oval: teachers, teens, and lawyers. One straddles the edge: Singaporeans. And two sit in the outer oval, outside Standard English altogether: infants, and people in 1300.
+
+The figure is not to scale, and the point isn't the sizes. The point is that grammaticality is settled inside these groups, and the groups overlap, nest, and sit outside one another.

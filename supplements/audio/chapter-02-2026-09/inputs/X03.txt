@@ -1,0 +1,3 @@
+But Chomsky also claims that neither the sentences nor their subparts would occur in a corpus of English, and that they would be, in his words, equally remote from English in any statistical model of English. He wants to say that frequency has nothing to do with it.
+
+Here, I think he errs. Fernando Pereira has shown that two a is actually much more statistically likely than two b. And the success of large language models shows that language truly is built on statistical regularities.

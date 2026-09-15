@@ -1,0 +1,5037 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-09-14T22:44:38+00:00",
+  "review_file": "supplements/audio/chapter-02-2026-09/chapter-02-scripts.md",
+  "review_sha256": "f611f6defab6656bba96ab34ba1f0fbac4da15a6f4c8edf1bdb527b864d92d9e",
+  "script_status": "approved_for_run_1",
+  "source": {
+    "path": "chapters/02 standards.tex",
+    "snapshot": "supplements/audio/chapter-02-2026-09/source/chapter-02.tex",
+    "sha256": "124fc0fe02c3801181d86124029551a2e547f90f64866db3df92933ab01f21f4",
+    "lines": 426
+  },
+  "voice_name": "Audio textbook Brett",
+  "model_name": "Eleven Multilingual v2",
+  "settings": {
+    "speed": 1,
+    "stability": 0.5,
+    "similarity": 0.75,
+    "style": 0,
+    "speaker_boost": true
+  },
+  "budget": {
+    "status": "approved",
+    "generation_authorized": true,
+    "rate_credits_per_character": 1,
+    "rate_url": "https://elevenlabs.io/pricing",
+    "first_take_credits": 43698,
+    "repair_fraction": 0.15,
+    "repair_reserve": 6555,
+    "proposed_ceiling": 51000,
+    "verified_account_balance": 44184,
+    "balance_verified_on": "2026-09-14",
+    "balance_source": "ElevenLabs account, subscription pane, read in browser",
+    "cycle_renews": "2026-10-01",
+    "headroom_after_reserve": -6069,
+    "fits_current_balance": false,
+    "max_targeted_repairs_per_defective_passage": 2,
+    "staging": {
+      "chosen_by": "Brett",
+      "chosen_on": "2026-09-14",
+      "statement": "Stop after the model section.",
+      "run_1": {
+        "ids": [
+          "H01",
+          "I01",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08",
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "SH01",
+          "G01",
+          "G02",
+          "G03",
+          "M01",
+          "G04",
+          "G05",
+          "X01",
+          "X02",
+          "X03",
+          "X04",
+          "X05",
+          "X06",
+          "X07",
+          "X08",
+          "X09",
+          "X10",
+          "X11",
+          "X12",
+          "MO1",
+          "MO2",
+          "MO3",
+          "MO4",
+          "MO5",
+          "MO6",
+          "MO7",
+          "MO8"
+        ],
+        "last": "MO8",
+        "inputs": 41,
+        "first_take_credits": 33896,
+        "repair_reserve": 5085,
+        "ceiling": 39000,
+        "headroom_after_reserve": 5203,
+        "status": "complete: all 41 first takes generated, no retakes",
+        "actual_first_take_credits": 33896,
+        "balance_before": 44184,
+        "balance_after": 10288,
+        "verified_on_subscription_page": true,
+        "retakes": 0,
+        "repair_reserve_unspent": 5085
+      },
+      "run_2": {
+        "ids": [
+          "N01",
+          "N02",
+          "N03",
+          "N04",
+          "N05",
+          "N06",
+          "C01",
+          "Q01",
+          "Q02",
+          "Q03"
+        ],
+        "inputs": 10,
+        "first_take_credits": 9802,
+        "status": "deferred to the cycle renewing 2026-10-01"
+      }
+    },
+    "approved_at": "2026-09-14T22:55:03+00:00",
+    "approval_statement": "go",
+    "approval_context": "Explicit approval of the run-1 ceiling of 39,000 credits: 33,896 of first takes for the 41 inputs H01 through MO8, plus a 5,085 repair reserve. Run 2 remains deferred to the cycle renewing 2026-10-01 and is NOT authorized by this approval.",
+    "spent_run_1": 33896,
+    "balance_after_run_1": 10288,
+    "repair_run": {
+      "authorized_by": "Brett",
+      "statement": "redo 10 now, and don't fuck them up",
+      "at": "2026-09-15T01:52:15+00:00",
+      "segments": [
+        "E04",
+        "G01",
+        "G03",
+        "MO3",
+        "MO5",
+        "T04",
+        "T08",
+        "X05",
+        "X07",
+        "X09"
+      ],
+      "credits": 9799,
+      "balance_before": 10288,
+      "balance_after": 489,
+      "verified_in_account": true,
+      "held_back": {
+        "id": "X01",
+        "characters": 1339,
+        "reason": "largest of the 11; deferred to the 1 October renewal"
+      },
+      "method_change": "Each render is now polled to completion via the player's displayed duration and checked against chars/13.94 before the page is reloaded. The first run reloaded about 10 seconds after clicking Generate, which truncated 11 takes."
+    }
+  },
+  "spoken_words": 7235,
+  "estimated_minutes": [
+    46.8,
+    54.2
+  ],
+  "duration_basis": "Word rates measured in accepted pilot Readings A and B",
+  "reused_audio": [],
+  "listening_order": [
+    "H01",
+    "I01",
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "SH01",
+    "G01",
+    "G02",
+    "G03",
+    "M01",
+    "G04",
+    "G05",
+    "X01",
+    "X02",
+    "X03",
+    "X04",
+    "X05",
+    "X06",
+    "X07",
+    "X08",
+    "X09",
+    "X10",
+    "X11",
+    "X12",
+    "MO1",
+    "MO2",
+    "MO3",
+    "MO4",
+    "MO5",
+    "MO6",
+    "MO7",
+    "MO8",
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "C01",
+    "Q01",
+    "Q02",
+    "Q03"
+  ],
+  "pause_after": [
+    "G04",
+    "X04",
+    "X11",
+    "Q01",
+    "Q03"
+  ],
+  "answer_segments": {
+    "Q01": "Q02"
+  },
+  "segments": [
+    {
+      "id": "H01",
+      "subject": "Chapter title and learning objectives",
+      "characters": 826,
+      "words": 108,
+      "sha256": "7bfe0cabf3ef37efe374d97e9cd015afe8d69a779d6337501649b6182687273b",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/H01.txt"
+    },
+    {
+      "id": "I01",
+      "subject": "Introduction",
+      "characters": 1436,
+      "words": 226,
+      "sha256": "5004095f38f28859c794f9b479ec307e763abae2ae14088dd489d99966aa83f6",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/I01.txt"
+    },
+    {
+      "id": "T01",
+      "subject": "The positive connotations of standard",
+      "characters": 764,
+      "words": 123,
+      "sha256": "77c82a9aedc51a16e2605d7205434ccf058882945dc863d65d5d1b02d73722c1",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/T01.txt"
+    },
+    {
+      "id": "T02",
+      "subject": "VHS and Betamax",
+      "characters": 507,
+      "words": 91,
+      "sha256": "61e058acdf0de9de4f701f3c0316cea2f8f50b05877eeebf24fbae2b8e517a7e",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/T02.txt"
+    },
+    {
+      "id": "T03",
+      "subject": "Rail gauge",
+      "characters": 969,
+      "words": 176,
+      "sha256": "630c23dab9c4634f3b080f39e9e846d72c499d8a67c68a38815e6efef5569a89",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/T03.txt"
+    },
+    {
+      "id": "T04",
+      "subject": "A sociopolitical marker",
+      "characters": 1100,
+      "words": 176,
+      "sha256": "e3d00af117e0452b2e6d060994d1782c5de7637b6549108d07bc7a24b0fd9a0d",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/T04.txt"
+    },
+    {
+      "id": "T05",
+      "subject": "A4 and US Letter",
+      "characters": 448,
+      "words": 72,
+      "sha256": "d6b58003cdfc0450055ae4bc6aa1f92aa9ab5eec21bac5dcca97ddc1829b0f8b",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/T05.txt"
+    },
+    {
+      "id": "T06",
+      "subject": "Two differences between technology and language standards",
+      "characters": 874,
+      "words": 139,
+      "sha256": "fa28b06c89fe3be2fa941c397945c45bfbd6c6278f8ba97eff6c25a2c9aad5f7",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/T06.txt"
+    },
+    {
+      "id": "T07",
+      "subject": "Regulating group membership",
+      "characters": 723,
+      "words": 129,
+      "sha256": "e062e035bdc93f7e19b4e0f6d4353a4bb22f9a04c5d71367112fde7dbe7f64d9",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/T07.txt"
+    },
+    {
+      "id": "T08",
+      "subject": "The clothing analogy",
+      "characters": 1127,
+      "words": 191,
+      "sha256": "23d6555c80dff4eb6b1a228ae475c3684a28ad2c5fd2a2339945187b7f3175c3",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/T08.txt"
+    },
+    {
+      "id": "E01",
+      "subject": "Middlemarch, and the lack of a brief definition",
+      "characters": 736,
+      "words": 124,
+      "sha256": "47e98f842fa515f756838fe6b5847a1dccf4fa79766aea0f3054337a5237f9a2",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/E01.txt"
+    },
+    {
+      "id": "E02",
+      "subject": "Every dialect is a standard somewhere",
+      "characters": 546,
+      "words": 95,
+      "sha256": "6fa916cd52e3dcad1cb47cba3782c346cf4f774335e3be44d55da7ed7f91af24",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/E02.txt"
+    },
+    {
+      "id": "E03",
+      "subject": "Englishes in the plural",
+      "characters": 450,
+      "words": 71,
+      "sha256": "b2c3baedc150ffa2f00b712d049ae7ebf09aa555085e4a27229d25093f702e18",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/E03.txt"
+    },
+    {
+      "id": "E04",
+      "subject": "What Standard English is not",
+      "characters": 811,
+      "words": 138,
+      "sha256": "9d55ebf65b332af6c0478acade989f4c81bdcb72b83f22331629966d7f71bc5d",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/E04.txt"
+    },
+    {
+      "id": "SH01",
+      "subject": "What's a shibboleth?",
+      "characters": 1236,
+      "words": 204,
+      "sha256": "49c8caf7afa2c487b7de4e0f10b5655983a8c81dab85887948825e57d0ecc32c",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/SH01.txt"
+    },
+    {
+      "id": "G01",
+      "subject": "Hired in Japan",
+      "characters": 856,
+      "words": 156,
+      "sha256": "e2eab9a62730e4ce2a79200b0fb4b11491b28c34eb08af7ec77f943d18d3fbdd",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/G01.txt"
+    },
+    {
+      "id": "G02",
+      "subject": "It sounds right",
+      "characters": 499,
+      "words": 92,
+      "sha256": "422843b82962ab06229109de3fdde8547ae9d406f5ff0a0c695fb0cc22f6f974",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/G02.txt"
+    },
+    {
+      "id": "G03",
+      "subject": "What you already know",
+      "characters": 759,
+      "words": 132,
+      "sha256": "120792c412f35a36dc96a9087c0b698a33340096bf52b508cd4ac6127b9fa0fc",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/G03.txt"
+    },
+    {
+      "id": "M01",
+      "subject": "The fallacy of monosemy",
+      "characters": 722,
+      "words": 126,
+      "sha256": "f986ad7d96e7cf8dc6a5b23aff1ff12f070b61dfcb74fab02fc1b5eb6c4eb441",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/M01.txt"
+    },
+    {
+      "id": "G04",
+      "subject": "What does grammatical mean to you?",
+      "characters": 717,
+      "words": 124,
+      "sha256": "567278c9354f5832d305ab381cc346b71287e2ac031ac4d76b561e7d0b9bedd0",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/G04.txt"
+    },
+    {
+      "id": "G05",
+      "subject": "A dictionary definition",
+      "characters": 780,
+      "words": 126,
+      "sha256": "f09d71ca16204bf4c34eea70797d42804bc137b6e6f2097c7e5e89195cf958b7",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/G05.txt"
+    },
+    {
+      "id": "X01",
+      "subject": "An easy one",
+      "characters": 1339,
+      "words": 246,
+      "sha256": "0dbbf1b9115e9c06b74f12ea33644f495e8a925a3c502052ce243885cb1e3293",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X01.txt"
+    },
+    {
+      "id": "X02",
+      "subject": "Colorless green ideas",
+      "characters": 1040,
+      "words": 174,
+      "sha256": "e7d50d580beb951b462b5403e67e6b4081b9e7ab4a8eff007553148e8a5e2b26",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X02.txt"
+    },
+    {
+      "id": "X03",
+      "subject": "Frequency and statistics",
+      "characters": 488,
+      "words": 85,
+      "sha256": "2cb2425ed4315f87d9c2583aa4f64ebbf789202d49986f487a13a06eb9d41ed2",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X03.txt"
+    },
+    {
+      "id": "X04",
+      "subject": "Jean Paul, very very good",
+      "characters": 969,
+      "words": 161,
+      "sha256": "5b07cee918f5a500af9b890d60fa331966578692e4cf5d2f6b0f969387866c1b",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X04.txt"
+    },
+    {
+      "id": "X05",
+      "subject": "The rules in grammar books",
+      "characters": 1135,
+      "words": 202,
+      "sha256": "3c7c3fb7bc7bc83ba5d6170bb0ba9ed07e268850e07a0170c714117842e5bb81",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X05.txt"
+    },
+    {
+      "id": "X06",
+      "subject": "An island constraint",
+      "characters": 772,
+      "words": 128,
+      "sha256": "aa283d2831d66ce8a5ecd0c4e8e3c72c7e6edbebd841330a8c332d2e59daf6c7",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X06.txt"
+    },
+    {
+      "id": "X07",
+      "subject": "The unpacked suitcase",
+      "characters": 1141,
+      "words": 204,
+      "sha256": "28f976afcd0ed25c62bddc170738cc3ebf0ae219a2906fc8508e9165e19e2220",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X07.txt"
+    },
+    {
+      "id": "X08",
+      "subject": "The horse raced past the barn",
+      "characters": 779,
+      "words": 132,
+      "sha256": "eaa7c7c1a7d6ae8e3c73497cbd2f784b67a1c0187f53147432dcbd106cc150e9",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X08.txt"
+    },
+    {
+      "id": "X09",
+      "subject": "Thirty years, and the weekend",
+      "characters": 1333,
+      "words": 223,
+      "sha256": "832840902a0e43ddab6fdf51367151cc7369961239b9388746308acf7e9c5809",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X09.txt"
+    },
+    {
+      "id": "X10",
+      "subject": "Dialect and register",
+      "characters": 704,
+      "words": 117,
+      "sha256": "92d1ba8b3716478d6818a3a66df79f897a5df76f74107e7b66688e5782de067f",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X10.txt"
+    },
+    {
+      "id": "X11",
+      "subject": "Jim and me's teacher",
+      "characters": 542,
+      "words": 98,
+      "sha256": "6af19dac8d6ecedd9987632147b76e6b8a230aee65de06c6bb3b7b3b16334720",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X11.txt"
+    },
+    {
+      "id": "X12",
+      "subject": "Summary of the grammaticality section",
+      "characters": 611,
+      "words": 96,
+      "sha256": "c1e3794c130f62d00a530bf4e4f39775590d0f097a57b0573f95f01ba441be7a",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/X12.txt"
+    },
+    {
+      "id": "MO1",
+      "subject": "Form and meaning pairings",
+      "characters": 717,
+      "words": 118,
+      "sha256": "ca4cd836009af1d197492c4aec3b047eeaecc0ceb1cd82e261b4d4cdcb7b4264",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/MO1.txt"
+    },
+    {
+      "id": "MO2",
+      "subject": "Code-switching",
+      "characters": 761,
+      "words": 123,
+      "sha256": "6012cc6c8977c8f18ab096ddf26343933b71d2eacbdd621bb0ef5e8520b125ce",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/MO2.txt"
+    },
+    {
+      "id": "MO3",
+      "subject": "Groups of speakers",
+      "characters": 792,
+      "words": 131,
+      "sha256": "111b8c0106b6ba88263ce43e3baf0d9ef2108c462a9c991656bfbccf6538ba81",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/MO3.txt"
+    },
+    {
+      "id": "MO4",
+      "subject": "Layers of meaning",
+      "characters": 1196,
+      "words": 213,
+      "sha256": "42be3b50799cad3fdef37b2286d117e11a677b349f1bbe74002c7a8994133629",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/MO4.txt"
+    },
+    {
+      "id": "MO5",
+      "subject": "Four situations",
+      "characters": 745,
+      "words": 129,
+      "sha256": "8f43b29a30966f6510ffc7c4310172eb00e3077b4f546da1a875f4b1f82d8e4e",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/MO5.txt"
+    },
+    {
+      "id": "MO6",
+      "subject": "It very good",
+      "characters": 737,
+      "words": 108,
+      "sha256": "cd398efb2f9bfcb84a05e978e4dfc0c08eea4652556ca30b24ab5650cb274c2d",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/MO6.txt"
+    },
+    {
+      "id": "MO7",
+      "subject": "What the model says",
+      "characters": 486,
+      "words": 74,
+      "sha256": "2cc788762dcf0da6bdab172664b01d25ea1d5b431bbc540f4c8f5157c49a8f45",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/MO7.txt"
+    },
+    {
+      "id": "MO8",
+      "subject": "What learners are aiming at",
+      "characters": 723,
+      "words": 109,
+      "sha256": "f3d376bffa0e042251c0014fd9c08ed2149aa65b08c3415d2a0e17ea8e73b907",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/MO8.txt"
+    },
+    {
+      "id": "N01",
+      "subject": "What a normative statement is",
+      "characters": 175,
+      "words": 34,
+      "sha256": "2b5870f1b721b4f61ed07d593902c50d154dfa084931d132522bb31063559f25",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/N01.txt"
+    },
+    {
+      "id": "N02",
+      "subject": "Normative and positive domains",
+      "characters": 695,
+      "words": 111,
+      "sha256": "a509f55715419a2d309990ea1c4f0300373cfdf0751d5dba4f9063da6d78e3bf",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/N02.txt"
+    },
+    {
+      "id": "N03",
+      "subject": "Pullum's examples",
+      "characters": 522,
+      "words": 86,
+      "sha256": "de9877cab51b1b04b43ede983fb4d932c8f190154f4e1dba0308ca96c6f3942d",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/N03.txt"
+    },
+    {
+      "id": "N04",
+      "subject": "Are the rules of grammar normative?",
+      "characters": 950,
+      "words": 160,
+      "sha256": "d790705bf9b225a2044380139aae05f628d31453ca288c9f7efc65b0234b6827",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/N04.txt"
+    },
+    {
+      "id": "N05",
+      "subject": "Audience",
+      "characters": 1428,
+      "words": 235,
+      "sha256": "5a255d5ad64ab96cacfc99919f561c0cb5b9d7d742d3e190ee25c47e6ddca215",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/N05.txt"
+    },
+    {
+      "id": "N06",
+      "subject": "Facilitation goes two ways",
+      "characters": 1256,
+      "words": 207,
+      "sha256": "2c21bf067ed4961cff90e72eb6e37e8f228f3f4a5ce1b285eecd818102e06be2",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/N06.txt"
+    },
+    {
+      "id": "C01",
+      "subject": "Conclusion",
+      "characters": 429,
+      "words": 72,
+      "sha256": "33012959737ac6abec17faf5bdedbbccbfbce4fef031704e2057333abf901e8f",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/C01.txt"
+    },
+    {
+      "id": "Q01",
+      "subject": "Ten exercises",
+      "characters": 1209,
+      "words": 191,
+      "sha256": "550ba6012867672039ddea6cec4de4240ad87cc66a65fa77c5d33f79eb6ded32",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/Q01.txt"
+    },
+    {
+      "id": "Q02",
+      "subject": "Answer key",
+      "characters": 2114,
+      "words": 304,
+      "sha256": "75eb23b6e77895e64ffee94760f26aa881a178e4ad38a408667b46d9c4d9fd83",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/Q02.txt"
+    },
+    {
+      "id": "Q03",
+      "subject": "Discussion questions",
+      "characters": 1024,
+      "words": 145,
+      "sha256": "35387082dfed235d5d3729915cf875b38057c0b06762634f7c4b6d3989063fe2",
+      "input_file": "supplements/audio/chapter-02-2026-09/inputs/Q03.txt"
+    }
+  ],
+  "line_dispositions": [
+    {
+      "line": 1,
+      "block": "Chapter title",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 2,
+      "block": "Chapter title",
+      "disposition": "blank",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 3,
+      "block": "Samantha Nock epigraph, “pahpowin”",
+      "disposition": "written reference",
+      "inputs": []
+    },
+    {
+      "line": 4,
+      "block": "Samantha Nock epigraph, “pahpowin”",
+      "disposition": "written reference",
+      "inputs": []
+    },
+    {
+      "line": 5,
+      "block": "Samantha Nock epigraph, “pahpowin”",
+      "disposition": "written reference",
+      "inputs": []
+    },
+    {
+      "line": 6,
+      "block": "Samantha Nock epigraph, “pahpowin”",
+      "disposition": "written reference",
+      "inputs": []
+    },
+    {
+      "line": 7,
+      "block": "Samantha Nock epigraph, “pahpowin”",
+      "disposition": "written reference",
+      "inputs": []
+    },
+    {
+      "line": 8,
+      "block": "Samantha Nock epigraph, “pahpowin”",
+      "disposition": "written reference",
+      "inputs": []
+    },
+    {
+      "line": 9,
+      "block": "Samantha Nock epigraph, “pahpowin”",
+      "disposition": "blank",
+      "inputs": []
+    },
+    {
+      "line": 10,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 11,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 12,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 13,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 14,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 15,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 16,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 17,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 18,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 19,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 20,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 21,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 22,
+      "block": "Learning objectives",
+      "disposition": "adapted",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 23,
+      "block": "Learning objectives",
+      "disposition": "blank",
+      "inputs": [
+        "H01"
+      ]
+    },
+    {
+      "line": 24,
+      "block": "Introduction and chapter roadmap",
+      "disposition": "adapted",
+      "inputs": [
+        "I01"
+      ]
+    },
+    {
+      "line": 25,
+      "block": "Introduction and chapter roadmap",
+      "disposition": "adapted",
+      "inputs": [
+        "I01"
+      ]
+    },
+    {
+      "line": 26,
+      "block": "Introduction and chapter roadmap",
+      "disposition": "blank",
+      "inputs": [
+        "I01"
+      ]
+    },
+    {
+      "line": 27,
+      "block": "Introduction and chapter roadmap",
+      "disposition": "adapted",
+      "inputs": [
+        "I01"
+      ]
+    },
+    {
+      "line": 28,
+      "block": "Introduction and chapter roadmap",
+      "disposition": "blank",
+      "inputs": [
+        "I01"
+      ]
+    },
+    {
+      "line": 29,
+      "block": "Introduction and chapter roadmap",
+      "disposition": "adapted",
+      "inputs": [
+        "I01"
+      ]
+    },
+    {
+      "line": 30,
+      "block": "Introduction and chapter roadmap",
+      "disposition": "blank",
+      "inputs": [
+        "I01"
+      ]
+    },
+    {
+      "line": 31,
+      "block": "Introduction and chapter roadmap",
+      "disposition": "adapted",
+      "inputs": [
+        "I01"
+      ]
+    },
+    {
+      "line": 32,
+      "block": "Introduction and chapter roadmap",
+      "disposition": "blank",
+      "inputs": [
+        "I01"
+      ]
+    },
+    {
+      "line": 33,
+      "block": "Standard as positive connotation; Standard English as aspiration",
+      "disposition": "adapted",
+      "inputs": [
+        "T01"
+      ]
+    },
+    {
+      "line": 34,
+      "block": "Standard as positive connotation; Standard English as aspiration",
+      "disposition": "blank",
+      "inputs": [
+        "T01"
+      ]
+    },
+    {
+      "line": 35,
+      "block": "Standard as positive connotation; Standard English as aspiration",
+      "disposition": "adapted",
+      "inputs": [
+        "T01"
+      ]
+    },
+    {
+      "line": 36,
+      "block": "Standard as positive connotation; Standard English as aspiration",
+      "disposition": "blank",
+      "inputs": [
+        "T01"
+      ]
+    },
+    {
+      "line": 37,
+      "block": "VHS and Betamax",
+      "disposition": "adapted",
+      "inputs": [
+        "T02"
+      ]
+    },
+    {
+      "line": 38,
+      "block": "VHS and Betamax",
+      "disposition": "blank",
+      "inputs": [
+        "T02"
+      ]
+    },
+    {
+      "line": 39,
+      "block": "VHS and Betamax",
+      "disposition": "adapted",
+      "inputs": [
+        "T02"
+      ]
+    },
+    {
+      "line": 40,
+      "block": "VHS and Betamax",
+      "disposition": "blank",
+      "inputs": [
+        "T02"
+      ]
+    },
+    {
+      "line": 41,
+      "block": "Rail gauge and the two measurements",
+      "disposition": "adapted",
+      "inputs": [
+        "T03"
+      ]
+    },
+    {
+      "line": 42,
+      "block": "Rail gauge and the two measurements",
+      "disposition": "blank",
+      "inputs": [
+        "T03"
+      ]
+    },
+    {
+      "line": 43,
+      "block": "Not superior; sociopolitical marker; codified conventions",
+      "disposition": "adapted",
+      "inputs": [
+        "T04"
+      ]
+    },
+    {
+      "line": 44,
+      "block": "Not superior; sociopolitical marker; codified conventions",
+      "disposition": "blank",
+      "inputs": [
+        "T04"
+      ]
+    },
+    {
+      "line": 45,
+      "block": "Not superior; sociopolitical marker; codified conventions",
+      "disposition": "adapted",
+      "inputs": [
+        "T04"
+      ]
+    },
+    {
+      "line": 46,
+      "block": "Not superior; sociopolitical marker; codified conventions",
+      "disposition": "blank",
+      "inputs": [
+        "T04"
+      ]
+    },
+    {
+      "line": 47,
+      "block": "Not superior; sociopolitical marker; codified conventions",
+      "disposition": "adapted",
+      "inputs": [
+        "T04"
+      ]
+    },
+    {
+      "line": 48,
+      "block": "Not superior; sociopolitical marker; codified conventions",
+      "disposition": "blank",
+      "inputs": [
+        "T04"
+      ]
+    },
+    {
+      "line": 49,
+      "block": "Track gauge figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "T03"
+      ]
+    },
+    {
+      "line": 50,
+      "block": "Track gauge figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "T03"
+      ]
+    },
+    {
+      "line": 51,
+      "block": "Track gauge figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "T03"
+      ]
+    },
+    {
+      "line": 52,
+      "block": "Track gauge figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "T03"
+      ]
+    },
+    {
+      "line": 53,
+      "block": "Track gauge figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "T03"
+      ]
+    },
+    {
+      "line": 54,
+      "block": "Track gauge figure",
+      "disposition": "blank",
+      "inputs": [
+        "T03"
+      ]
+    },
+    {
+      "line": 55,
+      "block": "A4, US Letter, and arbitrariness",
+      "disposition": "adapted",
+      "inputs": [
+        "T05"
+      ]
+    },
+    {
+      "line": 56,
+      "block": "A4, US Letter, and arbitrariness",
+      "disposition": "blank",
+      "inputs": [
+        "T05"
+      ]
+    },
+    {
+      "line": 57,
+      "block": "A4, US Letter, and arbitrariness",
+      "disposition": "adapted",
+      "inputs": [
+        "T05"
+      ]
+    },
+    {
+      "line": 58,
+      "block": "A4, US Letter, and arbitrariness",
+      "disposition": "blank",
+      "inputs": [
+        "T05"
+      ]
+    },
+    {
+      "line": 59,
+      "block": "Two differences between technology and language standards",
+      "disposition": "adapted",
+      "inputs": [
+        "T06"
+      ]
+    },
+    {
+      "line": 60,
+      "block": "Two differences between technology and language standards",
+      "disposition": "blank",
+      "inputs": [
+        "T06"
+      ]
+    },
+    {
+      "line": 61,
+      "block": "Group membership and slang",
+      "disposition": "adapted",
+      "inputs": [
+        "T07"
+      ]
+    },
+    {
+      "line": 62,
+      "block": "Group membership and slang",
+      "disposition": "blank",
+      "inputs": [
+        "T07"
+      ]
+    },
+    {
+      "line": 63,
+      "block": "Clothing analogy and social implications",
+      "disposition": "adapted",
+      "inputs": [
+        "T08"
+      ]
+    },
+    {
+      "line": 64,
+      "block": "Clothing analogy and social implications",
+      "disposition": "blank",
+      "inputs": [
+        "T08"
+      ]
+    },
+    {
+      "line": 65,
+      "block": "Clothing analogy and social implications",
+      "disposition": "adapted",
+      "inputs": [
+        "T08"
+      ]
+    },
+    {
+      "line": 66,
+      "block": "Clothing analogy and social implications",
+      "disposition": "blank",
+      "inputs": [
+        "T08"
+      ]
+    },
+    {
+      "line": 67,
+      "block": "Clothing analogy and social implications",
+      "disposition": "blank",
+      "inputs": [
+        "T08"
+      ]
+    },
+    {
+      "line": 68,
+      "block": "Section heading; Middlemarch introduced",
+      "disposition": "adapted",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 69,
+      "block": "Section heading; Middlemarch introduced",
+      "disposition": "blank",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 70,
+      "block": "Middlemarch conversation",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 71,
+      "block": "Middlemarch conversation",
+      "disposition": "blank",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 72,
+      "block": "Middlemarch conversation",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 73,
+      "block": "Middlemarch conversation",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 74,
+      "block": "Middlemarch conversation",
+      "disposition": "blank",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 75,
+      "block": "Middlemarch conversation",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 76,
+      "block": "Middlemarch conversation",
+      "disposition": "blank",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 77,
+      "block": "Middlemarch conversation",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 78,
+      "block": "Middlemarch conversation",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 79,
+      "block": "Middlemarch conversation",
+      "disposition": "blank",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 80,
+      "block": "Middlemarch conversation",
+      "disposition": "blank",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 81,
+      "block": "Correct English is not Standard English; no brief definition",
+      "disposition": "adapted",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 82,
+      "block": "Correct English is not Standard English; no brief definition",
+      "disposition": "blank",
+      "inputs": [
+        "E01"
+      ]
+    },
+    {
+      "line": 83,
+      "block": "Dialects as local standards; First-Nations English",
+      "disposition": "adapted",
+      "inputs": [
+        "E02"
+      ]
+    },
+    {
+      "line": 84,
+      "block": "Dialects as local standards; First-Nations English",
+      "disposition": "blank",
+      "inputs": [
+        "E02"
+      ]
+    },
+    {
+      "line": 85,
+      "block": "Dialects as local standards; First-Nations English",
+      "disposition": "adapted",
+      "inputs": [
+        "E02"
+      ]
+    },
+    {
+      "line": 86,
+      "block": "Dialects as local standards; First-Nations English",
+      "disposition": "blank",
+      "inputs": [
+        "E02"
+      ]
+    },
+    {
+      "line": 87,
+      "block": "Standard Englishes in the plural",
+      "disposition": "adapted",
+      "inputs": [
+        "E03"
+      ]
+    },
+    {
+      "line": 88,
+      "block": "Standard Englishes in the plural",
+      "disposition": "blank",
+      "inputs": [
+        "E03"
+      ]
+    },
+    {
+      "line": 89,
+      "block": "Not better, formal, or most common; cluster of dialects",
+      "disposition": "adapted",
+      "inputs": [
+        "E04"
+      ]
+    },
+    {
+      "line": 90,
+      "block": "Not better, formal, or most common; cluster of dialects",
+      "disposition": "blank",
+      "inputs": [
+        "E04"
+      ]
+    },
+    {
+      "line": 91,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 92,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 93,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 94,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "blank",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 95,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 96,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 97,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 98,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "blank",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 99,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 100,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "blank",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 101,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 102,
+      "block": "Shibboleth box, including the Judges passage",
+      "disposition": "blank",
+      "inputs": [
+        "SH01"
+      ]
+    },
+    {
+      "line": 103,
+      "block": "Section heading",
+      "disposition": "heading",
+      "inputs": [
+        "G01"
+      ]
+    },
+    {
+      "line": 104,
+      "block": "Section heading",
+      "disposition": "blank",
+      "inputs": [
+        "G01"
+      ]
+    },
+    {
+      "line": 105,
+      "block": "Hiring in Japan; no explicit grammatical knowledge",
+      "disposition": "adapted",
+      "inputs": [
+        "G01"
+      ]
+    },
+    {
+      "line": 106,
+      "block": "Hiring in Japan; no explicit grammatical knowledge",
+      "disposition": "blank",
+      "inputs": [
+        "G01"
+      ]
+    },
+    {
+      "line": 107,
+      "block": "Hiring in Japan; no explicit grammatical knowledge",
+      "disposition": "adapted",
+      "inputs": [
+        "G01"
+      ]
+    },
+    {
+      "line": 108,
+      "block": "Hiring in Japan; no explicit grammatical knowledge",
+      "disposition": "blank",
+      "inputs": [
+        "G01"
+      ]
+    },
+    {
+      "line": 109,
+      "block": "Students’ questions; “it sounds right”",
+      "disposition": "adapted",
+      "inputs": [
+        "G02"
+      ]
+    },
+    {
+      "line": 110,
+      "block": "Students’ questions; “it sounds right”",
+      "disposition": "blank",
+      "inputs": [
+        "G02"
+      ]
+    },
+    {
+      "line": 111,
+      "block": "What you already know; coffee and toast",
+      "disposition": "adapted",
+      "inputs": [
+        "G03"
+      ]
+    },
+    {
+      "line": 112,
+      "block": "What you already know; coffee and toast",
+      "disposition": "blank",
+      "inputs": [
+        "G03"
+      ]
+    },
+    {
+      "line": 113,
+      "block": "What you already know; coffee and toast",
+      "disposition": "adapted",
+      "inputs": [
+        "G03"
+      ]
+    },
+    {
+      "line": 114,
+      "block": "What you already know; coffee and toast",
+      "disposition": "blank",
+      "inputs": [
+        "G03"
+      ]
+    },
+    {
+      "line": 115,
+      "block": "Fallacy of monosemy box",
+      "disposition": "adapted",
+      "inputs": [
+        "M01"
+      ]
+    },
+    {
+      "line": 116,
+      "block": "Fallacy of monosemy box",
+      "disposition": "adapted",
+      "inputs": [
+        "M01"
+      ]
+    },
+    {
+      "line": 117,
+      "block": "Fallacy of monosemy box",
+      "disposition": "adapted",
+      "inputs": [
+        "M01"
+      ]
+    },
+    {
+      "line": 118,
+      "block": "Fallacy of monosemy box",
+      "disposition": "blank",
+      "inputs": [
+        "M01"
+      ]
+    },
+    {
+      "line": 119,
+      "block": "What grammatical means; the task set for the reader",
+      "disposition": "adapted",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 120,
+      "block": "What grammatical means; the task set for the reader",
+      "disposition": "blank",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 121,
+      "block": "What grammatical means; the task set for the reader",
+      "disposition": "adapted",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 122,
+      "block": "What grammatical means; the task set for the reader",
+      "disposition": "blank",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 123,
+      "block": "Hotdog comic figure",
+      "disposition": "named; left to written material",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 124,
+      "block": "Hotdog comic figure",
+      "disposition": "named; left to written material",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 125,
+      "block": "Hotdog comic figure",
+      "disposition": "named; left to written material",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 126,
+      "block": "Hotdog comic figure",
+      "disposition": "named; left to written material",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 127,
+      "block": "Hotdog comic figure",
+      "disposition": "named; left to written material",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 128,
+      "block": "Hotdog comic figure",
+      "disposition": "named; left to written material",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 129,
+      "block": "Hotdog comic figure",
+      "disposition": "named; left to written material",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 130,
+      "block": "Hotdog comic figure",
+      "disposition": "named; left to written material",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 131,
+      "block": "Hotdog comic figure",
+      "disposition": "blank",
+      "inputs": [
+        "G04"
+      ]
+    },
+    {
+      "line": 132,
+      "block": "Matthews dictionary definition, both senses",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 133,
+      "block": "Matthews dictionary definition, both senses",
+      "disposition": "blank",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 134,
+      "block": "Matthews dictionary definition, both senses",
+      "disposition": "blank",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 135,
+      "block": "Matthews dictionary definition, both senses",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 136,
+      "block": "Matthews dictionary definition, both senses",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 137,
+      "block": "Matthews dictionary definition, both senses",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 138,
+      "block": "Matthews dictionary definition, both senses",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 139,
+      "block": "Matthews dictionary definition, both senses",
+      "disposition": "blank",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 140,
+      "block": "Wittgenstein; let’s start with an easy one",
+      "disposition": "adapted",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 141,
+      "block": "Wittgenstein; let’s start with an easy one",
+      "disposition": "blank",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 142,
+      "block": "Wittgenstein; let’s start with an easy one",
+      "disposition": "adapted",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 143,
+      "block": "Wittgenstein; let’s start with an easy one",
+      "disposition": "blank",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 144,
+      "block": "Wittgenstein; let’s start with an easy one",
+      "disposition": "blank",
+      "inputs": [
+        "G05"
+      ]
+    },
+    {
+      "line": 145,
+      "block": "Example 2.1 and its analysis",
+      "disposition": "adapted",
+      "inputs": [
+        "X01"
+      ]
+    },
+    {
+      "line": 146,
+      "block": "Example 2.1 and its analysis",
+      "disposition": "adapted",
+      "inputs": [
+        "X01"
+      ]
+    },
+    {
+      "line": 147,
+      "block": "Example 2.1 and its analysis",
+      "disposition": "adapted",
+      "inputs": [
+        "X01"
+      ]
+    },
+    {
+      "line": 148,
+      "block": "Example 2.1 and its analysis",
+      "disposition": "adapted",
+      "inputs": [
+        "X01"
+      ]
+    },
+    {
+      "line": 149,
+      "block": "Example 2.1 and its analysis",
+      "disposition": "blank",
+      "inputs": [
+        "X01"
+      ]
+    },
+    {
+      "line": 150,
+      "block": "Example 2.1 and its analysis",
+      "disposition": "adapted",
+      "inputs": [
+        "X01"
+      ]
+    },
+    {
+      "line": 151,
+      "block": "Example 2.1 and its analysis",
+      "disposition": "blank",
+      "inputs": [
+        "X01"
+      ]
+    },
+    {
+      "line": 152,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "adapted",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 153,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "blank",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 154,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "adapted",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 155,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "adapted",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 156,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "adapted",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 157,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "adapted",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 158,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "adapted",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 159,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "adapted",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 160,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "adapted",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 161,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "adapted",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 162,
+      "block": "Colorless green ideas, 2.2a and 2.2b",
+      "disposition": "blank",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 163,
+      "block": "Green ideas figure; Chomsky’s judgment",
+      "disposition": "adapted; figure left to written material",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 164,
+      "block": "Green ideas figure; Chomsky’s judgment",
+      "disposition": "adapted; figure left to written material",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 165,
+      "block": "Green ideas figure; Chomsky’s judgment",
+      "disposition": "adapted; figure left to written material",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 166,
+      "block": "Green ideas figure; Chomsky’s judgment",
+      "disposition": "adapted; figure left to written material",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 167,
+      "block": "Green ideas figure; Chomsky’s judgment",
+      "disposition": "adapted; figure left to written material",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 168,
+      "block": "Green ideas figure; Chomsky’s judgment",
+      "disposition": "blank",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 169,
+      "block": "Green ideas figure; Chomsky’s judgment",
+      "disposition": "adapted; figure left to written material",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 170,
+      "block": "Green ideas figure; Chomsky’s judgment",
+      "disposition": "blank",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 171,
+      "block": "Green ideas figure; Chomsky’s judgment",
+      "disposition": "blank",
+      "inputs": [
+        "X02"
+      ]
+    },
+    {
+      "line": 172,
+      "block": "Frequency, Pereira, and language models",
+      "disposition": "adapted",
+      "inputs": [
+        "X03"
+      ]
+    },
+    {
+      "line": 173,
+      "block": "Frequency, Pereira, and language models",
+      "disposition": "blank",
+      "inputs": [
+        "X03"
+      ]
+    },
+    {
+      "line": 174,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "adapted",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 175,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "blank",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 176,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "adapted",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 177,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "blank",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 178,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "adapted",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 179,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "adapted",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 180,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "adapted",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 181,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "adapted",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 182,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "blank",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 183,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "adapted",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 184,
+      "block": "Jean Paul, very very good (2.3)",
+      "disposition": "blank",
+      "inputs": [
+        "X04"
+      ]
+    },
+    {
+      "line": 185,
+      "block": "Rules in grammar books; beautiful boy (2.4a, 2.4b)",
+      "disposition": "adapted",
+      "inputs": [
+        "X05"
+      ]
+    },
+    {
+      "line": 186,
+      "block": "Rules in grammar books; beautiful boy (2.4a, 2.4b)",
+      "disposition": "blank",
+      "inputs": [
+        "X05"
+      ]
+    },
+    {
+      "line": 187,
+      "block": "Rules in grammar books; beautiful boy (2.4a, 2.4b)",
+      "disposition": "adapted",
+      "inputs": [
+        "X05"
+      ]
+    },
+    {
+      "line": 188,
+      "block": "Rules in grammar books; beautiful boy (2.4a, 2.4b)",
+      "disposition": "adapted",
+      "inputs": [
+        "X05"
+      ]
+    },
+    {
+      "line": 189,
+      "block": "Rules in grammar books; beautiful boy (2.4a, 2.4b)",
+      "disposition": "adapted",
+      "inputs": [
+        "X05"
+      ]
+    },
+    {
+      "line": 190,
+      "block": "Rules in grammar books; beautiful boy (2.4a, 2.4b)",
+      "disposition": "adapted",
+      "inputs": [
+        "X05"
+      ]
+    },
+    {
+      "line": 191,
+      "block": "Rules in grammar books; beautiful boy (2.4a, 2.4b)",
+      "disposition": "adapted",
+      "inputs": [
+        "X05"
+      ]
+    },
+    {
+      "line": 192,
+      "block": "Rules in grammar books; beautiful boy (2.4a, 2.4b)",
+      "disposition": "adapted",
+      "inputs": [
+        "X05"
+      ]
+    },
+    {
+      "line": 193,
+      "block": "Rules in grammar books; beautiful boy (2.4a, 2.4b)",
+      "disposition": "blank",
+      "inputs": [
+        "X05"
+      ]
+    },
+    {
+      "line": 194,
+      "block": "Island constraint (2.5)",
+      "disposition": "adapted",
+      "inputs": [
+        "X06"
+      ]
+    },
+    {
+      "line": 195,
+      "block": "Island constraint (2.5)",
+      "disposition": "blank",
+      "inputs": [
+        "X06"
+      ]
+    },
+    {
+      "line": 196,
+      "block": "Island constraint (2.5)",
+      "disposition": "adapted",
+      "inputs": [
+        "X06"
+      ]
+    },
+    {
+      "line": 197,
+      "block": "Island constraint (2.5)",
+      "disposition": "adapted",
+      "inputs": [
+        "X06"
+      ]
+    },
+    {
+      "line": 198,
+      "block": "Island constraint (2.5)",
+      "disposition": "adapted",
+      "inputs": [
+        "X06"
+      ]
+    },
+    {
+      "line": 199,
+      "block": "Island constraint (2.5)",
+      "disposition": "adapted",
+      "inputs": [
+        "X06"
+      ]
+    },
+    {
+      "line": 200,
+      "block": "Island constraint (2.5)",
+      "disposition": "blank",
+      "inputs": [
+        "X06"
+      ]
+    },
+    {
+      "line": 201,
+      "block": "Suitcase example (2.6)",
+      "disposition": "adapted",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 202,
+      "block": "Suitcase example (2.6)",
+      "disposition": "blank",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 203,
+      "block": "Suitcase example (2.6)",
+      "disposition": "adapted",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 204,
+      "block": "Suitcase example (2.6)",
+      "disposition": "adapted",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 205,
+      "block": "Suitcase example (2.6)",
+      "disposition": "adapted",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 206,
+      "block": "Suitcase example (2.6)",
+      "disposition": "blank",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 207,
+      "block": "Suitcase figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 208,
+      "block": "Suitcase figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 209,
+      "block": "Suitcase figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 210,
+      "block": "Suitcase figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 211,
+      "block": "Suitcase figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 212,
+      "block": "Suitcase figure",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 213,
+      "block": "Suitcase figure",
+      "disposition": "blank",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 214,
+      "block": "Which suitcase is unpacked; why people get it wrong",
+      "disposition": "adapted",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 215,
+      "block": "Which suitcase is unpacked; why people get it wrong",
+      "disposition": "blank",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 216,
+      "block": "Which suitcase is unpacked; why people get it wrong",
+      "disposition": "adapted",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 217,
+      "block": "Which suitcase is unpacked; why people get it wrong",
+      "disposition": "blank",
+      "inputs": [
+        "X07"
+      ]
+    },
+    {
+      "line": 218,
+      "block": "The horse raced past the barn fell (2.7)",
+      "disposition": "adapted",
+      "inputs": [
+        "X08"
+      ]
+    },
+    {
+      "line": 219,
+      "block": "The horse raced past the barn fell (2.7)",
+      "disposition": "adapted",
+      "inputs": [
+        "X08"
+      ]
+    },
+    {
+      "line": 220,
+      "block": "The horse raced past the barn fell (2.7)",
+      "disposition": "adapted",
+      "inputs": [
+        "X08"
+      ]
+    },
+    {
+      "line": 221,
+      "block": "The horse raced past the barn fell (2.7)",
+      "disposition": "adapted",
+      "inputs": [
+        "X08"
+      ]
+    },
+    {
+      "line": 222,
+      "block": "The horse raced past the barn fell (2.7)",
+      "disposition": "blank",
+      "inputs": [
+        "X08"
+      ]
+    },
+    {
+      "line": 223,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "adapted",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 224,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "adapted",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 225,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "adapted",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 226,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "adapted",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 227,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "adapted",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 228,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "blank",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 229,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "adapted",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 230,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "adapted",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 231,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "adapted",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 232,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "adapted",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 233,
+      "block": "I have 30 years (2.8); at the weekend (2.9)",
+      "disposition": "blank",
+      "inputs": [
+        "X09"
+      ]
+    },
+    {
+      "line": 234,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "adapted",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 235,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "adapted",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 236,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "adapted",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 237,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "adapted",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 238,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "blank",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 239,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "adapted",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 240,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "adapted",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 241,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "adapted",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 242,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "adapted",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 243,
+      "block": "I ain’t no quitter (2.10); Me and Mia (2.11)",
+      "disposition": "blank",
+      "inputs": [
+        "X10"
+      ]
+    },
+    {
+      "line": 244,
+      "block": "Jim and me’s teacher was Geoff (2.12)",
+      "disposition": "adapted",
+      "inputs": [
+        "X11"
+      ]
+    },
+    {
+      "line": 245,
+      "block": "Jim and me’s teacher was Geoff (2.12)",
+      "disposition": "adapted",
+      "inputs": [
+        "X11"
+      ]
+    },
+    {
+      "line": 246,
+      "block": "Jim and me’s teacher was Geoff (2.12)",
+      "disposition": "adapted",
+      "inputs": [
+        "X11"
+      ]
+    },
+    {
+      "line": 247,
+      "block": "Jim and me’s teacher was Geoff (2.12)",
+      "disposition": "adapted",
+      "inputs": [
+        "X11"
+      ]
+    },
+    {
+      "line": 248,
+      "block": "Jim and me’s teacher was Geoff (2.12)",
+      "disposition": "adapted",
+      "inputs": [
+        "X11"
+      ]
+    },
+    {
+      "line": 249,
+      "block": "Jim and me’s teacher was Geoff (2.12)",
+      "disposition": "blank",
+      "inputs": [
+        "X11"
+      ]
+    },
+    {
+      "line": 250,
+      "block": "Summary of the grammaticality section",
+      "disposition": "adapted",
+      "inputs": [
+        "X12"
+      ]
+    },
+    {
+      "line": 251,
+      "block": "Summary of the grammaticality section",
+      "disposition": "blank",
+      "inputs": [
+        "X12"
+      ]
+    },
+    {
+      "line": 252,
+      "block": "Summary of the grammaticality section",
+      "disposition": "adapted",
+      "inputs": [
+        "X12"
+      ]
+    },
+    {
+      "line": 253,
+      "block": "Summary of the grammaticality section",
+      "disposition": "blank",
+      "inputs": [
+        "X12"
+      ]
+    },
+    {
+      "line": 254,
+      "block": "Model section; form-and-meaning pairings; mommy sock",
+      "disposition": "adapted",
+      "inputs": [
+        "MO1"
+      ]
+    },
+    {
+      "line": 255,
+      "block": "Model section; form-and-meaning pairings; mommy sock",
+      "disposition": "blank",
+      "inputs": [
+        "MO1"
+      ]
+    },
+    {
+      "line": 256,
+      "block": "Model section; form-and-meaning pairings; mommy sock",
+      "disposition": "adapted",
+      "inputs": [
+        "MO1"
+      ]
+    },
+    {
+      "line": 257,
+      "block": "Model section; form-and-meaning pairings; mommy sock",
+      "disposition": "blank",
+      "inputs": [
+        "MO1"
+      ]
+    },
+    {
+      "line": 258,
+      "block": "Model section; form-and-meaning pairings; mommy sock",
+      "disposition": "adapted",
+      "inputs": [
+        "MO1"
+      ]
+    },
+    {
+      "line": 259,
+      "block": "Model section; form-and-meaning pairings; mommy sock",
+      "disposition": "blank",
+      "inputs": [
+        "MO1"
+      ]
+    },
+    {
+      "line": 260,
+      "block": "Nishimura code-switching passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "MO2"
+      ]
+    },
+    {
+      "line": 261,
+      "block": "Nishimura code-switching passage",
+      "disposition": "blank",
+      "inputs": [
+        "MO2"
+      ]
+    },
+    {
+      "line": 262,
+      "block": "Nishimura code-switching passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "MO2"
+      ]
+    },
+    {
+      "line": 263,
+      "block": "Nishimura code-switching passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "MO2"
+      ]
+    },
+    {
+      "line": 264,
+      "block": "Nishimura code-switching passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "MO2"
+      ]
+    },
+    {
+      "line": 265,
+      "block": "Nishimura code-switching passage",
+      "disposition": "blank",
+      "inputs": [
+        "MO2"
+      ]
+    },
+    {
+      "line": 266,
+      "block": "Nishimura code-switching passage",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "MO2"
+      ]
+    },
+    {
+      "line": 267,
+      "block": "Nishimura code-switching passage",
+      "disposition": "blank",
+      "inputs": [
+        "MO2"
+      ]
+    },
+    {
+      "line": 268,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 269,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 270,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "inactive comment",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 271,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 272,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 273,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 274,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "inactive comment",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 275,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 276,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 277,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 278,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "inactive comment",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 279,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 280,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 281,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 282,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 283,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 284,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 285,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 286,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 287,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 288,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 289,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 290,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 291,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 292,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 293,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 294,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 295,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 296,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 297,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 298,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 299,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 300,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "figure described in speech",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 301,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 302,
+      "block": "Figure 2.5, speaker groups, drawn in TikZ",
+      "disposition": "blank",
+      "inputs": [
+        "MO3"
+      ]
+    },
+    {
+      "line": 303,
+      "block": "Layers of meaning; going to; Shakespeare",
+      "disposition": "adapted",
+      "inputs": [
+        "MO4"
+      ]
+    },
+    {
+      "line": 304,
+      "block": "Layers of meaning; going to; Shakespeare",
+      "disposition": "blank",
+      "inputs": [
+        "MO4"
+      ]
+    },
+    {
+      "line": 305,
+      "block": "Layers of meaning; going to; Shakespeare",
+      "disposition": "adapted",
+      "inputs": [
+        "MO4"
+      ]
+    },
+    {
+      "line": 306,
+      "block": "Layers of meaning; going to; Shakespeare",
+      "disposition": "blank",
+      "inputs": [
+        "MO4"
+      ]
+    },
+    {
+      "line": 307,
+      "block": "Layers of meaning; going to; Shakespeare",
+      "disposition": "blank",
+      "inputs": [
+        "MO4"
+      ]
+    },
+    {
+      "line": 308,
+      "block": "Layers of meaning; going to; Shakespeare",
+      "disposition": "blank",
+      "inputs": [
+        "MO4"
+      ]
+    },
+    {
+      "line": 309,
+      "block": "Four situations for calling something ungrammatical",
+      "disposition": "adapted",
+      "inputs": [
+        "MO5"
+      ]
+    },
+    {
+      "line": 310,
+      "block": "Four situations for calling something ungrammatical",
+      "disposition": "blank",
+      "inputs": [
+        "MO5"
+      ]
+    },
+    {
+      "line": 311,
+      "block": "Four situations for calling something ungrammatical",
+      "disposition": "blank",
+      "inputs": [
+        "MO5"
+      ]
+    },
+    {
+      "line": 312,
+      "block": "Four situations for calling something ungrammatical",
+      "disposition": "adapted",
+      "inputs": [
+        "MO5"
+      ]
+    },
+    {
+      "line": 313,
+      "block": "Four situations for calling something ungrammatical",
+      "disposition": "blank",
+      "inputs": [
+        "MO5"
+      ]
+    },
+    {
+      "line": 314,
+      "block": "It very good; unreliable judgments",
+      "disposition": "adapted",
+      "inputs": [
+        "MO6"
+      ]
+    },
+    {
+      "line": 315,
+      "block": "It very good; unreliable judgments",
+      "disposition": "blank",
+      "inputs": [
+        "MO6"
+      ]
+    },
+    {
+      "line": 316,
+      "block": "It very good; unreliable judgments",
+      "disposition": "adapted",
+      "inputs": [
+        "MO6"
+      ]
+    },
+    {
+      "line": 317,
+      "block": "It very good; unreliable judgments",
+      "disposition": "blank",
+      "inputs": [
+        "MO6"
+      ]
+    },
+    {
+      "line": 318,
+      "block": "The model restated; language is fluid",
+      "disposition": "adapted",
+      "inputs": [
+        "MO7"
+      ]
+    },
+    {
+      "line": 319,
+      "block": "The model restated; language is fluid",
+      "disposition": "blank",
+      "inputs": [
+        "MO7"
+      ]
+    },
+    {
+      "line": 320,
+      "block": "Who learners aim at; standards bend",
+      "disposition": "adapted",
+      "inputs": [
+        "MO8"
+      ]
+    },
+    {
+      "line": 321,
+      "block": "Who learners aim at; standards bend",
+      "disposition": "blank",
+      "inputs": [
+        "MO8"
+      ]
+    },
+    {
+      "line": 322,
+      "block": "Who learners aim at; standards bend",
+      "disposition": "adapted",
+      "inputs": [
+        "MO8"
+      ]
+    },
+    {
+      "line": 323,
+      "block": "Who learners aim at; standards bend",
+      "disposition": "blank",
+      "inputs": [
+        "MO8"
+      ]
+    },
+    {
+      "line": 324,
+      "block": "Normativity heading and definition",
+      "disposition": "adapted",
+      "inputs": [
+        "N01"
+      ]
+    },
+    {
+      "line": 325,
+      "block": "Normativity heading and definition",
+      "disposition": "blank",
+      "inputs": [
+        "N01"
+      ]
+    },
+    {
+      "line": 326,
+      "block": "Normativity heading and definition",
+      "disposition": "adapted",
+      "inputs": [
+        "N01"
+      ]
+    },
+    {
+      "line": 327,
+      "block": "Normativity heading and definition",
+      "disposition": "blank",
+      "inputs": [
+        "N01"
+      ]
+    },
+    {
+      "line": 328,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 329,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 330,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 331,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 332,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 333,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 334,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 335,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 336,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 337,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 338,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 339,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 340,
+      "block": "Normative and positive domains table",
+      "disposition": "adapted; table narrated",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 341,
+      "block": "Normative and positive domains table",
+      "disposition": "blank",
+      "inputs": [
+        "N02"
+      ]
+    },
+    {
+      "line": 342,
+      "block": "Pullum’s normative examples",
+      "disposition": "adapted",
+      "inputs": [
+        "N03"
+      ]
+    },
+    {
+      "line": 343,
+      "block": "Pullum’s normative examples",
+      "disposition": "adapted",
+      "inputs": [
+        "N03"
+      ]
+    },
+    {
+      "line": 344,
+      "block": "Pullum’s normative examples",
+      "disposition": "adapted",
+      "inputs": [
+        "N03"
+      ]
+    },
+    {
+      "line": 345,
+      "block": "Pullum’s normative examples",
+      "disposition": "adapted",
+      "inputs": [
+        "N03"
+      ]
+    },
+    {
+      "line": 346,
+      "block": "Pullum’s normative examples",
+      "disposition": "adapted",
+      "inputs": [
+        "N03"
+      ]
+    },
+    {
+      "line": 347,
+      "block": "Pullum’s normative examples",
+      "disposition": "adapted",
+      "inputs": [
+        "N03"
+      ]
+    },
+    {
+      "line": 348,
+      "block": "Pullum’s normative examples",
+      "disposition": "adapted",
+      "inputs": [
+        "N03"
+      ]
+    },
+    {
+      "line": 349,
+      "block": "Pullum’s normative examples",
+      "disposition": "adapted",
+      "inputs": [
+        "N03"
+      ]
+    },
+    {
+      "line": 350,
+      "block": "Pullum’s normative examples",
+      "disposition": "blank",
+      "inputs": [
+        "N03"
+      ]
+    },
+    {
+      "line": 351,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 352,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 353,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 354,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 355,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 356,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "blank",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 357,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 358,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "blank",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 359,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 360,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 361,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 362,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "adapted",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 363,
+      "block": "Are grammar rules normative; comprehensibility and fluency",
+      "disposition": "blank",
+      "inputs": [
+        "N04"
+      ]
+    },
+    {
+      "line": 364,
+      "block": "Audience",
+      "disposition": "adapted",
+      "inputs": [
+        "N05"
+      ]
+    },
+    {
+      "line": 365,
+      "block": "Audience",
+      "disposition": "blank",
+      "inputs": [
+        "N05"
+      ]
+    },
+    {
+      "line": 366,
+      "block": "Audience",
+      "disposition": "adapted",
+      "inputs": [
+        "N05"
+      ]
+    },
+    {
+      "line": 367,
+      "block": "Audience",
+      "disposition": "blank",
+      "inputs": [
+        "N05"
+      ]
+    },
+    {
+      "line": 368,
+      "block": "Audience",
+      "disposition": "adapted",
+      "inputs": [
+        "N05"
+      ]
+    },
+    {
+      "line": 369,
+      "block": "Audience",
+      "disposition": "blank",
+      "inputs": [
+        "N05"
+      ]
+    },
+    {
+      "line": 370,
+      "block": "Cook quotation; facilitation goes two ways",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "N06"
+      ]
+    },
+    {
+      "line": 371,
+      "block": "Cook quotation; facilitation goes two ways",
+      "disposition": "blank",
+      "inputs": [
+        "N06"
+      ]
+    },
+    {
+      "line": 372,
+      "block": "Cook quotation; facilitation goes two ways",
+      "disposition": "adapted + quotation read",
+      "inputs": [
+        "N06"
+      ]
+    },
+    {
+      "line": 373,
+      "block": "Cook quotation; facilitation goes two ways",
+      "disposition": "blank",
+      "inputs": [
+        "N06"
+      ]
+    },
+    {
+      "line": 374,
+      "block": "Conclusion",
+      "disposition": "adapted",
+      "inputs": [
+        "C01"
+      ]
+    },
+    {
+      "line": 375,
+      "block": "Conclusion",
+      "disposition": "blank",
+      "inputs": [
+        "C01"
+      ]
+    },
+    {
+      "line": 376,
+      "block": "Conclusion",
+      "disposition": "adapted",
+      "inputs": [
+        "C01"
+      ]
+    },
+    {
+      "line": 377,
+      "block": "Conclusion",
+      "disposition": "blank",
+      "inputs": [
+        "C01"
+      ]
+    },
+    {
+      "line": 378,
+      "block": "Cross-reference note",
+      "disposition": "blank",
+      "inputs": []
+    },
+    {
+      "line": 379,
+      "block": "Cross-reference note",
+      "disposition": "blank",
+      "inputs": []
+    },
+    {
+      "line": 380,
+      "block": "Cross-reference note",
+      "disposition": "written reference",
+      "inputs": []
+    },
+    {
+      "line": 381,
+      "block": "Cross-reference note",
+      "disposition": "blank",
+      "inputs": []
+    },
+    {
+      "line": 382,
+      "block": "Cross-reference note",
+      "disposition": "blank",
+      "inputs": []
+    },
+    {
+      "line": 383,
+      "block": "Cross-reference note",
+      "disposition": "blank",
+      "inputs": []
+    },
+    {
+      "line": 384,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 385,
+      "block": "Ten exercises",
+      "disposition": "blank",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 386,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 387,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 388,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 389,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 390,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 391,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 392,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 393,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 394,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 395,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 396,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 397,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 398,
+      "block": "Ten exercises",
+      "disposition": "blank",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 399,
+      "block": "Ten exercises",
+      "disposition": "adapted",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 400,
+      "block": "Ten exercises",
+      "disposition": "blank",
+      "inputs": [
+        "Q01"
+      ]
+    },
+    {
+      "line": 401,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 402,
+      "block": "Ten answers",
+      "disposition": "blank",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 403,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 404,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 405,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 406,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 407,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 408,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 409,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 410,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 411,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 412,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 413,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 414,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 415,
+      "block": "Ten answers",
+      "disposition": "adapted",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 416,
+      "block": "Ten answers",
+      "disposition": "blank",
+      "inputs": [
+        "Q02"
+      ]
+    },
+    {
+      "line": 417,
+      "block": "Five discussion questions",
+      "disposition": "adapted; no supplied key",
+      "inputs": [
+        "Q03"
+      ]
+    },
+    {
+      "line": 418,
+      "block": "Five discussion questions",
+      "disposition": "blank",
+      "inputs": [
+        "Q03"
+      ]
+    },
+    {
+      "line": 419,
+      "block": "Five discussion questions",
+      "disposition": "adapted; no supplied key",
+      "inputs": [
+        "Q03"
+      ]
+    },
+    {
+      "line": 420,
+      "block": "Five discussion questions",
+      "disposition": "adapted; no supplied key",
+      "inputs": [
+        "Q03"
+      ]
+    },
+    {
+      "line": 421,
+      "block": "Five discussion questions",
+      "disposition": "adapted; no supplied key",
+      "inputs": [
+        "Q03"
+      ]
+    },
+    {
+      "line": 422,
+      "block": "Five discussion questions",
+      "disposition": "adapted; no supplied key",
+      "inputs": [
+        "Q03"
+      ]
+    },
+    {
+      "line": 423,
+      "block": "Five discussion questions",
+      "disposition": "adapted; no supplied key",
+      "inputs": [
+        "Q03"
+      ]
+    },
+    {
+      "line": 424,
+      "block": "Five discussion questions",
+      "disposition": "adapted; no supplied key",
+      "inputs": [
+        "Q03"
+      ]
+    },
+    {
+      "line": 425,
+      "block": "Five discussion questions",
+      "disposition": "adapted; no supplied key",
+      "inputs": [
+        "Q03"
+      ]
+    },
+    {
+      "line": 426,
+      "block": "Five discussion questions",
+      "disposition": "adapted; no supplied key",
+      "inputs": [
+        "Q03"
+      ]
+    }
+  ],
+  "takes": [
+    {
+      "id": "H01",
+      "take": 1,
+      "characters": 826,
+      "credits": 826,
+      "file": "supplements/audio/chapter-02-2026-09/raw/H01-take-01.mp3",
+      "sha256": "9c32c020030c775bc538d9994da0c94b9a231547257c18a326e59dfe0ce28a18",
+      "bytes": 1507508,
+      "seconds": 62.12,
+      "chars_per_second": 13.3,
+      "source_export": "ElevenLabs_2026-09-14T22:57:27_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.471,
+      "match_margin": 0.436,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "I01",
+      "take": 1,
+      "characters": 1436,
+      "credits": 1436,
+      "file": "supplements/audio/chapter-02-2026-09/raw/I01-take-01.mp3",
+      "sha256": "6035bdd269ed1ec6621c569c1c97ddb7c9e8b11f99296e0039f52136475dc21d",
+      "bytes": 2309363,
+      "seconds": 95.53,
+      "chars_per_second": 15.03,
+      "source_export": "ElevenLabs_2026-09-14T23:00:28_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.968,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "T01",
+      "take": 1,
+      "characters": 764,
+      "credits": 764,
+      "file": "supplements/audio/chapter-02-2026-09/raw/T01-take-01.mp3",
+      "sha256": "ad0d582c94d51c4a397b2d93cb255365f234d96c3044a41677e7d78efcaa066d",
+      "bytes": 1226639,
+      "seconds": 50.42,
+      "chars_per_second": 15.15,
+      "source_export": "ElevenLabs_2026-09-14T23:04:17_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.953,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "T02",
+      "take": 1,
+      "characters": 507,
+      "credits": 507,
+      "file": "supplements/audio/chapter-02-2026-09/raw/T02-take-01.mp3",
+      "sha256": "d4173c72e20b6e1d5e4bb230cd861513d720f94bc404f76f55620f6e30680a10",
+      "bytes": 869284,
+      "seconds": 35.53,
+      "chars_per_second": 14.27,
+      "source_export": "ElevenLabs_2026-09-14T23:05:56_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.864,
+      "match_margin": 0.826,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "T03",
+      "take": 1,
+      "characters": 969,
+      "credits": 969,
+      "file": "supplements/audio/chapter-02-2026-09/raw/T03-take-01.mp3",
+      "sha256": "e2fe974502017e7dc5f067bddfcb57cbf6912e6da68601bf70e0368d56d4ab52",
+      "bytes": 1706248,
+      "seconds": 70.4,
+      "chars_per_second": 13.76,
+      "source_export": "ElevenLabs_2026-09-14T23:09:24_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.952,
+      "match_margin": 0.919,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "T04",
+      "take": 2,
+      "characters": 1100,
+      "credits": 1100,
+      "file": "supplements/audio/chapter-02-2026-09/raw/T04-take-02.mp3",
+      "sha256": "1aaa868d4e9b6cde241a20298e8ae09f320b8413aa026803b50725273320c445",
+      "bytes": 1906868,
+      "seconds": 78.8,
+      "chars_per_second": 13.97,
+      "source_export": "ElevenLabs_2026-09-15T01:48:06_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.971,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 48.93,
+      "take_02_player_seconds": 74,
+      "take_02_expected_seconds": 78.9,
+      "take_02_ratio": 0.938,
+      "credits_take_02": 1100,
+      "transcript_reaches_end": true,
+      "tail_match": 0.83,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/T04-take-01.mp3"
+    },
+    {
+      "id": "T05",
+      "take": 1,
+      "characters": 448,
+      "credits": 448,
+      "file": "supplements/audio/chapter-02-2026-09/raw/T05-take-01.mp3",
+      "sha256": "213d1efde2d7a3b15b2a43fdf7eede95b163039a98ba5d2f4d7668b1ca1c4519",
+      "bytes": 834803,
+      "seconds": 34.09,
+      "chars_per_second": 13.14,
+      "source_export": "ElevenLabs_2026-09-14T23:11:55_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.185,
+      "match_margin": 0.128,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "T06",
+      "take": 1,
+      "characters": 874,
+      "credits": 874,
+      "file": "supplements/audio/chapter-02-2026-09/raw/T06-take-01.mp3",
+      "sha256": "3c857220b86593e3b4e7c542c72f21350fce275824b7700368cee97a873da004",
+      "bytes": 1592145,
+      "seconds": 65.65,
+      "chars_per_second": 13.31,
+      "source_export": "ElevenLabs_2026-09-14T23:13:32_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.997,
+      "match_margin": 0.972,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "T07",
+      "take": 1,
+      "characters": 723,
+      "credits": 723,
+      "file": "supplements/audio/chapter-02-2026-09/raw/T07-take-01.mp3",
+      "sha256": "e6324e68ff2e8bc90d943f34b59f81778f8c37a8102265961b8a1c5eee570eee",
+      "bytes": 1219116,
+      "seconds": 50.1,
+      "chars_per_second": 14.43,
+      "source_export": "ElevenLabs_2026-09-14T23:13:59_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.95,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "T08",
+      "take": 2,
+      "characters": 1127,
+      "credits": 1127,
+      "file": "supplements/audio/chapter-02-2026-09/raw/T08-take-02.mp3",
+      "sha256": "04f6dc634f20989eb2501442b4731df5b32a8a5b7210e1977ff8a8acc616bcc3",
+      "bytes": 1903106,
+      "seconds": 78.6,
+      "chars_per_second": 14.34,
+      "source_export": "ElevenLabs_2026-09-15T01:48:46_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.976,
+      "match_margin": 0.954,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 62.43,
+      "take_02_player_seconds": 81,
+      "take_02_expected_seconds": 80.8,
+      "take_02_ratio": 1.002,
+      "credits_take_02": 1127,
+      "transcript_reaches_end": true,
+      "tail_match": 0.7,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/T08-take-01.mp3"
+    },
+    {
+      "id": "E01",
+      "take": 1,
+      "characters": 736,
+      "credits": 736,
+      "file": "supplements/audio/chapter-02-2026-09/raw/E01-take-01.mp3",
+      "sha256": "bea3abf5a0d36a05b6b592d49ed84fcb2bff76c9413082f49c3a30c73c9aed10",
+      "bytes": 1336354,
+      "seconds": 54.99,
+      "chars_per_second": 13.38,
+      "source_export": "ElevenLabs_2026-09-14T23:15:23_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.933,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "E02",
+      "take": 1,
+      "characters": 546,
+      "credits": 546,
+      "file": "supplements/audio/chapter-02-2026-09/raw/E02-take-01.mp3",
+      "sha256": "e270903a1f59d0d17feabee0f973a0e6b59e7e490f1641666d393bd276b84391",
+      "bytes": 884958,
+      "seconds": 36.18,
+      "chars_per_second": 15.09,
+      "source_export": "ElevenLabs_2026-09-14T23:15:59_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.984,
+      "match_margin": 0.951,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "E03",
+      "take": 1,
+      "characters": 450,
+      "credits": 450,
+      "file": "supplements/audio/chapter-02-2026-09/raw/E03-take-01.mp3",
+      "sha256": "9c07507c13375db3cfc0dd58a23bf8e1489db86c4d80386ece739cd9e345d676",
+      "bytes": 718819,
+      "seconds": 29.26,
+      "chars_per_second": 15.38,
+      "source_export": "ElevenLabs_2026-09-14T23:16:21_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.947,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "E04",
+      "take": 2,
+      "characters": 811,
+      "credits": 811,
+      "file": "supplements/audio/chapter-02-2026-09/raw/E04-take-02.mp3",
+      "sha256": "4e32aadf9b8925344cdd484b9d5d70c78d53160ab0ba69e800619d9056b8a4be",
+      "bytes": 1414094,
+      "seconds": 58.2,
+      "chars_per_second": 13.93,
+      "source_export": "ElevenLabs_2026-09-15T01:46:43_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.998,
+      "match_margin": 0.977,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 49.95,
+      "take_02_player_seconds": 58,
+      "take_02_expected_seconds": 58.2,
+      "take_02_ratio": 0.997,
+      "credits_take_02": 811,
+      "transcript_reaches_end": true,
+      "tail_match": 0.83,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/E04-take-01.mp3"
+    },
+    {
+      "id": "SH01",
+      "take": 1,
+      "characters": 1236,
+      "credits": 1236,
+      "file": "supplements/audio/chapter-02-2026-09/raw/SH01-take-01.mp3",
+      "sha256": "014fb3a3e6a54de4f22d50e3c7b67e60f022931eecde5e108156fd3f17d493ed",
+      "bytes": 2233503,
+      "seconds": 92.37,
+      "chars_per_second": 13.38,
+      "source_export": "ElevenLabs_2026-09-14T23:17:45_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.99,
+      "match_margin": 0.962,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "G01",
+      "take": 2,
+      "characters": 856,
+      "credits": 856,
+      "file": "supplements/audio/chapter-02-2026-09/raw/G01-take-02.mp3",
+      "sha256": "2d0188efade13c861c3373b821e90ee886e4b910cf24c35abea92483dacde861",
+      "bytes": 1459861,
+      "seconds": 60.1,
+      "chars_per_second": 14.23,
+      "source_export": "ElevenLabs_2026-09-15T01:47:18_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.98,
+      "match_margin": 0.95,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 46.45,
+      "take_02_player_seconds": 66,
+      "take_02_expected_seconds": 61.4,
+      "take_02_ratio": 1.075,
+      "credits_take_02": 856,
+      "transcript_reaches_end": true,
+      "tail_match": 0.84,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/G01-take-01.mp3"
+    },
+    {
+      "id": "G02",
+      "take": 1,
+      "characters": 499,
+      "credits": 499,
+      "file": "supplements/audio/chapter-02-2026-09/raw/G02-take-01.mp3",
+      "sha256": "4886f182e5fb9e88d1e6510c14bc68cbd55998153b10c72d5fbb05ea3da5e2ee",
+      "bytes": 875554,
+      "seconds": 35.79,
+      "chars_per_second": 13.94,
+      "source_export": "ElevenLabs_2026-09-14T23:18:44_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.996,
+      "match_margin": 0.943,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "G03",
+      "take": 2,
+      "characters": 759,
+      "credits": 759,
+      "file": "supplements/audio/chapter-02-2026-09/raw/G03-take-02.mp3",
+      "sha256": "83fd6b8519dc13d05aaff81bf734c9e57da180ef3e054aca654b3ae7c5a6facd",
+      "bytes": 1196546,
+      "seconds": 49.2,
+      "chars_per_second": 15.44,
+      "source_export": "ElevenLabs_2026-09-15T01:42:23_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.958,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 44.93,
+      "take_02_player_seconds": 55,
+      "take_02_expected_seconds": 54.4,
+      "take_02_ratio": 1.01,
+      "credits_take_02": 759,
+      "transcript_reaches_end": true,
+      "tail_match": 0.82,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/G03-take-01.mp3"
+    },
+    {
+      "id": "M01",
+      "take": 1,
+      "characters": 722,
+      "credits": 722,
+      "file": "supplements/audio/chapter-02-2026-09/raw/M01-take-01.mp3",
+      "sha256": "c24d2ef193a1eb201931cd2d0a5987a42466d33044a4b8cd39f67205de44fe9e",
+      "bytes": 1308141,
+      "seconds": 53.81,
+      "chars_per_second": 13.42,
+      "source_export": "ElevenLabs_2026-09-14T23:19:58_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.993,
+      "match_margin": 0.954,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "G04",
+      "take": 1,
+      "characters": 717,
+      "credits": 717,
+      "file": "supplements/audio/chapter-02-2026-09/raw/G04-take-01.mp3",
+      "sha256": "7f56b73e12227390b60cbacb48be7e10c8d3339d13d977bb470a939928c53158",
+      "bytes": 1290587,
+      "seconds": 53.08,
+      "chars_per_second": 13.51,
+      "source_export": "ElevenLabs_2026-09-14T23:20:45_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.999,
+      "match_margin": 0.961,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "G05",
+      "take": 1,
+      "characters": 780,
+      "credits": 780,
+      "file": "supplements/audio/chapter-02-2026-09/raw/G05-take-01.mp3",
+      "sha256": "08c170d404e8359b1f204d929fef67a670c05f3a722a1b9ba655117e3dfb6170",
+      "bytes": 1415348,
+      "seconds": 58.28,
+      "chars_per_second": 13.38,
+      "source_export": "ElevenLabs_2026-09-14T23:21:10_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.944,
+      "match_margin": 0.904,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "X01",
+      "take": 1,
+      "characters": 1339,
+      "credits": 1339,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X01-take-01.mp3",
+      "sha256": "1db657282d96d667cda9e8f6cfd3efb436619653ec3ecc0f35549e3f16f28b21",
+      "bytes": 1239178,
+      "seconds": 50.94,
+      "chars_per_second": 26.29,
+      "source_export": "ElevenLabs_2026-09-14T23:22:04_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.641,
+      "match_margin": 0.567,
+      "complete": false,
+      "status": "TRUNCATED, unusable, needs regeneration"
+    },
+    {
+      "id": "X02",
+      "take": 1,
+      "characters": 1040,
+      "credits": 1040,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X02-take-01.mp3",
+      "sha256": "3fc33ff876de6a65e1536ef77ffcb75b0bdeb968649b18aeccd7f81d86b4bd91",
+      "bytes": 1904360,
+      "seconds": 78.65,
+      "chars_per_second": 13.22,
+      "source_export": "ElevenLabs_2026-09-14T23:22:32_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.999,
+      "match_margin": 0.966,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "X03",
+      "take": 1,
+      "characters": 488,
+      "credits": 488,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X03-take-01.mp3",
+      "sha256": "8211657b966a9b9d75e7c53ecfd5fbf0ff9c8c759ae3e214158e129519e1d5f8",
+      "bytes": 874927,
+      "seconds": 35.76,
+      "chars_per_second": 13.65,
+      "source_export": "ElevenLabs_2026-09-14T23:23:12_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.632,
+      "match_margin": 0.598,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "X04",
+      "take": 1,
+      "characters": 969,
+      "credits": 969,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X04-take-01.mp3",
+      "sha256": "f9ec5e5eb6f7a1e4486e36b5b1100003246e89e5a1ef55c3e8ab6a7ba5ec23d4",
+      "bytes": 1722548,
+      "seconds": 71.08,
+      "chars_per_second": 13.63,
+      "source_export": "ElevenLabs_2026-09-14T23:23:42_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.364,
+      "match_margin": 0.302,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "X05",
+      "take": 2,
+      "characters": 1135,
+      "credits": 1135,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X05-take-02.mp3",
+      "sha256": "5da4814d2c5b4b38dbf0e83ef65695ba1429ca1425a25899a50c12ebc74f73ae",
+      "bytes": 2086172,
+      "seconds": 86.2,
+      "chars_per_second": 13.16,
+      "source_export": "ElevenLabs_2026-09-15T01:49:30_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.969,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 52.92,
+      "take_02_player_seconds": 84,
+      "take_02_expected_seconds": 81.4,
+      "take_02_ratio": 1.032,
+      "credits_take_02": 1135,
+      "transcript_reaches_end": true,
+      "tail_match": 0.79,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/X05-take-01.mp3"
+    },
+    {
+      "id": "X06",
+      "take": 1,
+      "characters": 772,
+      "credits": 772,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X06-take-01.mp3",
+      "sha256": "06033375e55242031f7ea1d54a5523f3e8e75c014678a581a468390263713068",
+      "bytes": 1310649,
+      "seconds": 53.92,
+      "chars_per_second": 14.32,
+      "source_export": "ElevenLabs_2026-09-14T23:24:54_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.95,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "X07",
+      "take": 2,
+      "characters": 1141,
+      "credits": 1141,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X07-take-02.mp3",
+      "sha256": "e980910d95c46242f5bb72cc403434ff975553dce9452bcfe148263b2956f281",
+      "bytes": 1977085,
+      "seconds": 81.7,
+      "chars_per_second": 13.97,
+      "source_export": "ElevenLabs_2026-09-15T01:50:08_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.932,
+      "match_margin": 0.901,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 65.44,
+      "take_02_player_seconds": 85,
+      "take_02_expected_seconds": 81.9,
+      "take_02_ratio": 1.038,
+      "credits_take_02": 1141,
+      "transcript_reaches_end": true,
+      "tail_match": 0.84,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/X07-take-01.mp3"
+    },
+    {
+      "id": "X08",
+      "take": 1,
+      "characters": 779,
+      "credits": 779,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X08-take-01.mp3",
+      "sha256": "17464e46ce9c0619fce03efb431ee8972e796f7b7bd4497813ca50ebe24b6b9b",
+      "bytes": 1464249,
+      "seconds": 60.32,
+      "chars_per_second": 12.92,
+      "source_export": "ElevenLabs_2026-09-14T23:26:08_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.9,
+      "match_margin": 0.839,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "X09",
+      "take": 2,
+      "characters": 1333,
+      "credits": 1333,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X09-take-02.mp3",
+      "sha256": "4029970c05db15d0347487e11c437eb75977af9b89dfcdb283da1177bbff4e7a",
+      "bytes": 2256700,
+      "seconds": 93.3,
+      "chars_per_second": 14.28,
+      "source_export": "ElevenLabs_2026-09-15T01:50:58_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.992,
+      "match_margin": 0.962,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 65.44,
+      "take_02_player_seconds": 93,
+      "take_02_expected_seconds": 95.6,
+      "take_02_ratio": 0.973,
+      "credits_take_02": 1333,
+      "transcript_reaches_end": true,
+      "tail_match": 0.86,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/X09-take-01.mp3"
+    },
+    {
+      "id": "X10",
+      "take": 1,
+      "characters": 704,
+      "credits": 704,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X10-take-01.mp3",
+      "sha256": "f940769ca99010879bc443dfaac34a63aa3e43881b201f174764061f3926bdb4",
+      "bytes": 1281183,
+      "seconds": 52.69,
+      "chars_per_second": 13.36,
+      "source_export": "ElevenLabs_2026-09-14T23:27:22_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.975,
+      "match_margin": 0.929,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "X11",
+      "take": 1,
+      "characters": 542,
+      "credits": 542,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X11-take-01.mp3",
+      "sha256": "01c645c99857b2bc935cb86812e20da43b52a840d4d67dab7be68174eb97c8da",
+      "bytes": 1019750,
+      "seconds": 41.8,
+      "chars_per_second": 12.97,
+      "source_export": "ElevenLabs_2026-09-14T23:28:08_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.979,
+      "match_margin": 0.931,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "X12",
+      "take": 1,
+      "characters": 611,
+      "credits": 611,
+      "file": "supplements/audio/chapter-02-2026-09/raw/X12-take-01.mp3",
+      "sha256": "cad0ee9054fef6f092c199a7048e7cd9392ed2c14701b2bb9ccbbf62ab7d24ce",
+      "bytes": 1037304,
+      "seconds": 42.53,
+      "chars_per_second": 14.37,
+      "source_export": "ElevenLabs_2026-09-14T23:28:31_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.94,
+      "match_margin": 0.892,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "MO1",
+      "take": 1,
+      "characters": 717,
+      "credits": 717,
+      "file": "supplements/audio/chapter-02-2026-09/raw/MO1-take-01.mp3",
+      "sha256": "a1a4c064da1307153753167e313edc3f40a38ff9025933edc5453b161de3b812",
+      "bytes": 1183381,
+      "seconds": 48.61,
+      "chars_per_second": 14.75,
+      "source_export": "ElevenLabs_2026-09-14T23:29:20_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.966,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "MO2",
+      "take": 1,
+      "characters": 761,
+      "credits": 761,
+      "file": "supplements/audio/chapter-02-2026-09/raw/MO2-take-01.mp3",
+      "sha256": "b162a9f9e69d9623f5ce125481a44793f18c91350a5616b44c816e5e3bd36c69",
+      "bytes": 1395286,
+      "seconds": 57.44,
+      "chars_per_second": 13.25,
+      "source_export": "ElevenLabs_2026-09-14T23:29:44_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.865,
+      "match_margin": 0.81,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "MO3",
+      "take": 2,
+      "characters": 792,
+      "credits": 792,
+      "file": "supplements/audio/chapter-02-2026-09/raw/MO3-take-02.mp3",
+      "sha256": "b5f677206c86fb38b00e89e56049f5b672c286632204ec9188d3a819452344ec",
+      "bytes": 1414094,
+      "seconds": 58.2,
+      "chars_per_second": 13.6,
+      "source_export": "ElevenLabs_2026-09-15T01:45:57_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.956,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 34.43,
+      "take_02_player_seconds": 54,
+      "take_02_expected_seconds": 56.8,
+      "take_02_ratio": 0.95,
+      "credits_take_02": 792,
+      "transcript_reaches_end": true,
+      "tail_match": 0.82,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/MO3-take-01.mp3"
+    },
+    {
+      "id": "MO4",
+      "take": 1,
+      "characters": 1196,
+      "credits": 1196,
+      "file": "supplements/audio/chapter-02-2026-09/raw/MO4-take-01.mp3",
+      "sha256": "dd9c2235fd79800fbbef1b5ca09b213bb16ab6c4eac8d83ed3a287db8b27a7a4",
+      "bytes": 2113758,
+      "seconds": 87.38,
+      "chars_per_second": 13.69,
+      "source_export": "ElevenLabs_2026-09-14T23:31:01_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.997,
+      "match_margin": 0.967,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "MO5",
+      "take": 2,
+      "characters": 745,
+      "credits": 745,
+      "file": "supplements/audio/chapter-02-2026-09/raw/MO5-take-02.mp3",
+      "sha256": "8d2ab40cce6386db32a1b93fb479ff0f598439227d4ae0ce4dcf880ea2d5c5fb",
+      "bytes": 1316292,
+      "seconds": 54.2,
+      "chars_per_second": 13.76,
+      "source_export": "ElevenLabs_2026-09-15T01:45:15_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.994,
+      "match_margin": 0.954,
+      "complete": true,
+      "status": "regenerated and verified complete; awaiting listening acceptance",
+      "take_01_seconds_truncated": 32.44,
+      "take_02_player_seconds": 53,
+      "take_02_expected_seconds": 53.4,
+      "take_02_ratio": 0.992,
+      "credits_take_02": 745,
+      "transcript_reaches_end": true,
+      "tail_match": 0.7,
+      "superseded_file": "supplements/audio/chapter-02-2026-09/raw/MO5-take-01.mp3"
+    },
+    {
+      "id": "MO6",
+      "take": 1,
+      "characters": 737,
+      "credits": 737,
+      "file": "supplements/audio/chapter-02-2026-09/raw/MO6-take-01.mp3",
+      "sha256": "d815e3f2dcd6ef8f0cc6238f0d780a283f4681abcfbec019651e178ac4a61988",
+      "bytes": 1326950,
+      "seconds": 54.6,
+      "chars_per_second": 13.5,
+      "source_export": "ElevenLabs_2026-09-14T23:32:04_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.999,
+      "match_margin": 0.963,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "MO7",
+      "take": 1,
+      "characters": 486,
+      "credits": 486,
+      "file": "supplements/audio/chapter-02-2026-09/raw/MO7-take-01.mp3",
+      "sha256": "1399834dbddd9efa32c810a4961e49ddcc2c613f6672dfe7eccfc7d4015f90e2",
+      "bytes": 872419,
+      "seconds": 35.66,
+      "chars_per_second": 13.63,
+      "source_export": "ElevenLabs_2026-09-14T23:32:45_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 1.0,
+      "match_margin": 0.946,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    },
+    {
+      "id": "MO8",
+      "take": 1,
+      "characters": 723,
+      "credits": 723,
+      "file": "supplements/audio/chapter-02-2026-09/raw/MO8-take-01.mp3",
+      "sha256": "27b96f8a752f8c1ceca950af5e63420c13a00fcd5dece49f2c05266e4a7a68c3",
+      "bytes": 1282437,
+      "seconds": 52.74,
+      "chars_per_second": 13.71,
+      "source_export": "ElevenLabs_2026-09-14T23:33:12_Audio textbook Brett_pvc_sp100_s50_sb75_se0_b_m2.mp3",
+      "identified_by": "whisper small.en transcript match",
+      "match_score": 0.579,
+      "match_margin": 0.543,
+      "complete": true,
+      "status": "generated; awaiting listening acceptance"
+    }
+  ],
+  "production_status": "run_1: 40 of 41 takes complete; outstanding ['X01']",
+  "open_questions": [
+    "TESL: confirm whether it is spoken as a word or spelled out. Falls in run 2; not blocking run 1."
+  ],
+  "resolved_questions": [
+    {
+      "id": "MO2",
+      "question": "Read the Nishimura Japanese code-switching passage aloud, or describe it instead?",
+      "resolved_on": "2026-09-14",
+      "resolved_by": "Brett",
+      "statement": "I've tested Japanese, and it's a little English accented (and Kyoto accented), but it's fine.",
+      "outcome": "Read aloud as drafted, with each gloss following. Brett tested the voice on Japanese himself and accepts the accent.",
+      "note": "Accent accepted in advance, so an English- or Kyoto-accented rendering in the take is not a defect and must not be spent on as a repair."
+    },
+    {
+      "id": "SH01",
+      "question": "Does the New International Version passage in Judges carry an audio right?",
+      "resolved_on": "2026-09-14",
+      "resolved_by": "Brett",
+      "statement": "The shibboleth box is fair dealing because of the limited size.",
+      "outcome": "Record and publish as drafted. Brett judges the excerpt fair dealing on length grounds.",
+      "note": "Brett's call as author and rights-holder of the book; not re-adjudicated here."
+    }
+  ],
+  "balance_observations": [
+    {
+      "after_segment": "H01",
+      "before": 44184,
+      "after": 43358,
+      "delta": 826
+    },
+    {
+      "after_segment": "I01",
+      "before": 43358,
+      "after": 41922,
+      "delta": 1436
+    },
+    {
+      "after_segment": "T01",
+      "before": 41922,
+      "after": 41158,
+      "delta": 764
+    },
+    {
+      "after_segment": "T02",
+      "before": 41158,
+      "after": 40651,
+      "delta": 507
+    },
+    {
+      "after_segment": "T03",
+      "before": 40651,
+      "after": 39682,
+      "delta": 969
+    },
+    {
+      "after_segment": "T05",
+      "before": 39682,
+      "after": 38134,
+      "delta": 1548
+    },
+    {
+      "after_segment": "T07",
+      "before": 38134,
+      "after": 36537,
+      "delta": 1597
+    },
+    {
+      "after_segment": "E01",
+      "before": 36537,
+      "after": 34128,
+      "delta": 2409
+    },
+    {
+      "after_segment": "E03",
+      "before": 34128,
+      "after": 33678,
+      "delta": 450
+    },
+    {
+      "after_segment": "E04",
+      "before": 33678,
+      "after": 32867,
+      "delta": 811
+    },
+    {
+      "after_segment": "G01",
+      "before": 32867,
+      "after": 30775,
+      "delta": 2092
+    },
+    {
+      "after_segment": "G02",
+      "before": 30775,
+      "after": 30276,
+      "delta": 499
+    },
+    {
+      "after_segment": "M01",
+      "before": 30276,
+      "after": 28795,
+      "delta": 1481
+    },
+    {
+      "after_segment": "G05",
+      "before": 28795,
+      "after": 27298,
+      "delta": 1497
+    },
+    {
+      "after_segment": "X02",
+      "before": 27298,
+      "after": 24919,
+      "delta": 2379
+    },
+    {
+      "after_segment": "X04",
+      "before": 24919,
+      "after": 23462,
+      "delta": 1457
+    },
+    {
+      "after_segment": "X06",
+      "before": 23462,
+      "after": 21555,
+      "delta": 1907
+    },
+    {
+      "after_segment": "X08",
+      "before": 21555,
+      "after": 19635,
+      "delta": 1920
+    },
+    {
+      "after_segment": "X10",
+      "before": 19635,
+      "after": 17598,
+      "delta": 2037
+    },
+    {
+      "after_segment": "X11",
+      "before": 17598,
+      "after": 17056,
+      "delta": 542
+    },
+    {
+      "after_segment": "MO1",
+      "before": 17056,
+      "after": 15728,
+      "delta": 1328
+    },
+    {
+      "after_segment": "MO4",
+      "before": 15728,
+      "after": 12979,
+      "delta": 2749
+    },
+    {
+      "after_segment": "MO6",
+      "before": 12979,
+      "after": 11497,
+      "delta": 1482
+    },
+    {
+      "after_segment": "MO8",
+      "before": 11497,
+      "after": 10288,
+      "delta": 1209
+    }
+  ],
+  "delivery": {
+    "status": "delivered except X01",
+    "raw_directory": "supplements/audio/chapter-02-2026-09/raw",
+    "format": "MP3 44.1 kHz 192 kbps mono, matching Chapter 1",
+    "source_zip": "~/Downloads/ElevenLabs_Export_2026-09-15T00_13_33.zip",
+    "usable_takes": 40,
+    "defective_takes": 1,
+    "identification_note": "Export order is NOT generation order. Files were matched to segments by local Whisper transcription; the file whose timestamp fell at X01 was SH01.",
+    "wav_note": "WAV is downloadable, 48 kHz 16-bit PCM, a separate render from the 44.1 kHz MP3 rather than a conversion. Re-pull as WAV if a lossless master is wanted.",
+    "defect_cause": "Probable: the production loop reloaded the page about 10 seconds after clicking Generate, which cut off renders still in progress. Longer inputs are over-represented among the failures. This was an agent process error, not a script or content fault.",
+    "outstanding": [
+      "X01 truncated at 50.9s of ~96s; 1,339 credits; deferred to 2026-10-01"
+    ]
+  },
+  "updated_at": "2026-09-15T01:56:52+00:00",
+  "qa": {
+    "completeness": {
+      "method": "characters per second of audio; the 30 sound takes cluster at 12.9-15.4, truncated ones run 16.2-26.3",
+      "median_chars_per_second": 13.94,
+      "threshold_used": 15.62,
+      "verified_by_transcript": [
+        "X01",
+        "MO3",
+        "G03",
+        "E04",
+        "X07",
+        "T08",
+        "G01"
+      ],
+      "controls_confirmed_complete": [
+        "X08",
+        "H01"
+      ],
+      "truncated": [
+        "T04",
+        "T08",
+        "E04",
+        "G01",
+        "G03",
+        "X01",
+        "X05",
+        "X07",
+        "X09",
+        "MO3",
+        "MO5"
+      ],
+      "truncated_count": 11,
+      "regeneration_cost_credits": 11138
+    },
+    "repair_verification": {
+      "checked_on": "2026-09-14",
+      "source_zip": "~/Downloads/ElevenLabs_Export_2026-09-15T01_53_56.zip",
+      "method": "each file transcribed locally with whisper small.en, identified against the exact submitted inputs, then checked that the transcript reaches the script's final words and that chars/second sits in the healthy band",
+      "segments": [
+        "E04",
+        "G01",
+        "G03",
+        "MO3",
+        "MO5",
+        "T04",
+        "T08",
+        "X05",
+        "X07",
+        "X09"
+      ],
+      "all_complete": true,
+      "chars_per_second_range": [
+        13.16,
+        15.44
+      ],
+      "identification_score_min": 0.932
+    }
+  }
+}

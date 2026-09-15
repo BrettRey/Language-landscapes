@@ -1,0 +1,11 @@
+I could go on, but perhaps it's simpler than that. Maybe example one is ungrammatical because it doesn't make sense. Could it be that grammatical language always makes sense? Could it be that something that makes sense is grammatical? These are not the same claims.
+
+As critical thinkers, we need to try to disprove our ideas. We could do this by creating a grammatical utterance that makes no sense and comparing it to an ungrammatical utterance. Fortunately, the hugely influential linguist Noam Chomsky has done that for us already, with the famous examples, at least famous in linguistics, in example two.
+
+Example two has two parts. Two a carries no judgment mark. Two b is starred, which is to say it is marked ungrammatical.
+
+Two a. “Colorless green ideas sleep furiously.”
+
+Two b, starred as ungrammatical. “Furiously ideas sleep green colorless.”
+
+Chomsky claims that two a is grammatical and that two b is ungrammatical, which matches my intuition, and yours too, I expect. It seems you don't have to make sense to be grammatical.
